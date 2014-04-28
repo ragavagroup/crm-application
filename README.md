@@ -30,7 +30,7 @@ or just run the following command:
 curl -s https://getcomposer.org/installer | php
 ```
 
-- Clone https://github.com/orocrm/crm-nterprise-application.git OroCRM project with:
+- Clone https://github.com/orocrm/crm-enterprise-application.git OroCRM project with:
 
 ```bash
 git clone http://github.com/orocrm/crm-enterprise-application.git
