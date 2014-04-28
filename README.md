@@ -1,6 +1,6 @@
 # OroCRM Enterprise Application
 
-Welcome to OroCRM Enterpris the Customer Relationship Management (CRM) application.
+Welcome to OroCRM Enterprise the Customer Relationship Management (CRM) application.
 
 ## Requirements
 
