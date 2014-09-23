@@ -1,8 +1,8 @@
-CHANGELOG for 1.3.2
+CHANGELOG for 1.5.1
 ===================
-This changelog references the relevant changes (new features, changes and bugs) done in 1.3.2 versions.
+This changelog references the relevant changes (new features, changes and bugs) done in 1.5.1 versions.
 
-* 1.3.2 (2014-09-22)
+* 1.5.1 (2014-09-22)
  * Stored XSS Vulnerability fixes
     * added "|json_encode|raw" for values outputted in JS objects
     * removed "|raw" from outputs of path in url attributes
