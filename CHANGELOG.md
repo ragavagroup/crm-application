@@ -11,7 +11,7 @@ This changelog references the relevant changes (new features, changes and bugs) 
     * added validator for css field of embedded form, now if user will enter html tags in this field he will get an error message
     * added stiptags filter for css of embedded forms
     * changed translation message oro.entity_config.records_count.label to contain placeholder of records count and use UI.link macros in template instead of slicing str
-    * changed method of validation of emails on the client, old validation was working very slowly with some values like '"><img src=d onerror=confirm(/provensec/);>', n
+    * changed method of validation of emails on the client, old validation was working very slowly with some values like '">< img src=d onerror=confirm(/provensec/);>', n
     * removed "trans|raw" where it's not required
     * minor changes in templates to improve readability
     * added Email validator for Lead
