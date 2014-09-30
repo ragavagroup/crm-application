@@ -4,7 +4,7 @@ imports:
 
 framework:
     #esi:             ~
-    translator:      { fallback: "%locale%" }
+    translator:      { fallback: en }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -203,9 +203,7 @@ oro_distribution:
 
 oro_ui:
     settings:
-        application_name:
-            value:            "OroCRM"
-        application_title:
+        organization_name:
             value:            "OroCRM"
 
 oro_require_js:
