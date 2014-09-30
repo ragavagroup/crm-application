@@ -1,3 +1,29 @@
+CHANGELOG for 1.6.0-RC1
+===================
+This changelog references the relevant changes (new features, changes and bugs) done in 1.6.0-RC1 versions.
+
+* 1.6.0 (2014-09-30)
+ * <b>New features.</b> 
+The Enterprise Edition is built upon the simultaneously released 1.4.0 version of Community edition, so it will include all its new features and fixes. Below is the list of features exclusive to Enterprise version.
+ * <b>Multiple Organizations.</b>
+In Enterprise Edition it is now possible to create and maintain multiple organizations on a single installation of OroCRM. Multiple organizations are needed when the business of the CRM owner is complex and consists of two or more independent units. To justify the necessity of use of multiple organizations, the separation between the parts of the business must be deep, otherwise business units within a single organization will be sufficient. The good rule of thumb is that if a business unit has its own P&L, it should correspond to an individual organization in the OroCRM. Here are few examples of the cases where business units are not enough and organizations are needed:
+<ul><li>Two organizations can be united under one business but be of very different nature—think the wholesale and retail department of some company. They have completely different clients, workflows, business rules, branding, everything—but they are still parts of a single business, and both these parts are managed by a single CEO.</li>
+<li>A foreign branch of the business is another good candidate for separation into a different organization. An overseas branch will definitely have a different set of clients, a slightly different workflow and a set of organizational rules, it will have different base currency and locale, etc.</li></ul>
+Organizations may be created and managed by admins under the System > User management > Organizations menu. There is no limit on the number of organizations for an installation and it is dictated entirely by the needs of the particular business.<br>
+Users' access to many organizations is managed in the Access Settings section of their user pages. All organizations and their business units are combined in a single tree so you can easily evaluate and manage the access information.<br>
+When multiple organizations are added to the system the login screen will feature an additional organization selector. The user cannot log in into an organization he does not have an access to. If the user has access to more then one organization he can choose to log in to either of them.<br>
+After the login, the user who has an access to more then one organization will note an organization switcher (three vertical dots) in the top left corner of the screen. To switch organizations, simply click on the switcher and select an organization from the list. Note that if the user's access rights were changed while he's in session, a logout is required for these new rights to come into effect.<br>
+Organizations share no data between them other than users and general entity schema. This means that if the same entity is utilized within multiple organizations, within every organization only the certain scope of its records will be accessible—but the workflow associated with this entity will be the same across all organizations.
+ * <b>Integration with MS Outlook.</b>
+A new Outlook Sync application (distributed separately) allows you to synchronize contacts between OroCRM and Outlook. Currently we supported integration with Outlook 2010 and 2012 versions only.
+After you download and install the application you should log into it using the following credentials:
+<ul><li>URL of the OroCRM instance</li>
+<li>Your username</li>
+<li>API key that can be obtained on your My User page in the OroCRM. The API key resembles the password so keep it safe!</li></ul>
+The integration is enabled by default in OroCRM, but you may choose to disable it when necessary in System Configuration menu. You can also use this menu to finely configure the synchronization settings such as synchronization frequency or conflict resolution method.
+ * <b>ElasticSearch support.</b>
+It is now possible to utilize ElasticSearch engine for the indexed search within OroCRM. This engine greatly increases search performance and capabilities that will be especially noticeable if you work with big amounts of data.
+
 CHANGELOG for 1.5.1
 ===================
 This changelog references the relevant changes (new features, changes and bugs) done in 1.5.1 versions.
