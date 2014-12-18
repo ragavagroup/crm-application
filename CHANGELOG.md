@@ -1,3 +1,14 @@
+CHANGELOG for 1.7.0
+===================
+This changelog references the relevant changes (new features, changes and bugs) done in 1.7.0 versions.
+* 1.7.0 (2014-12-18)
+ * Entity management on the organization level.
+Custom entities and entity fields now have organization scope, meaning that they can be created and used not only system-wide, but in a limited set of organizations.
+From the user standpoint this means that it is possible to have one and the same entity with a very different attribute set in two different organizations. For example, if two organizations exist in the system, they both may have entities names Customers and Orders, but if the first organization is retail, and the second one is a wholesale company, their attribute sets of these entities could be very different.
+It is also possible to enable an entity in scope of some organization and completely disable its use for another.
+ * Other issues.
+An API for integration of Tasks with MS Outlook has been added.
+
 CHANGELOG for 1.6.2
 ===================
 This changelog references the relevant changes (new features, changes and bugs) done in 1.6.2 versions.
