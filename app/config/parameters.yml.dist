@@ -1,9 +1,9 @@
 parameters:
-    database_driver:   pdo_mysql
+    database_driver:   pdo_pgsql
     database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     oro_crm
-    database_user:     root
+    database_port:     5432
+    database_name:     medikly
+    database_user:     postgres
     database_password: ~
 
     mailer_transport:  smtp
@@ -22,3 +22,18 @@ parameters:
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
     installed:         ~
+
+    # Elasticsearch
+    search_engine_name:       orm
+    search_engine_host:       127.0.0.1
+    search_engine_port:       null
+    search_engine_username:   null
+    search_engine_password:   null
+    search_engine_auth_type:  null
+
+    # Enterprise
+    enterprise_licence:       null
+
+    # Piwik
+    piwik_client_url:         localhost
+    piwik_client_admin_token: ~
