@@ -75,7 +75,7 @@
     },
     "syno-orocrm-fullcontact": {
       "type": "vcs",
-      "url": "https://github.com/synolia/SynoOroCRMFullContactBundle.git"
+      "url": "https://github.com/ragavagroup/SynoOroCRMFullContactBundle.git"
     }
   },
   "require": {
