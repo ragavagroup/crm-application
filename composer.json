@@ -97,9 +97,8 @@
     "medikly/piwik-proxy": "dev-master",
     "medikly/user-journey": "dev-master",
     "medikly/contactsync": "dev-master",
-
-    "atwix/oro-mandrill": "dev-master",
-    "synolia/syno-orocrm-fullcontact": "dev-master"
+    
+    "atwix/oro-mandrill": "dev-master"
   },
   "config": {
     "component-dir": "web/bundles/components"
