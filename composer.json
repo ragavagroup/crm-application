@@ -73,9 +73,13 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/contactsync.git"
     },
-    "syno-orocrm-fullcontact": {
+    "medikly-fullcontact-integration": {
       "type": "vcs",
-      "url": "https://github.com/ragavagroup/SynoOroCRMFullContactBundle.git"
+      "url": "https://github.com/ragavagroup/FullContactIntegrationBundle.git"
+    },
+    "medikly-oro-flat-theme": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle.git"
     }
   },
   "require": {
@@ -97,6 +101,8 @@
     "medikly/piwik-proxy": "dev-master",
     "medikly/user-journey": "dev-master",
     "medikly/contactsync": "dev-master",
+    "medikly/fullcontact-integration": "dev-master",
+    "medikly/oro-flat-theme": "dev-master",
     
     "atwix/oro-mandrill": "dev-master"
   },
