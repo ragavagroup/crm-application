@@ -80,6 +80,14 @@
     "medikly-oro-flat-theme": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle.git"
+    },
+    "web-activities": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/WebActivities.git"
+    },
+    "physician": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Physician.git"
     }
   },
   "require": {
@@ -103,6 +111,8 @@
     "medikly/contactsync": "dev-master",
     "medikly/fullcontact-integration": "dev-master",
     "medikly/oro-flat-theme": "dev-master",
+    "medikly/webactivities-bundle": "dev-master",
+    "medikly/physician-bundle": "dev-master",
     
     "atwix/oro-mandrill": "dev-master"
   },
