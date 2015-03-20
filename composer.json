@@ -88,6 +88,10 @@
     "physician": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Physician.git"
+    },
+    "scheduled-reports": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ScheduledReportsBundle.git"
     }
   },
   "require": {
@@ -113,7 +117,7 @@
     "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
-    
+    "medikly/scheduled-reports": "dev-master",
     "atwix/oro-mandrill": "dev-master"
   },
   "config": {
