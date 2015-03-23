@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ba423662cafa7765fd513a4ced6ad7a1",
+    "hash": "9412c22039cd62774bb17e863ca2f5dc",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -175,6 +175,45 @@
             "time": "2013-10-30 08:57:42"
         },
         {
+            "name": "atwix/oro-mandrill",
+            "version": "dev-master",
+            "target-dir": "src/Atwix/Bundle/MandrillBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Atwix/oro-mandrill.git",
+                "reference": "f09b2d15192e45682780474e0f6e18197b520ff3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Atwix/oro-mandrill/zipball/f09b2d15192e45682780474e0f6e18197b520ff3",
+                "reference": "f09b2d15192e45682780474e0f6e18197b520ff3",
+                "shasum": ""
+            },
+            "require": {
+                "oro/platform": "1.*",
+                "php": ">=5.4.24"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Atwix\\Bundle\\MandrillBundle": "src/"
+                }
+            },
+            "notification-url": "http://packagist.orocrm.com/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "https://atwix.com/"
+                }
+            ],
+            "description": "OroCRM basic Mandrill integration",
+            "homepage": "https://github.com/Atwix/oro-mandrill.git",
+            "time": "2014-10-30 13:25:56"
+        },
+        {
             "name": "behat/transliterator",
             "version": "v1.0.1",
             "source": {
@@ -337,37 +376,44 @@
             "time": "2013-09-20 00:55:12"
         },
         {
-            "name": "components/backbone",
-            "version": "1.1.2",
+            "name": "cocur/slugify",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/components/backbone.git",
-                "reference": "2c539b5e3c4026f6adc43aded941ede5aac8831f"
+                "url": "https://github.com/cocur/slugify.git",
+                "reference": "ff7a885895b01d48a477c924bf08646f06e8c901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/backbone/zipball/2c539b5e3c4026f6adc43aded941ede5aac8831f",
-                "reference": "2c539b5e3c4026f6adc43aded941ede5aac8831f",
+                "url": "https://api.github.com/repos/cocur/slugify/zipball/ff7a885895b01d48a477c924bf08646f06e8c901",
+                "reference": "ff7a885895b01d48a477c924bf08646f06e8c901",
                 "shasum": ""
             },
             "require": {
-                "components/underscore": ">=1.4.3"
+                "php": ">=5.3.3"
             },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "scripts": [
-                        "backbone.js"
-                    ],
-                    "files": [
-                        "backbone-min.js"
-                    ],
-                    "shim": {
-                        "deps": [
-                            "underscore"
-                        ],
-                        "exports": "Backbone"
-                    }
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "laravel/framework": "~4.1",
+                "latte/latte": "~2.2",
+                "mockery/mockery": "~0.9",
+                "nette/di": "~2.2",
+                "phpunit/phpunit": "~3.7",
+                "plumphp/plum": "~0.1",
+                "sami/sami": "~1.3",
+                "satooshi/php-coveralls": "0.6.*",
+                "silex/silex": "~1.2",
+                "symfony/dependency-injection": "~2.4",
+                "symfony/http-kernel": "~2.4",
+                "twig/twig": "~1",
+                "zendframework/zend-modulemanager": "~2.2",
+                "zendframework/zend-servicemanager": "~2.2",
+                "zendframework/zend-view": "~2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cocur\\Slugify\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -376,179 +422,46 @@
             ],
             "authors": [
                 {
-                    "name": "Jeremy Ashkenas",
-                    "email": "jeremy@documentcloud.org"
-                }
-            ],
-            "description": "Give your JS App some Backbone with Models, Views, Collections, and Events.",
-            "homepage": "http://backbonejs.org",
-            "keywords": [
-                "browser",
-                "client",
-                "controller",
-                "model",
-                "router",
-                "server",
-                "view"
-            ],
-            "time": "2014-10-06 00:37:03"
-        },
-        {
-            "name": "components/font-awesome",
-            "version": "4.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/font-awesome.git",
-                "reference": "73acf4d65eadd8d127bafc7bd510240ea3979e83"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/font-awesome/zipball/73acf4d65eadd8d127bafc7bd510240ea3979e83",
-                "reference": "73acf4d65eadd8d127bafc7bd510240ea3979e83",
-                "shasum": ""
-            },
-            "type": "component",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.3.x-dev"
+                    "name": "Ivo Bathke",
+                    "email": "ivo.bathke@gmail.com"
                 },
-                "component": {
-                    "styles": [
-                        "css/font-awesome.css"
-                    ],
-                    "files": [
-                        "css/font-awesome.min.css",
-                        "fonts/*"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT",
-                "OFL-1.1"
-            ],
-            "description": "The iconic font designed for use with Twitter Bootstrap.",
-            "time": "2015-01-26 11:26:16"
-        },
-        {
-            "name": "components/jquery",
-            "version": "2.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/jquery.git",
-                "reference": "f8edb647d1833fd5d57410ab70860f03534cb2e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/f8edb647d1833fd5d57410ab70860f03534cb2e8",
-                "reference": "f8edb647d1833fd5d57410ab70860f03534cb2e8",
-                "shasum": ""
-            },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "scripts": [
-                        "jquery.js"
-                    ],
-                    "files": [
-                        "jquery.min.js",
-                        "jquery.min.map",
-                        "jquery-migrate.js",
-                        "jquery-migrate.min.js"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
                 {
-                    "name": "John Resig",
-                    "email": "jeresig@gmail.com"
+                    "name": "Florian Eckerstorfer",
+                    "email": "florian@eckerstorfer.co",
+                    "homepage": "https://florian.ec"
                 }
             ],
-            "description": "jQuery JavaScript Library",
-            "homepage": "http://jquery.com",
-            "time": "2014-12-23 06:48:45"
-        },
-        {
-            "name": "components/underscore",
-            "version": "1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/underscore.git",
-                "reference": "dc64d58f5d1079e5822d480110b28d724bda06c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/underscore/zipball/dc64d58f5d1079e5822d480110b28d724bda06c2",
-                "reference": "dc64d58f5d1079e5822d480110b28d724bda06c2",
-                "shasum": ""
-            },
-            "require": {
-                "robloach/component-installer": "*"
-            },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "scripts": [
-                        "underscore.js"
-                    ],
-                    "files": [
-                        "underscore-min.js",
-                        "underscore-min.map"
-                    ],
-                    "shim": {
-                        "exports": "_"
-                    }
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeremy Ashkenas",
-                    "email": "jeremy@documentcloud.org"
-                }
-            ],
-            "description": "JavaScript's functional programming helper library.",
-            "homepage": "http://underscorejs.org",
+            "description": "Converts a string into a slug.",
             "keywords": [
-                "browser",
-                "client",
-                "functional",
-                "server",
-                "util"
+                "slug",
+                "slugify"
             ],
-            "time": "2014-09-22 16:48:28"
+            "time": "2015-03-21 09:39:30"
         },
         {
             "name": "composer/composer",
-            "version": "1.0.0-alpha9",
+            "version": "1.0.0-alpha8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "eb1ce550ca51134ee619ad3e37f5a0b7e980dd24"
+                "reference": "1eb1df44a97fb2daca1bb8b007f3bee012f0aa46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/eb1ce550ca51134ee619ad3e37f5a0b7e980dd24",
-                "reference": "eb1ce550ca51134ee619ad3e37f5a0b7e980dd24",
+                "url": "https://api.github.com/repos/composer/composer/zipball/1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
+                "reference": "1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
                 "shasum": ""
             },
             "require": {
-                "justinrainbow/json-schema": "~1.1",
+                "justinrainbow/json-schema": "1.1.*",
                 "php": ">=5.3.2",
-                "seld/jsonlint": "~1.0",
+                "seld/jsonlint": "1.*",
                 "symfony/console": "~2.3",
                 "symfony/finder": "~2.2",
                 "symfony/process": "~2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~3.7.10"
             },
             "suggest": {
                 "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
@@ -574,24 +487,26 @@
             ],
             "authors": [
                 {
-                    "name": "Nils Adermann",
-                    "email": "naderman@naderman.de",
-                    "homepage": "http://www.naderman.de"
-                },
-                {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Nils Adermann",
+                    "email": "naderman@naderman.de",
+                    "homepage": "http://www.naderman.de",
+                    "role": "Developer"
                 }
             ],
-            "description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
+            "description": "Dependency Manager",
             "homepage": "http://getcomposer.org/",
             "keywords": [
                 "autoload",
                 "dependency",
                 "package"
             ],
-            "time": "2014-12-07 17:15:20"
+            "time": "2014-01-06 18:39:59"
         },
         {
             "name": "doctrine/annotations",
@@ -1196,6 +1111,60 @@
             "time": "2014-12-20 21:24:13"
         },
         {
+            "name": "doctrine/instantiator",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f976e5de371104877ebc89bd8fecb0019ed9c119",
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3,<8.0-DEV"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1.8",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "2.0.*@ALPHA"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Instantiator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://github.com/doctrine/instantiator",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2014-10-13 12:58:55"
+        },
+        {
             "name": "doctrine/lexer",
             "version": "v1.0.1",
             "source": {
@@ -1321,6 +1290,104 @@
                 "orm"
             ],
             "time": "2014-10-06 13:22:50"
+        },
+        {
+            "name": "elasticsearch/elasticsearch",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elastic/elasticsearch-php.git",
+                "reference": "3a677634a46d01882f57dc634eb9ac0e10adfb77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/3a677634a46d01882f57dc634eb9ac0e10adfb77",
+                "reference": "3a677634a46d01882f57dc634eb9ac0e10adfb77",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzle/http": "~3.7",
+                "monolog/monolog": "~1.5",
+                "php": ">=5.3.9",
+                "pimple/pimple": "~2.1",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "cpliakas/git-wrapper": "~1.0",
+                "mikey179/vfsstream": "~1.2",
+                "mockery/mockery": "dev-master@dev",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "symfony/yaml": "2.4.3 as 2.4.2",
+                "twig/twig": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Elasticsearch": "src/",
+                    "Elasticsearch\\Tests": "tests/",
+                    "Elasticsearch\\Benchmarks": "benchmarks/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2"
+            ],
+            "authors": [
+                {
+                    "name": "Zachary Tong"
+                }
+            ],
+            "description": "PHP Client for Elasticsearch",
+            "keywords": [
+                "client",
+                "elasticsearch",
+                "search"
+            ],
+            "time": "2014-08-06 16:04:48"
+        },
+        {
+            "name": "eltrino/phpunit-mockannotations",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eltrino/PHPUnit_MockAnnotations.git",
+                "reference": "6f69332ef6040827e3d3441e950d70695622606f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eltrino/PHPUnit_MockAnnotations/zipball/6f69332ef6040827e3d3441e950d70695622606f",
+                "reference": "6f69332ef6040827e3d3441e950d70695622606f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Eltrino\\PHPUnit\\MockAnnotations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruslan Voitenko",
+                    "email": "ruslan.voitenko@eltrino.com"
+                }
+            ],
+            "description": "PHPUnit MockAnnotations",
+            "time": "2014-05-30 00:00:51"
         },
         {
             "name": "escapestudios/wsse-authentication-bundle",
@@ -1749,23 +1816,56 @@
             "time": "2013-07-31 22:28:58"
         },
         {
-            "name": "guzzle/common",
+            "name": "guzzle/guzzle",
             "version": "v3.7.4",
-            "target-dir": "Guzzle/Common",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Guzzle3/common.git",
-                "reference": "5126e268446c7e7df961b89128d71878e0652432"
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "b170b028c6bb5799640e46c8803015b0f9a45ed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/common/zipball/5126e268446c7e7df961b89128d71878e0652432",
-                "reference": "5126e268446c7e7df961b89128d71878e0652432",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b170b028c6bb5799640e46c8803015b0f9a45ed9",
+                "reference": "b170b028c6bb5799640e46c8803015b0f9a45ed9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2",
+                "ext-curl": "*",
+                "php": ">=5.3.3",
                 "symfony/event-dispatcher": ">=2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "*",
+                "monolog/monolog": "1.*",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "1.0.*",
+                "symfony/class-loader": "*",
+                "zendframework/zend-cache": "2.0.*",
+                "zendframework/zend-log": "2.0.*"
             },
             "type": "library",
             "extra": {
@@ -1775,224 +1875,70 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Guzzle\\Common": ""
+                    "Guzzle\\Tests": "tests/",
+                    "Guzzle": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "Common libraries used by Guzzle",
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
             "homepage": "http://guzzlephp.org/",
             "keywords": [
-                "collection",
-                "common",
-                "event",
-                "exception"
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
-            "name": "guzzle/http",
-            "version": "v3.7.4",
-            "target-dir": "Guzzle/Http",
+            "name": "guzzlehttp/guzzle",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Guzzle3/http.git",
-                "reference": "3420035adcf312d62a2e64f3e6b3e3e590121786"
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "475b29ccd411f2fa8a408e64576418728c032cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/http/zipball/3420035adcf312d62a2e64f3e6b3e3e590121786",
-                "reference": "3420035adcf312d62a2e64f3e6b3e3e590121786",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/475b29ccd411f2fa8a408e64576418728c032cfa",
+                "reference": "475b29ccd411f2fa8a408e64576418728c032cfa",
                 "shasum": ""
             },
             "require": {
-                "guzzle/common": "self.version",
-                "guzzle/parser": "self.version",
-                "guzzle/stream": "self.version",
-                "php": ">=5.3.2"
-            },
-            "suggest": {
-                "ext-curl": "*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Http": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "HTTP libraries used by Guzzle",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "Guzzle",
-                "client",
-                "curl",
-                "http",
-                "http client"
-            ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2013-09-20 22:05:53"
-        },
-        {
-            "name": "guzzle/parser",
-            "version": "v3.7.4",
-            "target-dir": "Guzzle/Parser",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Guzzle3/parser.git",
-                "reference": "a25c2ddda1c52fb69a4ee56eb530b13ddd9573c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/a25c2ddda1c52fb69a4ee56eb530b13ddd9573c2",
-                "reference": "a25c2ddda1c52fb69a4ee56eb530b13ddd9573c2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Parser": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Interchangeable parsers used by Guzzle",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "URI Template",
-                "cookie",
-                "http",
-                "message",
-                "url"
-            ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2013-07-11 22:46:03"
-        },
-        {
-            "name": "guzzle/stream",
-            "version": "v3.7.4",
-            "target-dir": "Guzzle/Stream",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Guzzle3/stream.git",
-                "reference": "a86111d9ac7db31d65a053c825869409fe8fc83f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Guzzle3/stream/zipball/a86111d9ac7db31d65a053c825869409fe8fc83f",
-                "reference": "a86111d9ac7db31d65a053c825869409fe8fc83f",
-                "shasum": ""
-            },
-            "require": {
-                "guzzle/common": "self.version",
-                "php": ">=5.3.2"
-            },
-            "suggest": {
-                "guzzle/http": "To convert Guzzle request objects to PHP streams"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Guzzle\\Stream": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Guzzle stream wrapper component",
-            "homepage": "http://guzzlephp.org/",
-            "keywords": [
-                "Guzzle",
-                "component",
-                "stream"
-            ],
-            "abandoned": "guzzle/guzzle",
-            "time": "2013-07-30 22:07:23"
-        },
-        {
-            "name": "hwi/oauth-bundle",
-            "version": "0.3.7",
-            "target-dir": "HWI/Bundle/OAuthBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "a614cb1a87e474637885fa0a6e55690edb416d87"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/a614cb1a87e474637885fa0a6e55690edb416d87",
-                "reference": "a614cb1a87e474637885fa0a6e55690edb416d87",
-                "shasum": ""
-            },
-            "require": {
-                "kriswallsmith/buzz": "~0.7",
-                "php": ">=5.3.3",
-                "symfony/framework-bundle": "~2.1",
-                "symfony/options-resolver": "~2.1",
-                "symfony/security-bundle": "~2.1"
+                "guzzlehttp/ringphp": "~1.0",
+                "php": ">=5.4.0"
             },
             "require-dev": {
-                "doctrine/orm": "~2.2",
-                "symfony/property-access": "~2.5",
-                "symfony/twig-bundle": "~2.1",
-                "symfony/validator": "~2.1"
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0",
+                "psr/log": "~1.0"
             },
-            "suggest": {
-                "doctrine/doctrine-bundle": "to use Doctrine user provider",
-                "friendsofsymfony/user-bundle": "to connect FOSUB with this bundle",
-                "symfony/property-access": "to use FOSUB integration with this bundle",
-                "symfony/twig-bundle": "to use the Twig hwi_oauth_* functions"
-            },
-            "type": "symfony-bundle",
+            "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3-dev"
+                    "dev-master": "5.0-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "HWI\\Bundle\\OAuthBundle": ""
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2001,67 +1947,124 @@
             ],
             "authors": [
                 {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/hwi/HWIOAuthBundle/contributors"
-                },
-                {
-                    "name": "Joseph Bielawski",
-                    "email": "stloyd@gmail.com"
-                },
-                {
-                    "name": "Alexander",
-                    "email": "iam.asm89@gmail.com"
-                },
-                {
-                    "name": "Geoffrey Bachelet",
-                    "email": "geoffrey.bachelet@gmail.com"
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
                 }
             ],
-            "description": "Support for authenticating users using both OAuth1.0a and OAuth2 in Symfony2.",
-            "homepage": "http://github.com/hwi/HWIOAuthBundle",
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
             "keywords": [
-                "37signals",
-                "Authentication",
-                "amazon",
-                "bitbucket",
-                "bitly",
-                "box",
-                "dailymotion",
-                "deviantart",
-                "disqus",
-                "dropbox",
-                "eventbrite",
-                "facebook",
-                "firewall",
-                "flickr",
-                "foursquare",
-                "github",
-                "google",
-                "instagram",
-                "jira",
-                "linkedin",
-                "mail.ru",
-                "oauth",
-                "oauth1",
-                "oauth2",
-                "odnoklassniki",
-                "qq",
-                "salesforce",
-                "security",
-                "sensio connect",
-                "sina weibo",
-                "stack exchange",
-                "stereomood",
-                "trello",
-                "twitch",
-                "twitter",
-                "vkontakte",
-                "windows live",
-                "wordpress",
-                "yahoo",
-                "yandex"
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
             ],
-            "time": "2014-11-15 10:36:48"
+            "time": "2015-01-28 01:03:29"
+        },
+        {
+            "name": "guzzlehttp/ringphp",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/RingPHP.git",
+                "reference": "f43ab34aad69ca0ba04172cf2c3cd5c12fc0e5a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/f43ab34aad69ca0ba04172cf2c3cd5c12fc0e5a4",
+                "reference": "f43ab34aad69ca0ba04172cf2c3cd5c12fc0e5a4",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/streams": "~3.0",
+                "php": ">=5.4.0",
+                "react/promise": "~2.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "ext-curl": "Guzzle will use specific adapters if cURL is present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Ring\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "time": "2015-02-26 20:43:09"
+        },
+        {
+            "name": "guzzlehttp/streams",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/streams.git",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Stream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple abstraction over streams of data",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "stream"
+            ],
+            "time": "2014-10-12 19:18:40"
         },
         {
             "name": "imagine/imagine",
@@ -2716,35 +2719,22 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "1.3.7",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "87b54b460febed69726c781ab67462084e97a105"
+                "reference": "05ff6d8d79fe3ad190b0663d80d3f9deee79416c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/87b54b460febed69726c781ab67462084e97a105",
-                "reference": "87b54b460febed69726c781ab67462084e97a105",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/05ff6d8d79fe3ad190b0663d80d3f9deee79416c",
+                "reference": "05ff6d8d79fe3ad190b0663d80d3f9deee79416c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "require-dev": {
-                "json-schema/json-schema-test-suite": "1.1.0",
-                "phpdocumentor/phpdocumentor": "~2",
-                "phpunit/phpunit": "~3.7"
-            },
-            "bin": [
-                "bin/validate-json"
-            ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "JsonSchema": "src/"
@@ -2752,9 +2742,14 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "NewBSD"
             ],
             "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                },
                 {
                     "name": "Bruno Prieto Reis",
                     "email": "bruno.p.reis@gmail.com"
@@ -2764,12 +2759,9 @@
                     "email": "justin.rainbow@gmail.com"
                 },
                 {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch"
-                },
-                {
                     "name": "Robert Schönthal",
-                    "email": "seroscho@googlemail.com"
+                    "email": "robert.schoenthal@gmail.com",
+                    "homepage": "http://digitalkaoz.net"
                 }
             ],
             "description": "A library to validate a json schema.",
@@ -2778,7 +2770,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2014-08-25 02:48:14"
+            "time": "2012-01-03 00:33:17"
         },
         {
             "name": "knplabs/gaufrette",
@@ -3114,54 +3106,6 @@
             "time": "2013-07-19 00:03:27"
         },
         {
-            "name": "kriswallsmith/buzz",
-            "version": "v0.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kriswallsmith/Buzz.git",
-                "reference": "487760b05d6269a4c2c374364325326cfa65b12c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/487760b05d6269a4c2c374364325326cfa65b12c",
-                "reference": "487760b05d6269a4c2c374364325326cfa65b12c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "suggest": {
-                "ext-curl": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Buzz": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kris Wallsmith",
-                    "email": "kris.wallsmith@gmail.com",
-                    "homepage": "http://kriswallsmith.net/"
-                }
-            ],
-            "description": "Lightweight HTTP client",
-            "homepage": "https://github.com/kriswallsmith/Buzz",
-            "keywords": [
-                "curl",
-                "http client"
-            ],
-            "time": "2014-09-15 12:42:36"
-        },
-        {
             "name": "leafo/lessphp",
             "version": "v0.4.0",
             "source": {
@@ -3357,6 +3301,782 @@
                 "mysql"
             ],
             "time": "2014-03-04 14:53:32"
+        },
+        {
+            "name": "medikly/campaigns",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/campaigns.git",
+                "reference": "00263d80a8ab3e2f2ac88f60512c43a2048fe0c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/00263d80a8ab3e2f2ac88f60512c43a2048fe0c4",
+                "reference": "00263d80a8ab3e2f2ac88f60512c43a2048fe0c4",
+                "shasum": ""
+            },
+            "require": {
+                "medikly/piwik-dashboard": "dev-master",
+                "medikly/piwik-proxy": "dev-master",
+                "oro/crm": "1.6",
+                "oro/crm-enterprise": "1.8",
+                "oro/platform": "1.6",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\CampaignsBundle": ""
+                }
+            },
+            "description": "Bundle for campaigns management",
+            "keywords": [
+                "medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/campaigns/tree/master",
+                "issues": "https://github.com/ragavagroup/campaigns/issues"
+            },
+            "time": "2015-03-19 12:46:00"
+        },
+        {
+            "name": "medikly/contactsync",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/contactsync.git",
+                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/d0d6675df33e20cb36b921e2ad82753b057e134a",
+                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a",
+                "shasum": ""
+            },
+            "require": {
+                "cocur/slugify": "dev-master",
+                "medikly/piwik-proxy": "dev-master",
+                "oro/crm": "1.6",
+                "oro/crm-enterprise": "1.8",
+                "oro/platform": "1.6",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\ContactSyncBundle": ""
+                }
+            },
+            "description": "Bundle for syncing contact with dashboard analytics",
+            "keywords": [
+                "analytics",
+                "medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/contactsync/tree/master",
+                "issues": "https://github.com/ragavagroup/contactsync/issues"
+            },
+            "time": "2015-02-09 09:07:27"
+        },
+        {
+            "name": "medikly/customdashboardmenu-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/CustomDashboardMenuBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
+                "reference": "7f5b662e17da5ce2e9d595e2b360dc4504f853de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/7f5b662e17da5ce2e9d595e2b360dc4504f853de",
+                "reference": "7f5b662e17da5ce2e9d595e2b360dc4504f853de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-CustomDashboardMenuBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\CustomDashboardMenuBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Custom Dashboard Menu for OroCRM",
+            "keywords": [
+                "Custom",
+                "Dashboard",
+                "Medikly",
+                "Menu"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
+                "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
+            },
+            "time": "2015-03-20 15:02:37"
+        },
+        {
+            "name": "medikly/defaultlegacy-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DefaultLegacyBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DefaultLegacy.git",
+                "reference": "560d78778b6f7546103695e2280b80c09340ae6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DefaultLegacy/zipball/560d78778b6f7546103695e2280b80c09340ae6f",
+                "reference": "560d78778b6f7546103695e2280b80c09340ae6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-DefaultLegacyBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DefaultLegacyBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Default Legacy Bundle for OroCRM",
+            "keywords": [
+                "Default Data",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/DefaultLegacy/tree/master",
+                "issues": "https://github.com/ragavagroup/DefaultLegacy/issues"
+            },
+            "time": "2015-02-20 07:35:26"
+        },
+        {
+            "name": "medikly/event-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/EventBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Event.git",
+                "reference": "3831dc642667d25b76125962bb1e3f2412cabf74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/3831dc642667d25b76125962bb1e3f2412cabf74",
+                "reference": "3831dc642667d25b76125962bb1e3f2412cabf74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-EventBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\EventBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Event Bundle for OroCRM",
+            "keywords": [
+                "Event",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Event/tree/master",
+                "issues": "https://github.com/ragavagroup/Event/issues"
+            },
+            "time": "2015-03-13 15:41:48"
+        },
+        {
+            "name": "medikly/fullcontact-integration",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/FullContactIntegrationBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/FullContactIntegrationBundle.git",
+                "reference": "fedd18e215202cf52ebf93ff38969ceda760072d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/fedd18e215202cf52ebf93ff38969ceda760072d",
+                "reference": "fedd18e215202cf52ebf93ff38969ceda760072d",
+                "shasum": ""
+            },
+            "require": {
+                "eltrino/phpunit-mockannotations": "~1.0@dev",
+                "phpunit/phpunit": "~4.7@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\FullContactIntegrationBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eltrino",
+                    "email": "info@eltrino.com"
+                }
+            ],
+            "description": "Full Contact API integration for Medikly",
+            "support": {
+                "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
+            },
+            "time": "2015-03-11 15:10:04"
+        },
+        {
+            "name": "medikly/getstarted",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/GetstartedBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Getstarted.git",
+                "reference": "868d84f2aa258e2c712ff97207bdea482afc54a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Getstarted/zipball/868d84f2aa258e2c712ff97207bdea482afc54a6",
+                "reference": "868d84f2aa258e2c712ff97207bdea482afc54a6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\GetstartedBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Getstarted Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/Getstarted/tree/master",
+                "issues": "https://github.com/ragavagroup/Getstarted/issues"
+            },
+            "time": "2015-02-09 09:47:59"
+        },
+        {
+            "name": "medikly/inheritance",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/InheritanceBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Inheritance.git",
+                "reference": "84053dbbb114828cbca9e01185baf0bdc68811a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Inheritance/zipball/84053dbbb114828cbca9e01185baf0bdc68811a8",
+                "reference": "84053dbbb114828cbca9e01185baf0bdc68811a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\InheritanceBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Tweaks Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/Inheritance/tree/master",
+                "issues": "https://github.com/ragavagroup/Inheritance/issues"
+            },
+            "time": "2015-01-21 15:16:27"
+        },
+        {
+            "name": "medikly/oro-flat-theme",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/OroFlatThemeBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
+                "reference": "f2f36c90adbcf4fc307b91ed1662300e4872069d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/f2f36c90adbcf4fc307b91ed1662300e4872069d",
+                "reference": "f2f36c90adbcf4fc307b91ed1662300e4872069d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\OroFlatThemeBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eltrino",
+                    "email": "info@eltrino.com"
+                }
+            ],
+            "description": "Oro Flat Theme Bundle for Medikly",
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
+            },
+            "time": "2015-03-19 09:46:03"
+        },
+        {
+            "name": "medikly/physician-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/PhysicianBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Physician.git",
+                "reference": "91ac71d4783b8c750c8519b45ff216e395953401"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/91ac71d4783b8c750c8519b45ff216e395953401",
+                "reference": "91ac71d4783b8c750c8519b45ff216e395953401",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-PhysicianBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\PhysicianBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Physician Bundle for OroCRM",
+            "keywords": [
+                "Medikly",
+                "Physician"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Physician/tree/master",
+                "issues": "https://github.com/ragavagroup/Physician/issues"
+            },
+            "time": "2015-03-05 12:44:56"
+        },
+        {
+            "name": "medikly/piwik-dashboard",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/dashboard.git",
+                "reference": "7f26bd0fa938f5235ce8805cbbae83b1a90f0ab4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/7f26bd0fa938f5235ce8805cbbae83b1a90f0ab4",
+                "reference": "7f26bd0fa938f5235ce8805cbbae83b1a90f0ab4",
+                "shasum": ""
+            },
+            "require": {
+                "cocur/slugify": "dev-master",
+                "medikly/piwik-proxy": "dev-master",
+                "oro/crm": "1.6",
+                "oro/crm-enterprise": "1.8",
+                "oro/platform": "1.6",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\PiwikDashboardBundle": ""
+                }
+            },
+            "description": "Bundle for Piwik dashboard management",
+            "keywords": [
+                "medikly",
+                "piwik"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/dashboard/tree/master",
+                "issues": "https://github.com/ragavagroup/dashboard/issues"
+            },
+            "time": "2015-02-03 08:50:24"
+        },
+        {
+            "name": "medikly/piwik-proxy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/proxy.git",
+                "reference": "baa79aa9d8e10276d2af81f72acd92558325a31c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/baa79aa9d8e10276d2af81f72acd92558325a31c",
+                "reference": "baa79aa9d8e10276d2af81f72acd92558325a31c",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~5.0@dev",
+                "oro/crm": "1.6",
+                "oro/crm-enterprise": "1.8",
+                "oro/platform": "1.6",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\PiwikProxyBundle": ""
+                }
+            },
+            "description": "Bundle for Piwik API requests management",
+            "keywords": [
+                "medikly",
+                "piwik"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/proxy/tree/master",
+                "issues": "https://github.com/ragavagroup/proxy/issues"
+            },
+            "time": "2015-03-18 12:15:37"
+        },
+        {
+            "name": "medikly/provider-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ProviderBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Provider.git",
+                "reference": "4fbdcd65ce6a699be6c71066f7c3d3682566c351"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4fbdcd65ce6a699be6c71066f7c3d3682566c351",
+                "reference": "4fbdcd65ce6a699be6c71066f7c3d3682566c351",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-ProviderBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ProviderBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Provider Bundle for OroCRM",
+            "keywords": [
+                "Medikly",
+                "Provider"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Provider/tree/master",
+                "issues": "https://github.com/ragavagroup/Provider/issues"
+            },
+            "time": "2015-03-20 16:41:35"
+        },
+        {
+            "name": "medikly/scheduled-reports",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/ScheduledReportsBundle.git",
+                "reference": "f3ed12e786fb5cfc627817ba2afa66ebc4441152"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/f3ed12e786fb5cfc627817ba2afa66ebc4441152",
+                "reference": "f3ed12e786fb5cfc627817ba2afa66ebc4441152",
+                "shasum": ""
+            },
+            "require": {
+                "medikly/campaigns": "dev-master",
+                "medikly/piwik-proxy": "dev-master",
+                "oro/crm": "1.6",
+                "oro/crm-enterprise": "1.8",
+                "oro/platform": "1.6",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ScheduledReportsBundle": ""
+                }
+            },
+            "description": "Bundle for campaign scheduled report management",
+            "keywords": [
+                "medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/ScheduledReportsBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/ScheduledReportsBundle/issues"
+            },
+            "time": "2015-03-23 10:18:09"
+        },
+        {
+            "name": "medikly/segments",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SegmentsBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Segments.git",
+                "reference": "f7e22ffb9ff2718be9742be289447d7f5836a9ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/f7e22ffb9ff2718be9742be289447d7f5836a9ea",
+                "reference": "f7e22ffb9ff2718be9742be289447d7f5836a9ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "staging"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SegmentsBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Segments Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/Segments/tree/master",
+                "issues": "https://github.com/ragavagroup/Segments/issues"
+            },
+            "time": "2015-03-12 10:01:50"
+        },
+        {
+            "name": "medikly/theme-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ThemeBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Theme-REEA-.git",
+                "reference": "931829632765e7c77cf015124a1c598b35ded557"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Theme-REEA-/zipball/931829632765e7c77cf015124a1c598b35ded557",
+                "reference": "931829632765e7c77cf015124a1c598b35ded557",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-ThemeBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ThemeBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Theme Bundle for OroCRM",
+            "keywords": [
+                "Medikly",
+                "Theme"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Theme-REEA-/tree/master",
+                "issues": "https://github.com/ragavagroup/Theme-REEA-/issues"
+            },
+            "time": "2014-12-12 13:06:40"
+        },
+        {
+            "name": "medikly/ui-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/UIBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/UI-REEA-.git",
+                "reference": "579c042721713afd87d0b85a8fc2b688dcf4c558"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/UI-REEA-/zipball/579c042721713afd87d0b85a8fc2b688dcf4c558",
+                "reference": "579c042721713afd87d0b85a8fc2b688dcf4c558",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-UIBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\UIBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly UI Bundle for OroCRM",
+            "keywords": [
+                "Medikly",
+                "UI"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/UI-REEA-/tree/master",
+                "issues": "https://github.com/ragavagroup/UI-REEA-/issues"
+            },
+            "time": "2014-12-12 13:20:35"
+        },
+        {
+            "name": "medikly/user-journey",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/user-journey.git",
+                "reference": "9245b9a2630ac12998cf58b3d008c349c93c3c35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/9245b9a2630ac12998cf58b3d008c349c93c3c35",
+                "reference": "9245b9a2630ac12998cf58b3d008c349c93c3c35",
+                "shasum": ""
+            },
+            "require": {
+                "medikly/piwik-proxy": "dev-master",
+                "oro/crm": "1.6",
+                "oro/crm-enterprise": "1.8",
+                "oro/platform": "1.6",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\ContactBundle": ""
+                }
+            },
+            "description": "Bundle for view user journey tab in contact view",
+            "keywords": [
+                "contact",
+                "medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/user-journey/tree/master",
+                "issues": "https://github.com/ragavagroup/user-journey/issues"
+            },
+            "time": "2015-02-25 11:21:12"
+        },
+        {
+            "name": "medikly/webactivities-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/WebActivitiesBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/WebActivities.git",
+                "reference": "bb48975f8e0d9d02192ce39fdd3cfd33ed5f128d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/WebActivities/zipball/bb48975f8e0d9d02192ce39fdd3cfd33ed5f128d",
+                "reference": "bb48975f8e0d9d02192ce39fdd3cfd33ed5f128d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\WebActivitiesBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Web Activities Bundle for OroCRM",
+            "keywords": [
+                "Activities",
+                "Medikly",
+                "Web"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/WebActivities/tree/master",
+                "issues": "https://github.com/ragavagroup/WebActivities/issues"
+            },
+            "time": "2015-03-12 13:07:41"
         },
         {
             "name": "michelf/php-markdown",
@@ -3705,20 +4425,20 @@
         },
         {
             "name": "oro/crm",
-            "version": "dev-master",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/crm.git",
-                "reference": "2056ebb33177cecad0e073b8153173087d875725"
+                "url": "https://github.com/orocrm/crm.git",
+                "reference": "c7fb55bee3c2f8b32670240bb937ab41c39483f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/2056ebb33177cecad0e073b8153173087d875725",
-                "reference": "2056ebb33177cecad0e073b8153173087d875725",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/c7fb55bee3c2f8b32670240bb937ab41c39483f2",
+                "reference": "c7fb55bee3c2f8b32670240bb937ab41c39483f2",
                 "shasum": ""
             },
             "require": {
-                "oro/platform": "1.x-dev",
+                "oro/platform": "1.6.*",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -3744,7 +4464,149 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
-            "time": "2015-03-20 14:17:21"
+            "time": "2015-01-20 14:48:07"
+        },
+        {
+            "name": "oro/crm-enterprise",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/crm-enterprise.git",
+                "reference": "6c4e934cf550aec44b03438ba373d2578fb89d16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/6c4e934cf550aec44b03438ba373d2578fb89d16",
+                "reference": "6c4e934cf550aec44b03438ba373d2578fb89d16",
+                "shasum": ""
+            },
+            "require": {
+                "elasticsearch/elasticsearch": "1.2.2",
+                "oro/crm": "1.6.*",
+                "php": ">=5.4.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OroCRMPro\\Bundle": "src/",
+                    "OroPro\\Bundle": "src/"
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "OroCRM Enterprise",
+            "homepage": "https://github.com/orocrm/crm-enterprise.git",
+            "support": {
+                "source": "https://github.com/ragavagroup/crm-enterprise/tree/1.8.0"
+            },
+            "time": "2015-01-19 22:26:56"
+        },
+        {
+            "name": "oro/crm-mail-chimp",
+            "version": "1.2.2",
+            "target-dir": "src/OroCRM/Bundle/MailChimpBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orocrm/OroCRMMailChimpBundle.git",
+                "reference": "04a451fd303b23abc2de7a4198216562ef99c4da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orocrm/OroCRMMailChimpBundle/zipball/04a451fd303b23abc2de7a4198216562ef99c4da",
+                "reference": "04a451fd303b23abc2de7a4198216562ef99c4da",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "1.6.*",
+                "php": ">=5.4.9",
+                "zfr/zfr-mailchimp": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OroCRM\\Bundle\\MailChimpBundle": "src/"
+                }
+            },
+            "notification-url": "http://packagist.orocrm.com/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "OroCRM MailChimp integration",
+            "homepage": "https://github.com/orocrm/OroCRMMailChimpBundle.git",
+            "time": "2015-03-20 18:03:03"
+        },
+        {
+            "name": "oro/crm-zendesk",
+            "version": "1.3.0",
+            "target-dir": "src/OroCRM/Bundle/ZendeskBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orocrm/OroCRMZendeskBundle.git",
+                "reference": "84d968c31503faa850b59085a3bf40a9a23fe374"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/84d968c31503faa850b59085a3bf40a9a23fe374",
+                "reference": "84d968c31503faa850b59085a3bf40a9a23fe374",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "1.6.*",
+                "oro/platform": "1.6.*",
+                "php": ">=5.4.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OroCRM\\Bundle\\ZendeskBundle": "src/"
+                }
+            },
+            "notification-url": "http://packagist.orocrm.com/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "OroCRM Zendesk Integration",
+            "homepage": "https://github.com/orocrm/OroCRMZendeskBundle.git",
+            "keywords": [
+                "OroCRM",
+                "Zendesk",
+                "integration"
+            ],
+            "time": "2015-01-19 23:07:52"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -3801,16 +4663,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "dev-master",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
-                "reference": "e933288081ebeecf9787fd9bb5e9dc250c16ebcd"
+                "reference": "66565d741b4b1db0ea792c61bce1cb22d6e75e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/e933288081ebeecf9787fd9bb5e9dc250c16ebcd",
-                "reference": "e933288081ebeecf9787fd9bb5e9dc250c16ebcd",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/66565d741b4b1db0ea792c61bce1cb22d6e75e88",
+                "reference": "66565d741b4b1db0ea792c61bce1cb22d6e75e88",
                 "shasum": ""
             },
             "require": {
@@ -3818,11 +4680,7 @@
                 "akeneo/batch-bundle": "~0.3",
                 "ass/xmlsecurity": "1.0.0",
                 "besimple/soap": "0.2.2",
-                "components/backbone": "1.1.*",
-                "components/font-awesome": "~4.3.0",
-                "components/jquery": "2.1.*",
-                "components/underscore": "1.7.*",
-                "composer/composer": "1.0.0-alpha9",
+                "composer/composer": "1.0.0-alpha8",
                 "doctrine/data-fixtures": "1.0.0",
                 "doctrine/dbal": "2.4.*",
                 "doctrine/doctrine-bundle": "1.2.0",
@@ -3838,7 +4696,6 @@
                 "friendsofsymfony/rest-bundle": "1.5.0-RC2",
                 "genemu/form-bundle": "2.2.1",
                 "guzzle/http": "3.7.*",
-                "hwi/oauth-bundle": "~0.3",
                 "incenteev/composer-parameter-handler": "2.1.0",
                 "jdare/clank-bundle": "0.1.*",
                 "jms/job-queue-bundle": "1.1.*",
@@ -3899,7 +4756,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2015-03-20 15:05:44"
+            "time": "2015-01-20 14:47:04"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -3952,6 +4809,55 @@
             "time": "2013-01-23 15:16:14"
         },
         {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d68dbdc53dc358a816f00b300704702b2eaff7b8",
+                "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "dflydev/markdown": "~1.0",
+                "erusev/parsedown": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "phpDocumentor": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "mike.vanriel@naenius.com"
+                }
+            ],
+            "time": "2015-02-03 12:10:50"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.4.0",
             "source": {
@@ -3999,6 +4905,485 @@
                 "type"
             ],
             "time": "2014-01-09 22:37:17"
+        },
+        {
+            "name": "phpspec/prophecy",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpspec/prophecy.git",
+                "reference": "9ca52329bcdd1500de24427542577ebf3fc2f1c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9ca52329bcdd1500de24427542577ebf3fc2f1c9",
+                "reference": "9ca52329bcdd1500de24427542577ebf3fc2f1c9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.2",
+                "phpdocumentor/reflection-docblock": "~2.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Prophecy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com",
+                    "homepage": "http://everzet.com"
+                },
+                {
+                    "name": "Marcello Duarte",
+                    "email": "marcello.duarte@gmail.com"
+                }
+            ],
+            "description": "Highly opinionated mocking framework for PHP 5.3+",
+            "homepage": "http://phpspec.org",
+            "keywords": [
+                "Double",
+                "Dummy",
+                "fake",
+                "mock",
+                "spy",
+                "stub"
+            ],
+            "time": "2014-11-17 16:23:49"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "2.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "34cc484af1ca149188d0d9e91412191e398e0b67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/34cc484af1ca149188d0d9e91412191e398e0b67",
+                "reference": "34cc484af1ca149188d0d9e91412191e398e0b67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-file-iterator": "~1.3",
+                "phpunit/php-text-template": "~1.2",
+                "phpunit/php-token-stream": "~1.3",
+                "sebastian/environment": "~1.0",
+                "sebastian/version": "~1.0"
+            },
+            "require-dev": {
+                "ext-xdebug": ">=2.1.4",
+                "phpunit/phpunit": "~4"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-xdebug": ">=2.2.1",
+                "ext-xmlwriter": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2015-01-24 10:06:35"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "File/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2013-10-10 15:34:57"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Text/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2014-01-30 17:20:04"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2013-08-02 07:42:54"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "db32c18eba00b121c145575fcbcd4d4d24e6db74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/db32c18eba00b121c145575fcbcd4d4d24e6db74",
+                "reference": "db32c18eba00b121c145575fcbcd4d4d24e6db74",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2015-01-17 09:51:32"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "ab0bd2250002bcaeed9407a362eeeaf2a78fe060"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ab0bd2250002bcaeed9407a362eeeaf2a78fe060",
+                "reference": "ab0bd2250002bcaeed9407a362eeeaf2a78fe060",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "php": ">=5.3.3",
+                "phpspec/prophecy": "~1.3.1",
+                "phpunit/php-code-coverage": "~2.0,>=2.0.11",
+                "phpunit/php-file-iterator": "~1.3",
+                "phpunit/php-text-template": "~1.2",
+                "phpunit/php-timer": "~1.0",
+                "phpunit/phpunit-mock-objects": "~2.3",
+                "sebastian/comparator": "~1.1",
+                "sebastian/diff": "~1.2",
+                "sebastian/environment": "~1.2",
+                "sebastian/exporter": "~1.2",
+                "sebastian/global-state": "~1.0",
+                "sebastian/version": "~1.0",
+                "symfony/yaml": "~2.1|~3.0"
+            },
+            "suggest": {
+                "phpunit/php-invoker": "~1.1"
+            },
+            "bin": [
+                "phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.7.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "files": [
+                    "src/Framework/Assert/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "https://phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "time": "2015-03-18 05:42:02"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "c63d2367247365f688544f0d500af90a11a44c65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/c63d2367247365f688544f0d500af90a11a44c65",
+                "reference": "c63d2367247365f688544f0d500af90a11a44c65",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.1",
+                "php": ">=5.3.3",
+                "phpunit/php-text-template": "~1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "suggest": {
+                "ext-soap": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Mock Object library for PHPUnit",
+            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+            "keywords": [
+                "mock",
+                "xunit"
+            ],
+            "time": "2014-10-03 05:12:11"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "ea22fb2880faf7b7b0e17c9809c6fe25b071fd76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/ea22fb2880faf7b7b0e17c9809c6fe25b071fd76",
+                "reference": "ea22fb2880faf7b7b0e17c9809c6fe25b071fd76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2014-07-24 07:10:08"
         },
         {
             "name": "psr/log",
@@ -4080,6 +5465,50 @@
                 "event-loop"
             ],
             "time": "2013-07-21 02:23:09"
+        },
+        {
+            "name": "react/promise",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "365fcee430dfa4ace1fbc75737ca60ceea7eeeef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/365fcee430dfa4ace1fbc75737ca60ceea7eeeef",
+                "reference": "365fcee430dfa4ace1fbc75737ca60ceea7eeeef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@googlemail.com"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "time": "2014-12-30 13:32:42"
         },
         {
             "name": "react/socket",
@@ -4235,48 +5664,375 @@
             "time": "2014-10-30 03:36:49"
         },
         {
-            "name": "robloach/component-installer",
-            "version": "0.0.12",
+            "name": "sebastian/comparator",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "1864f25db21fc173e02a359f646acd596c1b0460"
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "1dd8869519a225f7f2b9eb663e225298fade819e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/1864f25db21fc173e02a359f646acd596c1b0460",
-                "reference": "1864f25db21fc173e02a359f646acd596c1b0460",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/1dd8869519a225f7f2b9eb663e225298fade819e",
+                "reference": "1dd8869519a225f7f2b9eb663e225298fade819e",
                 "shasum": ""
             },
             "require": {
-                "kriswallsmith/assetic": "1.*",
-                "php": ">=5.3.2"
+                "php": ">=5.3.3",
+                "sebastian/diff": "~1.2",
+                "sebastian/exporter": "~1.2"
             },
             "require-dev": {
-                "composer/composer": "1.*"
+                "phpunit/phpunit": "~4.4"
             },
-            "type": "composer-installer",
+            "type": "library",
             "extra": {
-                "class": "ComponentInstaller\\Installer"
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
             },
             "autoload": {
-                "psr-0": {
-                    "ComponentInstaller": "src/"
-                }
+                "classmap": [
+                    "src/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
-                    "name": "Rob Loach",
-                    "email": "robloach@gmail.com",
-                    "homepage": "http://robloach.net"
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
-            "description": "Allows installation of Components via Composer.",
-            "time": "2013-08-31 23:46:48"
+            "description": "Provides the functionality to compare PHP values for equality",
+            "homepage": "http://www.github.com/sebastianbergmann/comparator",
+            "keywords": [
+                "comparator",
+                "compare",
+                "equality"
+            ],
+            "time": "2015-01-29 16:28:08"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "5843509fed39dee4b356a306401e9dd1a931fec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/5843509fed39dee4b356a306401e9dd1a931fec7",
+                "reference": "5843509fed39dee4b356a306401e9dd1a931fec7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "http://www.github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff"
+            ],
+            "time": "2014-08-15 10:29:00"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "6e6c71d918088c251b181ba8b3088af4ac336dd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6e6c71d918088c251b181ba8b3088af4ac336dd7",
+                "reference": "6e6c71d918088c251b181ba8b3088af4ac336dd7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides functionality to handle HHVM/PHP environments",
+            "homepage": "http://www.github.com/sebastianbergmann/environment",
+            "keywords": [
+                "Xdebug",
+                "environment",
+                "hhvm"
+            ],
+            "time": "2014-10-25 08:00:45"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "84839970d05254c73cde183a721c7af13aede943"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/84839970d05254c73cde183a721c7af13aede943",
+                "reference": "84839970d05254c73cde183a721c7af13aede943",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "sebastian/recursion-context": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides the functionality to export PHP variables for visualization",
+            "homepage": "http://www.github.com/sebastianbergmann/exporter",
+            "keywords": [
+                "export",
+                "exporter"
+            ],
+            "time": "2015-01-27 07:23:06"
+        },
+        {
+            "name": "sebastian/global-state",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/global-state.git",
+                "reference": "c7428acdb62ece0a45e6306f1ae85e1c05b09c01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/c7428acdb62ece0a45e6306f1ae85e1c05b09c01",
+                "reference": "c7428acdb62ece0a45e6306f1ae85e1c05b09c01",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2"
+            },
+            "suggest": {
+                "ext-uopz": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Snapshotting of global state",
+            "homepage": "http://www.github.com/sebastianbergmann/global-state",
+            "keywords": [
+                "global state"
+            ],
+            "time": "2014-10-06 09:23:50"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "3989662bbb30a29d20d9faa04a846af79b276252"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/3989662bbb30a29d20d9faa04a846af79b276252",
+                "reference": "3989662bbb30a29d20d9faa04a846af79b276252",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net"
+                }
+            ],
+            "description": "Provides functionality to recursively process PHP variables",
+            "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "time": "2015-01-24 09:48:32"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "a77d9123f8e809db3fbdea15038c27a95da4058b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/a77d9123f8e809db3fbdea15038c27a95da4058b",
+                "reference": "a77d9123f8e809db3fbdea15038c27a95da4058b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version",
+            "time": "2014-12-15 14:25:24"
         },
         {
             "name": "seld/jsonlint",
@@ -5486,14 +7242,84 @@
                 "zf2"
             ],
             "time": "2013-04-15 11:43:47"
+        },
+        {
+            "name": "zfr/zfr-mailchimp",
+            "version": "v2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf-fr/zfr-mailchimp.git",
+                "reference": "81c99c26327d83461b00c38a7ee29d9b1200fc52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf-fr/zfr-mailchimp/zipball/81c99c26327d83461b00c38a7ee29d9b1200fc52",
+                "reference": "81c99c26327d83461b00c38a7ee29d9b1200fc52",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": "~3.5",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ZfrMailChimp\\": "src/"
+                },
+                "classmap": [
+                    "./"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michaël Gallego",
+                    "email": "mic.gallego@gmail.com",
+                    "homepage": "http://michaelgallego.fr"
+                }
+            ],
+            "description": "PHP library for interacting with the v2 MailChimp REST API",
+            "homepage": "https://github.com/zf-fr/zfr-mailchimp",
+            "keywords": [
+                "campaign",
+                "mail",
+                "mailchimp"
+            ],
+            "time": "2014-06-26 13:35:51"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "oro/platform": 20,
-        "oro/crm": 20
+        "oro/crm-mail-chimp": 20,
+        "oro/crm-zendesk": 20,
+        "medikly/customdashboardmenu-bundle": 20,
+        "medikly/event-bundle": 20,
+        "medikly/provider-bundle": 20,
+        "medikly/defaultlegacy-bundle": 20,
+        "medikly/ui-bundle": 20,
+        "medikly/theme-bundle": 20,
+        "medikly/segments": 20,
+        "medikly/getstarted": 20,
+        "medikly/inheritance": 20,
+        "medikly/campaigns": 20,
+        "medikly/piwik-dashboard": 20,
+        "medikly/piwik-proxy": 20,
+        "medikly/user-journey": 20,
+        "medikly/contactsync": 20,
+        "medikly/fullcontact-integration": 20,
+        "medikly/oro-flat-theme": 20,
+        "medikly/webactivities-bundle": 20,
+        "medikly/physician-bundle": 20,
+        "medikly/scheduled-reports": 20,
+        "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
