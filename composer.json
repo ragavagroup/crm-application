@@ -100,6 +100,10 @@
     "medikly-custom-alerts-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/CustomAlertsBundle.git"
+    },
+    "medikly-channel": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Channel.git"
     }
   },
   "require": {
@@ -128,6 +132,7 @@
     "medikly/scheduled-reports": "dev-master",
     "medikly/resource-bundle": "dev-master",
     "medikly/custom-alerts-bundle": "dev-master",
+    "medikly/channel": "dev-master",
     
     "atwix/oro-mandrill": "dev-master"
   },
