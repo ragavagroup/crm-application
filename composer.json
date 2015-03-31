@@ -104,6 +104,10 @@
     "medikly-channel": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Channel.git"
+    },
+    "medikly-d3js-visualization-tools-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools.git"
     }
   },
   "require": {
@@ -133,6 +137,7 @@
     "medikly/resource-bundle": "dev-master",
     "medikly/custom-alerts-bundle": "dev-master",
     "medikly/channel": "dev-master",
+    "medikly/d3js-visualization-tools-bundle": "dev-master",
     
     "atwix/oro-mandrill": "dev-master"
   },
