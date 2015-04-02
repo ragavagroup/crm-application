@@ -108,6 +108,14 @@
     "medikly-d3js-visualization-tools-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools.git"
+    },
+    "dashboard-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/MediklyCustomDashboardBundle.git"
+    },
+    "reclinejs-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ReclineJS.git"
     }
   },
   "require": {
@@ -138,6 +146,8 @@
     "medikly/custom-alerts-bundle": "dev-master",
     "medikly/channel": "dev-master",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
+    "medikly/dashboard-bundle" : "dev-master",
+    "medikly/reclinejs-bundle" : "dev-master",
     
     "atwix/oro-mandrill": "dev-master"
   },
