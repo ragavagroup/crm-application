@@ -3334,12 +3334,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/contactsync.git",
-                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a"
+                "reference": "b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/d0d6675df33e20cb36b921e2ad82753b057e134a",
-                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a",
+                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021",
+                "reference": "b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021",
                 "shasum": ""
             },
             "require": {
@@ -3365,7 +3365,7 @@
                 "source": "https://github.com/ragavagroup/contactsync/tree/master",
                 "issues": "https://github.com/ragavagroup/contactsync/issues"
             },
-            "time": "2015-02-09 09:07:27"
+            "time": "2015-02-10 16:47:36"
         },
         {
             "name": "medikly/custom-alerts-bundle",
