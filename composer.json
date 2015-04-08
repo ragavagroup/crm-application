@@ -116,6 +116,22 @@
     "reclinejs-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/ReclineJS.git"
+    },
+    "medikly-intercom-js": {
+      "type": "git",
+      "url": "git@github.com:ragavagroup/intercomIO-JS.git"
+    },
+    "medikly-intercom-api": {
+      "type": "git",
+      "url": "git@github.com:ragavagroup/IntrcomIO-API.git"
+    },
+    "medikly-clef": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/Clef.git"
+    },
+    "medikly-successpages": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/SuccessPages.git"
     }
   },
   "require": {
@@ -148,7 +164,11 @@
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/dashboard-bundle" : "dev-master",
     "medikly/reclinejs-bundle" : "dev-master",
-    
+    "medikly/intercomjs": "dev-master",
+    "medikly/intercomapi": "dev-master",
+    "medikly/clef": "dev-master",
+    "medikly/successpages": "dev-master",
+
     "atwix/oro-mandrill": "dev-master"
   },
   "config": {
