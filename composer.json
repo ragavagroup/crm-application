@@ -132,6 +132,10 @@
     "medikly-successpages": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/SuccessPages.git"
+    },
+    "medikly-system-navigation": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
     }
   },
   "require": {
@@ -168,6 +172,7 @@
     "medikly/intercomapi": "dev-master",
     "medikly/clef": "dev-master",
     "medikly/successpages": "dev-master",
+    "medikly/system-navigation": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
