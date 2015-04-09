@@ -4197,12 +4197,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/user-journey.git",
-                "reference": "a910dc58016208f91dc54d8fead5122b9f22f2d8"
+                "reference": "3a90510ca15deb6192b56e3d7abd097fd6525556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/a910dc58016208f91dc54d8fead5122b9f22f2d8",
-                "reference": "a910dc58016208f91dc54d8fead5122b9f22f2d8",
+                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/3a90510ca15deb6192b56e3d7abd097fd6525556",
+                "reference": "3a90510ca15deb6192b56e3d7abd097fd6525556",
                 "shasum": ""
             },
             "require": {
@@ -4227,7 +4227,7 @@
                 "source": "https://github.com/ragavagroup/user-journey/tree/master",
                 "issues": "https://github.com/ragavagroup/user-journey/issues"
             },
-            "time": "2015-04-03 13:35:17"
+            "time": "2015-04-08 14:30:28"
         },
         {
             "name": "medikly/webactivities-bundle",
