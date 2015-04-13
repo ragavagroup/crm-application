@@ -3874,12 +3874,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/proxy.git",
-                "reference": "baa79aa9d8e10276d2af81f72acd92558325a31c"
+                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/baa79aa9d8e10276d2af81f72acd92558325a31c",
-                "reference": "baa79aa9d8e10276d2af81f72acd92558325a31c",
+                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
+                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
                 "shasum": ""
             },
             "require": {
