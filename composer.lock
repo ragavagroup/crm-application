@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7768f4fb44aacf912307d50e6bad3d4",
+    "hash": "c1186a02756fb5e938b3307840c037a5",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -1427,7 +1427,7 @@
                     "homepage": "http://wiedler.ch/igor/"
                 }
             ],
-            "description": "ÃvÃ©nement is a very simple event dispatching library for PHP 5.3",
+            "description": "Événement is a very simple event dispatching library for PHP 5.3",
             "keywords": [
                 "event-dispatcher"
             ],
@@ -2705,7 +2705,7 @@
                     "email": "justin.rainbow@gmail.com"
                 },
                 {
-                    "name": "Robert SchÃ¶nthal",
+                    "name": "Robert Schönthal",
                     "email": "robert.schoenthal@gmail.com",
                     "homepage": "http://digitalkaoz.net"
                 }
@@ -2843,7 +2843,7 @@
             ],
             "authors": [
                 {
-                    "name": "Antoine HÃ©rault",
+                    "name": "Antoine Hérault",
                     "email": "antoine.herault@gmail.com",
                     "homepage": "https://github.com/Herzult"
                 },
@@ -2966,7 +2966,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3327,6 +3327,48 @@
                 "issues": "https://github.com/ragavagroup/Channel/issues"
             },
             "time": "2015-04-01 11:07:51"
+        },
+        {
+            "name": "medikly/clef",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ClefBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Clef.git",
+                "reference": "60ba85a0c1f37b1911e7d275815f5933bd90e952"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Clef/zipball/60ba85a0c1f37b1911e7d275815f5933bd90e952",
+                "reference": "60ba85a0c1f37b1911e7d275815f5933bd90e952",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ClefBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Clef Integration Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/Clef/tree/master",
+                "issues": "https://github.com/ragavagroup/Clef/issues"
+            },
+            "time": "2015-04-08 14:48:09"
         },
         {
             "name": "medikly/contactsync",
@@ -3750,8 +3792,72 @@
             "time": "2015-01-21 15:16:27"
         },
         {
-            "name": "medikly/oro-flat-theme",
+            "name": "medikly/intercomapi",
             "version": "dev-master",
+            "target-dir": "Medikly/Bundle/IntercomBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/IntrcomIO-API.git",
+                "reference": "56a253a1da7ae47e21e049716d25ba58bb780310"
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\IntercomBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Intercom IO API Integration",
+            "time": "2015-03-02 11:24:59"
+        },
+        {
+            "name": "medikly/intercomjs",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/IntercomJSBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/intercomIO-JS.git",
+                "reference": "927742d73e61541160fdc1b2a2aa3d610f92cd44"
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\IntercomJSBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Intercom IO JS Integration",
+            "time": "2015-02-19 13:18:28"
+        },
+        {
+            "name": "medikly/oro-flat-theme",
+            "version": "v1.0.0",
             "target-dir": "Medikly/Bundle/OroFlatThemeBundle",
             "source": {
                 "type": "git",
@@ -3835,12 +3941,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/dashboard.git",
-                "reference": "7f26bd0fa938f5235ce8805cbbae83b1a90f0ab4"
+                "reference": "01c9c27e4aa5a18a40bfedef6630fc39d7453076"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/7f26bd0fa938f5235ce8805cbbae83b1a90f0ab4",
-                "reference": "7f26bd0fa938f5235ce8805cbbae83b1a90f0ab4",
+                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/01c9c27e4aa5a18a40bfedef6630fc39d7453076",
+                "reference": "01c9c27e4aa5a18a40bfedef6630fc39d7453076",
                 "shasum": ""
             },
             "require": {
@@ -3866,7 +3972,7 @@
                 "source": "https://github.com/ragavagroup/dashboard/tree/master",
                 "issues": "https://github.com/ragavagroup/dashboard/issues"
             },
-            "time": "2015-02-03 08:50:24"
+            "time": "2015-04-03 12:21:11"
         },
         {
             "name": "medikly/piwik-proxy",
@@ -3904,7 +4010,7 @@
                 "source": "https://github.com/ragavagroup/proxy/tree/master",
                 "issues": "https://github.com/ragavagroup/proxy/issues"
             },
-            "time": "2015-03-18 12:15:37"
+            "time": "2015-04-13 08:11:16"
         },
         {
             "name": "medikly/provider-bundle",
@@ -4064,6 +4170,40 @@
             "time": "2015-03-26 08:41:31"
         },
         {
+            "name": "medikly/search",
+            "version": "1.0",
+            "target-dir": "Medikly/Bundle/SearchBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/SearchBundle.git",
+                "reference": "09f2fb6f0d037c3cefdaaa614de37af9fa14eb89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/SearchBundle/zipball/09f2fb6f0d037c3cefdaaa614de37af9fa14eb89",
+                "reference": "09f2fb6f0d037c3cefdaaa614de37af9fa14eb89",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SearchBundle": "."
+                }
+            },
+            "authors": [
+                {
+                    "name": "Scandiweb",
+                    "email": "info@scandiweb.com"
+                }
+            ],
+            "description": "Contains modifications to default Oro Search Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/SearchBundle/tree/1.0",
+                "issues": "https://github.com/ragavagroup/SearchBundle/issues"
+            },
+            "time": "2015-04-13 06:48:36"
+        },
+        {
             "name": "medikly/segments",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/SegmentsBundle",
@@ -4104,6 +4244,83 @@
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
             "time": "2015-04-02 07:26:04"
+        },
+        {
+            "name": "medikly/successpages",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SuccessPagesBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/SuccessPages.git",
+                "reference": "f29d4c06e7fd324d0cf54e4f88891ca76acdf1e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/f29d4c06e7fd324d0cf54e4f88891ca76acdf1e1",
+                "reference": "f29d4c06e7fd324d0cf54e4f88891ca76acdf1e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "staging"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SuccessPagesBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Custom Success Pages",
+            "support": {
+                "source": "https://github.com/ragavagroup/SuccessPages/tree/master",
+                "issues": "https://github.com/ragavagroup/SuccessPages/issues"
+            },
+            "time": "2015-04-09 10:51:20"
+        },
+        {
+            "name": "medikly/system-navigation",
+            "version": "v1.0.0",
+            "target-dir": "Medikly/Bundle/SystemNavigationBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/SystemNavigationBundle.git",
+                "reference": "2b4f5fa11a3ed4a4369eca5374537f6e343c689c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/2b4f5fa11a3ed4a4369eca5374537f6e343c689c",
+                "reference": "2b4f5fa11a3ed4a4369eca5374537f6e343c689c",
+                "shasum": ""
+            },
+            "require": {
+                "medikly/customdashboardmenu-bundle": "dev-master",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SystemNavigationBundle": ""
+                }
+            },
+            "description": "Changes system configuration submenu to separate menu",
+            "keywords": [
+                "medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/SystemNavigationBundle/issues"
+            },
+            "time": "2015-04-09 11:44:33"
         },
         {
             "name": "medikly/theme-bundle",
@@ -5717,7 +5934,7 @@
             ],
             "authors": [
                 {
-                    "name": "PaweÅ JÄdrzejewski",
+                    "name": "Paweł Jędrzejewski",
                     "email": "pjedrzejewski@diweb.pl",
                     "homepage": "http://pjedrzejewski.com"
                 },
@@ -6616,7 +6833,7 @@
             ],
             "authors": [
                 {
-                    "name": "MichaÃ«l Gallego",
+                    "name": "Michaël Gallego",
                     "email": "mic.gallego@gmail.com",
                     "homepage": "http://michaelgallego.fr"
                 }
@@ -6632,7 +6849,14 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "1.0.0.0",
+            "package": "medikly/oro-flat-theme"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/crm-mail-chimp": 20,
@@ -6652,7 +6876,6 @@
         "medikly/user-journey": 20,
         "medikly/contactsync": 20,
         "medikly/fullcontact-integration": 20,
-        "medikly/oro-flat-theme": 20,
         "medikly/webactivities-bundle": 20,
         "medikly/physician-bundle": 20,
         "medikly/scheduled-reports": 20,
@@ -6662,6 +6885,10 @@
         "medikly/d3js-visualization-tools-bundle": 20,
         "medikly/dashboard-bundle": 20,
         "medikly/reclinejs-bundle": 20,
+        "medikly/intercomjs": 20,
+        "medikly/intercomapi": 20,
+        "medikly/clef": 20,
+        "medikly/successpages": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
