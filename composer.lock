@@ -3857,17 +3857,17 @@
         },
         {
             "name": "medikly/oro-flat-theme",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "target-dir": "Medikly/Bundle/OroFlatThemeBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "869ff4b2fef9246daf7b7eee9cbc0c01876afb57"
+                "reference": "2eba7253f95ad22724c22c746d9607b482d50f1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/869ff4b2fef9246daf7b7eee9cbc0c01876afb57",
-                "reference": "869ff4b2fef9246daf7b7eee9cbc0c01876afb57",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/2eba7253f95ad22724c22c746d9607b482d50f1d",
+                "reference": "2eba7253f95ad22724c22c746d9607b482d50f1d",
                 "shasum": ""
             },
             "type": "library",
@@ -3890,7 +3890,7 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-04-10 08:42:35"
+            "time": "2015-04-13 13:06:30"
         },
         {
             "name": "medikly/physician-bundle",
