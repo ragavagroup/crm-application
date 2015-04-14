@@ -136,6 +136,10 @@
     "medikly-system-navigation": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
+      },
+    "medikly-search": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/SearchBundle.git"
     }
   },
   "require": {
@@ -158,7 +162,7 @@
     "medikly/user-journey": "dev-master",
     "medikly/contactsync": "dev-master",
     "medikly/fullcontact-integration": "dev-master",
-    "medikly/oro-flat-theme": "dev-master",
+    "medikly/oro-flat-theme": "v1.0.0",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
     "medikly/scheduled-reports": "dev-master",
@@ -172,7 +176,8 @@
     "medikly/intercomapi": "dev-master",
     "medikly/clef": "dev-master",
     "medikly/successpages": "dev-master",
-    "medikly/system-navigation": "dev-master",
+    "medikly/system-navigation": "v1.0.0",
+    "medikly/search": "1.0",
 
     "atwix/oro-mandrill": "dev-master"
   },
