@@ -18,38 +18,9 @@
     </logging>
 
     <testsuites>
-        <testsuite name="Project Test Suite">
-            <directory suffix="Test.php">../src/*/src/*/Component/*/Tests/Unit</directory>
-            <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Unit</directory>
-            <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="Unit Tests">
-            <directory suffix="Test.php">../src/*/src/*/Component/*/Tests/Unit</directory>
-            <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Unit</directory>
-        </testsuite>
-        <testsuite name="Functional Tests">
-            <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="Project OroCRM Unit Tests">
-            <directory suffix="Test.php">../src/OroCRM/src/OroCRM/Bundle/*Bundle/Tests/Unit</directory>
-            <directory suffix="Test.php">../src/OroCRMPackages/src/OroCRM/Bundle/*Bundle/Tests/Unit</directory>
-        </testsuite>
-        <testsuite name="Project OroCRM Functional Tests">
-            <directory suffix="Test.php">../src/OroCRM/src/OroCRM/Bundle/*Bundle/Tests/Functional</directory>
-            <directory suffix="Test.php">../src/OroCRMPackages/src/OroCRM/Bundle/*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="Project Oro Unit Tests">
-            <directory suffix="Test.php">../src/Oro/src/Oro/Component/*/Tests/Unit</directory>
-            <directory suffix="Test.php">../src/Oro/src/Oro/Bundle/*Bundle/Tests/Unit</directory>
-        </testsuite>
-        <testsuite name="Project Oro Functional Tests">
-            <directory suffix="Test.php">../src/Oro/src/Oro/Bundle/*Bundle/Tests/Functional</directory>
-        </testsuite>
-        <testsuite name="Project Selenium Tests">
-            <directory suffix="Test.php">../src/*/src/*/Bundle/*Bundle/Tests/Selenium</directory>
-        </testsuite>
-        <testsuite name="Project Behat Tests">
-            <directory suffix="Test.php">../src/Oro*/src/Oro*/Bundle/*Bundle/Tests/Behat</directory>
+        <testsuite name="Vendor Test Suite">
+            <directory suffix="Test.php">../vendor/medikly/*/*/Bundle/*/Tests/Functional</directory>
+			<directory suffix="Test.php">../vendor/medikly/*/*/Bundle/*/Tests/Unit</directory>
         </testsuite>
     </testsuites>
 
@@ -78,7 +49,7 @@
         <const name="PHPUNIT_TESTSUITE_EXTENSION_SELENIUM_PASS" value="admin"/>
     </php>
     <listeners>
-        <listener class="TestListener" file="src/Oro/src/Oro/Bundle/TestFrameworkBundle/Test/TestListener.php">
+        <listener class="TestListener" file="vendor/oro/platform/src/Oro/Bundle/TestFrameworkBundle/Test/TestListener.php">
             <arguments>
                 <string>app/logs</string>
             </arguments>
@@ -87,8 +58,9 @@
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true" addUncoveredFilesFromWhitelist="true">
             <directory>../src</directory>
+            <directory>../vendor</directory>
             <exclude>
-                <directory>../vendor</directory>
+                <!--<directory>../vendor</directory>-->
                 <directory>../src/*/tests</directory>
                 <directory>../src/*/Component/*/Tests</directory>
                 <directory>../src/*/src/*/Component/*/Tests</directory>
