@@ -162,7 +162,7 @@
     "medikly/user-journey": "dev-master",
     "medikly/contactsync": "dev-master",
     "medikly/fullcontact-integration": "dev-master",
-    "medikly/oro-flat-theme": "v1.0.0",
+    "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
     "medikly/scheduled-reports": "dev-master",
