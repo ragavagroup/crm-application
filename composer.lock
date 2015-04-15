@@ -3862,12 +3862,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "d6539749ae7f3fe597a252fd0191d8264ec7367e"
+                "reference": "3d0b9aaf1027099ef7b08acaed7d9f698271b7c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/d6539749ae7f3fe597a252fd0191d8264ec7367e",
-                "reference": "d6539749ae7f3fe597a252fd0191d8264ec7367e",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/3d0b9aaf1027099ef7b08acaed7d9f698271b7c1",
+                "reference": "3d0b9aaf1027099ef7b08acaed7d9f698271b7c1",
                 "shasum": ""
             },
             "type": "library",
@@ -3890,7 +3890,7 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-04-14 10:36:35"
+            "time": "2015-04-14 14:07:57"
         },
         {
             "name": "medikly/physician-bundle",
