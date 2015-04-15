@@ -3941,12 +3941,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/dashboard.git",
-                "reference": "01c9c27e4aa5a18a40bfedef6630fc39d7453076"
+                "reference": "481a1824723a421d4519fc9821a231fba15be461"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/01c9c27e4aa5a18a40bfedef6630fc39d7453076",
-                "reference": "01c9c27e4aa5a18a40bfedef6630fc39d7453076",
+                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/481a1824723a421d4519fc9821a231fba15be461",
+                "reference": "481a1824723a421d4519fc9821a231fba15be461",
                 "shasum": ""
             },
             "require": {
@@ -3972,7 +3972,7 @@
                 "source": "https://github.com/ragavagroup/dashboard/tree/master",
                 "issues": "https://github.com/ragavagroup/dashboard/issues"
             },
-            "time": "2015-04-03 12:21:11"
+            "time": "2015-04-15 09:14:22"
         },
         {
             "name": "medikly/piwik-proxy",
@@ -4210,12 +4210,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segments.git",
-                "reference": "1e4521aeae9821d8f896272a3b42511a0710e1e3"
+                "reference": "8e111db53b410e9d70358a5cd68efd6045a1528d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/1e4521aeae9821d8f896272a3b42511a0710e1e3",
-                "reference": "1e4521aeae9821d8f896272a3b42511a0710e1e3",
+                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/8e111db53b410e9d70358a5cd68efd6045a1528d",
+                "reference": "8e111db53b410e9d70358a5cd68efd6045a1528d",
                 "shasum": ""
             },
             "require": {
@@ -4243,7 +4243,7 @@
                 "source": "https://github.com/ragavagroup/Segments/tree/master",
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
-            "time": "2015-04-02 07:26:04"
+            "time": "2015-04-13 07:26:04"
         },
         {
             "name": "medikly/successpages",
