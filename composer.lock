@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c1186a02756fb5e938b3307840c037a5",
+    "hash": "6c06607ba0974365cd909f670f8672cb",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3890,7 +3890,7 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-04-13 13:06:30"
+            "time": "2015-04-14 10:36:35"
         },
         {
             "name": "medikly/physician-bundle",
@@ -3980,12 +3980,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/proxy.git",
-                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d"
+                "reference": "12ddc432605e37337ea2ab6129badd41cf5e3471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
-                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
+                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/12ddc432605e37337ea2ab6129badd41cf5e3471",
+                "reference": "12ddc432605e37337ea2ab6129badd41cf5e3471",
                 "shasum": ""
             },
             "require": {
@@ -4010,7 +4010,7 @@
                 "source": "https://github.com/ragavagroup/proxy/tree/master",
                 "issues": "https://github.com/ragavagroup/proxy/issues"
             },
-            "time": "2015-04-13 08:11:16"
+            "time": "2015-04-15 11:28:43"
         },
         {
             "name": "medikly/provider-bundle",
@@ -4243,7 +4243,7 @@
                 "source": "https://github.com/ragavagroup/Segments/tree/master",
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
-            "time": "2015-04-13 07:26:04"
+            "time": "2015-04-13 06:32:30"
         },
         {
             "name": "medikly/successpages",
@@ -6849,14 +6849,7 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "alias": "dev-master",
-            "alias_normalized": "9999999-dev",
-            "version": "1.0.0.0",
-            "package": "medikly/oro-flat-theme"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/crm-mail-chimp": 20,
@@ -6876,6 +6869,7 @@
         "medikly/user-journey": 20,
         "medikly/contactsync": 20,
         "medikly/fullcontact-integration": 20,
+        "medikly/oro-flat-theme": 20,
         "medikly/webactivities-bundle": 20,
         "medikly/physician-bundle": 20,
         "medikly/scheduled-reports": 20,
