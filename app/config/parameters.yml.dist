@@ -37,3 +37,11 @@ parameters:
     # Piwik
     piwik_client_url:         localhost
     piwik_client_admin_token: ~
+
+    # RAW Data Postgres
+
+    raw_data_postgres_database_host: 127.0.0.1
+    raw_data_postgres_database_port: 5432
+    raw_data_postgres_database_name: medikly-raw-data
+    raw_data_postgres_database_user: postgres-raw-data
+    raw_data_postgres_database_password: ~
