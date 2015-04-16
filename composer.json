@@ -140,6 +140,10 @@
     "medikly-search": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/SearchBundle.git"
+    },
+    "medikly-raw-data-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/RawData.git"
     }
   },
   "require": {
@@ -178,6 +182,7 @@
     "medikly/successpages": "dev-master",
     "medikly/system-navigation": "v1.0.0",
     "medikly/search": "1.0",
+    "medikly/raw-data-bundle":"dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
