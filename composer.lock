@@ -3254,12 +3254,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "c2526fb3e1f7123577fc7925733db3f6ec5eb6d9"
+                "reference": "e3268d7f45d055e2dfb85b00c72182f5c7aa6d54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/c2526fb3e1f7123577fc7925733db3f6ec5eb6d9",
-                "reference": "c2526fb3e1f7123577fc7925733db3f6ec5eb6d9",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/e3268d7f45d055e2dfb85b00c72182f5c7aa6d54",
+                "reference": "e3268d7f45d055e2dfb85b00c72182f5c7aa6d54",
                 "shasum": ""
             },
             "require": {
@@ -3461,12 +3461,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "b56181ef9087e2c6d45a618d896796d25ed530b8"
+                "reference": "6408f5b20e724eb695034b97600d335fec71641b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/b56181ef9087e2c6d45a618d896796d25ed530b8",
-                "reference": "b56181ef9087e2c6d45a618d896796d25ed530b8",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/6408f5b20e724eb695034b97600d335fec71641b",
+                "reference": "6408f5b20e724eb695034b97600d335fec71641b",
                 "shasum": ""
             },
             "require": {
