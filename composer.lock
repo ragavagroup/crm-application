@@ -3941,12 +3941,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/dashboard.git",
-                "reference": "481a1824723a421d4519fc9821a231fba15be461"
+                "reference": "6e07fa3394ca4ebbe00210a1aa7eade33b559ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/481a1824723a421d4519fc9821a231fba15be461",
-                "reference": "481a1824723a421d4519fc9821a231fba15be461",
+                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/6e07fa3394ca4ebbe00210a1aa7eade33b559ba6",
+                "reference": "6e07fa3394ca4ebbe00210a1aa7eade33b559ba6",
                 "shasum": ""
             },
             "require": {
@@ -3972,7 +3972,7 @@
                 "source": "https://github.com/ragavagroup/dashboard/tree/master",
                 "issues": "https://github.com/ragavagroup/dashboard/issues"
             },
-            "time": "2015-04-15 09:14:22"
+            "time": "2015-04-16 11:29:22"
         },
         {
             "name": "medikly/piwik-proxy",
