@@ -4137,12 +4137,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ScheduledReportsBundle.git",
-                "reference": "b48cb627060ea3e36f3ce2a41363078734e5848d"
+                "reference": "c0cf22f134662e02c3fece48e025d3708a4d3820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/b48cb627060ea3e36f3ce2a41363078734e5848d",
-                "reference": "b48cb627060ea3e36f3ce2a41363078734e5848d",
+                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/c0cf22f134662e02c3fece48e025d3708a4d3820",
+                "reference": "c0cf22f134662e02c3fece48e025d3708a4d3820",
                 "shasum": ""
             },
             "require": {
@@ -4167,7 +4167,7 @@
                 "source": "https://github.com/ragavagroup/ScheduledReportsBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/ScheduledReportsBundle/issues"
             },
-            "time": "2015-03-26 08:41:31"
+            "time": "2015-04-16 15:20:31"
         },
         {
             "name": "medikly/search",
