@@ -4019,12 +4019,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "812a2450ac2d023b62c44e617a94c3e0e040aa1b"
+                "reference": "5f92d97cecdad7d7efbe09952c7ee0f750f8455f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/812a2450ac2d023b62c44e617a94c3e0e040aa1b",
-                "reference": "812a2450ac2d023b62c44e617a94c3e0e040aa1b",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/5f92d97cecdad7d7efbe09952c7ee0f750f8455f",
+                "reference": "5f92d97cecdad7d7efbe09952c7ee0f750f8455f",
                 "shasum": ""
             },
             "require": {
@@ -4053,7 +4053,7 @@
                 "source": "https://github.com/ragavagroup/Provider/tree/master",
                 "issues": "https://github.com/ragavagroup/Provider/issues"
             },
-            "time": "2015-04-01 12:12:26"
+            "time": "2015-04-16 12:12:26"
         },
         {
             "name": "medikly/reclinejs-bundle",
