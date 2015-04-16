@@ -3461,12 +3461,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "1be7a04405038426ff939aa4ae01ba64542293f8"
+                "reference": "b56181ef9087e2c6d45a618d896796d25ed530b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/1be7a04405038426ff939aa4ae01ba64542293f8",
-                "reference": "1be7a04405038426ff939aa4ae01ba64542293f8",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/b56181ef9087e2c6d45a618d896796d25ed530b8",
+                "reference": "b56181ef9087e2c6d45a618d896796d25ed530b8",
                 "shasum": ""
             },
             "require": {
@@ -3579,7 +3579,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-04-02 07:38:21"
+            "time": "2015-04-09 07:38:21"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
