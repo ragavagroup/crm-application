@@ -3506,12 +3506,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/D3JS-Data-Visualization-Tools.git",
-                "reference": "b3d7fa2dd5903c9c7a746178ba8137c1ef05e752"
+                "reference": "423b69b594d13116c818c8ff476e170c2e2ec66b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/D3JS-Data-Visualization-Tools/zipball/b3d7fa2dd5903c9c7a746178ba8137c1ef05e752",
-                "reference": "b3d7fa2dd5903c9c7a746178ba8137c1ef05e752",
+                "url": "https://api.github.com/repos/ragavagroup/D3JS-Data-Visualization-Tools/zipball/423b69b594d13116c818c8ff476e170c2e2ec66b",
+                "reference": "423b69b594d13116c818c8ff476e170c2e2ec66b",
                 "shasum": ""
             },
             "require": {
@@ -4100,12 +4100,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "5c14acd0262becd5951a45349824d42cb9ce5e0d"
+                "reference": "c6bef9e88a55857f3e825863394cdf93e1f69a5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/5c14acd0262becd5951a45349824d42cb9ce5e0d",
-                "reference": "5c14acd0262becd5951a45349824d42cb9ce5e0d",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/c6bef9e88a55857f3e825863394cdf93e1f69a5e",
+                "reference": "c6bef9e88a55857f3e825863394cdf93e1f69a5e",
                 "shasum": ""
             },
             "require": {
