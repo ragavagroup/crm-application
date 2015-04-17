@@ -4062,12 +4062,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "a72f6865800e062677d775cb1aa8f7ab3f6137f5"
+                "reference": "732d253b2380e4f258fbe6c5cda42595cab47d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/a72f6865800e062677d775cb1aa8f7ab3f6137f5",
-                "reference": "a72f6865800e062677d775cb1aa8f7ab3f6137f5",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/732d253b2380e4f258fbe6c5cda42595cab47d9e",
+                "reference": "732d253b2380e4f258fbe6c5cda42595cab47d9e",
                 "shasum": ""
             },
             "require": {
