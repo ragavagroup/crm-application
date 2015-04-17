@@ -3254,12 +3254,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "e3268d7f45d055e2dfb85b00c72182f5c7aa6d54"
+                "reference": "6eb80b5a89ca393bb03c70a5d0138fbe5016e855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/e3268d7f45d055e2dfb85b00c72182f5c7aa6d54",
-                "reference": "e3268d7f45d055e2dfb85b00c72182f5c7aa6d54",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/6eb80b5a89ca393bb03c70a5d0138fbe5016e855",
+                "reference": "6eb80b5a89ca393bb03c70a5d0138fbe5016e855",
                 "shasum": ""
             },
             "require": {
@@ -3284,7 +3284,7 @@
                 "source": "https://github.com/ragavagroup/campaigns/tree/master",
                 "issues": "https://github.com/ragavagroup/campaigns/issues"
             },
-            "time": "2015-04-02 12:48:06"
+            "time": "2015-04-17 13:07:41"
         },
         {
             "name": "medikly/channel",
@@ -3461,12 +3461,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "6408f5b20e724eb695034b97600d335fec71641b"
+                "reference": "6508ab801484efe04503852d091fc033a892e479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/6408f5b20e724eb695034b97600d335fec71641b",
-                "reference": "6408f5b20e724eb695034b97600d335fec71641b",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/6508ab801484efe04503852d091fc033a892e479",
+                "reference": "6508ab801484efe04503852d091fc033a892e479",
                 "shasum": ""
             },
             "require": {
@@ -3497,7 +3497,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-04-02 10:35:39"
+            "time": "2015-04-17 13:10:42"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
@@ -3545,12 +3545,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
-                "reference": "290666ca107f5ccbf1fb992c47fa59db92ba07e3"
+                "reference": "43422e4e6f11357612da1a1e0462ac217a79669c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/290666ca107f5ccbf1fb992c47fa59db92ba07e3",
-                "reference": "290666ca107f5ccbf1fb992c47fa59db92ba07e3",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/43422e4e6f11357612da1a1e0462ac217a79669c",
+                "reference": "43422e4e6f11357612da1a1e0462ac217a79669c",
                 "shasum": ""
             },
             "require": {
@@ -3579,7 +3579,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-04-09 07:38:21"
+            "time": "2015-04-17 12:28:40"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
