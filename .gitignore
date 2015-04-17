@@ -20,5 +20,6 @@ build/
 /app/config/parameters.yml
 /app/config/parameters_test.yml
 *~
-
+/app/raw_files
 /app/SymfonyRequirements.php
+
