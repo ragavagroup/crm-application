@@ -3674,12 +3674,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/FullContactIntegrationBundle.git",
-                "reference": "904c2bb6128b9b9f92e2c486b62e7b5c4a2ddbb2"
+                "reference": "02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/904c2bb6128b9b9f92e2c486b62e7b5c4a2ddbb2",
-                "reference": "904c2bb6128b9b9f92e2c486b62e7b5c4a2ddbb2",
+                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c",
+                "reference": "02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c",
                 "shasum": ""
             },
             "require": {
@@ -3705,7 +3705,7 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-04-02 13:44:56"
+            "time": "2015-04-17 08:32:56"
         },
         {
             "name": "medikly/getstarted",
