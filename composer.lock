@@ -3461,12 +3461,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "6508ab801484efe04503852d091fc033a892e479"
+                "reference": "8ef1f43d97427b9e1d5cf7345b6d25411e7a466d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/6508ab801484efe04503852d091fc033a892e479",
-                "reference": "6508ab801484efe04503852d091fc033a892e479",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/8ef1f43d97427b9e1d5cf7345b6d25411e7a466d",
+                "reference": "8ef1f43d97427b9e1d5cf7345b6d25411e7a466d",
                 "shasum": ""
             },
             "require": {
@@ -3497,7 +3497,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-04-17 13:10:42"
+            "time": "2015-04-20 08:55:29"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
