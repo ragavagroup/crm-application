@@ -2910,7 +2910,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3294,12 +3294,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "82537d0a48d39ab24e05d5af389dc3221f44f6f3"
+                "reference": "e7f634c9a850b1cfdd8cdb818fa39029fc6608b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/82537d0a48d39ab24e05d5af389dc3221f44f6f3",
-                "reference": "82537d0a48d39ab24e05d5af389dc3221f44f6f3",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/e7f634c9a850b1cfdd8cdb818fa39029fc6608b8",
+                "reference": "e7f634c9a850b1cfdd8cdb818fa39029fc6608b8",
                 "shasum": ""
             },
             "require": {
@@ -3324,7 +3324,7 @@
                 "source": "https://github.com/ragavagroup/campaigns/tree/master",
                 "issues": "https://github.com/ragavagroup/campaigns/issues"
             },
-            "time": "2015-04-20 10:04:33"
+            "time": "2015-04-21 14:48:33"
         },
         {
             "name": "medikly/channel",
@@ -3333,12 +3333,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Channel.git",
-                "reference": "37c39ab8cd83eaef3b4725f8427f03e65098ee4e"
+                "reference": "685114dd14f7ec324429022b1570131b7fa39219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/37c39ab8cd83eaef3b4725f8427f03e65098ee4e",
-                "reference": "37c39ab8cd83eaef3b4725f8427f03e65098ee4e",
+                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/685114dd14f7ec324429022b1570131b7fa39219",
+                "reference": "685114dd14f7ec324429022b1570131b7fa39219",
                 "shasum": ""
             },
             "require": {
@@ -3366,7 +3366,7 @@
                 "source": "https://github.com/ragavagroup/Channel/tree/master",
                 "issues": "https://github.com/ragavagroup/Channel/issues"
             },
-            "time": "2015-04-01 11:07:51"
+            "time": "2015-04-10 09:50:29"
         },
         {
             "name": "medikly/clef",
@@ -3416,12 +3416,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/contactsync.git",
-                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a"
+                "reference": "b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/d0d6675df33e20cb36b921e2ad82753b057e134a",
-                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a",
+                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021",
+                "reference": "b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021",
                 "shasum": ""
             },
             "require": {
@@ -3447,7 +3447,7 @@
                 "source": "https://github.com/ragavagroup/contactsync/tree/master",
                 "issues": "https://github.com/ragavagroup/contactsync/issues"
             },
-            "time": "2015-02-09 09:07:27"
+            "time": "2015-02-10 16:47:36"
         },
         {
             "name": "medikly/custom-alerts-bundle",
@@ -3501,12 +3501,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "8ef1f43d97427b9e1d5cf7345b6d25411e7a466d"
+                "reference": "e92f2d7a46e2edcafeca7e99bb264319c9f71ffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/8ef1f43d97427b9e1d5cf7345b6d25411e7a466d",
-                "reference": "8ef1f43d97427b9e1d5cf7345b6d25411e7a466d",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/e92f2d7a46e2edcafeca7e99bb264319c9f71ffb",
+                "reference": "e92f2d7a46e2edcafeca7e99bb264319c9f71ffb",
                 "shasum": ""
             },
             "require": {
@@ -3537,7 +3537,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-04-20 08:55:29"
+            "time": "2015-04-21 14:55:29"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
@@ -3546,12 +3546,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/D3JS-Data-Visualization-Tools.git",
-                "reference": "423b69b594d13116c818c8ff476e170c2e2ec66b"
+                "reference": "c18d1d331a913bdff14bb327b89b5e07774caf32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/D3JS-Data-Visualization-Tools/zipball/423b69b594d13116c818c8ff476e170c2e2ec66b",
-                "reference": "423b69b594d13116c818c8ff476e170c2e2ec66b",
+                "url": "https://api.github.com/repos/ragavagroup/D3JS-Data-Visualization-Tools/zipball/c18d1d331a913bdff14bb327b89b5e07774caf32",
+                "reference": "c18d1d331a913bdff14bb327b89b5e07774caf32",
                 "shasum": ""
             },
             "require": {
@@ -3576,7 +3576,7 @@
                 "source": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools/tree/master",
                 "issues": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools/issues"
             },
-            "time": "2015-04-16 05:25:56"
+            "time": "2015-04-15 06:40:22"
         },
         {
             "name": "medikly/dashboard-bundle",
@@ -3585,12 +3585,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
-                "reference": "f173256e605c3fb177aaba0028e0d600ac63c931"
+                "reference": "43422e4e6f11357612da1a1e0462ac217a79669c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/f173256e605c3fb177aaba0028e0d600ac63c931",
-                "reference": "f173256e605c3fb177aaba0028e0d600ac63c931",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/43422e4e6f11357612da1a1e0462ac217a79669c",
+                "reference": "43422e4e6f11357612da1a1e0462ac217a79669c",
                 "shasum": ""
             },
             "require": {
@@ -3619,7 +3619,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-04-21 07:11:04"
+            "time": "2015-04-17 12:28:40"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
@@ -3671,12 +3671,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Event.git",
-                "reference": "98ad982ffba8ecb82db0704cb61b7a9e6502c906"
+                "reference": "4478d434568e396d7c91a650b07765c69856e990"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/98ad982ffba8ecb82db0704cb61b7a9e6502c906",
-                "reference": "98ad982ffba8ecb82db0704cb61b7a9e6502c906",
+                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/4478d434568e396d7c91a650b07765c69856e990",
+                "reference": "4478d434568e396d7c91a650b07765c69856e990",
                 "shasum": ""
             },
             "require": {
@@ -3705,7 +3705,7 @@
                 "source": "https://github.com/ragavagroup/Event/tree/master",
                 "issues": "https://github.com/ragavagroup/Event/issues"
             },
-            "time": "2015-04-02 11:22:34"
+            "time": "2015-04-08 09:18:56"
         },
         {
             "name": "medikly/fullcontact-integration",
@@ -3714,12 +3714,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/FullContactIntegrationBundle.git",
-                "reference": "02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c"
+                "reference": "904c2bb6128b9b9f92e2c486b62e7b5c4a2ddbb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c",
-                "reference": "02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c",
+                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/904c2bb6128b9b9f92e2c486b62e7b5c4a2ddbb2",
+                "reference": "904c2bb6128b9b9f92e2c486b62e7b5c4a2ddbb2",
                 "shasum": ""
             },
             "require": {
@@ -3745,7 +3745,7 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-04-16 14:53:15"
+            "time": "2015-04-02 13:44:56"
         },
         {
             "name": "medikly/getstarted",
@@ -3870,7 +3870,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/intercomIO-JS.git",
-                "reference": "624d7a6d839ca29a301967902466cd96788a8e26"
+                "reference": "927742d73e61541160fdc1b2a2aa3d610f92cd44"
             },
             "require": {
                 "php": ">=5.4"
@@ -3893,7 +3893,7 @@
                 }
             ],
             "description": "MediklyOS Intercom IO JS Integration",
-            "time": "2015-04-18 07:57:21"
+            "time": "2015-02-19 13:18:28"
         },
         {
             "name": "medikly/oro-flat-theme",
@@ -4020,12 +4020,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/proxy.git",
-                "reference": "12ddc432605e37337ea2ab6129badd41cf5e3471"
+                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/12ddc432605e37337ea2ab6129badd41cf5e3471",
-                "reference": "12ddc432605e37337ea2ab6129badd41cf5e3471",
+                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
+                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
                 "shasum": ""
             },
             "require": {
@@ -4047,10 +4047,10 @@
                 "piwik"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/proxy/tree/master",
+                "source": "https://github.com/ragavagroup/proxy/tree/v1.0.0",
                 "issues": "https://github.com/ragavagroup/proxy/issues"
             },
-            "time": "2015-04-15 11:28:43"
+            "time": "2015-04-13 08:11:16"
         },
         {
             "name": "medikly/provider-bundle",
@@ -4059,12 +4059,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "5f92d97cecdad7d7efbe09952c7ee0f750f8455f"
+                "reference": "788ea66064c05cbe3ef4f7f021f742ef619c9f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/5f92d97cecdad7d7efbe09952c7ee0f750f8455f",
-                "reference": "5f92d97cecdad7d7efbe09952c7ee0f750f8455f",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/788ea66064c05cbe3ef4f7f021f742ef619c9f99",
+                "reference": "788ea66064c05cbe3ef4f7f021f742ef619c9f99",
                 "shasum": ""
             },
             "require": {
@@ -4093,7 +4093,7 @@
                 "source": "https://github.com/ragavagroup/Provider/tree/master",
                 "issues": "https://github.com/ragavagroup/Provider/issues"
             },
-            "time": "2015-04-16 07:38:54"
+            "time": "2015-04-10 06:19:48"
         },
         {
             "name": "medikly/raw-data-bundle",
@@ -4102,12 +4102,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/RawData.git",
-                "reference": "4fcd5cbeefc5aa66e307e903d7324d165c647720"
+                "reference": "2c93ab959d7559d62bcdd33838cbe2f730200a0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/4fcd5cbeefc5aa66e307e903d7324d165c647720",
-                "reference": "4fcd5cbeefc5aa66e307e903d7324d165c647720",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/2c93ab959d7559d62bcdd33838cbe2f730200a0d",
+                "reference": "2c93ab959d7559d62bcdd33838cbe2f730200a0d",
                 "shasum": ""
             },
             "require": {
@@ -4133,7 +4133,7 @@
                 "source": "https://github.com/ragavagroup/RawData/tree/master",
                 "issues": "https://github.com/ragavagroup/RawData/issues"
             },
-            "time": "2015-04-20 17:04:21"
+            "time": "2015-04-16 14:30:28"
         },
         {
             "name": "medikly/reclinejs-bundle",
@@ -4142,12 +4142,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "572dae80cf4b909c091402a557f123cb6f356cac"
+                "reference": "a72f6865800e062677d775cb1aa8f7ab3f6137f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/572dae80cf4b909c091402a557f123cb6f356cac",
-                "reference": "572dae80cf4b909c091402a557f123cb6f356cac",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/a72f6865800e062677d775cb1aa8f7ab3f6137f5",
+                "reference": "a72f6865800e062677d775cb1aa8f7ab3f6137f5",
                 "shasum": ""
             },
             "require": {
@@ -4171,7 +4171,7 @@
                 "source": "https://github.com/ragavagroup/ReclineJS/tree/master",
                 "issues": "https://github.com/ragavagroup/ReclineJS/issues"
             },
-            "time": "2015-04-17 06:05:52"
+            "time": "2015-03-17 14:48:55"
         },
         {
             "name": "medikly/resource-bundle",
@@ -4180,12 +4180,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "83d0a0815bc15f086f4cbe2e127ce84d91111f26"
+                "reference": "d119b4ecd0bd7112629a7606d9954f827e678f42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/83d0a0815bc15f086f4cbe2e127ce84d91111f26",
-                "reference": "83d0a0815bc15f086f4cbe2e127ce84d91111f26",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/d119b4ecd0bd7112629a7606d9954f827e678f42",
+                "reference": "d119b4ecd0bd7112629a7606d9954f827e678f42",
                 "shasum": ""
             },
             "require": {
@@ -4209,7 +4209,7 @@
                 "source": "https://github.com/ragavagroup/DataResourceBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/DataResourceBundle/issues"
             },
-            "time": "2015-04-20 16:31:16"
+            "time": "2015-04-10 12:37:43"
         },
         {
             "name": "medikly/scheduled-reports",
@@ -4290,12 +4290,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segments.git",
-                "reference": "18ba3076199b343ba75e7b16406bf0ffd3b9ad1b"
+                "reference": "8e111db53b410e9d70358a5cd68efd6045a1528d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/18ba3076199b343ba75e7b16406bf0ffd3b9ad1b",
-                "reference": "18ba3076199b343ba75e7b16406bf0ffd3b9ad1b",
+                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/8e111db53b410e9d70358a5cd68efd6045a1528d",
+                "reference": "8e111db53b410e9d70358a5cd68efd6045a1528d",
                 "shasum": ""
             },
             "require": {
@@ -4323,7 +4323,7 @@
                 "source": "https://github.com/ragavagroup/Segments/tree/master",
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
-            "time": "2015-04-18 12:03:27"
+            "time": "2015-04-13 06:32:30"
         },
         {
             "name": "medikly/successpages",
@@ -4397,7 +4397,7 @@
                 "medikly"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/master",
+                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/v1.0.0",
                 "issues": "https://github.com/ragavagroup/SystemNavigationBundle/issues"
             },
             "time": "2015-04-09 11:44:33"
@@ -4494,12 +4494,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/user-journey.git",
-                "reference": "9245b9a2630ac12998cf58b3d008c349c93c3c35"
+                "reference": "c9496757050911f024a37d64bd3385d178a8ebd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/9245b9a2630ac12998cf58b3d008c349c93c3c35",
-                "reference": "9245b9a2630ac12998cf58b3d008c349c93c3c35",
+                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/c9496757050911f024a37d64bd3385d178a8ebd9",
+                "reference": "c9496757050911f024a37d64bd3385d178a8ebd9",
                 "shasum": ""
             },
             "require": {
@@ -4524,7 +4524,7 @@
                 "source": "https://github.com/ragavagroup/user-journey/tree/master",
                 "issues": "https://github.com/ragavagroup/user-journey/issues"
             },
-            "time": "2015-02-25 11:21:12"
+            "time": "2015-04-10 07:53:23"
         },
         {
             "name": "medikly/webactivities-bundle",
