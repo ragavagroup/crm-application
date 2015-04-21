@@ -3294,12 +3294,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "e7f634c9a850b1cfdd8cdb818fa39029fc6608b8"
+                "reference": "c2d764f50c068f4b71d1d40792778655e3ee420e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/e7f634c9a850b1cfdd8cdb818fa39029fc6608b8",
-                "reference": "e7f634c9a850b1cfdd8cdb818fa39029fc6608b8",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/c2d764f50c068f4b71d1d40792778655e3ee420e",
+                "reference": "c2d764f50c068f4b71d1d40792778655e3ee420e",
                 "shasum": ""
             },
             "require": {
@@ -3838,7 +3838,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/IntrcomIO-API.git",
-                "reference": "56a253a1da7ae47e21e049716d25ba58bb780310"
+                "reference": "361fa247fab8820a49c3a1febb8b76b4e89c2047"
             },
             "require": {
                 "php": ">=5.4"
