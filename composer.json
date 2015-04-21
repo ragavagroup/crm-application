@@ -166,7 +166,7 @@
     "medikly/user-journey": "dev-master",
     "medikly/contactsync": "dev-master",
     "medikly/fullcontact-integration": "dev-master",
-    "medikly/oro-flat-theme": "dev-master",
+    "medikly/oro-flat-theme": "1.1",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
     "medikly/scheduled-reports": "dev-master",

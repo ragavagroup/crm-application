@@ -3897,7 +3897,7 @@
         },
         {
             "name": "medikly/oro-flat-theme",
-            "version": "dev-master",
+            "version": "1.1.0",
             "target-dir": "Medikly/Bundle/OroFlatThemeBundle",
             "source": {
                 "type": "git",
