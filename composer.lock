@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c06607ba0974365cd909f670f8672cb",
+    "hash": "b2039aa055374bd8f2bc8f687e66b56c",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3146,6 +3146,46 @@
             "time": "2014-03-12 09:40:02"
         },
         {
+            "name": "lichtner/fluentpdo",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lichtner/fluentpdo.git",
+                "reference": "8a34b9c6742544bda9d193e814101cd065d88875"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lichtner/fluentpdo/zipball/8a34b9c6742544bda9d193e814101cd065d88875",
+                "reference": "8a34b9c6742544bda9d193e814101cd065d88875",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "FluentPDO/FluentPDO.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0",
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marek Lichtner",
+                    "homepage": "http://licht.sk/"
+                }
+            ],
+            "description": "FluentPDO is small PHP library for rapid query building. Killer feature is smart join builder which generates joins automatically.",
+            "homepage": "http://fluentpdo.com/",
+            "keywords": [
+                "database",
+                "dbal",
+                "pdo"
+            ],
+            "time": "2015-02-24 20:50:47"
+        },
+        {
             "name": "liip/imagine-bundle",
             "version": "v0.17.1",
             "target-dir": "Liip/ImagineBundle",
@@ -3284,7 +3324,7 @@
                 "source": "https://github.com/ragavagroup/campaigns/tree/master",
                 "issues": "https://github.com/ragavagroup/campaigns/issues"
             },
-            "time": "2015-04-20 13:28:33"
+            "time": "2015-04-20 10:04:33"
         },
         {
             "name": "medikly/channel",
@@ -3536,7 +3576,7 @@
                 "source": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools/tree/master",
                 "issues": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools/issues"
             },
-            "time": "2015-03-31 13:22:19"
+            "time": "2015-04-16 05:25:56"
         },
         {
             "name": "medikly/dashboard-bundle",
@@ -3545,12 +3585,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
-                "reference": "43422e4e6f11357612da1a1e0462ac217a79669c"
+                "reference": "f173256e605c3fb177aaba0028e0d600ac63c931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/43422e4e6f11357612da1a1e0462ac217a79669c",
-                "reference": "43422e4e6f11357612da1a1e0462ac217a79669c",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/f173256e605c3fb177aaba0028e0d600ac63c931",
+                "reference": "f173256e605c3fb177aaba0028e0d600ac63c931",
                 "shasum": ""
             },
             "require": {
@@ -3579,7 +3619,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-04-17 12:28:40"
+            "time": "2015-04-21 07:11:04"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
@@ -3705,7 +3745,7 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-04-17 08:32:56"
+            "time": "2015-04-16 14:53:15"
         },
         {
             "name": "medikly/getstarted",
@@ -3853,7 +3893,7 @@
                 }
             ],
             "description": "MediklyOS Intercom IO JS Integration",
-            "time": "2015-04-18 11:34:28"
+            "time": "2015-04-18 07:57:21"
         },
         {
             "name": "medikly/oro-flat-theme",
@@ -3972,7 +4012,7 @@
                 "source": "https://github.com/ragavagroup/dashboard/tree/master",
                 "issues": "https://github.com/ragavagroup/dashboard/issues"
             },
-            "time": "2015-04-17 10:04:28"
+            "time": "2015-04-17 06:52:28"
         },
         {
             "name": "medikly/piwik-proxy",
@@ -4053,7 +4093,47 @@
                 "source": "https://github.com/ragavagroup/Provider/tree/master",
                 "issues": "https://github.com/ragavagroup/Provider/issues"
             },
-            "time": "2015-04-16 12:12:26"
+            "time": "2015-04-16 07:38:54"
+        },
+        {
+            "name": "medikly/raw-data-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/RawDataBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/RawData.git",
+                "reference": "4fcd5cbeefc5aa66e307e903d7324d165c647720"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/4fcd5cbeefc5aa66e307e903d7324d165c647720",
+                "reference": "4fcd5cbeefc5aa66e307e903d7324d165c647720",
+                "shasum": ""
+            },
+            "require": {
+                "lichtner/fluentpdo": "1.0.0",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\RawDataBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Raw Data Bundle for OroCRM",
+            "keywords": [
+                "Data",
+                "Medikly",
+                "RAW"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/RawData/tree/master",
+                "issues": "https://github.com/ragavagroup/RawData/issues"
+            },
+            "time": "2015-04-20 17:04:21"
         },
         {
             "name": "medikly/reclinejs-bundle",
@@ -4091,7 +4171,7 @@
                 "source": "https://github.com/ragavagroup/ReclineJS/tree/master",
                 "issues": "https://github.com/ragavagroup/ReclineJS/issues"
             },
-            "time": "2015-03-17 14:48:55"
+            "time": "2015-04-17 06:05:52"
         },
         {
             "name": "medikly/resource-bundle",
@@ -4129,7 +4209,7 @@
                 "source": "https://github.com/ragavagroup/DataResourceBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/DataResourceBundle/issues"
             },
-            "time": "2015-04-02 07:33:36"
+            "time": "2015-04-20 16:31:16"
         },
         {
             "name": "medikly/scheduled-reports",
@@ -4167,7 +4247,7 @@
                 "source": "https://github.com/ragavagroup/ScheduledReportsBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/ScheduledReportsBundle/issues"
             },
-            "time": "2015-04-17 09:00:55"
+            "time": "2015-04-17 04:33:55"
         },
         {
             "name": "medikly/search",
@@ -4243,7 +4323,7 @@
                 "source": "https://github.com/ragavagroup/Segments/tree/master",
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
-            "time": "2015-04-18 15:31:30"
+            "time": "2015-04-18 12:03:27"
         },
         {
             "name": "medikly/successpages",
@@ -6883,6 +6963,7 @@
         "medikly/intercomapi": 20,
         "medikly/clef": 20,
         "medikly/successpages": 20,
+        "medikly/raw-data-bundle": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
