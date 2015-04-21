@@ -3838,7 +3838,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/IntrcomIO-API.git",
-                "reference": "56a253a1da7ae47e21e049716d25ba58bb780310"
+                "reference": "361fa247fab8820a49c3a1febb8b76b4e89c2047"
             },
             "require": {
                 "php": ">=5.4"
