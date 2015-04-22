@@ -3501,12 +3501,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "75ec9918c6a67888ff6acc04c7a0c73f3c8b7863"
+                "reference": "4762fa27b7be4eb014cea118793c6c101b68e99e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/75ec9918c6a67888ff6acc04c7a0c73f3c8b7863",
-                "reference": "75ec9918c6a67888ff6acc04c7a0c73f3c8b7863",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/4762fa27b7be4eb014cea118793c6c101b68e99e",
+                "reference": "4762fa27b7be4eb014cea118793c6c101b68e99e",
                 "shasum": ""
             },
             "require": {
