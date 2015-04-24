@@ -4369,17 +4369,17 @@
         },
         {
             "name": "medikly/system-navigation",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "target-dir": "Medikly/Bundle/SystemNavigationBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SystemNavigationBundle.git",
-                "reference": "2b4f5fa11a3ed4a4369eca5374537f6e343c689c"
+                "reference": "ab0dd2a84767644046b1e039360628a10ba304eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/2b4f5fa11a3ed4a4369eca5374537f6e343c689c",
-                "reference": "2b4f5fa11a3ed4a4369eca5374537f6e343c689c",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/ab0dd2a84767644046b1e039360628a10ba304eb",
+                "reference": "ab0dd2a84767644046b1e039360628a10ba304eb",
                 "shasum": ""
             },
             "require": {
