@@ -3501,12 +3501,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "10dbc1571d76a7fb13d7f4c3dc875133cad485a9"
+                "reference": "d932da9508993c63fe9aa73ff1a7f8a9ac5e62f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/10dbc1571d76a7fb13d7f4c3dc875133cad485a9",
-                "reference": "10dbc1571d76a7fb13d7f4c3dc875133cad485a9",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/d932da9508993c63fe9aa73ff1a7f8a9ac5e62f6",
+                "reference": "d932da9508993c63fe9aa73ff1a7f8a9ac5e62f6",
                 "shasum": ""
             },
             "require": {
@@ -3537,7 +3537,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-04-24 08:45:29"
+            "time": "2015-04-24 12:00:29"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
@@ -3902,12 +3902,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "58d8fb7f8a8906fe44ca2aac8e385913b2ecdab0"
+                "reference": "37efa35c97e84c8659f15f8a0c8abb8a3ac4e31e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/58d8fb7f8a8906fe44ca2aac8e385913b2ecdab0",
-                "reference": "58d8fb7f8a8906fe44ca2aac8e385913b2ecdab0",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/37efa35c97e84c8659f15f8a0c8abb8a3ac4e31e",
+                "reference": "37efa35c97e84c8659f15f8a0c8abb8a3ac4e31e",
                 "shasum": ""
             },
             "type": "library",
@@ -3930,7 +3930,7 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-04-24 08:47:57"
+            "time": "2015-04-24 12:00:57"
         },
         {
             "name": "medikly/physician-bundle",
