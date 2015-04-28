@@ -8,7 +8,7 @@
             "": "src/"
         }
     },
-    "repositories": {
+   "repositories": {
         "composer": {
             "type": "composer",
             "url": "http://packagist.orocrm.com"
@@ -21,7 +21,7 @@
     "require": {
         "oro/platform": "1.x-dev",
         "oro/crm": "1.x-dev",
-        "oro/crm-enterprise": "1.x-dev"
+        "oro/crm-enterprise" : "1.x-dev"
     },
     "config": {
         "component-dir": "web/bundles/components"
