@@ -96,21 +96,21 @@
             </div>
         </div>
     </div>
+
     <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(['setUserId', []]);
+        var paq = paq || [];
+        _paq.push(["setCookieDomain", "*.medikly.com"]);
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setDomains", ["*.medikly.com"]]);
+        _paq.push(["setCustomVariable", 1, "email", "_username", "visit"]);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = "//tracker.medikly.com/";
-            _paq.push(['setTrackerUrl', u + 'js/tracker.php']);
-            _paq.push(['setSiteId', 26]);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript';
-            g.async = true;
-            g.defer = true;
-            g.src = u + 'js/tracker.php';
-            s.parentNode.insertBefore(g, s);
+        (function() {
+            var u="//tracker.medikly.com/";
+            _paq.push(['setTrackerUrl', u+'js/tracker.php']);
+            _paq.push(['setSiteId', {{ tracker_site_id }}]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'js/tracker.php'; s.parentNode.insertBefore(g,s);
         })();
     </script>
 {% endblock %}

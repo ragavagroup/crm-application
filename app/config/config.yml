@@ -38,6 +38,7 @@ twig:
         ws:
             port:             "%websocket_port%"
             host:             "%websocket_host%"
+        tracker_site_id:      %tracker_site_id%
 
 # Assetic Configuration
 assetic:
