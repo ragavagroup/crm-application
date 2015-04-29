@@ -46,3 +46,4 @@ parameters:
     raw_data_postgres_database_user: postgres-raw-data
     raw_data_postgres_database_password: ~
     medikly_resource_file_storage_path: %kernel.root_dir%/raw_files
+    tracker_site_id: 1
