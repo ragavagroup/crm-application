@@ -4494,12 +4494,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/user-journey.git",
-                "reference": "9245b9a2630ac12998cf58b3d008c349c93c3c35"
+                "reference": "c9496757050911f024a37d64bd3385d178a8ebd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/9245b9a2630ac12998cf58b3d008c349c93c3c35",
-                "reference": "9245b9a2630ac12998cf58b3d008c349c93c3c35",
+                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/c9496757050911f024a37d64bd3385d178a8ebd9",
+                "reference": "c9496757050911f024a37d64bd3385d178a8ebd9",
                 "shasum": ""
             },
             "require": {
