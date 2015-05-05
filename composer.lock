@@ -181,12 +181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atwix/oro-mandrill.git",
-                "reference": "f09b2d15192e45682780474e0f6e18197b520ff3"
+                "reference": "6664227b5d1e96176ceeca43476607b103f2e0ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atwix/oro-mandrill/zipball/f09b2d15192e45682780474e0f6e18197b520ff3",
-                "reference": "f09b2d15192e45682780474e0f6e18197b520ff3",
+                "url": "https://api.github.com/repos/Atwix/oro-mandrill/zipball/6664227b5d1e96176ceeca43476607b103f2e0ba",
+                "reference": "6664227b5d1e96176ceeca43476607b103f2e0ba",
                 "shasum": ""
             },
             "require": {
