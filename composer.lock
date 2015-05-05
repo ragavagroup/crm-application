@@ -3456,20 +3456,20 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomAlertsBundle.git",
-                "reference": "e425529af72e85ce4f474587df536f70f974a8ea"
+                "reference": "ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomAlertsBundle/zipball/e425529af72e85ce4f474587df536f70f974a8ea",
-                "reference": "e425529af72e85ce4f474587df536f70f974a8ea",
+                "url": "https://api.github.com/repos/ragavagroup/CustomAlertsBundle/zipball/ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6",
+                "reference": "ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6",
                 "shasum": ""
             },
             "require": {
                 "medikly/campaigns": "dev-master",
                 "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.6",
-                "oro/crm-enterprise": "1.8",
-                "oro/platform": "1.6",
+                "oro/crm": "1.*",
+                "oro/crm-enterprise": "1.*",
+                "oro/platform": "1.*",
                 "php": ">5.4"
             },
             "type": "symfony-bundle",
@@ -3492,7 +3492,7 @@
                 "source": "https://github.com/ragavagroup/CustomAlertsBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomAlertsBundle/issues"
             },
-            "time": "2015-03-31 09:49:57"
+            "time": "2015-05-05 09:21:26"
         },
         {
             "name": "medikly/customdashboardmenu-bundle",
@@ -4217,20 +4217,20 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ScheduledReportsBundle.git",
-                "reference": "55a31a16f308ff09cf11be2b53d324493c54b50f"
+                "reference": "4e5c969ef8bef85e1b14b05ae922390cae3473db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/55a31a16f308ff09cf11be2b53d324493c54b50f",
-                "reference": "55a31a16f308ff09cf11be2b53d324493c54b50f",
+                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/4e5c969ef8bef85e1b14b05ae922390cae3473db",
+                "reference": "4e5c969ef8bef85e1b14b05ae922390cae3473db",
                 "shasum": ""
             },
             "require": {
                 "medikly/campaigns": "dev-master",
                 "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.6",
-                "oro/crm-enterprise": "1.8",
-                "oro/platform": "1.6",
+                "oro/crm": "1.*",
+                "oro/crm-enterprise": "1.*",
+                "oro/platform": "1.*",
                 "php": ">5.4"
             },
             "type": "symfony-bundle",
@@ -4247,7 +4247,7 @@
                 "source": "https://github.com/ragavagroup/ScheduledReportsBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/ScheduledReportsBundle/issues"
             },
-            "time": "2015-04-17 04:33:55"
+            "time": "2015-05-05 09:24:02"
         },
         {
             "name": "medikly/search",
