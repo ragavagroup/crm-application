@@ -144,6 +144,10 @@
     "medikly-raw-data-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/RawData.git"
+    },
+    "medikly-vertical-filters-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/VerticalFiltersBundle.git"
     }
   },
   "require": {
@@ -183,6 +187,7 @@
     "medikly/system-navigation": "dev-master",
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
+    "medikly/vertical-filters-bundle":"dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
