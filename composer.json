@@ -147,7 +147,7 @@
     }
   },
   "require": {
-    "oro/crm": "1.6.*",
+    "oro/crm": "1.7 as 1.6",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
@@ -205,13 +205,14 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
     ]
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "symfony-app-dir": "app",
-    "symfony-web-dir": "web",
-    "incenteev-parameters": {
-      "file": "app/config/parameters.yml"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        }
     }
   }
 }
