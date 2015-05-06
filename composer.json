@@ -148,6 +148,8 @@
   },
   "require": {
     "oro/crm": "1.7 as 1.6",
+    "oro/platform": "1.7 as 1.6",
+    "oro/crm-enterprise": "1.9 as 1.8",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
@@ -214,5 +216,4 @@
             "file": "app/config/parameters.yml"
         }
     }
-  }
 }
