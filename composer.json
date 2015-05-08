@@ -9,6 +9,10 @@
     }
   },
   "repositories": {
+    "medikly-page-builder-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/PageBuilderBundle.git"
+    },
     "composer": {
       "type": "composer",
       "url": "http://packagist.orocrm.com"
@@ -185,6 +189,7 @@
     "medikly/system-navigation": "dev-master",
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
+    "medikly/page-builder-bundle": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
