@@ -9,6 +9,10 @@
     }
   },
   "repositories": {
+    "medikly-page-builder-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/PageBuilderBundle.git"
+    },
     "composer": {
       "type": "composer",
       "url": "http://packagist.orocrm.com"
@@ -151,7 +155,9 @@
     }
   },
   "require": {
-    "oro/crm": "1.6.*",
+    "oro/crm": "1.7 as 1.6",
+    "oro/platform": "1.7 as 1.6",
+    "oro/crm-enterprise": "1.9 as 1.8",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
@@ -188,6 +194,7 @@
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/vertical-filters-bundle":"dev-master",
+    "medikly/page-builder-bundle": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
@@ -210,13 +217,13 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
     ]
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "symfony-app-dir": "app",
-    "symfony-web-dir": "web",
-    "incenteev-parameters": {
-      "file": "app/config/parameters.yml"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        }
     }
-  }
 }
