@@ -1,4 +1,4 @@
-<div id="{{ elementId }}" style="visibility: hidden;">
+<div id="{{ elementId }}" style="{{ options.visibility is not defined ? 'visibility: hidden;' : 'visibility: ' ~ options.visibility }}">
     {% if options.elementFirst %}
         {% render options.url %}
     {% endif %}
