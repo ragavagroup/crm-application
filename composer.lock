@@ -4322,6 +4322,44 @@
             "time": "2015-04-18 12:03:27"
         },
         {
+            "name": "medikly/socialmention",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SocialMentionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
+                "reference": "98b1eab89361d7c19cc77c2911a954a676ebf2f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/98b1eab89361d7c19cc77c2911a954a676ebf2f2",
+                "reference": "98b1eab89361d7c19cc77c2911a954a676ebf2f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SocialMentionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Integration Bundle for SocialMention",
+            "keywords": [
+                "Medikly",
+                "SocialMention"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/SocialMentionBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/SocialMentionBundle/issues"
+            },
+            "time": "2015-05-12 14:16:14"
+        },
+        {
             "name": "medikly/successpages",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/SuccessPagesBundle",

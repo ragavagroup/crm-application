@@ -152,6 +152,10 @@
     "medikly-tracking-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Tracking.git"
+    },
+    "medikly-socialmention": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/SocialMentionBundle.git"
     }
   },
   "require": {
@@ -195,6 +199,7 @@
     "medikly/raw-data-bundle":"dev-master",
     "medikly/page-builder-bundle": "dev-master",
     "medikly/tracking": "dev-master",
+    "medikly/socialmention":"dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
