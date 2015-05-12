@@ -152,6 +152,10 @@
     "medikly-vertical-filters-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/VerticalFiltersBundle.git"
+    },
+    "medikly-tracking-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Tracking.git"
     }
   },
   "require": {
@@ -195,6 +199,7 @@
     "medikly/raw-data-bundle":"dev-master",
     "medikly/vertical-filters-bundle":"dev-master",
     "medikly/page-builder-bundle": "dev-master",
+    "medikly/tracking": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
