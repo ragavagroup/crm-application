@@ -148,6 +148,10 @@
     "medikly-raw-data-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/RawData.git"
+    },
+    "medikly-tracking-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Tracking.git"
     }
   },
   "require": {
@@ -190,6 +194,7 @@
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/page-builder-bundle": "dev-master",
+    "medikly/tracking": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
