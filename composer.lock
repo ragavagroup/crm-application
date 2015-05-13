@@ -4102,12 +4102,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/RawData.git",
-                "reference": "8ed7ebd0594c55228f2c0019a9f642c71ee6dfb3"
+                "reference": "d3f43b1035aef1e2eb612591b5e7e833bc257ec4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/8ed7ebd0594c55228f2c0019a9f642c71ee6dfb3",
-                "reference": "8ed7ebd0594c55228f2c0019a9f642c71ee6dfb3",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/d3f43b1035aef1e2eb612591b5e7e833bc257ec4",
+                "reference": "d3f43b1035aef1e2eb612591b5e7e833bc257ec4",
                 "shasum": ""
             },
             "require": {
