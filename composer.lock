@@ -3714,12 +3714,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/FullContactIntegrationBundle.git",
-                "reference": "02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c"
+                "reference": "d7fb35f87c3e7e67fa30c26bce04592eb2c1db9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c",
-                "reference": "02ebef2e10bfc5c31531f986697e6c7a3ad2ff8c",
+                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/d7fb35f87c3e7e67fa30c26bce04592eb2c1db9b",
+                "reference": "d7fb35f87c3e7e67fa30c26bce04592eb2c1db9b",
                 "shasum": ""
             },
             "require": {
@@ -3939,12 +3939,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "44039d8706c154e17116dd7601fef63365f0f6f0"
+                "reference": "7eaa857d95960aec684801c6c8227e19afe821c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/44039d8706c154e17116dd7601fef63365f0f6f0",
-                "reference": "44039d8706c154e17116dd7601fef63365f0f6f0",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/7eaa857d95960aec684801c6c8227e19afe821c3",
+                "reference": "7eaa857d95960aec684801c6c8227e19afe821c3",
                 "shasum": ""
             },
             "require": {
@@ -4059,12 +4059,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "5f92d97cecdad7d7efbe09952c7ee0f750f8455f"
+                "reference": "4d220c6029d7a72e262d53bcc83099cca5672b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/5f92d97cecdad7d7efbe09952c7ee0f750f8455f",
-                "reference": "5f92d97cecdad7d7efbe09952c7ee0f750f8455f",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4d220c6029d7a72e262d53bcc83099cca5672b93",
+                "reference": "4d220c6029d7a72e262d53bcc83099cca5672b93",
                 "shasum": ""
             },
             "require": {
@@ -4102,12 +4102,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/RawData.git",
-                "reference": "4fcd5cbeefc5aa66e307e903d7324d165c647720"
+                "reference": "8ed7ebd0594c55228f2c0019a9f642c71ee6dfb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/4fcd5cbeefc5aa66e307e903d7324d165c647720",
-                "reference": "4fcd5cbeefc5aa66e307e903d7324d165c647720",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/8ed7ebd0594c55228f2c0019a9f642c71ee6dfb3",
+                "reference": "8ed7ebd0594c55228f2c0019a9f642c71ee6dfb3",
                 "shasum": ""
             },
             "require": {
@@ -4180,12 +4180,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "83d0a0815bc15f086f4cbe2e127ce84d91111f26"
+                "reference": "73d7290153d7aa20aaf3ff074e8fbd043d02bce9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/83d0a0815bc15f086f4cbe2e127ce84d91111f26",
-                "reference": "83d0a0815bc15f086f4cbe2e127ce84d91111f26",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/73d7290153d7aa20aaf3ff074e8fbd043d02bce9",
+                "reference": "73d7290153d7aa20aaf3ff074e8fbd043d02bce9",
                 "shasum": ""
             },
             "require": {
