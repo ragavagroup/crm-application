@@ -3294,12 +3294,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "359941e32188697d7ec96f773277368ce8c6c559"
+                "reference": "8c081a9a408d37d5c1494662e885108d680697c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/359941e32188697d7ec96f773277368ce8c6c559",
-                "reference": "359941e32188697d7ec96f773277368ce8c6c559",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/8c081a9a408d37d5c1494662e885108d680697c9",
+                "reference": "8c081a9a408d37d5c1494662e885108d680697c9",
                 "shasum": ""
             },
             "require": {
@@ -3324,7 +3324,7 @@
                 "source": "https://github.com/ragavagroup/campaigns/tree/master",
                 "issues": "https://github.com/ragavagroup/campaigns/issues"
             },
-            "time": "2015-04-24 08:45:33"
+            "time": "2015-05-13 13:56:33"
         },
         {
             "name": "medikly/channel",
