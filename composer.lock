@@ -3714,12 +3714,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/FullContactIntegrationBundle.git",
-                "reference": "d7fb35f87c3e7e67fa30c26bce04592eb2c1db9b"
+                "reference": "dcbecda69029ed47f5d53fa4bb158c8a4b0a3bfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/d7fb35f87c3e7e67fa30c26bce04592eb2c1db9b",
-                "reference": "d7fb35f87c3e7e67fa30c26bce04592eb2c1db9b",
+                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/dcbecda69029ed47f5d53fa4bb158c8a4b0a3bfe",
+                "reference": "dcbecda69029ed47f5d53fa4bb158c8a4b0a3bfe",
                 "shasum": ""
             },
             "require": {
@@ -4059,12 +4059,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "4d220c6029d7a72e262d53bcc83099cca5672b93"
+                "reference": "d8559f2d4b7917f98e25e604d88fe9585ce15db1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4d220c6029d7a72e262d53bcc83099cca5672b93",
-                "reference": "4d220c6029d7a72e262d53bcc83099cca5672b93",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/d8559f2d4b7917f98e25e604d88fe9585ce15db1",
+                "reference": "d8559f2d4b7917f98e25e604d88fe9585ce15db1",
                 "shasum": ""
             },
             "require": {
@@ -4180,12 +4180,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "8d68f6c455142e839ce8a2ec7946e3c61b6baace"
+                "reference": "7718825523a68ae796208cccc5e02584eece9bfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/8d68f6c455142e839ce8a2ec7946e3c61b6baace",
-                "reference": "8d68f6c455142e839ce8a2ec7946e3c61b6baace",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/7718825523a68ae796208cccc5e02584eece9bfa",
+                "reference": "7718825523a68ae796208cccc5e02584eece9bfa",
                 "shasum": ""
             },
             "require": {
