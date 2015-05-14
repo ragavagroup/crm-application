@@ -184,7 +184,7 @@
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
     "medikly/scheduled-reports": "dev-master",
-    "medikly/resource-bundle": "dev-master",
+    "medikly/resource-bundle": "dev-UI-275",
     "medikly/custom-alerts-bundle": "dev-master",
     "medikly/channel": "dev-master",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
