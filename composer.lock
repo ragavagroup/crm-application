@@ -4180,12 +4180,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "7718825523a68ae796208cccc5e02584eece9bfa"
+                "reference": "a0902e3d0ef579c864748abadaddb19c1491719e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/7718825523a68ae796208cccc5e02584eece9bfa",
-                "reference": "7718825523a68ae796208cccc5e02584eece9bfa",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/a0902e3d0ef579c864748abadaddb19c1491719e",
+                "reference": "a0902e3d0ef579c864748abadaddb19c1491719e",
                 "shasum": ""
             },
             "require": {
