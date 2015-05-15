@@ -4290,12 +4290,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segments.git",
-                "reference": "18ba3076199b343ba75e7b16406bf0ffd3b9ad1b"
+                "reference": "e9d1e3989ce7d33f75039782c88d4c2d6c282159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/18ba3076199b343ba75e7b16406bf0ffd3b9ad1b",
-                "reference": "18ba3076199b343ba75e7b16406bf0ffd3b9ad1b",
+                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/e9d1e3989ce7d33f75039782c88d4c2d6c282159",
+                "reference": "e9d1e3989ce7d33f75039782c88d4c2d6c282159",
                 "shasum": ""
             },
             "require": {
@@ -4323,7 +4323,7 @@
                 "source": "https://github.com/ragavagroup/Segments/tree/master",
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
-            "time": "2015-04-18 12:03:27"
+            "time": "2015-05-15 17:58:27"
         },
         {
             "name": "medikly/successpages",
