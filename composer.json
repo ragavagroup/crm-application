@@ -156,6 +156,14 @@
     "medikly-socialmention": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/SocialMentionBundle.git"
+    },
+    "medikly-account-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/AccountExtension.git"
+    },
+    "medikly-hospital-data": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/HospitalBundle.git"
     }
   },
   "require": {
@@ -200,6 +208,8 @@
     "medikly/page-builder-bundle": "dev-master",
     "medikly/tracking": "dev-master",
     "medikly/socialmention":"dev-master",
+    "medikly/account-extension": "dev-master",
+    "medikly/hospital": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
