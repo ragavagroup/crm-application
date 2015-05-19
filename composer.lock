@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2039aa055374bd8f2bc8f687e66b56c",
+    "hash": "4f7932d4277c6e5b218a6af8f5233e86",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -70,17 +70,17 @@
         },
         {
             "name": "akeneo/batch-bundle",
-            "version": "0.4.0",
+            "version": "0.4.2",
             "target-dir": "Akeneo/Bundle/BatchBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/akeneo/BatchBundle.git",
-                "reference": "e29e339d2b286fa8f65b49176b6e89049f4ef064"
+                "reference": "3ecebd637ba8a4b3269c641bc55905a8397af34c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akeneo/BatchBundle/zipball/e29e339d2b286fa8f65b49176b6e89049f4ef064",
-                "reference": "e29e339d2b286fa8f65b49176b6e89049f4ef064",
+                "url": "https://api.github.com/repos/akeneo/BatchBundle/zipball/3ecebd637ba8a4b3269c641bc55905a8397af34c",
+                "reference": "3ecebd637ba8a4b3269c641bc55905a8397af34c",
                 "shasum": ""
             },
             "require": {
@@ -90,6 +90,9 @@
                 "swiftmailer/swiftmailer": ">=4.1.3",
                 "symfony/swiftmailer-bundle": ">=2.3.5",
                 "symfony/symfony": ">=2.1"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "2.1.*"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -115,7 +118,7 @@
                 "reader",
                 "writer"
             ],
-            "time": "2015-03-13 13:19:44"
+            "time": "2015-05-05 21:23:02"
         },
         {
             "name": "ass/xmlsecurity",
@@ -211,7 +214,7 @@
             ],
             "description": "OroCRM basic Mandrill integration",
             "homepage": "https://github.com/Atwix/oro-mandrill.git",
-            "time": "2014-10-30 13:25:56"
+            "time": "2015-05-05 12:24:21"
         },
         {
             "name": "behat/transliterator",
@@ -443,12 +446,12 @@
             "version": "1.0.0-alpha8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/composer/composer.git",
+                "url": "https://github.com/orocrm/composer.git",
                 "reference": "1eb1df44a97fb2daca1bb8b007f3bee012f0aa46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
+                "url": "https://api.github.com/repos/orocrm/composer/zipball/1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
                 "reference": "1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
                 "shasum": ""
             },
@@ -510,16 +513,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/b5202eb9e83f8db52e0e58867e0a46e63be8332e",
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e",
                 "shasum": ""
             },
             "require": {
@@ -574,20 +577,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-20 20:49:38"
+            "time": "2014-12-23 22:40:37"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8"
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/2346085d2b027b233ae1d5de59b07440b9f288c8",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/c9eadeb743ac6199f7eec423cb9426bc518b7b03",
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03",
                 "shasum": ""
             },
             "require": {
@@ -598,13 +601,13 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.7",
-                "predis/predis": "~0.8",
+                "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -644,24 +647,27 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-01-15 20:38:55"
+            "time": "2015-04-15 00:11:59"
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2"
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/b99c5c46c87126201899afe88ec490a25eedd6a2",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
@@ -680,17 +686,6 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
@@ -699,10 +694,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Collections Abstraction library",
@@ -712,7 +713,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2014-02-03 23:07:43"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -3290,7 +3291,7 @@
         },
         {
             "name": "medikly/campaigns",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
@@ -3305,9 +3306,9 @@
             "require": {
                 "medikly/piwik-dashboard": "dev-master",
                 "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.6",
-                "oro/crm-enterprise": "1.8",
-                "oro/platform": "1.6",
+                "oro/crm": "1.*",
+                "oro/crm-enterprise": "1.*",
+                "oro/platform": "1.*",
                 "php": ">5.4"
             },
             "type": "symfony-bundle",
@@ -3324,11 +3325,11 @@
                 "source": "https://github.com/ragavagroup/campaigns/tree/master",
                 "issues": "https://github.com/ragavagroup/campaigns/issues"
             },
-            "time": "2015-05-13 13:56:33"
+            "time": "2015-05-06 10:02:54"
         },
         {
             "name": "medikly/channel",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/ChannelBundle",
             "source": {
                 "type": "git",
@@ -3370,7 +3371,7 @@
         },
         {
             "name": "medikly/clef",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/ClefBundle",
             "source": {
                 "type": "git",
@@ -3412,7 +3413,7 @@
         },
         {
             "name": "medikly/contactsync",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/contactsync.git",
@@ -3451,7 +3452,7 @@
         },
         {
             "name": "medikly/custom-alerts-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/CampaignAlertsBundle",
             "source": {
                 "type": "git",
@@ -3496,7 +3497,7 @@
         },
         {
             "name": "medikly/customdashboardmenu-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/CustomDashboardMenuBundle",
             "source": {
                 "type": "git",
@@ -3537,11 +3538,11 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-05-06 15:52:29"
+            "time": "2015-05-06 11:57:47"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/D3jsBundle",
             "source": {
                 "type": "git",
@@ -3580,7 +3581,7 @@
         },
         {
             "name": "medikly/dashboard-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/DashboardBundle",
             "source": {
                 "type": "git",
@@ -3619,11 +3620,11 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-04-22 16:11:04"
+            "time": "2015-04-22 12:48:26"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/DefaultLegacyBundle",
             "source": {
                 "type": "git",
@@ -3666,7 +3667,7 @@
         },
         {
             "name": "medikly/event-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/EventBundle",
             "source": {
                 "type": "git",
@@ -3709,7 +3710,7 @@
         },
         {
             "name": "medikly/fullcontact-integration",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/FullContactIntegrationBundle",
             "source": {
                 "type": "git",
@@ -3745,11 +3746,11 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-04-16 14:53:15"
+            "time": "2015-05-14 06:49:30"
         },
         {
             "name": "medikly/getstarted",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/GetstartedBundle",
             "source": {
                 "type": "git",
@@ -3791,7 +3792,7 @@
         },
         {
             "name": "medikly/inheritance",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/InheritanceBundle",
             "source": {
                 "type": "git",
@@ -3833,12 +3834,12 @@
         },
         {
             "name": "medikly/intercomapi",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/IntercomBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/IntrcomIO-API.git",
-                "reference": "361fa247fab8820a49c3a1febb8b76b4e89c2047"
+                "reference": "5d10274e0b736ce119ba7cfdc3a57d098c772dde"
             },
             "require": {
                 "php": ">=5.4"
@@ -3861,16 +3862,16 @@
                 }
             ],
             "description": "MediklyOS Intercom IO API Integration",
-            "time": "2015-03-02 11:24:59"
+            "time": "2015-04-16 09:33:12"
         },
         {
             "name": "medikly/intercomjs",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/IntercomJSBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/intercomIO-JS.git",
-                "reference": "624d7a6d839ca29a301967902466cd96788a8e26"
+                "reference": "58ced46f4f897a41e6d4e9c84107ec3ef362d3b4"
             },
             "require": {
                 "php": ">=5.4"
@@ -3897,7 +3898,7 @@
         },
         {
             "name": "medikly/oro-flat-theme",
-            "version": "dev-master",
+            "version": "1.1.1",
             "target-dir": "Medikly/Bundle/OroFlatThemeBundle",
             "source": {
                 "type": "git",
@@ -3930,11 +3931,11 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-05-06 15:50:00"
+            "time": "2015-05-06 12:03:19"
         },
         {
             "name": "medikly/physician-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/PhysicianBundle",
             "source": {
                 "type": "git",
@@ -3973,11 +3974,11 @@
                 "source": "https://github.com/ragavagroup/Physician/tree/master",
                 "issues": "https://github.com/ragavagroup/Physician/issues"
             },
-            "time": "2015-04-02 07:47:27"
+            "time": "2015-05-07 11:43:03"
         },
         {
             "name": "medikly/piwik-dashboard",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/dashboard.git",
@@ -4016,16 +4017,16 @@
         },
         {
             "name": "medikly/piwik-proxy",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/proxy.git",
-                "reference": "12ddc432605e37337ea2ab6129badd41cf5e3471"
+                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/12ddc432605e37337ea2ab6129badd41cf5e3471",
-                "reference": "12ddc432605e37337ea2ab6129badd41cf5e3471",
+                "url": "https://api.github.com/repos/ragavagroup/proxy/zipball/07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
+                "reference": "07a7c0f165764e6fe1dcbcd1c1d32c3bb2cb947d",
                 "shasum": ""
             },
             "require": {
@@ -4047,14 +4048,14 @@
                 "piwik"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/proxy/tree/master",
+                "source": "https://github.com/ragavagroup/proxy/tree/v1.0.0",
                 "issues": "https://github.com/ragavagroup/proxy/issues"
             },
-            "time": "2015-04-15 11:28:43"
+            "time": "2015-04-13 08:11:16"
         },
         {
             "name": "medikly/provider-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/ProviderBundle",
             "source": {
                 "type": "git",
@@ -4093,11 +4094,11 @@
                 "source": "https://github.com/ragavagroup/Provider/tree/master",
                 "issues": "https://github.com/ragavagroup/Provider/issues"
             },
-            "time": "2015-04-16 07:38:54"
+            "time": "2015-05-14 06:47:32"
         },
         {
             "name": "medikly/raw-data-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/RawDataBundle",
             "source": {
                 "type": "git",
@@ -4133,11 +4134,11 @@
                 "source": "https://github.com/ragavagroup/RawData/tree/master",
                 "issues": "https://github.com/ragavagroup/RawData/issues"
             },
-            "time": "2015-04-20 17:04:21"
+            "time": "2015-05-13 10:58:38"
         },
         {
             "name": "medikly/reclinejs-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/ReclineJSBundle",
             "source": {
                 "type": "git",
@@ -4171,11 +4172,11 @@
                 "source": "https://github.com/ragavagroup/ReclineJS/tree/master",
                 "issues": "https://github.com/ragavagroup/ReclineJS/issues"
             },
-            "time": "2015-04-17 06:05:52"
+            "time": "2015-04-21 07:23:03"
         },
         {
             "name": "medikly/resource-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/ResourceBundle",
             "source": {
                 "type": "git",
@@ -4209,11 +4210,11 @@
                 "source": "https://github.com/ragavagroup/DataResourceBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/DataResourceBundle/issues"
             },
-            "time": "2015-04-20 16:31:16"
+            "time": "2015-05-14 08:17:27"
         },
         {
             "name": "medikly/scheduled-reports",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ScheduledReportsBundle.git",
@@ -4285,7 +4286,7 @@
         },
         {
             "name": "medikly/segments",
-            "version": "dev-master",
+            "version": "0.9.0",
             "target-dir": "Medikly/Bundle/SegmentsBundle",
             "source": {
                 "type": "git",
@@ -4327,7 +4328,7 @@
         },
         {
             "name": "medikly/successpages",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/SuccessPagesBundle",
             "source": {
                 "type": "git",
@@ -4369,7 +4370,7 @@
         },
         {
             "name": "medikly/system-navigation",
-            "version": "dev-master",
+            "version": "1.1.0",
             "target-dir": "Medikly/Bundle/SystemNavigationBundle",
             "source": {
                 "type": "git",
@@ -4397,14 +4398,14 @@
                 "medikly"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/master",
+                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/1.1.0",
                 "issues": "https://github.com/ragavagroup/SystemNavigationBundle/issues"
             },
-            "time": "2015-04-09 11:44:33"
+            "time": "2015-04-23 14:52:03"
         },
         {
             "name": "medikly/theme-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/ThemeBundle",
             "source": {
                 "type": "git",
@@ -4447,7 +4448,7 @@
         },
         {
             "name": "medikly/ui-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/UIBundle",
             "source": {
                 "type": "git",
@@ -4490,7 +4491,7 @@
         },
         {
             "name": "medikly/user-journey",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/user-journey.git",
@@ -4524,11 +4525,11 @@
                 "source": "https://github.com/ragavagroup/user-journey/tree/master",
                 "issues": "https://github.com/ragavagroup/user-journey/issues"
             },
-            "time": "2015-02-25 11:21:12"
+            "time": "2015-04-10 07:53:23"
         },
         {
             "name": "medikly/webactivities-bundle",
-            "version": "dev-master",
+            "version": "1.0.0",
             "target-dir": "Medikly/Bundle/WebActivitiesBundle",
             "source": {
                 "type": "git",
@@ -5097,16 +5098,16 @@
         },
         {
             "name": "oro/doctrine-extensions",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/doctrine-extensions.git",
-                "reference": "778037c4e853119758ccec599278d25eeda52a8d"
+                "reference": "4999ed64a294ad1027464e9660c36ee11b69852d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/778037c4e853119758ccec599278d25eeda52a8d",
-                "reference": "778037c4e853119758ccec599278d25eeda52a8d",
+                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/4999ed64a294ad1027464e9660c36ee11b69852d",
+                "reference": "4999ed64a294ad1027464e9660c36ee11b69852d",
                 "shasum": ""
             },
             "require": {
@@ -5115,6 +5116,7 @@
             },
             "require-dev": {
                 "doctrine/data-fixtures": "dev-master",
+                "doctrine/orm": "<2.5.0",
                 "phpunit/phpunit": "4.*",
                 "symfony/yaml": ">=2.0.4"
             },
@@ -5146,7 +5148,7 @@
                 "postgresql",
                 "type"
             ],
-            "time": "2014-11-17 16:06:24"
+            "time": "2015-04-06 18:01:25"
         },
         {
             "name": "oro/platform",
@@ -6268,16 +6270,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.27",
+            "version": "v2.3.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "ce4aab1508dd9642906fc9a120e0d8763e689896"
+                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/ce4aab1508dd9642906fc9a120e0d8763e689896",
-                "reference": "ce4aab1508dd9642906fc9a120e0d8763e689896",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
+                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
                 "shasum": ""
             },
             "require": {
@@ -6372,20 +6374,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-04-01 14:28:26"
+            "time": "2015-05-10 15:02:48"
         },
         {
             "name": "tinymce/tinymce",
-            "version": "4.1.9",
+            "version": "4.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "0c25116c95fe26532e04708c495ec047e7e5acc5"
+                "reference": "503d6fe1e69bd9830d39689b6e32a6c7ebffb861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/0c25116c95fe26532e04708c495ec047e7e5acc5",
-                "reference": "0c25116c95fe26532e04708c495ec047e7e5acc5",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/503d6fe1e69bd9830d39689b6e32a6c7ebffb861",
+                "reference": "503d6fe1e69bd9830d39689b6e32a6c7ebffb861",
                 "shasum": ""
             },
             "type": "component",
@@ -6418,7 +6420,7 @@
                 "tinymce",
                 "wysiwyg"
             ],
-            "time": "2015-03-10 12:20:06"
+            "time": "2015-05-05 12:07:24"
         },
         {
             "name": "twig/extensions",
@@ -6619,12 +6621,12 @@
             "target-dir": "Zend/Code",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendCode.git",
+                "url": "https://github.com/zendframework/zend-code.git",
                 "reference": "92e913bc425c66c2817316ad7b0f9daa96c33e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendCode/zipball/92e913bc425c66c2817316ad7b0f9daa96c33e51",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/0e76eec4f47858da3fef96a7f828e2340327310b",
                 "reference": "92e913bc425c66c2817316ad7b0f9daa96c33e51",
                 "shasum": ""
             },
@@ -6667,12 +6669,12 @@
             "target-dir": "Zend/EventManager",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendEventManager.git",
+                "url": "https://github.com/zendframework/zend-eventmanager.git",
                 "reference": "20e943ae5768b1e389f2f02371e30b61bd972635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendEventManager/zipball/20e943ae5768b1e389f2f02371e30b61bd972635",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/01b3d7daec6a237e48f5db22d7e4efd65407deac",
                 "reference": "20e943ae5768b1e389f2f02371e30b61bd972635",
                 "shasum": ""
             },
@@ -6708,12 +6710,12 @@
             "target-dir": "Zend/Loader",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendLoader.git",
+                "url": "https://github.com/zendframework/zend-loader.git",
                 "reference": "1810160b13db7d31ce6f60d14db1f4533a9b7449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendLoader/zipball/1810160b13db7d31ce6f60d14db1f4533a9b7449",
+                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/cf34a5d5aec78debff90b27de5366162ab61c7e9",
                 "reference": "1810160b13db7d31ce6f60d14db1f4533a9b7449",
                 "shasum": ""
             },
@@ -6751,12 +6753,12 @@
             "target-dir": "Zend/Mail",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendMail.git",
+                "url": "https://github.com/zendframework/zend-mail.git",
                 "reference": "04b52fac01af92a6722311c96411dd00234947f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendMail/zipball/04b52fac01af92a6722311c96411dd00234947f5",
+                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/f01ac7be2756c522aea6942e4b60553527aaac66",
                 "reference": "04b52fac01af92a6722311c96411dd00234947f5",
                 "shasum": ""
             },
@@ -6799,12 +6801,12 @@
             "target-dir": "Zend/Mime",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendMime.git",
+                "url": "https://github.com/zendframework/zend-mime.git",
                 "reference": "7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendMime/zipball/7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff",
+                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/066d6eecff586a7fb10e8907c032beaf1a9d6104",
                 "reference": "7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff",
                 "shasum": ""
             },
@@ -6840,12 +6842,12 @@
             "target-dir": "Zend/Stdlib",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendStdlib.git",
+                "url": "https://github.com/zendframework/zend-stdlib.git",
                 "reference": "1b21f3f9a206bd79da3c660b8c550b50d88f3a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/1b21f3f9a206bd79da3c660b8c550b50d88f3a7e",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/0027339961ad3d49f91ee092e23f7269c18cb470",
                 "reference": "1b21f3f9a206bd79da3c660b8c550b50d88f3a7e",
                 "shasum": ""
             },
@@ -6929,41 +6931,36 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "1.0.0.0",
+            "package": "medikly/customdashboardmenu-bundle"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "1.0.0.0",
+            "package": "medikly/campaigns"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "1.0.0.0",
+            "package": "medikly/piwik-dashboard"
+        },
+        {
+            "alias": "dev-master",
+            "alias_normalized": "9999999-dev",
+            "version": "1.0.0.0",
+            "package": "medikly/piwik-proxy"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/crm-mail-chimp": 20,
         "oro/crm-zendesk": 20,
-        "medikly/customdashboardmenu-bundle": 20,
-        "medikly/event-bundle": 20,
-        "medikly/provider-bundle": 20,
-        "medikly/defaultlegacy-bundle": 20,
-        "medikly/ui-bundle": 20,
-        "medikly/theme-bundle": 20,
-        "medikly/segments": 20,
-        "medikly/getstarted": 20,
-        "medikly/inheritance": 20,
-        "medikly/campaigns": 20,
-        "medikly/piwik-dashboard": 20,
-        "medikly/piwik-proxy": 20,
-        "medikly/user-journey": 20,
-        "medikly/contactsync": 20,
-        "medikly/fullcontact-integration": 20,
-        "medikly/oro-flat-theme": 20,
-        "medikly/webactivities-bundle": 20,
-        "medikly/physician-bundle": 20,
-        "medikly/scheduled-reports": 20,
-        "medikly/resource-bundle": 20,
-        "medikly/custom-alerts-bundle": 20,
-        "medikly/channel": 20,
-        "medikly/d3js-visualization-tools-bundle": 20,
-        "medikly/dashboard-bundle": 20,
-        "medikly/reclinejs-bundle": 20,
-        "medikly/intercomjs": 20,
-        "medikly/intercomapi": 20,
-        "medikly/clef": 20,
-        "medikly/successpages": 20,
-        "medikly/raw-data-bundle": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
