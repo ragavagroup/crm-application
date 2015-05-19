@@ -179,7 +179,7 @@
     "medikly/defaultlegacy-bundle": "dev-master",
     "medikly/ui-bundle": "dev-master",
     "medikly/theme-bundle": "dev-master",
-    "medikly/segments": "dev-master",
+    "medikly/segments": "1.1.0-beta",
     "medikly/getstarted": "dev-master",
     "medikly/inheritance": "dev-master",
     "medikly/campaigns": "dev-master",
