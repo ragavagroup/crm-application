@@ -109,6 +109,10 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Channel.git"
     },
+    "medikly-report": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Report.git"
+    },
     "medikly-d3js-visualization-tools-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools.git"
@@ -195,6 +199,7 @@
     "medikly/resource-bundle": "dev-master",
     "medikly/custom-alerts-bundle": "dev-master",
     "medikly/channel": "dev-master",
+    "medikly/report": "1.0",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/dashboard-bundle" : "dev-master",
     "medikly/reclinejs-bundle" : "dev-master",
