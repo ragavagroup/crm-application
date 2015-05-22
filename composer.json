@@ -168,6 +168,10 @@
     "medikly-hospital-data": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/HospitalBundle.git"
+    },
+    "medikly-provider-profile": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/ProviderProfile.git"
     }
   },
   "require": {
@@ -215,6 +219,8 @@
     "medikly/socialmention":"dev-master",
     "medikly/account-extension": "dev-master",
     "medikly/hospital": "dev-master",
+
+    "medikly/provider-ui-bundle": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
