@@ -45,6 +45,6 @@ parameters:
     raw_data_postgres_database_name: medikly-raw-data
     raw_data_postgres_database_user: postgres-raw-data
     raw_data_postgres_database_password: ~
-    medikly_resource_file_storage_path: %kernel.root_dir%/raw_files
-    medikly_resource_data_dictionaries_path: '%kernel.root_dir%/data_dictionaries'
+    medikly_resource_file_storage_path: %kernel.root_dir%/../web/uploads/raw_files
+    medikly_resource_data_dictionaries_path: '%kernel.root_dir%/../web/uploads/data_dictionaries'
     tracker_site_id: 1
