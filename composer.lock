@@ -4335,12 +4335,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "27b42be5c5cd3ba0cab1a4a142e27d7840a62903"
+                "reference": "cbde67cced8021b15ca7e46e2b497831afe2ce33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/27b42be5c5cd3ba0cab1a4a142e27d7840a62903",
-                "reference": "27b42be5c5cd3ba0cab1a4a142e27d7840a62903",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/cbde67cced8021b15ca7e46e2b497831afe2ce33",
+                "reference": "cbde67cced8021b15ca7e46e2b497831afe2ce33",
                 "shasum": ""
             },
             "type": "library",
@@ -4613,12 +4613,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "771836042651e110ebb3da1a4682d58ef412ffaa"
+                "reference": "e3bffc35668f60531359342a5adc0466c840f3c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/771836042651e110ebb3da1a4682d58ef412ffaa",
-                "reference": "771836042651e110ebb3da1a4682d58ef412ffaa",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/e3bffc35668f60531359342a5adc0466c840f3c1",
+                "reference": "e3bffc35668f60531359342a5adc0466c840f3c1",
                 "shasum": ""
             },
             "require": {
