@@ -4335,12 +4335,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "7ac1873d19d1f2dc3184f7c24402136580f71ad1"
+                "reference": "1d2a1c3a6f8fb80c5b67abf76c2df5687ad35d66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/7ac1873d19d1f2dc3184f7c24402136580f71ad1",
-                "reference": "7ac1873d19d1f2dc3184f7c24402136580f71ad1",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/1d2a1c3a6f8fb80c5b67abf76c2df5687ad35d66",
+                "reference": "1d2a1c3a6f8fb80c5b67abf76c2df5687ad35d66",
                 "shasum": ""
             },
             "type": "library",
