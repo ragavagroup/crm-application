@@ -6616,16 +6616,15 @@
         {
             "name": "zendframework/zend-code",
             "version": "2.1.5",
-            "target-dir": "Zend/Code",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendCode.git",
-                "reference": "92e913bc425c66c2817316ad7b0f9daa96c33e51"
+                "url": "https://github.com/zendframework/zend-code.git",
+                "reference": "0e76eec4f47858da3fef96a7f828e2340327310b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendCode/zipball/92e913bc425c66c2817316ad7b0f9daa96c33e51",
-                "reference": "92e913bc425c66c2817316ad7b0f9daa96c33e51",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/0e76eec4f47858da3fef96a7f828e2340327310b",
+                "reference": "0e76eec4f47858da3fef96a7f828e2340327310b",
                 "shasum": ""
             },
             "require": {
@@ -6633,10 +6632,15 @@
                 "zendframework/zend-eventmanager": "self.version"
             },
             "require-dev": {
-                "doctrine/common": ">=2.1"
+                "doctrine/common": ">=2.1",
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "zendframework/zend-stdlib": "self.version"
             },
             "suggest": {
-                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features"
+                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
+                "zendframework/zend-stdlib": "Zend\\Stdlib component"
             },
             "type": "library",
             "extra": {
@@ -6646,8 +6650,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Zend\\Code\\": ""
+                "psr-4": {
+                    "Zend\\Code\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6655,30 +6659,35 @@
                 "BSD-3-Clause"
             ],
             "description": "provides facilities to generate arbitrary code using an object oriented interface",
+            "homepage": "https://github.com/zendframework/zend-code",
             "keywords": [
                 "code",
                 "zf2"
             ],
-            "time": "2013-04-17 11:42:28"
+            "time": "2013-04-17 15:15:58"
         },
         {
             "name": "zendframework/zend-eventmanager",
             "version": "2.1.5",
-            "target-dir": "Zend/EventManager",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendEventManager.git",
-                "reference": "20e943ae5768b1e389f2f02371e30b61bd972635"
+                "url": "https://github.com/zendframework/zend-eventmanager.git",
+                "reference": "01b3d7daec6a237e48f5db22d7e4efd65407deac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendEventManager/zipball/20e943ae5768b1e389f2f02371e30b61bd972635",
-                "reference": "20e943ae5768b1e389f2f02371e30b61bd972635",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/01b3d7daec6a237e48f5db22d7e4efd65407deac",
+                "reference": "01b3d7daec6a237e48f5db22d7e4efd65407deac",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "zendframework/zend-stdlib": "self.version"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master"
             },
             "type": "library",
             "extra": {
@@ -6688,37 +6697,42 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Zend\\EventManager\\": ""
+                "psr-4": {
+                    "Zend\\EventManager\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
+            "homepage": "https://github.com/zendframework/zend-event-manager",
             "keywords": [
                 "eventmanager",
                 "zf2"
             ],
-            "time": "2013-04-15 20:25:51"
+            "time": "2013-04-17 13:32:54"
         },
         {
             "name": "zendframework/zend-loader",
             "version": "2.1.5",
-            "target-dir": "Zend/Loader",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendLoader.git",
-                "reference": "1810160b13db7d31ce6f60d14db1f4533a9b7449"
+                "url": "https://github.com/zendframework/zend-loader.git",
+                "reference": "cf34a5d5aec78debff90b27de5366162ab61c7e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendLoader/zipball/1810160b13db7d31ce6f60d14db1f4533a9b7449",
-                "reference": "1810160b13db7d31ce6f60d14db1f4533a9b7449",
+                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/cf34a5d5aec78debff90b27de5366162ab61c7e9",
+                "reference": "cf34a5d5aec78debff90b27de5366162ab61c7e9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master"
             },
             "suggest": {
                 "zendframework/zend-stdlib": "Zend\\Stdlib component"
@@ -6731,40 +6745,48 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Zend\\Loader\\": ""
+                "psr-4": {
+                    "Zend\\Loader\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
+            "homepage": "https://github.com/zendframework/zend-loader",
             "keywords": [
                 "loader",
                 "zf2"
             ],
-            "time": "2013-04-17 03:17:47"
+            "time": "2013-04-17 13:32:54"
         },
         {
             "name": "zendframework/zend-mail",
             "version": "2.1.5",
-            "target-dir": "Zend/Mail",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendMail.git",
-                "reference": "04b52fac01af92a6722311c96411dd00234947f5"
+                "url": "https://github.com/zendframework/zend-mail.git",
+                "reference": "f01ac7be2756c522aea6942e4b60553527aaac66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendMail/zipball/04b52fac01af92a6722311c96411dd00234947f5",
-                "reference": "04b52fac01af92a6722311c96411dd00234947f5",
+                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/f01ac7be2756c522aea6942e4b60553527aaac66",
+                "reference": "f01ac7be2756c522aea6942e4b60553527aaac66",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
+                "zendframework/zend-crypt": "self.version",
                 "zendframework/zend-loader": "self.version",
                 "zendframework/zend-mime": "self.version",
-                "zendframework/zend-stdlib": "self.version"
+                "zendframework/zend-stdlib": "self.version",
+                "zendframework/zend-validator": "self.version"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "zendframework/zend-servicemanager": "self.version"
             },
             "suggest": {
                 "zendframework/zend-servicemanager": "Zend\\ServiceManager component",
@@ -6778,8 +6800,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Zend\\Mail\\": ""
+                "psr-4": {
+                    "Zend\\Mail\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6787,30 +6809,39 @@
                 "BSD-3-Clause"
             ],
             "description": "provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+            "homepage": "https://github.com/zendframework/zend-mail",
             "keywords": [
                 "mail",
                 "zf2"
             ],
-            "time": "2013-04-14 10:11:03"
+            "time": "2013-04-17 15:15:58"
         },
         {
             "name": "zendframework/zend-mime",
             "version": "2.1.5",
-            "target-dir": "Zend/Mime",
             "source": {
                 "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendMime.git",
-                "reference": "7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff"
+                "url": "https://github.com/zendframework/zend-mime.git",
+                "reference": "066d6eecff586a7fb10e8907c032beaf1a9d6104"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendMime/zipball/7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff",
-                "reference": "7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff",
+                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/066d6eecff586a7fb10e8907c032beaf1a9d6104",
+                "reference": "066d6eecff586a7fb10e8907c032beaf1a9d6104",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "zendframework/zend-stdlib": "self.version"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "zendframework/zend-mail": "self.version"
+            },
+            "suggest": {
+                "zendframework/zend-mail": "Zend\\Mail component"
             },
             "type": "library",
             "extra": {
@@ -6820,19 +6851,20 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Zend\\Mime\\": ""
+                "psr-4": {
+                    "Zend\\Mime\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
+            "homepage": "https://github.com/zendframework/zend-mime",
             "keywords": [
                 "mime",
                 "zf2"
             ],
-            "time": "2013-02-14 14:56:52"
+            "time": "2013-04-17 13:32:54"
         },
         {
             "name": "zendframework/zend-stdlib",
