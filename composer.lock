@@ -3579,49 +3579,6 @@
             "time": "2015-04-16 05:25:56"
         },
         {
-            "name": "medikly/dashboard-bundle",
-            "version": "dev-master",
-            "target-dir": "Medikly/Bundle/DashboardBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
-                "reference": "61c9e2733b2c23e8cc91d078e53b231f614a4606"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/61c9e2733b2c23e8cc91d078e53b231f614a4606",
-                "reference": "61c9e2733b2c23e8cc91d078e53b231f614a4606",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "symfony/symfony": "2.3.*"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\DashboardBundle": ""
-                }
-            },
-            "license": [
-                "Commercial"
-            ],
-            "description": "Custom Dashboard Bundle",
-            "keywords": [
-                "Dashboard"
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
-                "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
-            },
-            "time": "2015-04-22 16:11:04"
-        },
-        {
             "name": "medikly/defaultlegacy-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/DefaultLegacyBundle",
@@ -7331,7 +7288,6 @@
         "medikly/custom-alerts-bundle": 20,
         "medikly/channel": 20,
         "medikly/d3js-visualization-tools-bundle": 20,
-        "medikly/dashboard-bundle": 20,
         "medikly/reclinejs-bundle": 20,
         "medikly/intercomjs": 20,
         "medikly/intercomapi": 20,
