@@ -48,3 +48,8 @@ parameters:
     medikly_resource_file_storage_path: %kernel.root_dir%/../web/uploads/raw_files
     medikly_resource_data_dictionaries_path: '%kernel.root_dir%/../web/uploads/data_dictionaries'
     tracker_site_id: 1
+
+    # Custom overrides
+
+    oro_importexport.handler.export.class:  Medikly\Bundle\InheritanceBundle\Handler\ExportHandler
+    oro_filter.string_filter.class:         Medikly\Bundle\InheritanceBundle\Filter\StringFilter
