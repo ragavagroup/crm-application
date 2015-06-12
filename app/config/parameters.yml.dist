@@ -53,3 +53,7 @@ parameters:
 
     oro_importexport.handler.export.class:  Medikly\Bundle\InheritanceBundle\Handler\ExportHandler
     oro_filter.string_filter.class:         Medikly\Bundle\InheritanceBundle\Filter\StringFilter
+
+    orocrm_campaign.campaign.form.type.class:      Medikly\Bundle\TrackingBundle\Form\Type\CampaignType
+    oro_form.type.multiple_entity.class:           Medikly\Bundle\TrackingBundle\Form\Type\MultipleEntityType
+    oro_tracking.form.type.tracking_website.class: Medikly\Bundle\TrackingBundle\Form\Type\TrackingWebsiteType
