@@ -4229,12 +4229,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Inheritance.git",
-                "reference": "84053dbbb114828cbca9e01185baf0bdc68811a8"
+                "reference": "f0ce2fad1fbd648d81d2cfbde031a0457dd84813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Inheritance/zipball/84053dbbb114828cbca9e01185baf0bdc68811a8",
-                "reference": "84053dbbb114828cbca9e01185baf0bdc68811a8",
+                "url": "https://api.github.com/repos/ragavagroup/Inheritance/zipball/f0ce2fad1fbd648d81d2cfbde031a0457dd84813",
+                "reference": "f0ce2fad1fbd648d81d2cfbde031a0457dd84813",
                 "shasum": ""
             },
             "require": {
