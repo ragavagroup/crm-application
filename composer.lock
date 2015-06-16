@@ -3846,51 +3846,6 @@
             "time": "2015-02-10 16:47:36"
         },
         {
-            "name": "medikly/custom-alerts-bundle",
-            "version": "dev-master",
-            "target-dir": "Medikly/Bundle/CampaignAlertsBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/CustomAlertsBundle.git",
-                "reference": "ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomAlertsBundle/zipball/ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6",
-                "reference": "ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6",
-                "shasum": ""
-            },
-            "require": {
-                "medikly/campaigns": "dev-master",
-                "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.*",
-                "oro/crm-enterprise": "1.*",
-                "oro/platform": "1.*",
-                "php": ">5.4"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\CampaignAlertsBundle": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Medikly Custom Alerts Piwik integration bundle",
-            "keywords": [
-                "Alerts",
-                "Custom",
-                "Medikly",
-                "Piwik"
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/CustomAlertsBundle/tree/master",
-                "issues": "https://github.com/ragavagroup/CustomAlertsBundle/issues"
-            },
-            "time": "2015-05-05 09:21:26"
-        },
-        {
             "name": "medikly/customdashboardmenu-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/CustomDashboardMenuBundle",
@@ -4720,45 +4675,7 @@
                 "source": "https://github.com/ragavagroup/DataResourceBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/DataResourceBundle/issues"
             },
-            "time": "2015-05-20 06:11:16"
-        },
-        {
-            "name": "medikly/scheduled-reports",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/ScheduledReportsBundle.git",
-                "reference": "4e5c969ef8bef85e1b14b05ae922390cae3473db"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/4e5c969ef8bef85e1b14b05ae922390cae3473db",
-                "reference": "4e5c969ef8bef85e1b14b05ae922390cae3473db",
-                "shasum": ""
-            },
-            "require": {
-                "medikly/campaigns": "dev-master",
-                "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.*",
-                "oro/crm-enterprise": "1.*",
-                "oro/platform": "1.*",
-                "php": ">5.4"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\ScheduledReportsBundle": ""
-                }
-            },
-            "description": "Bundle for campaign scheduled report management",
-            "keywords": [
-                "medikly"
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/ScheduledReportsBundle/tree/master",
-                "issues": "https://github.com/ragavagroup/ScheduledReportsBundle/issues"
-            },
-            "time": "2015-05-05 09:24:02"
+            "time": "2015-06-10 11:50:47"
         },
         {
             "name": "medikly/search",
