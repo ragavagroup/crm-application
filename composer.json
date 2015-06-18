@@ -9,6 +9,10 @@
     }
   },
   "repositories": {
+    "medikly-page-builder-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/PageBuilderBundle.git"
+    },
     "composer": {
       "type": "composer",
       "url": "http://packagist.orocrm.com"
@@ -89,21 +93,17 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Physician.git"
     },
-    "scheduled-reports": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/ScheduledReportsBundle.git"
-    },
     "medikly-resource-bundle" : {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/DataResourceBundle.git"
     },
-    "medikly-custom-alerts-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/CustomAlertsBundle.git"
-    },
     "medikly-channel": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Channel.git"
+    },
+    "medikly-report": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Report.git"
     },
     "medikly-d3js-visualization-tools-bundle": {
       "type": "vcs",
@@ -140,10 +140,32 @@
     "medikly-raw-data-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/RawData.git"
+    },
+    "medikly-tracking-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Tracking.git"
+    },
+    "medikly-socialmention": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/SocialMentionBundle.git"
+    },
+    "medikly-account-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/AccountExtension.git"
+    },
+    "medikly-hospital-data": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/HospitalBundle.git"
+    },
+    "medikly-provider-profile": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/ProviderProfile.git"
     }
   },
   "require": {
-    "oro/crm": "1.6.*",
+    "oro/crm": "1.7 as 1.6",
+    "oro/platform": "1.7 as 1.6",
+    "oro/crm-enterprise": "1.9 as 1.8",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
@@ -153,7 +175,7 @@
     "medikly/defaultlegacy-bundle": "dev-master",
     "medikly/ui-bundle": "dev-master",
     "medikly/theme-bundle": "dev-master",
-    "medikly/segments": "dev-master",
+    "medikly/segments": "1.1.0-beta",
     "medikly/getstarted": "dev-master",
     "medikly/inheritance": "dev-master",
     "medikly/campaigns": "dev-master",
@@ -165,10 +187,9 @@
     "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
-    "medikly/scheduled-reports": "dev-master",
     "medikly/resource-bundle": "dev-master",
-    "medikly/custom-alerts-bundle": "dev-master",
     "medikly/channel": "dev-master",
+    "medikly/report": "1.0",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/reclinejs-bundle" : "dev-master",
     "medikly/intercomjs": "dev-master",
@@ -178,6 +199,13 @@
     "medikly/system-navigation": "dev-master",
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
+    "medikly/page-builder-bundle": "dev-master",
+    "medikly/tracking": "dev-master",
+    "medikly/socialmention":"dev-master",
+    "medikly/account-extension": "dev-master",
+    "medikly/hospital": "dev-master",
+
+    "medikly/provider-ui-bundle": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
@@ -200,13 +228,13 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets"
     ]
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "symfony-app-dir": "app",
-    "symfony-web-dir": "web",
-    "incenteev-parameters": {
-      "file": "app/config/parameters.yml"
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        }
     }
-  }
 }

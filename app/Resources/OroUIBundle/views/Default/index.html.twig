@@ -94,6 +94,7 @@
             {% block main %}
                 <div id="main">
                     {% block before_content %}
+                    {% include 'MediklyPageBuilderBundle:PageBuilderBundle:main.html.twig' %}
                     <div class="breadcrumb-pin">
                         <div id="breadcrumb">
                             {% block breadcrumb %}
@@ -206,7 +207,7 @@
     </div>
     {% placeholder before_body_end %}
         <script type="text/javascript">
-            var paq = paq || [];
+            var _paq = _paq || [];
             _paq.push(["setCookieDomain", "*.medikly.com"]);
             _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
             _paq.push(["setDomains", ["*.medikly.com"]]);

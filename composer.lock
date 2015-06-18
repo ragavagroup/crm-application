@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2039aa055374bd8f2bc8f687e66b56c",
+    "hash": "4567c98c6a13ee664e49676d526724d0",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -70,17 +70,17 @@
         },
         {
             "name": "akeneo/batch-bundle",
-            "version": "0.4.0",
+            "version": "0.4.2",
             "target-dir": "Akeneo/Bundle/BatchBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/akeneo/BatchBundle.git",
-                "reference": "e29e339d2b286fa8f65b49176b6e89049f4ef064"
+                "reference": "3ecebd637ba8a4b3269c641bc55905a8397af34c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akeneo/BatchBundle/zipball/e29e339d2b286fa8f65b49176b6e89049f4ef064",
-                "reference": "e29e339d2b286fa8f65b49176b6e89049f4ef064",
+                "url": "https://api.github.com/repos/akeneo/BatchBundle/zipball/3ecebd637ba8a4b3269c641bc55905a8397af34c",
+                "reference": "3ecebd637ba8a4b3269c641bc55905a8397af34c",
                 "shasum": ""
             },
             "require": {
@@ -90,6 +90,9 @@
                 "swiftmailer/swiftmailer": ">=4.1.3",
                 "symfony/swiftmailer-bundle": ">=2.3.5",
                 "symfony/symfony": ">=2.1"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "2.1.*"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -115,7 +118,7 @@
                 "reader",
                 "writer"
             ],
-            "time": "2015-03-13 13:19:44"
+            "time": "2015-05-05 21:23:02"
         },
         {
             "name": "ass/xmlsecurity",
@@ -211,7 +214,7 @@
             ],
             "description": "OroCRM basic Mandrill integration",
             "homepage": "https://github.com/Atwix/oro-mandrill.git",
-            "time": "2014-10-30 13:25:56"
+            "time": "2015-05-05 12:24:21"
         },
         {
             "name": "behat/transliterator",
@@ -439,29 +442,218 @@
             "time": "2015-03-21 09:39:30"
         },
         {
-            "name": "composer/composer",
-            "version": "1.0.0-alpha8",
+            "name": "components/backbone",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/composer/composer.git",
-                "reference": "1eb1df44a97fb2daca1bb8b007f3bee012f0aa46"
+                "url": "https://github.com/components/backbone.git",
+                "reference": "2c539b5e3c4026f6adc43aded941ede5aac8831f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
-                "reference": "1eb1df44a97fb2daca1bb8b007f3bee012f0aa46",
+                "url": "https://api.github.com/repos/components/backbone/zipball/2c539b5e3c4026f6adc43aded941ede5aac8831f",
+                "reference": "2c539b5e3c4026f6adc43aded941ede5aac8831f",
                 "shasum": ""
             },
             "require": {
-                "justinrainbow/json-schema": "1.1.*",
+                "components/underscore": ">=1.4.3"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "backbone.js"
+                    ],
+                    "files": [
+                        "backbone-min.js"
+                    ],
+                    "shim": {
+                        "deps": [
+                            "underscore"
+                        ],
+                        "exports": "Backbone"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Ashkenas",
+                    "email": "jeremy@documentcloud.org"
+                }
+            ],
+            "description": "Give your JS App some Backbone with Models, Views, Collections, and Events.",
+            "homepage": "http://backbonejs.org",
+            "keywords": [
+                "browser",
+                "client",
+                "controller",
+                "model",
+                "router",
+                "server",
+                "view"
+            ],
+            "time": "2014-10-06 00:37:03"
+        },
+        {
+            "name": "components/font-awesome",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/font-awesome.git",
+                "reference": "73acf4d65eadd8d127bafc7bd510240ea3979e83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/73acf4d65eadd8d127bafc7bd510240ea3979e83",
+                "reference": "73acf4d65eadd8d127bafc7bd510240ea3979e83",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.3.x-dev"
+                },
+                "component": {
+                    "styles": [
+                        "css/font-awesome.css"
+                    ],
+                    "files": [
+                        "css/font-awesome.min.css",
+                        "fonts/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "OFL-1.1"
+            ],
+            "description": "The iconic font designed for use with Twitter Bootstrap.",
+            "time": "2015-01-26 11:26:16"
+        },
+        {
+            "name": "components/jquery",
+            "version": "2.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/7b1d1104656a092423fbfba13c5920e9bbba290c",
+                "reference": "7b1d1104656a092423fbfba13c5920e9bbba290c",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery-migrate.js",
+                        "jquery-migrate.min.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Resig",
+                    "email": "jeresig@gmail.com"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2015-05-08 05:04:47"
+        },
+        {
+            "name": "components/underscore",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/underscore.git",
+                "reference": "dc64d58f5d1079e5822d480110b28d724bda06c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/underscore/zipball/dc64d58f5d1079e5822d480110b28d724bda06c2",
+                "reference": "dc64d58f5d1079e5822d480110b28d724bda06c2",
+                "shasum": ""
+            },
+            "require": {
+                "robloach/component-installer": "*"
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "underscore.js"
+                    ],
+                    "files": [
+                        "underscore-min.js",
+                        "underscore-min.map"
+                    ],
+                    "shim": {
+                        "exports": "_"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Ashkenas",
+                    "email": "jeremy@documentcloud.org"
+                }
+            ],
+            "description": "JavaScript's functional programming helper library.",
+            "homepage": "http://underscorejs.org",
+            "keywords": [
+                "browser",
+                "client",
+                "functional",
+                "server",
+                "util"
+            ],
+            "time": "2014-09-22 16:48:28"
+        },
+        {
+            "name": "composer/composer",
+            "version": "1.0.0-p1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orocrm/composer.git",
+                "reference": "833ce984264204e7d6576ab082660105c7d8f04c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orocrm/composer/zipball/833ce984264204e7d6576ab082660105c7d8f04c",
+                "reference": "833ce984264204e7d6576ab082660105c7d8f04c",
+                "shasum": ""
+            },
+            "require": {
+                "justinrainbow/json-schema": "~1.3",
                 "php": ">=5.3.2",
-                "seld/jsonlint": "1.*",
+                "seld/jsonlint": "~1.0",
                 "symfony/console": "~2.3",
                 "symfony/finder": "~2.2",
                 "symfony/process": "~2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.10"
+                "phpunit/phpunit": "~4.0"
             },
             "suggest": {
                 "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
@@ -481,7 +673,7 @@
                     "Composer": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
@@ -489,37 +681,35 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be",
-                    "role": "Developer"
+                    "homepage": "http://seld.be"
                 },
                 {
                     "name": "Nils Adermann",
                     "email": "naderman@naderman.de",
-                    "homepage": "http://www.naderman.de",
-                    "role": "Developer"
+                    "homepage": "http://www.naderman.de"
                 }
             ],
-            "description": "Dependency Manager",
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
             "homepage": "http://getcomposer.org/",
             "keywords": [
                 "autoload",
                 "dependency",
                 "package"
             ],
-            "time": "2014-01-06 18:39:59"
+            "time": "2015-02-17 21:55:44"
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/b5202eb9e83f8db52e0e58867e0a46e63be8332e",
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e",
                 "shasum": ""
             },
             "require": {
@@ -574,20 +764,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-20 20:49:38"
+            "time": "2014-12-23 22:40:37"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8"
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/2346085d2b027b233ae1d5de59b07440b9f288c8",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/c9eadeb743ac6199f7eec423cb9426bc518b7b03",
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03",
                 "shasum": ""
             },
             "require": {
@@ -598,13 +788,13 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.7",
-                "predis/predis": "~0.8",
+                "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -644,24 +834,27 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-01-15 20:38:55"
+            "time": "2015-04-15 00:11:59"
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2"
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/b99c5c46c87126201899afe88ec490a25eedd6a2",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
@@ -680,17 +873,6 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
@@ -699,10 +881,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Collections Abstraction library",
@@ -712,7 +900,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2014-02-03 23:07:43"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -1855,26 +2043,26 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "5.2.0",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "475b29ccd411f2fa8a408e64576418728c032cfa"
+                "reference": "f3c8c22471cb55475105c14769644a49c3262b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/475b29ccd411f2fa8a408e64576418728c032cfa",
-                "reference": "475b29ccd411f2fa8a408e64576418728c032cfa",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f3c8c22471cb55475105c14769644a49c3262b93",
+                "reference": "f3c8c22471cb55475105c14769644a49c3262b93",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/ringphp": "~1.0",
+                "guzzlehttp/ringphp": "^1.1",
                 "php": ">=5.4.0"
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0"
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -1909,20 +2097,20 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-01-28 01:03:29"
+            "time": "2015-05-20 03:47:55"
         },
         {
             "name": "guzzlehttp/ringphp",
-            "version": "1.0.7",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/RingPHP.git",
-                "reference": "52d868f13570a9a56e5fce6614e0ec75d0f13ac2"
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/52d868f13570a9a56e5fce6614e0ec75d0f13ac2",
-                "reference": "52d868f13570a9a56e5fce6614e0ec75d0f13ac2",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
                 "shasum": ""
             },
             "require": {
@@ -1940,7 +2128,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -1960,7 +2148,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-03-30 01:43:20"
+            "time": "2015-05-20 03:37:09"
         },
         {
             "name": "guzzlehttp/streams",
@@ -2011,6 +2199,119 @@
                 "stream"
             ],
             "time": "2014-10-12 19:18:40"
+        },
+        {
+            "name": "hwi/oauth-bundle",
+            "version": "0.3.7",
+            "target-dir": "HWI/Bundle/OAuthBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hwi/HWIOAuthBundle.git",
+                "reference": "a614cb1a87e474637885fa0a6e55690edb416d87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/a614cb1a87e474637885fa0a6e55690edb416d87",
+                "reference": "a614cb1a87e474637885fa0a6e55690edb416d87",
+                "shasum": ""
+            },
+            "require": {
+                "kriswallsmith/buzz": "~0.7",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.1",
+                "symfony/options-resolver": "~2.1",
+                "symfony/security-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.2",
+                "symfony/property-access": "~2.5",
+                "symfony/twig-bundle": "~2.1",
+                "symfony/validator": "~2.1"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "to use Doctrine user provider",
+                "friendsofsymfony/user-bundle": "to connect FOSUB with this bundle",
+                "symfony/property-access": "to use FOSUB integration with this bundle",
+                "symfony/twig-bundle": "to use the Twig hwi_oauth_* functions"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "HWI\\Bundle\\OAuthBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/hwi/HWIOAuthBundle/contributors"
+                },
+                {
+                    "name": "Joseph Bielawski",
+                    "email": "stloyd@gmail.com"
+                },
+                {
+                    "name": "Alexander",
+                    "email": "iam.asm89@gmail.com"
+                },
+                {
+                    "name": "Geoffrey Bachelet",
+                    "email": "geoffrey.bachelet@gmail.com"
+                }
+            ],
+            "description": "Support for authenticating users using both OAuth1.0a and OAuth2 in Symfony2.",
+            "homepage": "http://github.com/hwi/HWIOAuthBundle",
+            "keywords": [
+                "37signals",
+                "Authentication",
+                "amazon",
+                "bitbucket",
+                "bitly",
+                "box",
+                "dailymotion",
+                "deviantart",
+                "disqus",
+                "dropbox",
+                "eventbrite",
+                "facebook",
+                "firewall",
+                "flickr",
+                "foursquare",
+                "github",
+                "google",
+                "instagram",
+                "jira",
+                "linkedin",
+                "mail.ru",
+                "oauth",
+                "oauth1",
+                "oauth2",
+                "odnoklassniki",
+                "qq",
+                "salesforce",
+                "security",
+                "sensio connect",
+                "sina weibo",
+                "stack exchange",
+                "stereomood",
+                "trello",
+                "twitch",
+                "twitter",
+                "vkontakte",
+                "windows live",
+                "wordpress",
+                "yahoo",
+                "yandex"
+            ],
+            "time": "2014-11-15 10:36:48"
         },
         {
             "name": "imagine/imagine",
@@ -2665,22 +2966,35 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "1.1.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "05ff6d8d79fe3ad190b0663d80d3f9deee79416c"
+                "reference": "2465fe486c864e30badaa4d005ebdf89dbc503f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/05ff6d8d79fe3ad190b0663d80d3f9deee79416c",
-                "reference": "05ff6d8d79fe3ad190b0663d80d3f9deee79416c",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/2465fe486c864e30badaa4d005ebdf89dbc503f3",
+                "reference": "2465fe486c864e30badaa4d005ebdf89dbc503f3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
+            "require-dev": {
+                "json-schema/json-schema-test-suite": "1.1.0",
+                "phpdocumentor/phpdocumentor": "~2",
+                "phpunit/phpunit": "~3.7"
+            },
+            "bin": [
+                "bin/validate-json"
+            ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "JsonSchema": "src/"
@@ -2688,14 +3002,9 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "NewBSD"
+                "BSD-3-Clause"
             ],
             "authors": [
-                {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch",
-                    "homepage": "http://wiedler.ch/igor/"
-                },
                 {
                     "name": "Bruno Prieto Reis",
                     "email": "bruno.p.reis@gmail.com"
@@ -2705,9 +3014,12 @@
                     "email": "justin.rainbow@gmail.com"
                 },
                 {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                },
+                {
                     "name": "Robert Schönthal",
-                    "email": "robert.schoenthal@gmail.com",
-                    "homepage": "http://digitalkaoz.net"
+                    "email": "seroscho@googlemail.com"
                 }
             ],
             "description": "A library to validate a json schema.",
@@ -2716,7 +3028,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2012-01-03 00:33:17"
+            "time": "2015-03-27 16:41:39"
         },
         {
             "name": "knplabs/gaufrette",
@@ -2966,7 +3278,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3050,6 +3362,54 @@
                 "minification"
             ],
             "time": "2013-07-19 00:03:27"
+        },
+        {
+            "name": "kriswallsmith/buzz",
+            "version": "v0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/Buzz.git",
+                "reference": "487760b05d6269a4c2c374364325326cfa65b12c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/487760b05d6269a4c2c374364325326cfa65b12c",
+                "reference": "487760b05d6269a4c2c374364325326cfa65b12c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Buzz": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Lightweight HTTP client",
+            "homepage": "https://github.com/kriswallsmith/Buzz",
+            "keywords": [
+                "curl",
+                "http client"
+            ],
+            "time": "2014-09-15 12:42:36"
         },
         {
             "name": "leafo/lessphp",
@@ -3289,25 +3649,61 @@
             "time": "2014-03-04 14:53:32"
         },
         {
+            "name": "medikly/account-extension",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/AccountExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/AccountExtension.git",
+                "reference": "e79f4899dd75ef26ed533218a63c5c96598ccd61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/AccountExtension/zipball/e79f4899dd75ef26ed533218a63c5c96598ccd61",
+                "reference": "e79f4899dd75ef26ed533218a63c5c96598ccd61",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\AccountExtensionBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eltrino LLC",
+                    "homepage": "http://eltrino.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/AccountExtension/tree/master",
+                "issues": "https://github.com/ragavagroup/AccountExtension/issues"
+            },
+            "time": "2015-05-19 11:27:35"
+        },
+        {
             "name": "medikly/campaigns",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "d8be678459be31a3aba1f97918c7ee9064e54955"
+                "reference": "6dbaa9229d3aabd2ba5522e5dabed35b286a36a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/d8be678459be31a3aba1f97918c7ee9064e54955",
-                "reference": "d8be678459be31a3aba1f97918c7ee9064e54955",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/6dbaa9229d3aabd2ba5522e5dabed35b286a36a0",
+                "reference": "6dbaa9229d3aabd2ba5522e5dabed35b286a36a0",
                 "shasum": ""
             },
             "require": {
                 "medikly/piwik-dashboard": "dev-master",
                 "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.6",
-                "oro/crm-enterprise": "1.8",
-                "oro/platform": "1.6",
+                "oro/crm": "1.*",
+                "oro/crm-enterprise": "1.*",
+                "oro/platform": "1.*",
                 "php": ">5.4"
             },
             "type": "symfony-bundle",
@@ -3324,7 +3720,7 @@
                 "source": "https://github.com/ragavagroup/campaigns/tree/master",
                 "issues": "https://github.com/ragavagroup/campaigns/issues"
             },
-            "time": "2015-06-02 12:16:33"
+            "time": "2015-06-18 16:10:01"
         },
         {
             "name": "medikly/channel",
@@ -3333,12 +3729,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Channel.git",
-                "reference": "37c39ab8cd83eaef3b4725f8427f03e65098ee4e"
+                "reference": "9906699b64a5d584a957680bedad5d00801a0360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/37c39ab8cd83eaef3b4725f8427f03e65098ee4e",
-                "reference": "37c39ab8cd83eaef3b4725f8427f03e65098ee4e",
+                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/9906699b64a5d584a957680bedad5d00801a0360",
+                "reference": "9906699b64a5d584a957680bedad5d00801a0360",
                 "shasum": ""
             },
             "require": {
@@ -3366,7 +3762,7 @@
                 "source": "https://github.com/ragavagroup/Channel/tree/master",
                 "issues": "https://github.com/ragavagroup/Channel/issues"
             },
-            "time": "2015-04-01 11:07:51"
+            "time": "2015-05-08 06:42:20"
         },
         {
             "name": "medikly/clef",
@@ -3375,12 +3771,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Clef.git",
-                "reference": "60ba85a0c1f37b1911e7d275815f5933bd90e952"
+                "reference": "46e05356959937a7ddbb90e89dcb7e213d082c90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Clef/zipball/60ba85a0c1f37b1911e7d275815f5933bd90e952",
-                "reference": "60ba85a0c1f37b1911e7d275815f5933bd90e952",
+                "url": "https://api.github.com/repos/ragavagroup/Clef/zipball/46e05356959937a7ddbb90e89dcb7e213d082c90",
+                "reference": "46e05356959937a7ddbb90e89dcb7e213d082c90",
                 "shasum": ""
             },
             "require": {
@@ -3408,7 +3804,7 @@
                 "source": "https://github.com/ragavagroup/Clef/tree/master",
                 "issues": "https://github.com/ragavagroup/Clef/issues"
             },
-            "time": "2015-04-08 14:48:09"
+            "time": "2015-06-18 16:10:01"
         },
         {
             "name": "medikly/contactsync",
@@ -3416,12 +3812,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/contactsync.git",
-                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a"
+                "reference": "b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/d0d6675df33e20cb36b921e2ad82753b057e134a",
-                "reference": "d0d6675df33e20cb36b921e2ad82753b057e134a",
+                "url": "https://api.github.com/repos/ragavagroup/contactsync/zipball/b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021",
+                "reference": "b4c8fc9a23abfeeeef2ea8e064c36ac5902f1021",
                 "shasum": ""
             },
             "require": {
@@ -3447,52 +3843,7 @@
                 "source": "https://github.com/ragavagroup/contactsync/tree/master",
                 "issues": "https://github.com/ragavagroup/contactsync/issues"
             },
-            "time": "2015-02-09 09:07:27"
-        },
-        {
-            "name": "medikly/custom-alerts-bundle",
-            "version": "dev-master",
-            "target-dir": "Medikly/Bundle/CampaignAlertsBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/CustomAlertsBundle.git",
-                "reference": "ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomAlertsBundle/zipball/ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6",
-                "reference": "ae13262cee8d8d6701efa3fcd42c2a8fd7a82bb6",
-                "shasum": ""
-            },
-            "require": {
-                "medikly/campaigns": "dev-master",
-                "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.*",
-                "oro/crm-enterprise": "1.*",
-                "oro/platform": "1.*",
-                "php": ">5.4"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\CampaignAlertsBundle": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Medikly Custom Alerts Piwik integration bundle",
-            "keywords": [
-                "Alerts",
-                "Custom",
-                "Medikly",
-                "Piwik"
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/CustomAlertsBundle/tree/master",
-                "issues": "https://github.com/ragavagroup/CustomAlertsBundle/issues"
-            },
-            "time": "2015-05-05 09:21:26"
+            "time": "2015-02-10 16:47:36"
         },
         {
             "name": "medikly/customdashboardmenu-bundle",
@@ -3501,12 +3852,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "5f78d17703a101b1a1ff0934feffb62ea2fc79e1"
+                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/5f78d17703a101b1a1ff0934feffb62ea2fc79e1",
-                "reference": "5f78d17703a101b1a1ff0934feffb62ea2fc79e1",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/8dc406af8d7246277fcf621af97abd3c576547f2",
+                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2",
                 "shasum": ""
             },
             "require": {
@@ -3537,7 +3888,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-05-06 15:52:29"
+            "time": "2015-05-19 12:00:16"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
@@ -3546,12 +3897,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/D3JS-Data-Visualization-Tools.git",
-                "reference": "423b69b594d13116c818c8ff476e170c2e2ec66b"
+                "reference": "a8bed8c5e6791a67c090c44c256d9103ab451544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/D3JS-Data-Visualization-Tools/zipball/423b69b594d13116c818c8ff476e170c2e2ec66b",
-                "reference": "423b69b594d13116c818c8ff476e170c2e2ec66b",
+                "url": "https://api.github.com/repos/ragavagroup/D3JS-Data-Visualization-Tools/zipball/a8bed8c5e6791a67c090c44c256d9103ab451544",
+                "reference": "a8bed8c5e6791a67c090c44c256d9103ab451544",
                 "shasum": ""
             },
             "require": {
@@ -3576,7 +3927,50 @@
                 "source": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools/tree/master",
                 "issues": "https://github.com/ragavagroup/D3JS-Data-Visualization-Tools/issues"
             },
-            "time": "2015-04-16 05:25:56"
+            "time": "2015-04-28 17:28:03"
+        },
+        {
+            "name": "medikly/dashboard-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DashboardBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
+                "reference": "e450c3f69da647a9e55a4a99215b4dea9e678e6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/e450c3f69da647a9e55a4a99215b4dea9e678e6c",
+                "reference": "e450c3f69da647a9e55a4a99215b4dea9e678e6c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DashboardBundle": ""
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "description": "Custom Dashboard Bundle",
+            "keywords": [
+                "Dashboard"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
+            },
+            "time": "2015-04-28 02:50:49"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
@@ -3628,12 +4022,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Event.git",
-                "reference": "98ad982ffba8ecb82db0704cb61b7a9e6502c906"
+                "reference": "d390dec24bc4cec3d66a5f4406e5951959522c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/98ad982ffba8ecb82db0704cb61b7a9e6502c906",
-                "reference": "98ad982ffba8ecb82db0704cb61b7a9e6502c906",
+                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/d390dec24bc4cec3d66a5f4406e5951959522c03",
+                "reference": "d390dec24bc4cec3d66a5f4406e5951959522c03",
                 "shasum": ""
             },
             "require": {
@@ -3662,7 +4056,7 @@
                 "source": "https://github.com/ragavagroup/Event/tree/master",
                 "issues": "https://github.com/ragavagroup/Event/issues"
             },
-            "time": "2015-04-02 11:22:34"
+            "time": "2015-04-08 09:18:56"
         },
         {
             "name": "medikly/fullcontact-integration",
@@ -3671,12 +4065,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/FullContactIntegrationBundle.git",
-                "reference": "dcbecda69029ed47f5d53fa4bb158c8a4b0a3bfe"
+                "reference": "c15bde4bce645c3862758faa42b8ba4028383ef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/dcbecda69029ed47f5d53fa4bb158c8a4b0a3bfe",
-                "reference": "dcbecda69029ed47f5d53fa4bb158c8a4b0a3bfe",
+                "url": "https://api.github.com/repos/ragavagroup/FullContactIntegrationBundle/zipball/c15bde4bce645c3862758faa42b8ba4028383ef7",
+                "reference": "c15bde4bce645c3862758faa42b8ba4028383ef7",
                 "shasum": ""
             },
             "require": {
@@ -3702,7 +4096,7 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-04-16 14:53:15"
+            "time": "2015-05-18 08:20:00"
         },
         {
             "name": "medikly/getstarted",
@@ -3711,12 +4105,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Getstarted.git",
-                "reference": "868d84f2aa258e2c712ff97207bdea482afc54a6"
+                "reference": "b10cf67644e5ef79dc80e4cee618cd4fbcc615a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Getstarted/zipball/868d84f2aa258e2c712ff97207bdea482afc54a6",
-                "reference": "868d84f2aa258e2c712ff97207bdea482afc54a6",
+                "url": "https://api.github.com/repos/ragavagroup/Getstarted/zipball/b10cf67644e5ef79dc80e4cee618cd4fbcc615a5",
+                "reference": "b10cf67644e5ef79dc80e4cee618cd4fbcc615a5",
                 "shasum": ""
             },
             "require": {
@@ -3744,7 +4138,44 @@
                 "source": "https://github.com/ragavagroup/Getstarted/tree/master",
                 "issues": "https://github.com/ragavagroup/Getstarted/issues"
             },
-            "time": "2015-02-09 09:47:59"
+            "time": "2015-06-18 16:10:01"
+        },
+        {
+            "name": "medikly/hospital",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/HospitalBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/HospitalBundle.git",
+                "reference": "7a48addf9d868b77d682e595e68d9a1d22fbe9f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/HospitalBundle/zipball/7a48addf9d868b77d682e595e68d9a1d22fbe9f5",
+                "reference": "7a48addf9d868b77d682e595e68d9a1d22fbe9f5",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\HospitalBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eltrino LLC",
+                    "homepage": "http://eltrino.com"
+                }
+            ],
+            "description": "Bundle that hosts Hospital entity",
+            "support": {
+                "source": "https://github.com/ragavagroup/HospitalBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/HospitalBundle/issues"
+            },
+            "time": "2015-05-19 10:53:01"
         },
         {
             "name": "medikly/inheritance",
@@ -3753,12 +4184,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Inheritance.git",
-                "reference": "84053dbbb114828cbca9e01185baf0bdc68811a8"
+                "reference": "4ed5f22d7d9f7ee4a844b397e715b1b41ef37212"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Inheritance/zipball/84053dbbb114828cbca9e01185baf0bdc68811a8",
-                "reference": "84053dbbb114828cbca9e01185baf0bdc68811a8",
+                "url": "https://api.github.com/repos/ragavagroup/Inheritance/zipball/4ed5f22d7d9f7ee4a844b397e715b1b41ef37212",
+                "reference": "4ed5f22d7d9f7ee4a844b397e715b1b41ef37212",
                 "shasum": ""
             },
             "require": {
@@ -3786,7 +4217,7 @@
                 "source": "https://github.com/ragavagroup/Inheritance/tree/master",
                 "issues": "https://github.com/ragavagroup/Inheritance/issues"
             },
-            "time": "2015-01-21 15:16:27"
+            "time": "2015-06-18 16:10:01"
         },
         {
             "name": "medikly/intercomapi",
@@ -3795,7 +4226,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/IntrcomIO-API.git",
-                "reference": "361fa247fab8820a49c3a1febb8b76b4e89c2047"
+                "reference": "f976c940f8b0d7005e3d46a2c12c325edab89229"
             },
             "require": {
                 "php": ">=5.4"
@@ -3818,7 +4249,7 @@
                 }
             ],
             "description": "MediklyOS Intercom IO API Integration",
-            "time": "2015-03-02 11:24:59"
+            "time": "2015-05-08 06:46:09"
         },
         {
             "name": "medikly/intercomjs",
@@ -3827,7 +4258,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/intercomIO-JS.git",
-                "reference": "624d7a6d839ca29a301967902466cd96788a8e26"
+                "reference": "da43e9aaebd5af22f19711f2661cb6617d2d9779"
             },
             "require": {
                 "php": ">=5.4"
@@ -3850,7 +4281,7 @@
                 }
             ],
             "description": "MediklyOS Intercom IO JS Integration",
-            "time": "2015-04-18 07:57:21"
+            "time": "2015-06-18 16:10:01"
         },
         {
             "name": "medikly/oro-flat-theme",
@@ -3859,12 +4290,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "152e598a0750b8edd6e1db3962e49ff412c6c73c"
+                "reference": "5399800c62f40c4e5ce9e12b8beed2be08ca43dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/152e598a0750b8edd6e1db3962e49ff412c6c73c",
-                "reference": "152e598a0750b8edd6e1db3962e49ff412c6c73c",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/5399800c62f40c4e5ce9e12b8beed2be08ca43dd",
+                "reference": "5399800c62f40c4e5ce9e12b8beed2be08ca43dd",
                 "shasum": ""
             },
             "type": "library",
@@ -3887,7 +4318,45 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-05-06 15:50:00"
+            "time": "2015-05-20 07:54:58"
+        },
+        {
+            "name": "medikly/page-builder-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/PageBuilderBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/PageBuilderBundle.git",
+                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/f5737e5212616bbdb3c46bab9d39e1af2346eef1",
+                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\PageBuilderBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Page Builder bundle",
+            "keywords": [
+                "Medikly",
+                "Page Builder"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/PageBuilderBundle/tree/1.0.0-dev",
+                "issues": "https://github.com/ragavagroup/PageBuilderBundle/issues"
+            },
+            "time": "2015-05-19 10:45:02"
         },
         {
             "name": "medikly/physician-bundle",
@@ -3896,12 +4365,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "7eaa857d95960aec684801c6c8227e19afe821c3"
+                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/7eaa857d95960aec684801c6c8227e19afe821c3",
-                "reference": "7eaa857d95960aec684801c6c8227e19afe821c3",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
+                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
                 "shasum": ""
             },
             "require": {
@@ -3930,7 +4399,7 @@
                 "source": "https://github.com/ragavagroup/Physician/tree/master",
                 "issues": "https://github.com/ragavagroup/Physician/issues"
             },
-            "time": "2015-04-02 07:47:27"
+            "time": "2015-05-19 09:32:17"
         },
         {
             "name": "medikly/piwik-dashboard",
@@ -3938,12 +4407,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/dashboard.git",
-                "reference": "c11bff86ebce72f8514451b9c74d2fe066228f85"
+                "reference": "85f1227519f48c15de9d3bfd047824286e1490dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/c11bff86ebce72f8514451b9c74d2fe066228f85",
-                "reference": "c11bff86ebce72f8514451b9c74d2fe066228f85",
+                "url": "https://api.github.com/repos/ragavagroup/dashboard/zipball/85f1227519f48c15de9d3bfd047824286e1490dc",
+                "reference": "85f1227519f48c15de9d3bfd047824286e1490dc",
                 "shasum": ""
             },
             "require": {
@@ -3969,7 +4438,7 @@
                 "source": "https://github.com/ragavagroup/dashboard/tree/master",
                 "issues": "https://github.com/ragavagroup/dashboard/issues"
             },
-            "time": "2015-04-17 06:52:28"
+            "time": "2015-05-13 09:20:38"
         },
         {
             "name": "medikly/piwik-proxy",
@@ -4016,12 +4485,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "d8559f2d4b7917f98e25e604d88fe9585ce15db1"
+                "reference": "4c856bf67af9569c356a911babc086f03fff24be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/d8559f2d4b7917f98e25e604d88fe9585ce15db1",
-                "reference": "d8559f2d4b7917f98e25e604d88fe9585ce15db1",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4c856bf67af9569c356a911babc086f03fff24be",
+                "reference": "4c856bf67af9569c356a911babc086f03fff24be",
                 "shasum": ""
             },
             "require": {
@@ -4050,7 +4519,7 @@
                 "source": "https://github.com/ragavagroup/Provider/tree/master",
                 "issues": "https://github.com/ragavagroup/Provider/issues"
             },
-            "time": "2015-04-16 07:38:54"
+            "time": "2015-05-19 06:44:55"
         },
         {
             "name": "medikly/raw-data-bundle",
@@ -4059,12 +4528,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/RawData.git",
-                "reference": "d3f43b1035aef1e2eb612591b5e7e833bc257ec4"
+                "reference": "fed7d946888649eed6843fc6972694efd101d536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/d3f43b1035aef1e2eb612591b5e7e833bc257ec4",
-                "reference": "d3f43b1035aef1e2eb612591b5e7e833bc257ec4",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/fed7d946888649eed6843fc6972694efd101d536",
+                "reference": "fed7d946888649eed6843fc6972694efd101d536",
                 "shasum": ""
             },
             "require": {
@@ -4090,7 +4559,7 @@
                 "source": "https://github.com/ragavagroup/RawData/tree/master",
                 "issues": "https://github.com/ragavagroup/RawData/issues"
             },
-            "time": "2015-04-20 17:04:21"
+            "time": "2015-05-15 07:20:06"
         },
         {
             "name": "medikly/reclinejs-bundle",
@@ -4099,12 +4568,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "572dae80cf4b909c091402a557f123cb6f356cac"
+                "reference": "2608f2735eef4eaac176ba5e0482df63c0f1d28a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/572dae80cf4b909c091402a557f123cb6f356cac",
-                "reference": "572dae80cf4b909c091402a557f123cb6f356cac",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/2608f2735eef4eaac176ba5e0482df63c0f1d28a",
+                "reference": "2608f2735eef4eaac176ba5e0482df63c0f1d28a",
                 "shasum": ""
             },
             "require": {
@@ -4128,7 +4597,47 @@
                 "source": "https://github.com/ragavagroup/ReclineJS/tree/master",
                 "issues": "https://github.com/ragavagroup/ReclineJS/issues"
             },
-            "time": "2015-04-17 06:05:52"
+            "time": "2015-05-18 13:43:34"
+        },
+        {
+            "name": "medikly/report",
+            "version": "1.0",
+            "target-dir": "Medikly/Bundle/ReportBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Report.git",
+                "reference": "402cab2ed9f8551a5e1e0d1d56167d72612017ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Report/zipball/402cab2ed9f8551a5e1e0d1d56167d72612017ee",
+                "reference": "402cab2ed9f8551a5e1e0d1d56167d72612017ee",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "1.7",
+                "oro/crm-enterprise": "1.9",
+                "oro/platform": "1.7",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ReportBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Report Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/Report/tree/1.0",
+                "issues": "https://github.com/ragavagroup/Report/issues"
+            },
+            "time": "2015-05-20 08:16:21"
         },
         {
             "name": "medikly/resource-bundle",
@@ -4137,12 +4646,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "a0902e3d0ef579c864748abadaddb19c1491719e"
+                "reference": "79168768580d9aeaa75d42f14d51a09ec3118656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/a0902e3d0ef579c864748abadaddb19c1491719e",
-                "reference": "a0902e3d0ef579c864748abadaddb19c1491719e",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/79168768580d9aeaa75d42f14d51a09ec3118656",
+                "reference": "79168768580d9aeaa75d42f14d51a09ec3118656",
                 "shasum": ""
             },
             "require": {
@@ -4166,45 +4675,7 @@
                 "source": "https://github.com/ragavagroup/DataResourceBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/DataResourceBundle/issues"
             },
-            "time": "2015-04-20 16:31:16"
-        },
-        {
-            "name": "medikly/scheduled-reports",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/ScheduledReportsBundle.git",
-                "reference": "4e5c969ef8bef85e1b14b05ae922390cae3473db"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ScheduledReportsBundle/zipball/4e5c969ef8bef85e1b14b05ae922390cae3473db",
-                "reference": "4e5c969ef8bef85e1b14b05ae922390cae3473db",
-                "shasum": ""
-            },
-            "require": {
-                "medikly/campaigns": "dev-master",
-                "medikly/piwik-proxy": "dev-master",
-                "oro/crm": "1.*",
-                "oro/crm-enterprise": "1.*",
-                "oro/platform": "1.*",
-                "php": ">5.4"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\ScheduledReportsBundle": ""
-                }
-            },
-            "description": "Bundle for campaign scheduled report management",
-            "keywords": [
-                "medikly"
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/ScheduledReportsBundle/tree/master",
-                "issues": "https://github.com/ragavagroup/ScheduledReportsBundle/issues"
-            },
-            "time": "2015-05-05 09:24:02"
+            "time": "2015-06-10 11:50:47"
         },
         {
             "name": "medikly/search",
@@ -4242,28 +4713,26 @@
         },
         {
             "name": "medikly/segments",
-            "version": "dev-master",
+            "version": "1.1.0-beta",
             "target-dir": "Medikly/Bundle/SegmentsBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segments.git",
-                "reference": "e9d1e3989ce7d33f75039782c88d4c2d6c282159"
+                "reference": "e387d754346fd410ee653a590f772d8e67290544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/e9d1e3989ce7d33f75039782c88d4c2d6c282159",
-                "reference": "e9d1e3989ce7d33f75039782c88d4c2d6c282159",
+                "url": "https://api.github.com/repos/ragavagroup/Segments/zipball/e387d754346fd410ee653a590f772d8e67290544",
+                "reference": "e387d754346fd410ee653a590f772d8e67290544",
                 "shasum": ""
             },
             "require": {
+                "oro/crm": "1.7",
+                "oro/crm-enterprise": "1.9",
+                "oro/platform": "1.7",
                 "php": ">=5.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "staging"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Medikly\\Bundle\\SegmentsBundle": ""
@@ -4277,10 +4746,48 @@
             ],
             "description": "MediklyOS Segments Bundle",
             "support": {
-                "source": "https://github.com/ragavagroup/Segments/tree/master",
+                "source": "https://github.com/ragavagroup/Segments/tree/1.1.0-dev",
                 "issues": "https://github.com/ragavagroup/Segments/issues"
             },
-            "time": "2015-05-15 17:58:27"
+            "time": "2015-06-18 16:10:01"
+        },
+        {
+            "name": "medikly/socialmention",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SocialMentionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
+                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/119e8f218ecc65ea0165c1c1557d96e684a8aeec",
+                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SocialMentionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Integration Bundle for SocialMention",
+            "keywords": [
+                "Medikly",
+                "SocialMention"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/SocialMentionBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/SocialMentionBundle/issues"
+            },
+            "time": "2015-05-19 16:20:21"
         },
         {
             "name": "medikly/successpages",
@@ -4289,12 +4796,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SuccessPages.git",
-                "reference": "f29d4c06e7fd324d0cf54e4f88891ca76acdf1e1"
+                "reference": "c241b9d92938c7b361e46a993cd818a84546611f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/f29d4c06e7fd324d0cf54e4f88891ca76acdf1e1",
-                "reference": "f29d4c06e7fd324d0cf54e4f88891ca76acdf1e1",
+                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/c241b9d92938c7b361e46a993cd818a84546611f",
+                "reference": "c241b9d92938c7b361e46a993cd818a84546611f",
                 "shasum": ""
             },
             "require": {
@@ -4322,7 +4829,7 @@
                 "source": "https://github.com/ragavagroup/SuccessPages/tree/master",
                 "issues": "https://github.com/ragavagroup/SuccessPages/issues"
             },
-            "time": "2015-04-09 10:51:20"
+            "time": "2015-06-18 16:10:01"
         },
         {
             "name": "medikly/system-navigation",
@@ -4331,12 +4838,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SystemNavigationBundle.git",
-                "reference": "ab0dd2a84767644046b1e039360628a10ba304eb"
+                "reference": "95436fe534eeb68830abb78601778d6151a1accb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/ab0dd2a84767644046b1e039360628a10ba304eb",
-                "reference": "ab0dd2a84767644046b1e039360628a10ba304eb",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/95436fe534eeb68830abb78601778d6151a1accb",
+                "reference": "95436fe534eeb68830abb78601778d6151a1accb",
                 "shasum": ""
             },
             "require": {
@@ -4357,7 +4864,7 @@
                 "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/SystemNavigationBundle/issues"
             },
-            "time": "2015-04-09 11:44:33"
+            "time": "2015-05-08 15:20:12"
         },
         {
             "name": "medikly/theme-bundle",
@@ -4403,18 +4910,57 @@
             "time": "2014-12-12 13:06:40"
         },
         {
+            "name": "medikly/tracking",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/TrackingBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Tracking.git",
+                "reference": "b98352a5d4def8ecd4f986858912e04baeb3afb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/b98352a5d4def8ecd4f986858912e04baeb3afb4",
+                "reference": "b98352a5d4def8ecd4f986858912e04baeb3afb4",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "1.*",
+                "oro/crm-enterprise": "1.*",
+                "oro/platform": "1.*",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\TrackingBundle": ""
+                }
+            },
+            "description": "Bundle for custom trackers",
+            "support": {
+                "source": "https://github.com/ragavagroup/Tracking/tree/master",
+                "issues": "https://github.com/ragavagroup/Tracking/issues"
+            },
+            "time": "2015-06-18 16:10:01"
+        },
+        {
             "name": "medikly/ui-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/UIBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/UI-REEA-.git",
-                "reference": "579c042721713afd87d0b85a8fc2b688dcf4c558"
+                "reference": "6deaa7c29bf48c207a4ac7cac06a6e596850eb07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/UI-REEA-/zipball/579c042721713afd87d0b85a8fc2b688dcf4c558",
-                "reference": "579c042721713afd87d0b85a8fc2b688dcf4c558",
+                "url": "https://api.github.com/repos/ragavagroup/UI-REEA-/zipball/6deaa7c29bf48c207a4ac7cac06a6e596850eb07",
+                "reference": "6deaa7c29bf48c207a4ac7cac06a6e596850eb07",
                 "shasum": ""
             },
             "require": {
@@ -4451,12 +4997,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/user-journey.git",
-                "reference": "c9496757050911f024a37d64bd3385d178a8ebd9"
+                "reference": "0910b26d69832d54d77809266f52a48f51b7c1b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/c9496757050911f024a37d64bd3385d178a8ebd9",
-                "reference": "c9496757050911f024a37d64bd3385d178a8ebd9",
+                "url": "https://api.github.com/repos/ragavagroup/user-journey/zipball/0910b26d69832d54d77809266f52a48f51b7c1b6",
+                "reference": "0910b26d69832d54d77809266f52a48f51b7c1b6",
                 "shasum": ""
             },
             "require": {
@@ -4481,7 +5027,7 @@
                 "source": "https://github.com/ragavagroup/user-journey/tree/master",
                 "issues": "https://github.com/ragavagroup/user-journey/issues"
             },
-            "time": "2015-02-25 11:21:12"
+            "time": "2015-05-08 11:42:12"
         },
         {
             "name": "medikly/webactivities-bundle",
@@ -4685,6 +5231,53 @@
             "time": "2015-01-11 23:07:46"
         },
         {
+            "name": "mustangostang/spyc",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mustangostang/spyc.git",
+                "reference": "dc4785b4d7227fd9905e086d499fb8abfadf9977"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/dc4785b4d7227fd9905e086d499fb8abfadf9977",
+                "reference": "dc4785b4d7227fd9905e086d499fb8abfadf9977",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Spyc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "mustangostang",
+                    "email": "vlad.andersen@gmail.com"
+                }
+            ],
+            "description": "A simple YAML loader/dumper class for PHP",
+            "homepage": "https://github.com/mustangostang/spyc/",
+            "keywords": [
+                "spyc",
+                "yaml",
+                "yml"
+            ],
+            "time": "2013-02-21 10:52:01"
+        },
+        {
             "name": "nelmio/api-doc-bundle",
             "version": "2.7.0",
             "target-dir": "Nelmio/ApiDocBundle",
@@ -4869,20 +5462,20 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/crm.git",
-                "reference": "c7fb55bee3c2f8b32670240bb937ab41c39483f2"
+                "reference": "ee45f7418378afb435855716239392606094ff18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/c7fb55bee3c2f8b32670240bb937ab41c39483f2",
-                "reference": "c7fb55bee3c2f8b32670240bb937ab41c39483f2",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/ee45f7418378afb435855716239392606094ff18",
+                "reference": "ee45f7418378afb435855716239392606094ff18",
                 "shasum": ""
             },
             "require": {
-                "oro/platform": "1.6.*",
+                "oro/platform": "1.7.*",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -4908,25 +5501,25 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
-            "time": "2015-01-20 14:48:07"
+            "time": "2015-04-28 19:43:17"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/crm-enterprise.git",
-                "reference": "6c4e934cf550aec44b03438ba373d2578fb89d16"
+                "reference": "5a35b7ec327eee0d14e6a96eeb90c23507361138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/6c4e934cf550aec44b03438ba373d2578fb89d16",
-                "reference": "6c4e934cf550aec44b03438ba373d2578fb89d16",
+                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/5a35b7ec327eee0d14e6a96eeb90c23507361138",
+                "reference": "5a35b7ec327eee0d14e6a96eeb90c23507361138",
                 "shasum": ""
             },
             "require": {
                 "elasticsearch/elasticsearch": "1.2.2",
-                "oro/crm": "1.6.*",
+                "oro/crm": "1.7.*",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -4953,27 +5546,27 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/ragavagroup/crm-enterprise/tree/1.8.0"
+                "source": "https://github.com/ragavagroup/crm-enterprise/tree/1.9.0"
             },
-            "time": "2015-01-19 22:26:56"
+            "time": "2015-04-28 21:41:42"
         },
         {
             "name": "oro/crm-mail-chimp",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "target-dir": "src/OroCRM/Bundle/MailChimpBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/OroCRMMailChimpBundle.git",
-                "reference": "04a451fd303b23abc2de7a4198216562ef99c4da"
+                "reference": "6779dcfc2f769cea675e0a0f36b38001795cb036"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMailChimpBundle/zipball/04a451fd303b23abc2de7a4198216562ef99c4da",
-                "reference": "04a451fd303b23abc2de7a4198216562ef99c4da",
+                "url": "https://api.github.com/repos/orocrm/OroCRMMailChimpBundle/zipball/6779dcfc2f769cea675e0a0f36b38001795cb036",
+                "reference": "6779dcfc2f769cea675e0a0f36b38001795cb036",
                 "shasum": ""
             },
             "require": {
-                "oro/crm": "1.6.*",
+                "oro/crm": "1.7.*",
                 "php": ">=5.4.9",
                 "zfr/zfr-mailchimp": "~2.0"
             },
@@ -5000,26 +5593,26 @@
             ],
             "description": "OroCRM MailChimp integration",
             "homepage": "https://github.com/orocrm/OroCRMMailChimpBundle.git",
-            "time": "2015-03-20 18:03:03"
+            "time": "2015-04-28 23:01:43"
         },
         {
             "name": "oro/crm-zendesk",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "target-dir": "src/OroCRM/Bundle/ZendeskBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/OroCRMZendeskBundle.git",
-                "reference": "84d968c31503faa850b59085a3bf40a9a23fe374"
+                "reference": "4dea1546947666c6439664e59250356e79e563dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/84d968c31503faa850b59085a3bf40a9a23fe374",
-                "reference": "84d968c31503faa850b59085a3bf40a9a23fe374",
+                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/4dea1546947666c6439664e59250356e79e563dc",
+                "reference": "4dea1546947666c6439664e59250356e79e563dc",
                 "shasum": ""
             },
             "require": {
-                "oro/crm": "1.6.*",
-                "oro/platform": "1.6.*",
+                "oro/crm": "1.7.*",
+                "oro/platform": "1.7.*",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -5050,20 +5643,20 @@
                 "Zendesk",
                 "integration"
             ],
-            "time": "2015-01-19 23:07:52"
+            "time": "2015-04-28 22:59:22"
         },
         {
             "name": "oro/doctrine-extensions",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/doctrine-extensions.git",
-                "reference": "778037c4e853119758ccec599278d25eeda52a8d"
+                "reference": "4999ed64a294ad1027464e9660c36ee11b69852d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/778037c4e853119758ccec599278d25eeda52a8d",
-                "reference": "778037c4e853119758ccec599278d25eeda52a8d",
+                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/4999ed64a294ad1027464e9660c36ee11b69852d",
+                "reference": "4999ed64a294ad1027464e9660c36ee11b69852d",
                 "shasum": ""
             },
             "require": {
@@ -5072,6 +5665,7 @@
             },
             "require-dev": {
                 "doctrine/data-fixtures": "dev-master",
+                "doctrine/orm": "<2.5.0",
                 "phpunit/phpunit": "4.*",
                 "symfony/yaml": ">=2.0.4"
             },
@@ -5103,20 +5697,20 @@
                 "postgresql",
                 "type"
             ],
-            "time": "2014-11-17 16:06:24"
+            "time": "2015-04-06 18:01:25"
         },
         {
             "name": "oro/platform",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
-                "reference": "66565d741b4b1db0ea792c61bce1cb22d6e75e88"
+                "reference": "a7ce7fa789e7cddd846acdd6e93d5439a2e0453d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/66565d741b4b1db0ea792c61bce1cb22d6e75e88",
-                "reference": "66565d741b4b1db0ea792c61bce1cb22d6e75e88",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/a7ce7fa789e7cddd846acdd6e93d5439a2e0453d",
+                "reference": "a7ce7fa789e7cddd846acdd6e93d5439a2e0453d",
                 "shasum": ""
             },
             "require": {
@@ -5124,7 +5718,11 @@
                 "akeneo/batch-bundle": "~0.3",
                 "ass/xmlsecurity": "1.0.0",
                 "besimple/soap": "0.2.2",
-                "composer/composer": "1.0.0-alpha8",
+                "components/backbone": "1.1.*",
+                "components/font-awesome": "~4.3.0",
+                "components/jquery": "2.1.*",
+                "components/underscore": "1.7.*",
+                "composer/composer": "1.0.0-p1",
                 "doctrine/data-fixtures": "1.0.0",
                 "doctrine/dbal": "2.4.*",
                 "doctrine/doctrine-bundle": "1.2.0",
@@ -5139,7 +5737,8 @@
                 "friendsofsymfony/jsrouting-bundle": "1.5.0",
                 "friendsofsymfony/rest-bundle": "1.5.0-RC2",
                 "genemu/form-bundle": "2.2.1",
-                "guzzle/http": "3.7.*",
+                "guzzle/guzzle": "3.7.*",
+                "hwi/oauth-bundle": "~0.3",
                 "incenteev/composer-parameter-handler": "2.1.0",
                 "jdare/clank-bundle": "0.1.*",
                 "jms/job-queue-bundle": "1.1.*",
@@ -5160,6 +5759,7 @@
                 "ocramius/proxy-manager": "0.4.*",
                 "oro/doctrine-extensions": "1.0.*",
                 "php": ">=5.4.9",
+                "piwik/device-detector": "~3.0",
                 "rhumsaa/uuid": "2.7.*",
                 "sensio/distribution-bundle": "2.3.4",
                 "sensio/framework-extra-bundle": "2.3.4",
@@ -5200,7 +5800,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2015-01-20 14:47:04"
+            "time": "2015-04-28 19:00:57"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -5346,6 +5946,57 @@
                 "dependency injection"
             ],
             "time": "2014-07-24 07:10:08"
+        },
+        {
+            "name": "piwik/device-detector",
+            "version": "3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/piwik/device-detector.git",
+                "reference": "331a7ce5f8fde8d758312e6ac4182c01beabc83b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/331a7ce5f8fde8d758312e6ac4182c01beabc83b",
+                "reference": "331a7ce5f8fde8d758312e6ac4182c01beabc83b",
+                "shasum": ""
+            },
+            "require": {
+                "mustangostang/spyc": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "~1.7",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "suggest": {
+                "doctrine/cache": "Can directly be used for caching purpose"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeviceDetector\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "The Piwik Team",
+                    "email": "hello@piwik.org",
+                    "homepage": "http://piwik.org/the-piwik-team/"
+                }
+            ],
+            "description": "The Universal Device Detection library, that parses User Agents and detects devices (desktop, tablet, mobile, tv, cars, console, etc.), clients (browsers, media players, mobile apps, feed readers, libraries, etc), operating systems, devices, brands and models.",
+            "homepage": "http://piwik.org",
+            "keywords": [
+                "devicedetection",
+                "parser",
+                "useragent"
+            ],
+            "time": "2015-05-10 18:34:07"
         },
         {
             "name": "psr/log",
@@ -5624,6 +6275,50 @@
                 "uuid"
             ],
             "time": "2014-10-30 03:36:49"
+        },
+        {
+            "name": "robloach/component-installer",
+            "version": "0.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RobLoach/component-installer.git",
+                "reference": "1864f25db21fc173e02a359f646acd596c1b0460"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/1864f25db21fc173e02a359f646acd596c1b0460",
+                "reference": "1864f25db21fc173e02a359f646acd596c1b0460",
+                "shasum": ""
+            },
+            "require": {
+                "kriswallsmith/assetic": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "composer/composer": "1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "ComponentInstaller\\Installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "ComponentInstaller": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Loach",
+                    "email": "robloach@gmail.com",
+                    "homepage": "http://robloach.net"
+                }
+            ],
+            "description": "Allows installation of Components via Composer.",
+            "time": "2013-08-31 23:46:48"
         },
         {
             "name": "seld/jsonlint",
@@ -6225,16 +6920,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.27",
+            "version": "v2.3.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "ce4aab1508dd9642906fc9a120e0d8763e689896"
+                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/ce4aab1508dd9642906fc9a120e0d8763e689896",
-                "reference": "ce4aab1508dd9642906fc9a120e0d8763e689896",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
+                "reference": "56bc4057e3849d38aeb5e9742bc800b0518fe1f0",
                 "shasum": ""
             },
             "require": {
@@ -6329,20 +7024,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-04-01 14:28:26"
+            "time": "2015-05-10 15:02:48"
         },
         {
             "name": "tinymce/tinymce",
-            "version": "4.1.9",
+            "version": "4.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "0c25116c95fe26532e04708c495ec047e7e5acc5"
+                "reference": "503d6fe1e69bd9830d39689b6e32a6c7ebffb861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/0c25116c95fe26532e04708c495ec047e7e5acc5",
-                "reference": "0c25116c95fe26532e04708c495ec047e7e5acc5",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/503d6fe1e69bd9830d39689b6e32a6c7ebffb861",
+                "reference": "503d6fe1e69bd9830d39689b6e32a6c7ebffb861",
                 "shasum": ""
             },
             "type": "component",
@@ -6375,7 +7070,7 @@
                 "tinymce",
                 "wysiwyg"
             ],
-            "time": "2015-03-10 12:20:06"
+            "time": "2015-05-05 12:07:24"
         },
         {
             "name": "twig/extensions",
@@ -6576,12 +7271,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-code.git",
-                "reference": "0e76eec4f47858da3fef96a7f828e2340327310b"
+                "reference": "92e913bc425c66c2817316ad7b0f9daa96c33e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/0e76eec4f47858da3fef96a7f828e2340327310b",
-                "reference": "0e76eec4f47858da3fef96a7f828e2340327310b",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/92e913bc425c66c2817316ad7b0f9daa96c33e51",
+                "reference": "92e913bc425c66c2817316ad7b0f9daa96c33e51",
                 "shasum": ""
             },
             "require": {
@@ -6629,12 +7324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "01b3d7daec6a237e48f5db22d7e4efd65407deac"
+                "reference": "20e943ae5768b1e389f2f02371e30b61bd972635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/01b3d7daec6a237e48f5db22d7e4efd65407deac",
-                "reference": "01b3d7daec6a237e48f5db22d7e4efd65407deac",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/20e943ae5768b1e389f2f02371e30b61bd972635",
+                "reference": "20e943ae5768b1e389f2f02371e30b61bd972635",
                 "shasum": ""
             },
             "require": {
@@ -6675,12 +7370,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-loader.git",
-                "reference": "cf34a5d5aec78debff90b27de5366162ab61c7e9"
+                "reference": "1810160b13db7d31ce6f60d14db1f4533a9b7449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/cf34a5d5aec78debff90b27de5366162ab61c7e9",
-                "reference": "cf34a5d5aec78debff90b27de5366162ab61c7e9",
+                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/1810160b13db7d31ce6f60d14db1f4533a9b7449",
+                "reference": "1810160b13db7d31ce6f60d14db1f4533a9b7449",
                 "shasum": ""
             },
             "require": {
@@ -6723,12 +7418,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mail.git",
-                "reference": "f01ac7be2756c522aea6942e4b60553527aaac66"
+                "reference": "04b52fac01af92a6722311c96411dd00234947f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/f01ac7be2756c522aea6942e4b60553527aaac66",
-                "reference": "f01ac7be2756c522aea6942e4b60553527aaac66",
+                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/04b52fac01af92a6722311c96411dd00234947f5",
+                "reference": "04b52fac01af92a6722311c96411dd00234947f5",
                 "shasum": ""
             },
             "require": {
@@ -6779,12 +7474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mime.git",
-                "reference": "066d6eecff586a7fb10e8907c032beaf1a9d6104"
+                "reference": "7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/066d6eecff586a7fb10e8907c032beaf1a9d6104",
-                "reference": "066d6eecff586a7fb10e8907c032beaf1a9d6104",
+                "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff",
+                "reference": "7aedbfe65a410054b7d5bd40fdfb36d63f8e2cff",
                 "shasum": ""
             },
             "require": {
@@ -6829,12 +7524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "0027339961ad3d49f91ee092e23f7269c18cb470"
+                "reference": "1b21f3f9a206bd79da3c660b8c550b50d88f3a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/0027339961ad3d49f91ee092e23f7269c18cb470",
-                "reference": "0027339961ad3d49f91ee092e23f7269c18cb470",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/1b21f3f9a206bd79da3c660b8c550b50d88f3a7e",
+                "reference": "1b21f3f9a206bd79da3c660b8c550b50d88f3a7e",
                 "shasum": ""
             },
             "require": {
@@ -7260,7 +7955,26 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.6",
+            "alias_normalized": "1.6.0.0",
+            "version": "1.7.0.0",
+            "package": "oro/crm"
+        },
+        {
+            "alias": "1.6",
+            "alias_normalized": "1.6.0.0",
+            "version": "1.7.0.0",
+            "package": "oro/platform"
+        },
+        {
+            "alias": "1.8",
+            "alias_normalized": "1.8.0.0",
+            "version": "1.9.0.0",
+            "package": "oro/crm-enterprise"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "oro/crm-mail-chimp": 20,
@@ -7271,7 +7985,6 @@
         "medikly/defaultlegacy-bundle": 20,
         "medikly/ui-bundle": 20,
         "medikly/theme-bundle": 20,
-        "medikly/segments": 20,
         "medikly/getstarted": 20,
         "medikly/inheritance": 20,
         "medikly/campaigns": 20,
@@ -7293,7 +8006,13 @@
         "medikly/intercomapi": 20,
         "medikly/clef": 20,
         "medikly/successpages": 20,
+        "medikly/system-navigation": 20,
         "medikly/raw-data-bundle": 20,
+        "medikly/page-builder-bundle": 20,
+        "medikly/tracking": 20,
+        "medikly/socialmention": 20,
+        "medikly/account-extension": 20,
+        "medikly/hospital": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
