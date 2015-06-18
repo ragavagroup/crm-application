@@ -4758,12 +4758,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "b7ccfac890b490a97c3b838e89b1d0ac200c0772"
+                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/b7ccfac890b490a97c3b838e89b1d0ac200c0772",
-                "reference": "b7ccfac890b490a97c3b838e89b1d0ac200c0772",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/119e8f218ecc65ea0165c1c1557d96e684a8aeec",
+                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec",
                 "shasum": ""
             },
             "require": {
