@@ -3852,12 +3852,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "17dc072850c585a700514d65b5798f406b1305ed"
+                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/17dc072850c585a700514d65b5798f406b1305ed",
-                "reference": "17dc072850c585a700514d65b5798f406b1305ed",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/8dc406af8d7246277fcf621af97abd3c576547f2",
+                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2",
                 "shasum": ""
             },
             "require": {
@@ -4022,12 +4022,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Event.git",
-                "reference": "4478d434568e396d7c91a650b07765c69856e990"
+                "reference": "d390dec24bc4cec3d66a5f4406e5951959522c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/4478d434568e396d7c91a650b07765c69856e990",
-                "reference": "4478d434568e396d7c91a650b07765c69856e990",
+                "url": "https://api.github.com/repos/ragavagroup/Event/zipball/d390dec24bc4cec3d66a5f4406e5951959522c03",
+                "reference": "d390dec24bc4cec3d66a5f4406e5951959522c03",
                 "shasum": ""
             },
             "require": {
@@ -4485,12 +4485,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "76cc703aba72d62aded24b68213cf26e462a022c"
+                "reference": "73564c3430f2b67ec45ec385a196d2f889e100f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/76cc703aba72d62aded24b68213cf26e462a022c",
-                "reference": "76cc703aba72d62aded24b68213cf26e462a022c",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/73564c3430f2b67ec45ec385a196d2f889e100f9",
+                "reference": "73564c3430f2b67ec45ec385a196d2f889e100f9",
                 "shasum": ""
             },
             "require": {
