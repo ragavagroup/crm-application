@@ -4916,12 +4916,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "a2bce87797a1b5a077d5f6b7059a1422de3a58f2"
+                "reference": "48894f87697fd9ba8bc0a27118f01985414ef129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/a2bce87797a1b5a077d5f6b7059a1422de3a58f2",
-                "reference": "a2bce87797a1b5a077d5f6b7059a1422de3a58f2",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/48894f87697fd9ba8bc0a27118f01985414ef129",
+                "reference": "48894f87697fd9ba8bc0a27118f01985414ef129",
                 "shasum": ""
             },
             "require": {
@@ -4946,7 +4946,7 @@
                 "source": "https://github.com/ragavagroup/Tracking/tree/master",
                 "issues": "https://github.com/ragavagroup/Tracking/issues"
             },
-            "time": "2015-06-18 16:10:01"
+            "time": "2015-06-19 16:30:01"
         },
         {
             "name": "medikly/ui-bundle",
