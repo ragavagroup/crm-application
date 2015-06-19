@@ -164,6 +164,14 @@
     "medikly-datagrid-sidebar": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/DatagridSidebar.git"
+    },
+    "aws-s3": {
+      "type": "vcs",
+      "url": "https://github.com/aws/aws-sdk-php"
+    },
+    "medikly-s3": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/S3IntegrationBundle.git"
     }
   },
   "require": {
@@ -209,10 +217,12 @@
     "medikly/account-extension": "dev-master",
     "medikly/hospital": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
-
+    "medikly/s3integration-bundle": "dev-master",
     "medikly/provider-ui-bundle": "dev-master",
 
-    "atwix/oro-mandrill": "dev-master"
+    "atwix/oro-mandrill": "dev-master",
+
+    "aws/aws-sdk-php": "3.0.*"
   },
   "config": {
     "component-dir": "web/bundles/components"

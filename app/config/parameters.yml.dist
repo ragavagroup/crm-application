@@ -51,7 +51,6 @@ parameters:
 
     # Custom overrides
 
-    oro_importexport.handler.export.class:  Medikly\Bundle\InheritanceBundle\Handler\ExportHandler
     oro_filter.string_filter.class:         Medikly\Bundle\InheritanceBundle\Filter\StringFilter
 
     orocrm_campaign.campaign.form.type.class:      Medikly\Bundle\TrackingBundle\Form\Type\CampaignType
