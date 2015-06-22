@@ -3690,12 +3690,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "6dbaa9229d3aabd2ba5522e5dabed35b286a36a0"
+                "reference": "1a1c387dae12b112f9a61e98f403bc53814c2183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/6dbaa9229d3aabd2ba5522e5dabed35b286a36a0",
-                "reference": "6dbaa9229d3aabd2ba5522e5dabed35b286a36a0",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/1a1c387dae12b112f9a61e98f403bc53814c2183",
+                "reference": "1a1c387dae12b112f9a61e98f403bc53814c2183",
                 "shasum": ""
             },
             "require": {
