@@ -160,6 +160,10 @@
     "medikly-provider-profile": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/ProviderProfile.git"
+    },
+    "medikly-dcjs-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/DcJS-Data-Visualization.git"
     }
   },
   "require": {
@@ -189,7 +193,7 @@
     "medikly/physician-bundle": "dev-master",
     "medikly/resource-bundle": "dev-master",
     "medikly/channel": "dev-master",
-    "medikly/report": "1.0",
+    "medikly/report": "dev-development",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/reclinejs-bundle" : "dev-master",
     "medikly/intercomjs": "dev-master",
@@ -206,6 +210,7 @@
     "medikly/hospital": "dev-master",
 
     "medikly/provider-ui-bundle": "dev-master",
+    "medikly/dcjs-data-visualization": "dev-master",
 
     "atwix/oro-mandrill": "dev-master"
   },
