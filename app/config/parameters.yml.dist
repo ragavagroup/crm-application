@@ -39,8 +39,9 @@ parameters:
     piwik_client_admin_token: ~
 
     # S3 Integration
-    amazon_s3.key:    ~
-    amazon_s3.secret: ~
+    amazon_s3.key:                  ~
+    amazon_s3.secret:               ~
+    amazon_s3.credentials_home_dir: '/home/ubuntu'
 
     # RAW Data Postgres
 
