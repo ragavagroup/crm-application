@@ -3936,12 +3936,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
-                "reference": "e450c3f69da647a9e55a4a99215b4dea9e678e6c"
+                "reference": "0b0453ec58c4d6c3e78dbf9ece3301d7dad4332f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/e450c3f69da647a9e55a4a99215b4dea9e678e6c",
-                "reference": "e450c3f69da647a9e55a4a99215b4dea9e678e6c",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/0b0453ec58c4d6c3e78dbf9ece3301d7dad4332f",
+                "reference": "0b0453ec58c4d6c3e78dbf9ece3301d7dad4332f",
                 "shasum": ""
             },
             "require": {
@@ -3970,7 +3970,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-04-28 02:50:49"
+            "time": "2015-06-25 02:50:49"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
@@ -4290,12 +4290,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "5399800c62f40c4e5ce9e12b8beed2be08ca43dd"
+                "reference": "1f20092825f555b042bae7c988ebe8be800f3cae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/5399800c62f40c4e5ce9e12b8beed2be08ca43dd",
-                "reference": "5399800c62f40c4e5ce9e12b8beed2be08ca43dd",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/1f20092825f555b042bae7c988ebe8be800f3cae",
+                "reference": "1f20092825f555b042bae7c988ebe8be800f3cae",
                 "shasum": ""
             },
             "type": "library",
