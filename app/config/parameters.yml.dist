@@ -38,6 +38,11 @@ parameters:
     piwik_client_url:         localhost
     piwik_client_admin_token: ~
 
+    # S3 Integration
+    amazon_s3.key:                  ~
+    amazon_s3.secret:               ~
+    amazon_s3.credentials_home_dir: '/home/ubuntu'
+
     # RAW Data Postgres
 
     raw_data_postgres_database_host: 127.0.0.1
@@ -51,7 +56,6 @@ parameters:
 
     # Custom overrides
 
-    oro_importexport.handler.export.class:  Medikly\Bundle\InheritanceBundle\Handler\ExportHandler
     oro_filter.string_filter.class:         Medikly\Bundle\InheritanceBundle\Filter\StringFilter
 
     orocrm_campaign.campaign.form.type.class:      Medikly\Bundle\TrackingBundle\Form\Type\CampaignType
