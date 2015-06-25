@@ -3891,6 +3891,45 @@
             "time": "2015-05-19 12:00:16"
         },
         {
+            "name": "medikly/dcjs-data-visualization",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DcJsBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DcJS-Data-Visualization.git",
+                "reference": "6ad869f454adc1b359153f259794ad92c379673c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DcJS-Data-Visualization/zipball/6ad869f454adc1b359153f259794ad92c379673c",
+                "reference": "6ad869f454adc1b359153f259794ad92c379673c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DcJsBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly DcJs Data Visualization Bundle for OroCRM",
+            "keywords": [
+                "Data visualization",
+                "DcJs",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/DcJS-Data-Visualization/tree/master",
+                "issues": "https://github.com/ragavagroup/DcJS-Data-Visualization/issues"
+            },
+            "time": "2015-06-11 09:12:40"
+        },
+        {
             "name": "medikly/d3js-visualization-tools-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/D3jsBundle",
@@ -4365,12 +4404,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44"
+                "reference": "ad8f06f878eace765580e395d62fb1a09fdba4bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
-                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/ad8f06f878eace765580e395d62fb1a09fdba4bf",
+                "reference": "ad8f06f878eace765580e395d62fb1a09fdba4bf",
                 "shasum": ""
             },
             "require": {
@@ -4485,12 +4524,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "4c856bf67af9569c356a911babc086f03fff24be"
+                "reference": "ab026620c594dd678d140fa130387bb692dd50d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4c856bf67af9569c356a911babc086f03fff24be",
-                "reference": "4c856bf67af9569c356a911babc086f03fff24be",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/ab026620c594dd678d140fa130387bb692dd50d7",
+                "reference": "ab026620c594dd678d140fa130387bb692dd50d7",
                 "shasum": ""
             },
             "require": {
