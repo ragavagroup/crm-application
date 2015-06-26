@@ -161,6 +161,14 @@
       "type": "vcs",
       "url": "git@github.com:ragavagroup/ProviderProfile.git"
     },
+    "aws-s3": {
+      "type": "vcs",
+      "url": "https://github.com/aws/aws-sdk-php"
+    },
+    "medikly-s3": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/S3IntegrationBundle.git"
+    },
     "medikly-dcjs-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/DcJS-Data-Visualization.git"
@@ -208,11 +216,13 @@
     "medikly/socialmention":"dev-master",
     "medikly/account-extension": "dev-master",
     "medikly/hospital": "dev-master",
-
+    "medikly/s3integration-bundle": "dev-master",
     "medikly/provider-ui-bundle": "dev-master",
     "medikly/dcjs-data-visualization": "dev-master",
 
-    "atwix/oro-mandrill": "dev-master"
+    "atwix/oro-mandrill": "dev-master",
+
+    "aws/aws-sdk-php": "3.0.*"
   },
   "config": {
     "component-dir": "web/bundles/components"
