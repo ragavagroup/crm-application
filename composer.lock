@@ -5060,12 +5060,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SuccessPages.git",
-                "reference": "c241b9d92938c7b361e46a993cd818a84546611f"
+                "reference": "b072eb9aabb79c44be6beccfe435288f00eae259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/c241b9d92938c7b361e46a993cd818a84546611f",
-                "reference": "c241b9d92938c7b361e46a993cd818a84546611f",
+                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/b072eb9aabb79c44be6beccfe435288f00eae259",
+                "reference": "b072eb9aabb79c44be6beccfe435288f00eae259",
                 "shasum": ""
             },
             "require": {
