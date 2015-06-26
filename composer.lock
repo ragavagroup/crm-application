@@ -4290,12 +4290,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "5399800c62f40c4e5ce9e12b8beed2be08ca43dd"
+                "reference": "5f8fb96c6d36d65aea0efe01f25dcebc1078a240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/5399800c62f40c4e5ce9e12b8beed2be08ca43dd",
-                "reference": "5399800c62f40c4e5ce9e12b8beed2be08ca43dd",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/5f8fb96c6d36d65aea0efe01f25dcebc1078a240",
+                "reference": "5f8fb96c6d36d65aea0efe01f25dcebc1078a240",
                 "shasum": ""
             },
             "type": "library",
