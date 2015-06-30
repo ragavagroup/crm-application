@@ -220,7 +220,7 @@
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/page-builder-bundle": "dev-master",
-    "medikly/tracking": "dev-master",
+    "medikly/tracking": "dev-visits-extend",
     "medikly/socialmention":"dev-master",
     "medikly/account-extension": "dev-master",
     "medikly/hospital": "dev-master",
