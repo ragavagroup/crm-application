@@ -161,10 +161,6 @@
       "type": "vcs",
       "url": "git@github.com:ragavagroup/ProviderProfile.git"
     },
-    "medikly-datagrid-sidebar": {
-      "type": "vcs",
-      "url": "git@github.com:ragavagroup/DatagridSidebar.git"
-    },
     "aws-s3": {
       "type": "vcs",
       "url": "https://github.com/aws/aws-sdk-php"
@@ -220,7 +216,6 @@
     "medikly/socialmention":"dev-master",
     "medikly/account-extension": "dev-master",
     "medikly/hospital": "dev-master",
-    "medikly/datagrid-sidebar": "dev-master",
     "medikly/s3integration-bundle": "dev-master",
     "medikly/provider-ui-bundle": "dev-master",
     "medikly/dcjs-data-visualization": "dev-master",
