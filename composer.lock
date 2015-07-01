@@ -5022,12 +5022,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec"
+                "reference": "ee6b9cdda966ccf05d23c89f9a2c3be4de19721d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/119e8f218ecc65ea0165c1c1557d96e684a8aeec",
-                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/ee6b9cdda966ccf05d23c89f9a2c3be4de19721d",
+                "reference": "ee6b9cdda966ccf05d23c89f9a2c3be4de19721d",
                 "shasum": ""
             },
             "require": {
