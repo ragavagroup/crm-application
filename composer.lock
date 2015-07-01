@@ -4514,12 +4514,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "1f20092825f555b042bae7c988ebe8be800f3cae"
+                "reference": "25b2dc7a16d9db300660aca6f57ea8b533552fb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/1f20092825f555b042bae7c988ebe8be800f3cae",
-                "reference": "1f20092825f555b042bae7c988ebe8be800f3cae",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/25b2dc7a16d9db300660aca6f57ea8b533552fb5",
+                "reference": "25b2dc7a16d9db300660aca6f57ea8b533552fb5",
                 "shasum": ""
             },
             "type": "library",
@@ -4542,7 +4542,7 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-05-20 07:54:58"
+            "time": "2015-07-01 15:40:58"
         },
         {
             "name": "medikly/page-builder-bundle",
