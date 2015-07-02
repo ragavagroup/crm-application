@@ -4512,12 +4512,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/PageBuilderBundle.git",
-                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1"
+                "reference": "a3742e958444c8f0b30c9ea4262243dcc2e721d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/f5737e5212616bbdb3c46bab9d39e1af2346eef1",
-                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1",
+                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/a3742e958444c8f0b30c9ea4262243dcc2e721d8",
+                "reference": "a3742e958444c8f0b30c9ea4262243dcc2e721d8",
                 "shasum": ""
             },
             "require": {
@@ -4550,12 +4550,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44"
+                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
-                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/329c1b2e9bf66ba5540dc775886ae468d162968c ",
+                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c",
                 "shasum": ""
             },
             "require": {
@@ -4670,12 +4670,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "4c856bf67af9569c356a911babc086f03fff24be"
+                "reference": "cb51570cbbf9da9f5b5394873671cc7c9384449c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4c856bf67af9569c356a911babc086f03fff24be",
-                "reference": "4c856bf67af9569c356a911babc086f03fff24be",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/cb51570cbbf9da9f5b5394873671cc7c9384449c",
+                "reference": "cb51570cbbf9da9f5b5394873671cc7c9384449c",
                 "shasum": ""
             },
             "require": {
@@ -4935,6 +4935,50 @@
                 "issues": "https://github.com/ragavagroup/SearchBundle/issues"
             },
             "time": "2015-04-13 06:48:36"
+        },
+        {
+            "name": "medikly/segment-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SegmentExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Segment-Extension-Bundle.git",
+                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-SegmentExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SegmentExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Segment Extension",
+            "keywords": [
+                "Extention",
+                "Medikly",
+                "Segment"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Segment-Extension-Bundle/tree/master",
+                "issues": "https://github.com/ragavagroup/Segment-Extension-Bundle/issues"
+            },
+            "time": "2015-06-30 13:02:34"
         },
         {
             "name": "medikly/segments",
