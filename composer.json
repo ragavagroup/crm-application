@@ -176,6 +176,10 @@
     "medikly-segment-extension-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Segment-Extension-Bundle.git"
+    },
+    "medikly/geocoding-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/GeocoderBundle.git"
     }
   },
   "require": {
@@ -208,6 +212,7 @@
     "medikly/report": "dev-development",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/reclinejs-bundle" : "dev-master",
+    "medikly/geocoding-bundle": "dev-master",
     "medikly/intercomjs": "dev-master",
     "medikly/intercomapi": "dev-master",
     "medikly/clef": "dev-master",
