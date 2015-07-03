@@ -92,6 +92,15 @@ class OroRequirements extends SymfonyRequirements
             );
         }
 
+        // Unix specific checks
+        if (!defined('PHP_WINDOWS_VERSION_BUILD')) {
+            $this->addRequirement(
+                $this->checkFileNameLength(),
+                'Cache folder should not be inside encrypted directory',
+                'Move <strong>app/cache</strong> folder outside encrypted directory.'
+            );
+        }
+
         // Web installer specific checks
         if ('cli' !== PHP_SAPI) {
             $output = $this->checkCliRequirements();
