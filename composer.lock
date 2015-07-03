@@ -4281,7 +4281,46 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-05-18 08:20:00"
+            "time": "2015-06-29 21:04:34"
+        },
+        {
+            "name": "medikly/geocoding-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/GeocodingBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/GeocoderBundle.git",
+                "reference": "2f705cec95e4c04c5b9e6f49b86f4606d3c3a142"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/GeocoderBundle/zipball/2f705cec95e4c04c5b9e6f49b86f4606d3c3a142",
+                "reference": "2f705cec95e4c04c5b9e6f49b86f4606d3c3a142",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4",
+                "willdurand/geocoder": "3.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\GeocodingBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Geocoding bundle",
+            "keywords": [
+                "Geocoding",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/GeocoderBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/GeocoderBundle/issues"
+            },
+            "time": "2015-06-08 16:01:51"
         },
         {
             "name": "medikly/getstarted",
@@ -4475,12 +4514,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "45792dea3cee69d680a4e82fd416d62821ba082b"
+                "reference": "c53f98e48e4627991fbd493ac78525cca85868ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/45792dea3cee69d680a4e82fd416d62821ba082b",
-                "reference": "45792dea3cee69d680a4e82fd416d62821ba082b",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/c53f98e48e4627991fbd493ac78525cca85868ad",
+                "reference": "c53f98e48e4627991fbd493ac78525cca85868ad",
                 "shasum": ""
             },
             "type": "library",
@@ -4538,10 +4577,10 @@
                 "Page Builder"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/PageBuilderBundle/tree/1.0.0-dev",
+                "source": "https://github.com/ragavagroup/PageBuilderBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/PageBuilderBundle/issues"
             },
-            "time": "2015-05-19 10:45:02"
+            "time": "2015-06-30 10:13:45"
         },
         {
             "name": "medikly/physician-bundle",
@@ -8369,12 +8408,11 @@
         "medikly/oro-flat-theme": 20,
         "medikly/webactivities-bundle": 20,
         "medikly/physician-bundle": 20,
-        "medikly/scheduled-reports": 20,
         "medikly/resource-bundle": 20,
-        "medikly/custom-alerts-bundle": 20,
         "medikly/channel": 20,
         "medikly/d3js-visualization-tools-bundle": 20,
         "medikly/reclinejs-bundle": 20,
+        "medikly/geocoding-bundle": 20,
         "medikly/intercomjs": 20,
         "medikly/intercomapi": 20,
         "medikly/clef": 20,

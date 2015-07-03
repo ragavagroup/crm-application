@@ -42,6 +42,7 @@ parameters:
     amazon_s3.key:                  ~
     amazon_s3.secret:               ~
     amazon_s3.credentials_home_dir: '/home/ubuntu'
+    amazon_s3.instance: 'dev'
 
     # RAW Data Postgres
 
