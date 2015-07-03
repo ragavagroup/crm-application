@@ -4877,7 +4877,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/RawData.git",
-                "reference": "fed7d946888649eed6843fc6972694efd101d536"
+                "reference": "cc98917c509f74810c1dafd27d299ffbb0bc6ec1"
             },
             "dist": {
                 "type": "zip",
@@ -5000,7 +5000,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/c3f0060938a911b2172f754123563d02cfdcfeb0",
-                "reference": "c3f0060938a911b2172f754123563d02cfdcfeb0",
+                "reference": "3554fd20265a6530ba6ab64d6ddd8cd542edf8c8",
                 "shasum": ""
             },
             "require": {
@@ -5033,7 +5033,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/S3IntegrationBundle.git",
-                "reference": "0dcab6b3be8745fce379009a22c7d7483d58d6af"
+                "reference": "d58b52fc6d80ebf046b4ce7f050074f6775ed9eb"
             },
             "dist": {
                 "type": "zip",
