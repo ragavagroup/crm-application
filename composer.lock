@@ -4881,8 +4881,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/fed7d946888649eed6843fc6972694efd101d536",
-                "reference": "fed7d946888649eed6843fc6972694efd101d536",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/cc98917c509f74810c1dafd27d299ffbb0bc6ec1",
+                "reference": "cc98917c509f74810c1dafd27d299ffbb0bc6ec1",
                 "shasum": ""
             },
             "require": {
@@ -4995,11 +4995,11 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "c3f0060938a911b2172f754123563d02cfdcfeb0"
+                "reference": "3554fd20265a6530ba6ab64d6ddd8cd542edf8c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/c3f0060938a911b2172f754123563d02cfdcfeb0",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/3554fd20265a6530ba6ab64d6ddd8cd542edf8c8",
                 "reference": "3554fd20265a6530ba6ab64d6ddd8cd542edf8c8",
                 "shasum": ""
             },
@@ -5037,8 +5037,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/0dcab6b3be8745fce379009a22c7d7483d58d6af",
-                "reference": "0dcab6b3be8745fce379009a22c7d7483d58d6af",
+                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/d58b52fc6d80ebf046b4ce7f050074f6775ed9eb",
+                "reference": "d58b52fc6d80ebf046b4ce7f050074f6775ed9eb",
                 "shasum": ""
             },
             "require": {
