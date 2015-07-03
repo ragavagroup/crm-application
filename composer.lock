@@ -3914,12 +3914,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Channel.git",
-                "reference": "9906699b64a5d584a957680bedad5d00801a0360"
+                "reference": "6b8b6c79bc4ccf2a50a7cf1c44038c59b9f32ea0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/9906699b64a5d584a957680bedad5d00801a0360",
-                "reference": "9906699b64a5d584a957680bedad5d00801a0360",
+                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/6b8b6c79bc4ccf2a50a7cf1c44038c59b9f32ea0",
+                "reference": "6b8b6c79bc4ccf2a50a7cf1c44038c59b9f32ea0",
                 "shasum": ""
             },
             "require": {
@@ -4076,45 +4076,6 @@
             "time": "2015-05-19 12:00:16"
         },
         {
-            "name": "medikly/dcjs-data-visualization",
-            "version": "dev-master",
-            "target-dir": "Medikly/Bundle/DcJsBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/DcJS-Data-Visualization.git",
-                "reference": "6ad869f454adc1b359153f259794ad92c379673c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DcJS-Data-Visualization/zipball/6ad869f454adc1b359153f259794ad92c379673c",
-                "reference": "6ad869f454adc1b359153f259794ad92c379673c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.4"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\DcJsBundle": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Medikly DcJs Data Visualization Bundle for OroCRM",
-            "keywords": [
-                "Data visualization",
-                "DcJs",
-                "Medikly"
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/DcJS-Data-Visualization/tree/master",
-                "issues": "https://github.com/ragavagroup/DcJS-Data-Visualization/issues"
-            },
-            "time": "2015-06-11 09:12:40"
-        },
-        {
             "name": "medikly/d3js-visualization-tools-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/D3jsBundle",
@@ -4160,12 +4121,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyCustomDashboardBundle.git",
-                "reference": "0b0453ec58c4d6c3e78dbf9ece3301d7dad4332f"
+                "reference": "e450c3f69da647a9e55a4a99215b4dea9e678e6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/0b0453ec58c4d6c3e78dbf9ece3301d7dad4332f",
-                "reference": "0b0453ec58c4d6c3e78dbf9ece3301d7dad4332f",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomDashboardBundle/zipball/e450c3f69da647a9e55a4a99215b4dea9e678e6c",
+                "reference": "e450c3f69da647a9e55a4a99215b4dea9e678e6c",
                 "shasum": ""
             },
             "require": {
@@ -4194,7 +4155,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomDashboardBundle/issues"
             },
-            "time": "2015-06-25 02:50:49"
+            "time": "2015-04-28 02:50:49"
         },
         {
             "name": "medikly/defaultlegacy-bundle",
@@ -4514,12 +4475,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "25b2dc7a16d9db300660aca6f57ea8b533552fb5"
+                "reference": "45792dea3cee69d680a4e82fd416d62821ba082b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/25b2dc7a16d9db300660aca6f57ea8b533552fb5",
-                "reference": "25b2dc7a16d9db300660aca6f57ea8b533552fb5",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/45792dea3cee69d680a4e82fd416d62821ba082b",
+                "reference": "45792dea3cee69d680a4e82fd416d62821ba082b",
                 "shasum": ""
             },
             "type": "library",
@@ -4542,7 +4503,7 @@
                 "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2015-07-01 15:40:58"
+            "time": "2015-05-20 07:54:58"
         },
         {
             "name": "medikly/page-builder-bundle",
@@ -4551,12 +4512,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/PageBuilderBundle.git",
-                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1"
+                "reference": "a3742e958444c8f0b30c9ea4262243dcc2e721d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/f5737e5212616bbdb3c46bab9d39e1af2346eef1",
-                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1",
+                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/a3742e958444c8f0b30c9ea4262243dcc2e721d8",
+                "reference": "a3742e958444c8f0b30c9ea4262243dcc2e721d8",
                 "shasum": ""
             },
             "require": {
@@ -4589,12 +4550,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "ad8f06f878eace765580e395d62fb1a09fdba4bf"
+                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/ad8f06f878eace765580e395d62fb1a09fdba4bf",
-                "reference": "ad8f06f878eace765580e395d62fb1a09fdba4bf",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/329c1b2e9bf66ba5540dc775886ae468d162968c ",
+                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c",
                 "shasum": ""
             },
             "require": {
@@ -4709,12 +4670,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "ab026620c594dd678d140fa130387bb692dd50d7"
+                "reference": "cb51570cbbf9da9f5b5394873671cc7c9384449c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/ab026620c594dd678d140fa130387bb692dd50d7",
-                "reference": "ab026620c594dd678d140fa130387bb692dd50d7",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/cb51570cbbf9da9f5b5394873671cc7c9384449c",
+                "reference": "cb51570cbbf9da9f5b5394873671cc7c9384449c",
                 "shasum": ""
             },
             "require": {
@@ -4976,6 +4937,50 @@
             "time": "2015-04-13 06:48:36"
         },
         {
+            "name": "medikly/segment-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SegmentExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Segment-Extension-Bundle.git",
+                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-SegmentExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SegmentExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Segment Extension",
+            "keywords": [
+                "Extention",
+                "Medikly",
+                "Segment"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Segment-Extension-Bundle/tree/master",
+                "issues": "https://github.com/ragavagroup/Segment-Extension-Bundle/issues"
+            },
+            "time": "2015-06-30 13:02:34"
+        },
+        {
             "name": "medikly/segments",
             "version": "1.1.0-beta",
             "target-dir": "Medikly/Bundle/SegmentsBundle",
@@ -5022,12 +5027,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "ee6b9cdda966ccf05d23c89f9a2c3be4de19721d"
+                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/ee6b9cdda966ccf05d23c89f9a2c3be4de19721d",
-                "reference": "ee6b9cdda966ccf05d23c89f9a2c3be4de19721d",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/eb376e7f6faac668e149e5bd5b9f25e6c097734a",
+                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a",
                 "shasum": ""
             },
             "require": {
@@ -5180,12 +5185,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "df51c676c15120462f2f9f36cb1a82cfc2a880e7"
+                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/df51c676c15120462f2f9f36cb1a82cfc2a880e7",
-                "reference": "df51c676c15120462f2f9f36cb1a82cfc2a880e7",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/6de72461081acf4ddeefd8154f9abe7fc5d01c33",
+                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33",
                 "shasum": ""
             },
             "require": {

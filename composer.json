@@ -172,6 +172,10 @@
     "medikly-dcjs-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/DcJS-Data-Visualization.git"
+    },
+    "medikly-segment-extension-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Segment-Extension-Bundle.git"
     }
   },
   "require": {
@@ -212,14 +216,15 @@
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/page-builder-bundle": "dev-master",
-    "medikly/tracking": "dev-master",
+    "medikly/tracking": "dev-visits-extend",
     "medikly/socialmention":"dev-master",
     "medikly/account-extension": "dev-master",
     "medikly/hospital": "dev-master",
     "medikly/s3integration-bundle": "dev-master",
     "medikly/provider-ui-bundle": "dev-master",
     "medikly/dcjs-data-visualization": "dev-master",
-
+    "medikly/segment-extension-bundle": "dev-master",
+    
     "atwix/oro-mandrill": "dev-master",
 
     "aws/aws-sdk-php": "3.0.*"
