@@ -5033,12 +5033,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/S3IntegrationBundle.git",
-                "reference": "d58b52fc6d80ebf046b4ce7f050074f6775ed9eb"
+                "reference": "cbdd01c5b608d67031211b4e291294c589254d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/0dcab6b3be8745fce379009a22c7d7483d58d6af",
-                "reference": "0dcab6b3be8745fce379009a22c7d7483d58d6af",
+                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/cbdd01c5b608d67031211b4e291294c589254d90",
+                "reference": "cbdd01c5b608d67031211b4e291294c589254d90",
                 "shasum": ""
             },
             "require": {
