@@ -4714,12 +4714,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "cb51570cbbf9da9f5b5394873671cc7c9384449c"
+                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/cb51570cbbf9da9f5b5394873671cc7c9384449c",
-                "reference": "cb51570cbbf9da9f5b5394873671cc7c9384449c",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/00b25d224de29055b4abeda0452f9ce5e641ec6c",
+                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c",
                 "shasum": ""
             },
             "require": {
