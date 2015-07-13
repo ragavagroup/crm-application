@@ -177,6 +177,14 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Segment-Extension-Bundle.git"
     },
+    "medikly/geocoding-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/GeocoderBundle.git"
+    },
+    "medikly/dataset-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/DatasetBundle.git"
+    },
     "medikly-datagrid-sidebar": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/DatagridSidebar.git"
@@ -212,6 +220,7 @@
     "medikly/report": "dev-development",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/reclinejs-bundle" : "dev-master",
+    "medikly/geocoding-bundle": "dev-master",
     "medikly/intercomjs": "dev-master",
     "medikly/intercomapi": "dev-master",
     "medikly/clef": "dev-master",
@@ -228,11 +237,12 @@
     "medikly/provider-ui-bundle": "dev-master",
     "medikly/dcjs-data-visualization": "dev-master",
     "medikly/segment-extension-bundle": "dev-master",
+    "medikly/dataset-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
 
     "atwix/oro-mandrill": "dev-master",
 
-    "aws/aws-sdk-php": "3.0.*"
+    "aws/aws-sdk-php": "2.8.12"
   },
   "config": {
     "component-dir": "web/bundles/components"

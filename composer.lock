@@ -218,51 +218,42 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.0.5",
+            "version": "2.8.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9f8de576b9adf94ab482453722b9e33f2c91d440"
+                "reference": "69cf65438b99051ce4d599f1611dea5d50551b3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9f8de576b9adf94ab482453722b9e33f2c91d440",
-                "reference": "9f8de576b9adf94ab482453722b9e33f2c91d440",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69cf65438b99051ce4d599f1611dea5d50551b3f",
+                "reference": "69cf65438b99051ce4d599f1611dea5d50551b3f",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": ">=5.3|~6.0.1|~6.1",
-                "guzzlehttp/promises": "~1.0",
-                "guzzlehttp/psr7": "~1.0",
-                "mtdowling/jmespath.php": "~2.2",
-                "php": ">=5.5"
+                "guzzle/guzzle": "~3.7",
+                "php": ">=5.3.3"
             },
             "require-dev": {
-                "ext-dom": "*",
-                "ext-json": "*",
+                "doctrine/cache": "~1.0",
                 "ext-openssl": "*",
-                "ext-pcre": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
-                "phpunit/phpunit": "~4.0"
+                "monolog/monolog": "~1.4",
+                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit-mock-objects": "2.3.1",
+                "symfony/yaml": "~2.1"
             },
             "suggest": {
-                "ext-curl": "To send requests using cURL",
-                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages"
+                "doctrine/cache": "Adds support for caching of credentials and responses",
+                "ext-apc": "Allows service description opcode caching, request and response caching, and credentials caching",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "monolog/monolog": "Adds support for logging HTTP requests and responses",
+                "symfony/yaml": "Eases the ability to write manifests for creating jobs in AWS Import/Export"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
             "autoload": {
-                "psr-4": {
-                    "Aws\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
+                "psr-0": {
+                    "Aws": "src/"
+                }
             },
             "license": [
                 "Apache-2.0"
@@ -288,9 +279,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.0.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/2.8.12"
             },
-            "time": "2015-06-19 01:12:54"
+            "time": "2015-06-24 21:23:21"
         },
         {
             "name": "behat/transliterator",
@@ -1502,6 +1493,84 @@
             "time": "2014-10-06 13:22:50"
         },
         {
+            "name": "egeloen/http-adapter",
+            "version": "0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egeloen/ivory-http-adapter.git",
+                "reference": "4a1ac3a0a2db4dbd6c1c3e5fff89e3d2545bc132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egeloen/ivory-http-adapter/zipball/4a1ac3a0a2db4dbd6c1c3e5fff89e3d2545bc132",
+                "reference": "4a1ac3a0a2db4dbd6c1c3e5fff89e3d2545bc132",
+                "shasum": ""
+            },
+            "require": {
+                "phly/http": "^0.11.2",
+                "php": ">=5.4.8"
+            },
+            "require-dev": {
+                "cakephp/cakephp": "^2.5.7",
+                "ext-curl": "*",
+                "guzzle/guzzle": "^3.9.2",
+                "guzzlehttp/guzzle": ">=4.1.4,<6.0.0",
+                "guzzlehttp/streams": ">=1.5.0,<4.0.0",
+                "kriswallsmith/buzz": "^0.13",
+                "nategood/httpful": "^0.2.17",
+                "phpunit/phpunit": "^4.0",
+                "phpunit/phpunit-mock-objects": "dev-matcher-verify as 2.3.x-dev",
+                "psr/log": "^1.0",
+                "react/dns": "^0.4.1",
+                "react/http-client": "^0.4",
+                "satooshi/php-coveralls": "^0.6",
+                "symfony/event-dispatcher": "^2.0",
+                "zendframework/zend-http": "^2.3.4",
+                "zendframework/zendframework1": "^1.12.9"
+            },
+            "suggest": {
+                "ext-curl": "Allows you to use the cURL adapter",
+                "guzzle/guzzle": "Allows you to use the Guzzle 3 adapter",
+                "guzzlehttp/guzzle": "Allows you to use the Guzzle 4 adapter",
+                "kriswallsmith/buzz": "Allows you to use the Buzz adapter",
+                "nategood/httpful": "Allows you to use the httpful adapter",
+                "psr/log": "Allows you to use the logger event subscriber",
+                "symfony/event-dispatcher": "Allows you to use the event lifecycle",
+                "symfony/stopwatch": "Allows you to use the stopwatch http adapter and event subscriber",
+                "zendframework/zend-http": "Allows you to use the Zend 2 adapter",
+                "zendframework/zendframework1": "Allows you to use the Zend 1 adapter"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ivory\\HttpAdapter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric GELOEN",
+                    "email": "geloen.eric@gmail.com"
+                }
+            ],
+            "description": "Issue HTTP request for PHP 5.3+.",
+            "keywords": [
+                "http",
+                "http-adapter",
+                "http-client",
+                "psr-7"
+            ],
+            "time": "2015-04-13 17:26:27"
+        },
+        {
             "name": "elasticsearch/elasticsearch",
             "version": "v1.2.2",
             "source": {
@@ -2176,115 +2245,6 @@
             "time": "2015-05-20 03:47:55"
         },
         {
-            "name": "guzzlehttp/promises",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "01abc3232138f330d8a1eaa808fcbdf9b4292f47"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/01abc3232138f330d8a1eaa808fcbdf9b4292f47",
-                "reference": "01abc3232138f330d8a1eaa808fcbdf9b4292f47",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Guzzle promises library",
-            "keywords": [
-                "promise"
-            ],
-            "time": "2015-05-13 05:05:10"
-        },
-        {
-            "name": "guzzlehttp/psr7",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "19e510056d8d671d9d9e25dc16937b3dd3802ae6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/19e510056d8d671d9d9e25dc16937b3dd3802ae6",
-                "reference": "19e510056d8d671d9d9e25dc16937b3dd3802ae6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "psr/http-message": "^1.0"
-            },
-            "provide": {
-                "psr/http-message-implementation": "1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "PSR-7 message implementation",
-            "keywords": [
-                "http",
-                "message",
-                "stream",
-                "uri"
-            ],
-            "time": "2015-05-19 17:58:45"
-        },
-        {
             "name": "guzzlehttp/ringphp",
             "version": "1.1.0",
             "source": {
@@ -2497,6 +2457,51 @@
                 "yandex"
             ],
             "time": "2014-11-15 10:36:48"
+        },
+        {
+            "name": "igorw/get-in",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igorw/get-in.git",
+                "reference": "170ded831f49abc6a6061f655aba9bdbcf7b8111"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igorw/get-in/zipball/170ded831f49abc6a6061f655aba9bdbcf7b8111",
+                "reference": "170ded831f49abc6a6061f655aba9bdbcf7b8111",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/get_in.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch"
+                }
+            ],
+            "description": "Functions for for hash map (assoc array) traversal.",
+            "keywords": [
+                "assoc-array",
+                "hash-map"
+            ],
+            "time": "2014-12-15 23:03:51"
         },
         {
             "name": "imagine/imagine",
@@ -3875,12 +3880,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/campaigns.git",
-                "reference": "6dbaa9229d3aabd2ba5522e5dabed35b286a36a0"
+                "reference": "1a1c387dae12b112f9a61e98f403bc53814c2183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/6dbaa9229d3aabd2ba5522e5dabed35b286a36a0",
-                "reference": "6dbaa9229d3aabd2ba5522e5dabed35b286a36a0",
+                "url": "https://api.github.com/repos/ragavagroup/campaigns/zipball/1a1c387dae12b112f9a61e98f403bc53814c2183",
+                "reference": "1a1c387dae12b112f9a61e98f403bc53814c2183",
                 "shasum": ""
             },
             "require": {
@@ -3914,12 +3919,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Channel.git",
-                "reference": "9906699b64a5d584a957680bedad5d00801a0360"
+                "reference": "6b8b6c79bc4ccf2a50a7cf1c44038c59b9f32ea0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/9906699b64a5d584a957680bedad5d00801a0360",
-                "reference": "9906699b64a5d584a957680bedad5d00801a0360",
+                "url": "https://api.github.com/repos/ragavagroup/Channel/zipball/6b8b6c79bc4ccf2a50a7cf1c44038c59b9f32ea0",
+                "reference": "6b8b6c79bc4ccf2a50a7cf1c44038c59b9f32ea0",
                 "shasum": ""
             },
             "require": {
@@ -4037,12 +4042,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2"
+                "reference": "63ea5b79a1e399469d882f80c617c44c36676550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/8dc406af8d7246277fcf621af97abd3c576547f2",
-                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/63ea5b79a1e399469d882f80c617c44c36676550",
+                "reference": "63ea5b79a1e399469d882f80c617c44c36676550",
                 "shasum": ""
             },
             "require": {
@@ -4073,7 +4078,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-05-19 12:00:16"
+            "time": "2015-07-09 15:00:00"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
@@ -4281,7 +4286,46 @@
                 "source": "https://github.com/ragavagroup/FullContactIntegrationBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/FullContactIntegrationBundle/issues"
             },
-            "time": "2015-05-18 08:20:00"
+            "time": "2015-06-29 21:04:34"
+        },
+        {
+            "name": "medikly/geocoding-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/GeocodingBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/GeocoderBundle.git",
+                "reference": "2f705cec95e4c04c5b9e6f49b86f4606d3c3a142"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/GeocoderBundle/zipball/2f705cec95e4c04c5b9e6f49b86f4606d3c3a142",
+                "reference": "2f705cec95e4c04c5b9e6f49b86f4606d3c3a142",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4",
+                "willdurand/geocoder": "3.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\GeocodingBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Geocoding bundle",
+            "keywords": [
+                "Geocoding",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/GeocoderBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/GeocoderBundle/issues"
+            },
+            "time": "2015-06-08 16:01:51"
         },
         {
             "name": "medikly/getstarted",
@@ -4475,12 +4519,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "45792dea3cee69d680a4e82fd416d62821ba082b"
+                "reference": "c53f98e48e4627991fbd493ac78525cca85868ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/45792dea3cee69d680a4e82fd416d62821ba082b",
-                "reference": "45792dea3cee69d680a4e82fd416d62821ba082b",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/c53f98e48e4627991fbd493ac78525cca85868ad",
+                "reference": "c53f98e48e4627991fbd493ac78525cca85868ad",
                 "shasum": ""
             },
             "type": "library",
@@ -4512,12 +4556,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/PageBuilderBundle.git",
-                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1"
+                "reference": "a3742e958444c8f0b30c9ea4262243dcc2e721d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/f5737e5212616bbdb3c46bab9d39e1af2346eef1",
-                "reference": "f5737e5212616bbdb3c46bab9d39e1af2346eef1",
+                "url": "https://api.github.com/repos/ragavagroup/PageBuilderBundle/zipball/a3742e958444c8f0b30c9ea4262243dcc2e721d8",
+                "reference": "a3742e958444c8f0b30c9ea4262243dcc2e721d8",
                 "shasum": ""
             },
             "require": {
@@ -4538,10 +4582,10 @@
                 "Page Builder"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/PageBuilderBundle/tree/1.0.0-dev",
+                "source": "https://github.com/ragavagroup/PageBuilderBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/PageBuilderBundle/issues"
             },
-            "time": "2015-05-19 10:45:02"
+            "time": "2015-06-30 10:13:45"
         },
         {
             "name": "medikly/physician-bundle",
@@ -4550,12 +4594,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44"
+                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
-                "reference": "a1fe893da9eae64f7902c582c5aaeb8ab0abef44",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/329c1b2e9bf66ba5540dc775886ae468d162968c ",
+                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c",
                 "shasum": ""
             },
             "require": {
@@ -4670,12 +4714,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "4c856bf67af9569c356a911babc086f03fff24be"
+                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/4c856bf67af9569c356a911babc086f03fff24be",
-                "reference": "4c856bf67af9569c356a911babc086f03fff24be",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/00b25d224de29055b4abeda0452f9ce5e641ec6c",
+                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c",
                 "shasum": ""
             },
             "require": {
@@ -4713,7 +4757,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/RawData.git",
-                "reference": "fed7d946888649eed6843fc6972694efd101d536"
+                "reference": "cc98917c509f74810c1dafd27d299ffbb0bc6ec1"
             },
             "dist": {
                 "type": "zip",
@@ -4753,12 +4797,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "2608f2735eef4eaac176ba5e0482df63c0f1d28a"
+                "reference": "52c42ec5c83ecf7e014ac8b17337978a0139d0d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/2608f2735eef4eaac176ba5e0482df63c0f1d28a",
-                "reference": "2608f2735eef4eaac176ba5e0482df63c0f1d28a",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/52c42ec5c83ecf7e014ac8b17337978a0139d0d0",
+                "reference": "52c42ec5c83ecf7e014ac8b17337978a0139d0d0",
                 "shasum": ""
             },
             "require": {
@@ -4831,12 +4875,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "c3f0060938a911b2172f754123563d02cfdcfeb0"
+                "reference": "3db94aa0560f40856335450062b7bc251384094d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/c3f0060938a911b2172f754123563d02cfdcfeb0",
-                "reference": "c3f0060938a911b2172f754123563d02cfdcfeb0",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/3db94aa0560f40856335450062b7bc251384094d",
+                "reference": "3db94aa0560f40856335450062b7bc251384094d",
                 "shasum": ""
             },
             "require": {
@@ -4869,12 +4913,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/S3IntegrationBundle.git",
-                "reference": "0dcab6b3be8745fce379009a22c7d7483d58d6af"
+                "reference": "cbdd01c5b608d67031211b4e291294c589254d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/0dcab6b3be8745fce379009a22c7d7483d58d6af",
-                "reference": "0dcab6b3be8745fce379009a22c7d7483d58d6af",
+                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/cbdd01c5b608d67031211b4e291294c589254d90",
+                "reference": "cbdd01c5b608d67031211b4e291294c589254d90",
                 "shasum": ""
             },
             "require": {
@@ -4937,6 +4981,50 @@
             "time": "2015-04-13 06:48:36"
         },
         {
+            "name": "medikly/segment-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SegmentExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Segment-Extension-Bundle.git",
+                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-SegmentExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SegmentExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Segment Extension",
+            "keywords": [
+                "Extention",
+                "Medikly",
+                "Segment"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/Segment-Extension-Bundle/tree/master",
+                "issues": "https://github.com/ragavagroup/Segment-Extension-Bundle/issues"
+            },
+            "time": "2015-06-30 13:02:34"
+        },
+        {
             "name": "medikly/segments",
             "version": "1.1.0-beta",
             "target-dir": "Medikly/Bundle/SegmentsBundle",
@@ -4983,12 +5071,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec"
+                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/119e8f218ecc65ea0165c1c1557d96e684a8aeec",
-                "reference": "119e8f218ecc65ea0165c1c1557d96e684a8aeec",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/eb376e7f6faac668e149e5bd5b9f25e6c097734a",
+                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a",
                 "shasum": ""
             },
             "require": {
@@ -5021,12 +5109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SuccessPages.git",
-                "reference": "c241b9d92938c7b361e46a993cd818a84546611f"
+                "reference": "b072eb9aabb79c44be6beccfe435288f00eae259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/c241b9d92938c7b361e46a993cd818a84546611f",
-                "reference": "c241b9d92938c7b361e46a993cd818a84546611f",
+                "url": "https://api.github.com/repos/ragavagroup/SuccessPages/zipball/b072eb9aabb79c44be6beccfe435288f00eae259",
+                "reference": "b072eb9aabb79c44be6beccfe435288f00eae259",
                 "shasum": ""
             },
             "require": {
@@ -5141,12 +5229,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "df51c676c15120462f2f9f36cb1a82cfc2a880e7"
+                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/df51c676c15120462f2f9f36cb1a82cfc2a880e7",
-                "reference": "df51c676c15120462f2f9f36cb1a82cfc2a880e7",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/6de72461081acf4ddeefd8154f9abe7fc5d01c33",
+                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33",
                 "shasum": ""
             },
             "require": {
@@ -5454,61 +5542,6 @@
                 "schedule"
             ],
             "time": "2015-01-11 23:07:46"
-        },
-        {
-            "name": "mtdowling/jmespath.php",
-            "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "a7d99d0c836e69d27b7bfca1d33ca2759fba3289"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/a7d99d0c836e69d27b7bfca1d33ca2759fba3289",
-                "reference": "a7d99d0c836e69d27b7bfca1d33ca2759fba3289",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "bin": [
-                "bin/jp.php"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JmesPath\\": "src/"
-                },
-                "files": [
-                    "src/JmesPath.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Dowling",
-                    "email": "mtdowling@gmail.com",
-                    "homepage": "https://github.com/mtdowling"
-                }
-            ],
-            "description": "Declaratively specify how to extract elements from a JSON document",
-            "keywords": [
-                "json",
-                "jsonpath"
-            ],
-            "time": "2015-05-27 17:21:31"
         },
         {
             "name": "mustangostang/spyc",
@@ -6083,6 +6116,59 @@
             "time": "2015-04-28 19:00:57"
         },
         {
+            "name": "phly/http",
+            "version": "0.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phly/http.git",
+                "reference": "4c711698bab17461be7bf143a3ab1bf3d3ffa2cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phly/http/zipball/4c711698bab17461be7bf143a3ab1bf3d3ffa2cc",
+                "reference": "4c711698bab17461be7bf143a3ab1bf3d3ffa2cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.8",
+                "psr/http-message": "^0.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "1.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev",
+                    "dev-develop": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Phly\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Weier O'Phinney",
+                    "email": "matthew@weierophinney.net",
+                    "homepage": "http://mwop.net"
+                }
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/phly/http",
+            "keywords": [
+                "http"
+            ],
+            "abandoned": "zendframework/zend-diactoros",
+            "time": "2015-04-13 16:50:21"
+        },
+        {
             "name": "phpcollection/phpcollection",
             "version": "0.2.0",
             "source": {
@@ -6280,20 +6366,17 @@
         },
         {
             "name": "psr/http-message",
-            "version": "1.0",
+            "version": "0.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+                "reference": "7c361ae6b0dcd84d8fc4f89636ee0cc9fcb02035"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/7c361ae6b0dcd84d8fc4f89636ee0cc9fcb02035",
+                "reference": "7c361ae6b0dcd84d8fc4f89636ee0cc9fcb02035",
                 "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
@@ -6303,7 +6386,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
+                    "Psr\\Http\\Message\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6325,7 +6408,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2015-03-18 22:07:07"
         },
         {
             "name": "psr/log",
@@ -7506,6 +7589,66 @@
             "time": "2014-07-05 12:19:05"
         },
         {
+            "name": "willdurand/geocoder",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geocoder-php/Geocoder.git",
+                "reference": "2533191d89ccea28f8dcf54030dc52a34e1fd3c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geocoder-php/Geocoder/zipball/2533191d89ccea28f8dcf54030dc52a34e1fd3c5",
+                "reference": "2533191d89ccea28f8dcf54030dc52a34e1fd3c5",
+                "shasum": ""
+            },
+            "require": {
+                "egeloen/http-adapter": "0.7.*",
+                "igorw/get-in": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "geoip2/geoip2": "~2.0",
+                "symfony/stopwatch": "~2.5"
+            },
+            "suggest": {
+                "ext-geoip": "Enabling the geoip extension allows you to use the MaxMindProvider.",
+                "geoip/geoip": "If you are going to use the MaxMindBinaryProvider (conflict with geoip extension).",
+                "geoip2/geoip2": "If you are going to use the GeoIP2DatabaseProvider.",
+                "symfony/stopwatch": "If you want to use the TimedGeocoder"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Geocoder": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
+                }
+            ],
+            "description": "The almost missing Geocoder PHP 5.4 library.",
+            "homepage": "http://geocoder-php.org",
+            "keywords": [
+                "abstraction",
+                "geocoder",
+                "geocoding",
+                "geoip"
+            ],
+            "time": "2015-04-20 09:50:36"
+        },
+        {
             "name": "willdurand/jsonp-callback-validator",
             "version": "v1.1.0",
             "source": {
@@ -8325,12 +8468,11 @@
         "medikly/oro-flat-theme": 20,
         "medikly/webactivities-bundle": 20,
         "medikly/physician-bundle": 20,
-        "medikly/scheduled-reports": 20,
         "medikly/resource-bundle": 20,
-        "medikly/custom-alerts-bundle": 20,
         "medikly/channel": 20,
         "medikly/d3js-visualization-tools-bundle": 20,
         "medikly/reclinejs-bundle": 20,
+        "medikly/geocoding-bundle": 20,
         "medikly/intercomjs": 20,
         "medikly/intercomapi": 20,
         "medikly/clef": 20,
