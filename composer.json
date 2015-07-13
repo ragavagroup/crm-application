@@ -184,6 +184,10 @@
     "medikly/dataset-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/DatasetBundle.git"
+    },
+    "medikly-datagrid-sidebar": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/DatagridSidebar.git"
     }
   },
   "require": {
@@ -234,7 +238,8 @@
     "medikly/dcjs-data-visualization": "dev-master",
     "medikly/segment-extension-bundle": "dev-master",
     "medikly/dataset-bundle": "dev-master",
-    
+    "medikly/datagrid-sidebar": "dev-master",
+
     "atwix/oro-mandrill": "dev-master",
 
     "aws/aws-sdk-php": "2.8.12"
