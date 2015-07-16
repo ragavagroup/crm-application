@@ -4042,12 +4042,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CustomDashboardMenu.git",
-                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2"
+                "reference": "63ea5b79a1e399469d882f80c617c44c36676550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/8dc406af8d7246277fcf621af97abd3c576547f2",
-                "reference": "8dc406af8d7246277fcf621af97abd3c576547f2",
+                "url": "https://api.github.com/repos/ragavagroup/CustomDashboardMenu/zipball/63ea5b79a1e399469d882f80c617c44c36676550",
+                "reference": "63ea5b79a1e399469d882f80c617c44c36676550",
                 "shasum": ""
             },
             "require": {
@@ -4078,7 +4078,7 @@
                 "source": "https://github.com/ragavagroup/CustomDashboardMenu/tree/master",
                 "issues": "https://github.com/ragavagroup/CustomDashboardMenu/issues"
             },
-            "time": "2015-05-19 12:00:16"
+            "time": "2015-07-09 15:00:00"
         },
         {
             "name": "medikly/d3js-visualization-tools-bundle",
@@ -4407,6 +4407,43 @@
             "time": "2015-05-19 10:53:01"
         },
         {
+            "name": "medikly/datagrid-sidebar",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DatagridSidebarBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DatagridSidebar.git",
+                "reference": "451d8fb4209581d65c01047c338324ed4b3649c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DatagridSidebar/zipball/451d8fb4209581d65c01047c338324ed4b3649c6",
+                "reference": "451d8fb4209581d65c01047c338324ed4b3649c6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DatagridSidebarBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ScandiWeb",
+                    "email": "info@scandiweb.com"
+                }
+            ],
+            "description": "Datagrid Sidebar Bundle for Medikly",
+            "support": {
+                "source": "https://github.com/ragavagroup/DatagridSidebar/tree/master",
+                "issues": "https://github.com/ragavagroup/DatagridSidebar/issues"
+            },
+            "time": "2015-07-14 10:52:40"
+        },
+        {
             "name": "medikly/inheritance",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/InheritanceBundle",
@@ -4519,12 +4556,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "c53f98e48e4627991fbd493ac78525cca85868ad"
+                "reference": "c88b81c7af6092f352f4b0b00938ac39d1f7f6a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/c53f98e48e4627991fbd493ac78525cca85868ad",
-                "reference": "c53f98e48e4627991fbd493ac78525cca85868ad",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/c88b81c7af6092f352f4b0b00938ac39d1f7f6a0",
+                "reference": "c88b81c7af6092f352f4b0b00938ac39d1f7f6a0",
                 "shasum": ""
             },
             "type": "library",
@@ -5229,12 +5266,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33"
+                "reference": "2accf0db0c605b8d8dec3ff7cc5cf7707065e56c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/6de72461081acf4ddeefd8154f9abe7fc5d01c33",
-                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/2accf0db0c605b8d8dec3ff7cc5cf7707065e56c",
+                "reference": "2accf0db0c605b8d8dec3ff7cc5cf7707065e56c",
                 "shasum": ""
             },
             "require": {
@@ -8484,6 +8521,7 @@
         "medikly/socialmention": 20,
         "medikly/account-extension": 20,
         "medikly/hospital": 20,
+        "medikly/datagrid-sidebar": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
