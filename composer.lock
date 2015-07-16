@@ -5266,12 +5266,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33"
+                "reference": "2accf0db0c605b8d8dec3ff7cc5cf7707065e56c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/6de72461081acf4ddeefd8154f9abe7fc5d01c33",
-                "reference": "6de72461081acf4ddeefd8154f9abe7fc5d01c33",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/2accf0db0c605b8d8dec3ff7cc5cf7707065e56c",
+                "reference": "2accf0db0c605b8d8dec3ff7cc5cf7707065e56c",
                 "shasum": ""
             },
             "require": {
