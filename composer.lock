@@ -4407,6 +4407,43 @@
             "time": "2015-05-19 10:53:01"
         },
         {
+            "name": "medikly/datagrid-sidebar",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DatagridSidebarBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DatagridSidebar.git",
+                "reference": "451d8fb4209581d65c01047c338324ed4b3649c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DatagridSidebar/zipball/451d8fb4209581d65c01047c338324ed4b3649c6",
+                "reference": "451d8fb4209581d65c01047c338324ed4b3649c6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DatagridSidebarBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ScandiWeb",
+                    "email": "info@scandiweb.com"
+                }
+            ],
+            "description": "Datagrid Sidebar Bundle for Medikly",
+            "support": {
+                "source": "https://github.com/ragavagroup/DatagridSidebar/tree/master",
+                "issues": "https://github.com/ragavagroup/DatagridSidebar/issues"
+            },
+            "time": "2015-07-14 10:52:40"
+        },
+        {
             "name": "medikly/inheritance",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/InheritanceBundle",
@@ -8484,6 +8521,7 @@
         "medikly/socialmention": 20,
         "medikly/account-extension": 20,
         "medikly/hospital": 20,
+        "medikly/datagrid-sidebar": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
