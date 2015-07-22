@@ -188,6 +188,10 @@
     "medikly-datagrid-sidebar": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/DatagridSidebar.git"
+    },
+    "medikly-datagrid-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/DatagridExtension.git"
     }
   },
   "require": {
@@ -239,6 +243,7 @@
     "medikly/segment-extension-bundle": "dev-master",
     "medikly/dataset-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
+    "medikly/datagrid-extension-bundle": "dev-master",
 
     "atwix/oro-mandrill": "dev-master",
 
