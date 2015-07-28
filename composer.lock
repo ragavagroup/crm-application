@@ -4631,12 +4631,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c"
+                "reference": "bd2c8d30b6137a461c27d91c84b1c7d957b5ca59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/329c1b2e9bf66ba5540dc775886ae468d162968c ",
-                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/bd2c8d30b6137a461c27d91c84b1c7d957b5ca59 ",
+                "reference": "bd2c8d30b6137a461c27d91c84b1c7d957b5ca59",
                 "shasum": ""
             },
             "require": {
@@ -4751,12 +4751,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c"
+                "reference": "aea1e457e10063f3fdc43167ef70a6fb8ccf9726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/00b25d224de29055b4abeda0452f9ce5e641ec6c",
-                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/aea1e457e10063f3fdc43167ef70a6fb8ccf9726",
+                "reference": "aea1e457e10063f3fdc43167ef70a6fb8ccf9726",
                 "shasum": ""
             },
             "require": {
