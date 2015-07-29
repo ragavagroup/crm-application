@@ -598,16 +598,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.4",
+            "version": "v1.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e"
+                "reference": "f4a91702ca3cd2e568c3736aa031ed00c3752af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/b5202eb9e83f8db52e0e58867e0a46e63be8332e",
-                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f4a91702ca3cd2e568c3736aa031ed00c3752af4",
+                "reference": "f4a91702ca3cd2e568c3736aa031ed00c3752af4",
                 "shasum": ""
             },
             "require": {
@@ -662,7 +662,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-23 22:40:37"
+            "time": "2015-06-17 12:21:22"
         },
         {
             "name": "doctrine/cache",
@@ -2664,16 +2664,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "1.4.2",
+            "version": "1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "7dfe4f1db8a62be3dd35710efce663537d515653"
+                "reference": "8dc9b9d85ab639ca60ab4608b34c1279d6ae7bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/7dfe4f1db8a62be3dd35710efce663537d515653",
-                "reference": "7dfe4f1db8a62be3dd35710efce663537d515653",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/8dc9b9d85ab639ca60ab4608b34c1279d6ae7bce",
+                "reference": "8dc9b9d85ab639ca60ab4608b34c1279d6ae7bce",
                 "shasum": ""
             },
             "require": {
@@ -2726,7 +2726,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2015-06-14 20:01:28"
+            "time": "2015-07-14 16:29:50"
         },
         {
             "name": "knplabs/gaufrette",
@@ -3063,16 +3063,16 @@
         },
         {
             "name": "kriswallsmith/buzz",
-            "version": "v0.14",
+            "version": "v0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/Buzz.git",
-                "reference": "f802a9b9d01b53496f50c9c5e09b5c779cbbd300"
+                "reference": "d4041666c3ffb379af02a92dabe81c904b35fab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/f802a9b9d01b53496f50c9c5e09b5c779cbbd300",
-                "reference": "f802a9b9d01b53496f50c9c5e09b5c779cbbd300",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/d4041666c3ffb379af02a92dabe81c904b35fab8",
+                "reference": "d4041666c3ffb379af02a92dabe81c904b35fab8",
                 "shasum": ""
             },
             "require": {
@@ -3107,7 +3107,7 @@
                 "curl",
                 "http client"
             ],
-            "time": "2015-06-02 16:48:29"
+            "time": "2015-06-25 17:26:56"
         },
         {
             "name": "leafo/lessphp",
@@ -3700,16 +3700,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.7.1",
+            "version": "1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/crm.git",
-                "reference": "387fc7ee6eca902973924df3d00b4c4559225b6c"
+                "reference": "9c8f230084052ec17501b824130d28b1b7f890a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/387fc7ee6eca902973924df3d00b4c4559225b6c",
-                "reference": "387fc7ee6eca902973924df3d00b4c4559225b6c",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/9c8f230084052ec17501b824130d28b1b7f890a9",
+                "reference": "9c8f230084052ec17501b824130d28b1b7f890a9",
                 "shasum": ""
             },
             "require": {
@@ -3739,11 +3739,11 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
-            "time": "2015-06-15 15:16:06"
+            "time": "2015-07-29 15:55:29"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.9.1",
+            "version": "1.9.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
@@ -3784,7 +3784,7 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.9.1",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.9.2",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
             "time": "2015-06-12 16:51:05"
@@ -3845,16 +3845,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.7.1",
+            "version": "1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
-                "reference": "d977830386c12f2a298e092503b697e4092d8514"
+                "reference": "279416812ab18e157da1e0cc45725b3b9cc7a46f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/d977830386c12f2a298e092503b697e4092d8514",
-                "reference": "d977830386c12f2a298e092503b697e4092d8514",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/279416812ab18e157da1e0cc45725b3b9cc7a46f",
+                "reference": "279416812ab18e157da1e0cc45725b3b9cc7a46f",
                 "shasum": ""
             },
             "require": {
@@ -3944,7 +3944,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2015-06-12 16:48:46"
+            "time": "2015-07-29 15:37:36"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4093,16 +4093,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.2.1",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "c1b651af61aed864e793fe5896f1976aa06b939c"
+                "reference": "657c1523d2b672c66d5eb8ac894483af8f255fa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/c1b651af61aed864e793fe5896f1976aa06b939c",
-                "reference": "c1b651af61aed864e793fe5896f1976aa06b939c",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/657c1523d2b672c66d5eb8ac894483af8f255fa0",
+                "reference": "657c1523d2b672c66d5eb8ac894483af8f255fa0",
                 "shasum": ""
             },
             "require": {
@@ -4140,7 +4140,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2015-05-31 20:06:34"
+            "time": "2015-07-12 15:44:37"
         },
         {
             "name": "psr/log",
@@ -4315,12 +4315,12 @@
             "version": "2.7.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ramsey/uuid.git",
+                "url": "https://github.com/ramsey/rhumsaa-uuid.git",
                 "reference": "eb1d371067aa8c2b83d6691837ee4896a6f76a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/eb1d371067aa8c2b83d6691837ee4896a6f76a44",
+                "url": "https://api.github.com/repos/ramsey/rhumsaa-uuid/zipball/eb1d371067aa8c2b83d6691837ee4896a6f76a44",
                 "reference": "eb1d371067aa8c2b83d6691837ee4896a6f76a44",
                 "shasum": ""
             },
@@ -4379,20 +4379,20 @@
         },
         {
             "name": "robloach/component-installer",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobLoach/component-installer.git",
-                "reference": "9ebfe24d48b08ce63cf377d719e4ad045e057855"
+                "reference": "6f654095da6e364261093c2d9ca416e1027d0169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/9ebfe24d48b08ce63cf377d719e4ad045e057855",
-                "reference": "9ebfe24d48b08ce63cf377d719e4ad045e057855",
+                "url": "https://api.github.com/repos/RobLoach/component-installer/zipball/6f654095da6e364261093c2d9ca416e1027d0169",
+                "reference": "6f654095da6e364261093c2d9ca416e1027d0169",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0",
+                "composer-plugin-api": "^1.0",
                 "kriswallsmith/assetic": "1.*",
                 "php": ">=5.3.2"
             },
@@ -4423,7 +4423,7 @@
                 }
             ],
             "description": "Allows installation of Components via Composer.",
-            "time": "2015-06-08 13:01:20"
+            "time": "2015-06-18 13:02:30"
         },
         {
             "name": "seld/jsonlint",
@@ -5026,16 +5026,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.30",
+            "version": "v2.3.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "6dfe5551b71d156739a0df1043ba81b326e36f4a"
+                "reference": "bd506a5e84fdce41966ef4986255fff1e31fc056"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/6dfe5551b71d156739a0df1043ba81b326e36f4a",
-                "reference": "6dfe5551b71d156739a0df1043ba81b326e36f4a",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/bd506a5e84fdce41966ef4986255fff1e31fc056",
+                "reference": "bd506a5e84fdce41966ef4986255fff1e31fc056",
                 "shasum": ""
             },
             "require": {
@@ -5130,7 +5130,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-05-29 22:16:04"
+            "time": "2015-07-13 09:12:26"
         },
         {
             "name": "tinymce/tinymce",
@@ -5324,16 +5324,16 @@
         },
         {
             "name": "willdurand/negotiation",
-            "version": "1.3.4",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "d7fa4ce4a0436915b9ba9f7cb5ff37719f0a834c"
+                "reference": "8a84c5956e765f432542fc52a8c6e9aff4508eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/d7fa4ce4a0436915b9ba9f7cb5ff37719f0a834c",
-                "reference": "d7fa4ce4a0436915b9ba9f7cb5ff37719f0a834c",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/8a84c5956e765f432542fc52a8c6e9aff4508eb3",
+                "reference": "8a84c5956e765f432542fc52a8c6e9aff4508eb3",
                 "shasum": ""
             },
             "require": {
@@ -5342,12 +5342,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Negotiation": "src/"
+                "psr-4": {
+                    "Negotiation\\": "src/Negotiation"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5369,7 +5369,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2014-10-02 07:26:00"
+            "time": "2015-07-28 13:10:50"
         },
         {
             "name": "zendframework/zend-code",
