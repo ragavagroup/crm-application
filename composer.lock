@@ -5024,12 +5024,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segment-Extension-Bundle.git",
-                "reference": "f55456bb2e386b38e6fdfe33e7b13008add44c8e"
+                "reference": "3683e84ead9319b4f60920730dccdf855dd0e47c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/f55456bb2e386b38e6fdfe33e7b13008add44c8e",
-                "reference": "f55456bb2e386b38e6fdfe33e7b13008add44c8e",
+                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/3683e84ead9319b4f60920730dccdf855dd0e47c",
+                "reference": "3683e84ead9319b4f60920730dccdf855dd0e47c",
                 "shasum": ""
             },
             "require": {
