@@ -5444,6 +5444,40 @@
             "time": "2015-06-26 16:30:01"
         },
         {
+            "name": "medikly/tracking-extension",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/TrackingExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/TrackingExtension.git",
+                "reference": "d9bf4a82806e6678bf22ac65f88aacd8561f0cc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/TrackingExtension/zipball/d9bf4a82806e6678bf22ac65f88aacd8561f0cc1",
+                "reference": "d9bf4a82806e6678bf22ac65f88aacd8561f0cc1",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "1.7",
+                "oro/crm-enterprise": "1.9",
+                "oro/platform": "1.7",
+                "php": ">=5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\TrackingExtensionBundle": ""
+                }
+            },
+            "description": "Bundle with different tweaks for core OroTrackingBundle bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/TrackingExtension/tree/master",
+                "issues": "https://github.com/ragavagroup/TrackingExtension/issues"
+            },
+            "time": "2015-07-29 11:45:31"
+        },
+        {
             "name": "medikly/ui-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/UIBundle",
@@ -8667,6 +8701,7 @@
         "medikly/account-extension": 20,
         "medikly/hospital": 20,
         "medikly/datagrid-sidebar": 20,
+        "medikly/tracking-extension": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
