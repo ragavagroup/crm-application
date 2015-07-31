@@ -192,6 +192,10 @@
     "medikly-datagrid-extension": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/DatagridExtension.git"
+    },
+    "tracking-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/TrackingExtension.git"
     }
   },
   "require": {
@@ -244,7 +248,8 @@
     "medikly/dataset-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
     "medikly/datagrid-extension-bundle": "dev-master",
-
+    "medikly/tracking-extension" : "dev-master",
+    
     "atwix/oro-mandrill": "dev-master",
 
     "aws/aws-sdk-php": "2.8.12"
