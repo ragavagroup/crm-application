@@ -4120,6 +4120,151 @@
             "time": "2015-04-28 17:28:03"
         },
         {
+            "name": "medikly/datagrid-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DatagridExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DatagridExtension.git",
+                "reference": "2940bbb2ee641c89c763b800ff4f8a9fcbbe2dbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DatagridExtension/zipball/2940bbb2ee641c89c763b800ff4f8a9fcbbe2dbc",
+                "reference": "2940bbb2ee641c89c763b800ff4f8a9fcbbe2dbc",
+                "shasum": ""
+            },
+            "require": {
+                "mpdf/mpdf": "v6.0.0",
+                "phpoffice/phpexcel": "~1.8.0",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-DatagridExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DatagridExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Datagrid Extension Bundle for Oro",
+            "keywords": [
+                "Datagrid",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/DatagridExtension/tree/master",
+                "issues": "https://github.com/ragavagroup/DatagridExtension/issues"
+            },
+            "time": "2015-07-22 13:41:35"
+        },
+        {
+            "name": "mpdf/mpdf",
+            "version": "v6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpdf/mpdf.git",
+                "reference": "a15743d030ce3b5b7be36c6e83f76589b27c3f2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/a15743d030ce3b5b7be36c6e83f76589b27c3f2c",
+                "reference": "a15743d030ce3b5b7be36c6e83f76589b27c3f2c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=4.3.10"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "mpdf.php",
+                    "classes"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-1.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Back"
+                }
+            ],
+            "description": "A PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support",
+            "homepage": "http://www.mpdf1.com/mpdf/index.php",
+            "keywords": [
+                "pdf",
+                "php",
+                "utf-8"
+            ],
+            "time": "2015-03-01 10:27:49"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2015-05-01 07:00:55"
+        },
+        {
             "name": "medikly/dashboard-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/DashboardBundle",
@@ -5108,12 +5253,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a"
+                "reference": "b225cb2414bd4dc8b7917e9db884b5dbc18f8e15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/eb376e7f6faac668e149e5bd5b9f25e6c097734a",
-                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/b225cb2414bd4dc8b7917e9db884b5dbc18f8e15",
+                "reference": "b225cb2414bd4dc8b7917e9db884b5dbc18f8e15",
                 "shasum": ""
             },
             "require": {
