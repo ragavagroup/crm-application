@@ -5253,12 +5253,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "92a0916d3a0de80c47e5e38a96e129295e2903f7"
+                "reference": "d8402b288ee55926a750d19be0c4ec6d7479307f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/92a0916d3a0de80c47e5e38a96e129295e2903f7",
-                "reference": "92a0916d3a0de80c47e5e38a96e129295e2903f7",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/d8402b288ee55926a750d19be0c4ec6d7479307f",
+                "reference": "d8402b288ee55926a750d19be0c4ec6d7479307f",
                 "shasum": ""
             },
             "require": {
