@@ -4979,12 +4979,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "52c42ec5c83ecf7e014ac8b17337978a0139d0d0"
+                "reference": "64b5e5288bb0a0f2bd693fcf008ada9a5a9dcdfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/52c42ec5c83ecf7e014ac8b17337978a0139d0d0",
-                "reference": "52c42ec5c83ecf7e014ac8b17337978a0139d0d0",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/64b5e5288bb0a0f2bd693fcf008ada9a5a9dcdfb",
+                "reference": "64b5e5288bb0a0f2bd693fcf008ada9a5a9dcdfb",
                 "shasum": ""
             },
             "require": {
@@ -5169,12 +5169,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segment-Extension-Bundle.git",
-                "reference": "3683e84ead9319b4f60920730dccdf855dd0e47c"
+                "reference": "8aba3545ded6844651486e03e3eeb4414fa88223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/3683e84ead9319b4f60920730dccdf855dd0e47c",
-                "reference": "3683e84ead9319b4f60920730dccdf855dd0e47c",
+                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/8aba3545ded6844651486e03e3eeb4414fa88223",
+                "reference": "8aba3545ded6844651486e03e3eeb4414fa88223",
                 "shasum": ""
             },
             "require": {
