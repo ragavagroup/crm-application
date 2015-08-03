@@ -5057,12 +5057,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "3db94aa0560f40856335450062b7bc251384094d"
+                "reference": "c0c50583f944573ccb346e272af2d29841ef1e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/3db94aa0560f40856335450062b7bc251384094d",
-                "reference": "3db94aa0560f40856335450062b7bc251384094d",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/c0c50583f944573ccb346e272af2d29841ef1e28",
+                "reference": "c0c50583f944573ccb346e272af2d29841ef1e28",
                 "shasum": ""
             },
             "require": {
@@ -5095,12 +5095,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/S3IntegrationBundle.git",
-                "reference": "cbdd01c5b608d67031211b4e291294c589254d90"
+                "reference": "9a710bf6e87204e1d71f952c78db4e632d408182"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/cbdd01c5b608d67031211b4e291294c589254d90",
-                "reference": "cbdd01c5b608d67031211b4e291294c589254d90",
+                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/9a710bf6e87204e1d71f952c78db4e632d408182",
+                "reference": "9a710bf6e87204e1d71f952c78db4e632d408182",
                 "shasum": ""
             },
             "require": {
