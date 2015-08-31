@@ -19,9 +19,9 @@
         }
     },
     "require": {
-        "oro/platform": "1.x-dev",
-        "oro/crm": "1.x-dev",
-        "oro/crm-enterprise" : "1.x-dev"
+        "oro/platform": "1.8.*",
+        "oro/crm": "1.8.*",
+        "oro/crm-enterprise" : "1.10.*"
     },
     "config": {
         "component-dir": "web/bundles/components"
