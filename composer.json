@@ -31,7 +31,7 @@
     },
     "Provider": {
       "type": "vcs",
-      "url": "https://github.com/ragavagroup/Provider.git"
+      "url": "https://github.com/ragavagroup/MockProvider.git"
     },
     "DefaultLegacy": {
       "type": "vcs",
@@ -203,13 +203,13 @@
     }
   },
   "require": {
-    "oro/crm": "1.7.1 as 1.7",
-    "oro/platform": "1.7.1 as 1.7",
-    "oro/crm-enterprise": "1.9.1 as 1.9",
+    "oro/crm": "1.7.6 as 1.7",
+    "oro/platform": "1.7.6 as 1.7",
+    "oro/crm-enterprise": "1.9.6 as 1.9",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
-    "medikly/customdashboardmenu-bundle": "dev-master",
+    "medikly/customdashboardmenu-bundle": "dev-feature/new-provider-db-adjustments",
     "medikly/event-bundle": "dev-master",
     "medikly/provider-bundle": "dev-master",
     "medikly/defaultlegacy-bundle": "dev-master",
@@ -222,7 +222,6 @@
     "medikly/piwik-dashboard": "dev-feature-oro-soft-versrion-requirement",
     "medikly/piwik-proxy": "dev-feature-oro-soft-versrion-requirement",
     "medikly/user-journey": "dev-feature-oro-soft-versrion-requirement",
-    "medikly/contactsync": "dev-feature-oro-soft-versrion-requirement",
     "medikly/fullcontact-integration": "dev-master",
     "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
@@ -234,7 +233,7 @@
     "medikly/reclinejs-bundle" : "dev-master",
     "medikly/geocoding-bundle": "dev-master",
     "medikly/intercomjs": "dev-master",
-    "medikly/intercomapi": "dev-master",
+    "medikly/intercomapi": "dev-feature/new-provider-db-adjustments",
     "medikly/clef": "dev-master",
     "medikly/successpages": "dev-master",
     "medikly/system-navigation": "dev-master",
@@ -257,7 +256,9 @@
     
     "atwix/oro-mandrill": "dev-master",
 
-    "aws/aws-sdk-php": "2.8.12"
+    "aws/aws-sdk-php": "2.8.12",
+
+    "akeneo/batch-bundle": "0.4.2"
   },
   "config": {
     "component-dir": "web/bundles/components"
