@@ -236,7 +236,7 @@
     "medikly/intercomapi": "dev-feature/new-provider-db-adjustments",
     "medikly/clef": "dev-master",
     "medikly/successpages": "dev-master",
-    "medikly/system-navigation": "dev-master",
+    "medikly/system-navigation": "dev-feature/new-provider-db-adjustments",
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/page-builder-bundle": "dev-master",
