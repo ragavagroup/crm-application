@@ -225,7 +225,7 @@
     "medikly/fullcontact-integration": "dev-master",
     "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
-    "medikly/physician-bundle": "dev-master",
+    "medikly/physician-bundle": "dev-feature/new-provider-db-adjustments",
     "medikly/resource-bundle": "dev-master",
     "medikly/channel": "dev-master",
     "medikly/report": "dev-feature-oro-soft-versrion-requirement",
