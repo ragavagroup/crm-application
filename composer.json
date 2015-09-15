@@ -250,7 +250,7 @@
     "medikly/segment-extension-bundle": "dev-feature/new-provider-db-adjustments",
     "medikly/dataset-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
-    "medikly/campaign-extension" : "dev-master",
+    "medikly/campaign-extension" : "dev-feature/new-provider-db-adjustments",
     "medikly/datagrid-extension-bundle": "dev-master",
     "medikly/tracking-extension" : "dev-master",
     
