@@ -54,6 +54,11 @@ parameters:
     medikly_resource_file_storage_path: %kernel.root_dir%/../web/uploads/raw_files
     medikly_resource_data_dictionaries_path: '%kernel.root_dir%/../web/uploads/data_dictionaries'
     tracker_site_id: 1
+    
+    # Yourls credentials for link tracker 
+    medikly_tracking_yourls_username: 'medikly'
+    medikly_tracking_yourls_password: 'uQ92fW^TYMD'
+    medikly_tracking_yourls_url: 'http://mdik.ly/'
 
     # Yourls credentials for link tracker 
     medikly_tracking_yourls_username: ~

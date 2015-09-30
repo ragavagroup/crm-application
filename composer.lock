@@ -4120,6 +4120,151 @@
             "time": "2015-04-28 17:28:03"
         },
         {
+            "name": "medikly/datagrid-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DatagridExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DatagridExtension.git",
+                "reference": "2940bbb2ee641c89c763b800ff4f8a9fcbbe2dbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DatagridExtension/zipball/2940bbb2ee641c89c763b800ff4f8a9fcbbe2dbc",
+                "reference": "2940bbb2ee641c89c763b800ff4f8a9fcbbe2dbc",
+                "shasum": ""
+            },
+            "require": {
+                "mpdf/mpdf": "v6.0.0",
+                "phpoffice/phpexcel": "~1.8.0",
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-DatagridExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DatagridExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Datagrid Extension Bundle for Oro",
+            "keywords": [
+                "Datagrid",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/DatagridExtension/tree/master",
+                "issues": "https://github.com/ragavagroup/DatagridExtension/issues"
+            },
+            "time": "2015-07-22 13:41:35"
+        },
+        {
+            "name": "mpdf/mpdf",
+            "version": "v6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpdf/mpdf.git",
+                "reference": "a15743d030ce3b5b7be36c6e83f76589b27c3f2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/a15743d030ce3b5b7be36c6e83f76589b27c3f2c",
+                "reference": "a15743d030ce3b5b7be36c6e83f76589b27c3f2c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=4.3.10"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "mpdf.php",
+                    "classes"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-1.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Back"
+                }
+            ],
+            "description": "A PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support",
+            "homepage": "http://www.mpdf1.com/mpdf/index.php",
+            "keywords": [
+                "pdf",
+                "php",
+                "utf-8"
+            ],
+            "time": "2015-03-01 10:27:49"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "reference": "372c7cbb695a6f6f1e62649381aeaa37e7e70b32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Mark Baker"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://blog.rootslabs.net"
+                },
+                {
+                    "name": "Erik Tilt"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "http://phpexcel.codeplex.com",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "time": "2015-05-01 07:00:55"
+        },
+        {
             "name": "medikly/dashboard-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/DashboardBundle",
@@ -4631,12 +4776,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Physician.git",
-                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c"
+                "reference": "bd2c8d30b6137a461c27d91c84b1c7d957b5ca59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/329c1b2e9bf66ba5540dc775886ae468d162968c ",
-                "reference": "329c1b2e9bf66ba5540dc775886ae468d162968c",
+                "url": "https://api.github.com/repos/ragavagroup/Physician/zipball/bd2c8d30b6137a461c27d91c84b1c7d957b5ca59 ",
+                "reference": "bd2c8d30b6137a461c27d91c84b1c7d957b5ca59",
                 "shasum": ""
             },
             "require": {
@@ -4751,12 +4896,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Provider.git",
-                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c"
+                "reference": "aea1e457e10063f3fdc43167ef70a6fb8ccf9726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/00b25d224de29055b4abeda0452f9ce5e641ec6c",
-                "reference": "00b25d224de29055b4abeda0452f9ce5e641ec6c",
+                "url": "https://api.github.com/repos/ragavagroup/Provider/zipball/aea1e457e10063f3fdc43167ef70a6fb8ccf9726",
+                "reference": "aea1e457e10063f3fdc43167ef70a6fb8ccf9726",
                 "shasum": ""
             },
             "require": {
@@ -4798,8 +4943,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/fed7d946888649eed6843fc6972694efd101d536",
-                "reference": "fed7d946888649eed6843fc6972694efd101d536",
+                "url": "https://api.github.com/repos/ragavagroup/RawData/zipball/cc98917c509f74810c1dafd27d299ffbb0bc6ec1",
+                "reference": "cc98917c509f74810c1dafd27d299ffbb0bc6ec1",
                 "shasum": ""
             },
             "require": {
@@ -4834,12 +4979,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/ReclineJS.git",
-                "reference": "52c42ec5c83ecf7e014ac8b17337978a0139d0d0"
+                "reference": "64b5e5288bb0a0f2bd693fcf008ada9a5a9dcdfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/52c42ec5c83ecf7e014ac8b17337978a0139d0d0",
-                "reference": "52c42ec5c83ecf7e014ac8b17337978a0139d0d0",
+                "url": "https://api.github.com/repos/ragavagroup/ReclineJS/zipball/64b5e5288bb0a0f2bd693fcf008ada9a5a9dcdfb",
+                "reference": "64b5e5288bb0a0f2bd693fcf008ada9a5a9dcdfb",
                 "shasum": ""
             },
             "require": {
@@ -4912,12 +5057,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/DataResourceBundle.git",
-                "reference": "3db94aa0560f40856335450062b7bc251384094d"
+                "reference": "c0c50583f944573ccb346e272af2d29841ef1e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/3db94aa0560f40856335450062b7bc251384094d",
-                "reference": "3db94aa0560f40856335450062b7bc251384094d",
+                "url": "https://api.github.com/repos/ragavagroup/DataResourceBundle/zipball/c0c50583f944573ccb346e272af2d29841ef1e28",
+                "reference": "c0c50583f944573ccb346e272af2d29841ef1e28",
                 "shasum": ""
             },
             "require": {
@@ -4950,12 +5095,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/S3IntegrationBundle.git",
-                "reference": "cbdd01c5b608d67031211b4e291294c589254d90"
+                "reference": "9a710bf6e87204e1d71f952c78db4e632d408182"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/cbdd01c5b608d67031211b4e291294c589254d90",
-                "reference": "cbdd01c5b608d67031211b4e291294c589254d90",
+                "url": "https://api.github.com/repos/ragavagroup/S3IntegrationBundle/zipball/9a710bf6e87204e1d71f952c78db4e632d408182",
+                "reference": "9a710bf6e87204e1d71f952c78db4e632d408182",
                 "shasum": ""
             },
             "require": {
@@ -5024,12 +5169,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Segment-Extension-Bundle.git",
-                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f"
+                "reference": "8aba3545ded6844651486e03e3eeb4414fa88223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/285a13fa9e14a27ab65b911f12e177fc2546cc2f",
-                "reference": "285a13fa9e14a27ab65b911f12e177fc2546cc2f",
+                "url": "https://api.github.com/repos/ragavagroup/Segment-Extension-Bundle/zipball/8aba3545ded6844651486e03e3eeb4414fa88223",
+                "reference": "8aba3545ded6844651486e03e3eeb4414fa88223",
                 "shasum": ""
             },
             "require": {
@@ -5108,12 +5253,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a"
+                "reference": "bb7711212cf8a6195d95ac5b6144def9ab7ec85c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/eb376e7f6faac668e149e5bd5b9f25e6c097734a",
-                "reference": "eb376e7f6faac668e149e5bd5b9f25e6c097734a",
+                "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/bb7711212cf8a6195d95ac5b6144def9ab7ec85c",
+                "reference": "bb7711212cf8a6195d95ac5b6144def9ab7ec85c",
                 "shasum": ""
             },
             "require": {
@@ -5266,12 +5411,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "2accf0db0c605b8d8dec3ff7cc5cf7707065e56c"
+                "reference": "8524795818d49c28e1b366e8a7e28cf2709900cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/2accf0db0c605b8d8dec3ff7cc5cf7707065e56c",
-                "reference": "2accf0db0c605b8d8dec3ff7cc5cf7707065e56c",
+                "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/8524795818d49c28e1b366e8a7e28cf2709900cb",
+                "reference": "8524795818d49c28e1b366e8a7e28cf2709900cb",
                 "shasum": ""
             },
             "require": {
@@ -5297,6 +5442,40 @@
                 "issues": "https://github.com/ragavagroup/Tracking/issues"
             },
             "time": "2015-06-26 16:30:01"
+        },
+        {
+            "name": "medikly/tracking-extension",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/TrackingExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/TrackingExtension.git",
+                "reference": "d9bf4a82806e6678bf22ac65f88aacd8561f0cc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/TrackingExtension/zipball/d9bf4a82806e6678bf22ac65f88aacd8561f0cc1",
+                "reference": "d9bf4a82806e6678bf22ac65f88aacd8561f0cc1",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "1.7",
+                "oro/crm-enterprise": "1.9",
+                "oro/platform": "1.7",
+                "php": ">=5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\TrackingExtensionBundle": ""
+                }
+            },
+            "description": "Bundle with different tweaks for core OroTrackingBundle bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/TrackingExtension/tree/master",
+                "issues": "https://github.com/ragavagroup/TrackingExtension/issues"
+            },
+            "time": "2015-07-29 11:45:31"
         },
         {
             "name": "medikly/ui-bundle",
@@ -8522,6 +8701,7 @@
         "medikly/account-extension": 20,
         "medikly/hospital": 20,
         "medikly/datagrid-sidebar": 20,
+        "medikly/tracking-extension": 20,
         "atwix/oro-mandrill": 20
     },
     "prefer-stable": true,
