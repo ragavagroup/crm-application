@@ -69,3 +69,5 @@ parameters:
     oro_tracking.form.type.tracking_website.class: Medikly\Bundle\TrackingBundle\Form\Type\TrackingWebsiteType
 
     oro_importexport.handler.import.http.class: Medikly\Bundle\ResourceBundle\ImportExport\Handler\HttpImportHandler
+
+    medikly_csv_validator_server_url: ~
