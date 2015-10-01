@@ -242,7 +242,7 @@
     "medikly/page-builder-bundle": "dev-master",
     "medikly/tracking": "dev-visits-extend",
     "medikly/socialmention":"dev-master",
-    "medikly/account-extension": "dev-master",
+    "medikly/account-extension": "dev-feature/account-as-main-entity",
     "medikly/hospital": "dev-master",
     "medikly/s3integration-bundle": "dev-master",
     
