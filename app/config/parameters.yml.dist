@@ -71,3 +71,5 @@ parameters:
     oro_importexport.handler.import.http.class: Medikly\Bundle\ResourceBundle\ImportExport\Handler\HttpImportHandler
 
     medikly_csv_validator_server_url: ~
+    
+    medikly_googlemaps_api_key: 'AIzaSyCvYnu8e2z7wUQw8drlsGGZm3QjjCoXVBM'
