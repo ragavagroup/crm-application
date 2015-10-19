@@ -204,6 +204,10 @@
     "physician-value-index": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/PhysicianValueIndex.git"
+    },
+    "medikly-contact-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ContactExtension.git"
     }
   },
   "require": {
@@ -258,6 +262,7 @@
     "medikly/datagrid-extension-bundle": "dev-master",
     "medikly/tracking-extension" : "dev-master",
     "medikly/physician-value-index" : "dev-master",
+    "medikly/contact-extension-bundle": "dev-master",
     
     "atwix/oro-mandrill": "dev-master",
 
