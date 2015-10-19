@@ -200,6 +200,10 @@
     "tracking-extension": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/TrackingExtension.git"
+    },
+    "medikly-contact-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ContactExtension.git"
     }
   },
   "require": {
@@ -254,6 +258,7 @@
     "medikly/campaign-extension" : "dev-master",
     "medikly/datagrid-extension-bundle": "dev-master",
     "medikly/tracking-extension" : "dev-master",
+    "medikly/contact-extension-bundle": "dev-master",
     
     "atwix/oro-mandrill": "dev-master",
 
