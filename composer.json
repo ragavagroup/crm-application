@@ -205,7 +205,7 @@
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
-    "medikly/customdashboardmenu-bundle": "dev-master",
+    "medikly/customdashboardmenu-bundle": "dev-astrazeneca-master",
     "medikly/event-bundle": "dev-master",
     "medikly/provider-bundle": "dev-master",
     "medikly/defaultlegacy-bundle": "dev-master",
