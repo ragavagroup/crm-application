@@ -200,6 +200,14 @@
     "tracking-extension": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/TrackingExtension.git"
+    },
+    "physician-value-index": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/PhysicianValueIndex.git"
+    },
+    "medikly-contact-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ContactExtension.git"
     }
   },
   "require": {
@@ -252,6 +260,8 @@
     "medikly/campaign-extension" : "dev-feature/new-provider-db-adjustments",
     "medikly/datagrid-extension-bundle": "dev-master",
     "medikly/tracking-extension" : "dev-master",
+    "medikly/physician-value-index" : "dev-master",
+    "medikly/contact-extension-bundle": "dev-master",
     
     "atwix/oro-mandrill": "dev-master",
 
