@@ -230,7 +230,6 @@
     "medikly/channel": "dev-master",
     "medikly/report": "dev-feature-oro-soft-versrion-requirement",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
-    "medikly/reclinejs-bundle" : "dev-master",
     "medikly/geocoding-bundle": "dev-master",
     "medikly/intercomjs": "dev-master",
     "medikly/intercomapi": "dev-feature/new-provider-db-adjustments",
