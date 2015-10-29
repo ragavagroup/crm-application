@@ -5,7 +5,7 @@
 </div>
 
 <script type="text/javascript">
-    {% set widgetFile = widgetType == 'dashboard-item' ? 'mediklydashboard/js/widget/dashboard-item' : 'oro/' ~ widgetType ~ '-widget' %}
+    {% set widgetFile = widgetType == 'dashboard-item' ? 'orodashboard/js/widget/dashboard-item' : 'oro/' ~ widgetType ~ '-widget' %}
     require(['jquery', '{{ widgetFile }}', 'ready!app'], function($, Widget){
         $(function(){
             var widget = new Widget({{ options|json_encode|raw }});
