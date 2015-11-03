@@ -1,3 +1,40 @@
+CHANGELOG for 1.10.3
+===================
+This changelog references the relevant changes (new features, changes and bugs) done in 1.10.3 versions.
+* 1.10.0 (2015-11-03)
+ * Plaform and CRM 1.8.3 compatible changes
+ * Fixed Incorrect pagination on grids with one-to-many relations
+ * Fixed Emails displayed many times after IMAP sync
+ * Fixed Possible to created extended fields with identical names 
+ * Fixed oro:cron:batch:cleanup memory outage
+ * Fixed Incorrect sort ordering in Tracking Website Events grid
+ * Fixed Lost translation for entities
+ * Fixed Import does not work if entity contains deleted relation 
+ * Fixed MS Exchange doesn't work
+ * Fixed Impossible to save Grid View for system organization
+ * Fixed User without permissions could view Organization's data
+ * Fixed Magento Sync Subscribers synced without email
+ * Fixed Magento initial sync fails on invalid Customer
+ * Fixed Failed "oro:imap:clear-mailbox"
+ * Fixed Create Order window is broken
+ * Fixed JS error on the Email Configuration
+ * Fixed Performance problem on My Emails page
+ * Fixed IMAP Sync does not work for emails moved between folders
+ * Fixed OroCRM for Outlook add-in affects Outlook's performance (Calendar tab)
+ * Added Coupon code and discount fields support for Magento orders 
+
+CHANGELOG for 1.10.2
+===================
+This changelog references the relevant changes (new features, changes and bugs) done in 1.10.2 versions.
+* 1.10.2 (2015-09-28)
+ * Plaform and CRM 1.8.2 compatible changes
+
+CHANGELOG for 1.10.1
+===================
+This changelog references the relevant changes (new features, changes and bugs) done in 1.10.1 versions.
+* 1.10.1 (2015-09-28)
+ * Plaform and CRM 1.8.1 compatible changes
+
 CHANGELOG for 1.10.0
 ===================
 This changelog references the relevant changes (new features, changes and bugs) done in 1.10.0 versions.
