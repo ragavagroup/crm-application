@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be6c350a4ec84dfae8e29ce6429d4044",
+    "hash": "5b58c9388139991430c660cf56c0de74",
+    "content-hash": "8d36d050015215a24a988afa13789370",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3873,12 +3874,12 @@
             "version": "1.8.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/crm-enterprise-releases.git",
+                "url": "git@github.com:orocrm/crm-er.git",
                 "reference": "587c01e02aadb714427327f44fda4a11951353bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise-releases/zipball/587c01e02aadb714427327f44fda4a11951353bd",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/587c01e02aadb714427327f44fda4a11951353bd",
                 "reference": "587c01e02aadb714427327f44fda4a11951353bd",
                 "shasum": ""
             },
@@ -3909,8 +3910,8 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise-releases/tree/1.8.3",
-                "issues": "https://github.com/orocrm/crm-enterprise-releases/issues"
+                "source": "https://github.com/orocrm/crm-er/tree/1.8.3",
+                "issues": "https://github.com/orocrm/crm-er/issues"
             },
             "time": "2015-11-03 14:39:17"
         },
@@ -4123,12 +4124,12 @@
             "version": "1.8.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/platform-enterprise-releases.git",
+                "url": "git@github.com:orocrm/platform-er.git",
                 "reference": "f4ed190bab9db336d8124eadd021e889ff2581f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-enterprise-releases/zipball/f4ed190bab9db336d8124eadd021e889ff2581f8",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/f4ed190bab9db336d8124eadd021e889ff2581f8",
                 "reference": "f4ed190bab9db336d8124eadd021e889ff2581f8",
                 "shasum": ""
             },
@@ -4222,8 +4223,8 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-enterprise-releases/tree/1.8.3",
-                "issues": "https://github.com/orocrm/platform-enterprise-releases/issues"
+                "source": "https://github.com/orocrm/platform-er/tree/1.8.3",
+                "issues": "https://github.com/orocrm/platform-er/issues"
             },
             "time": "2015-11-03 14:38:22"
         },
