@@ -184,6 +184,10 @@
     "medikly-contact-extension": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/ContactExtension.git"
+    },
+    "medikly-research": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ResearchBundle.git"
     }
   },
   "require": {
@@ -232,6 +236,7 @@
     "medikly/tracking-extension" : "dev-master",
     "medikly/physician-value-index" : "dev-master",
     "medikly/contact-extension-bundle": "dev-master",
+    "medikly/research": "dev-master",
     
     "atwix/oro-mandrill": "dev-master",
 
