@@ -77,4 +77,4 @@ parameters:
 
     medikly_csv_validator_server_url: ~
     
-    medikly_googlemaps_api_key: 'AIzaSyCvYnu8e2z7wUQw8drlsGGZm3QjjCoXVBM'
+    medikly_googlemaps_api_key: ~
