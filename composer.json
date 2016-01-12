@@ -188,6 +188,10 @@
     "medikly-research": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/ResearchBundle.git"
+    },
+    "medikly-importexport-extension": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ImportExportExtension.git"
     }
   },
   "require": {
@@ -237,6 +241,7 @@
     "medikly/physician-value-index" : "dev-master",
     "medikly/contact-extension-bundle": "dev-master",
     "medikly/research": "dev-master",
+    "medikly/importexport-extension-bundle": "dev-master",
     
     "atwix/oro-mandrill": "dev-master",
 
