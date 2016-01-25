@@ -108,7 +108,7 @@
     "medikly-system-navigation": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
-      },
+    },
     "medikly-search": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/SearchBundle.git"
@@ -192,6 +192,10 @@
     "medikly-importexport-extension": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/ImportExportExtension.git"
+    },
+    "medikly/datagrid-charts-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/DataGridChartsBundle.git"
     }
   },
   "require": {
@@ -247,7 +251,9 @@
 
     "aws/aws-sdk-php": "2.8.12",
 
-    "akeneo/batch-bundle": "0.4.2"
+    "akeneo/batch-bundle": "0.4.2",
+
+    "medikly/datagrid-charts-bundle": "dev-master"
   },
   "config": {
     "component-dir": "web/bundles/components"
