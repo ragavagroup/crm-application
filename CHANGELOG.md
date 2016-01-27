@@ -1,3 +1,26 @@
+CHANGELOG for 1.10.4
+===================
+This changelog references the releavnt changs (new features, changes and bugs) done in 1.10.4 version
+* 1.10.4 (2016-01-27)
+ * Fixed lost contexts after reply on email
+ * Fixed User export fails If relation is set with Address entity
+ * Added creating bidirectional extended many-to-many relation in a migration script
+ * Fixed disappear activity tab for any entity that has only notes association
+ * Fixed EWS sync trying to synchronize when disabled
+ * Fixed Inconsistency in number of Newsletter Subscribers and synced Magento Customers
+ * Fixed Sent Email Campaign has empty recipients list
+ * Fixed User Edit page is hung with a lot of IMAP folders
+ * Fixed Web installer fails when DB does not exist
+ * Added possibility to define import strategy on the field configuration
+ * Fixed Can't add context for entity with newly enabled activities
+ * Fixed Installer are not support filesystem with file name length different from 255
+ * Fixed Report builder filters does not contain aggregation columns
+ * Fixed Import Data Template does not have fields with relations
+ * Changed cron strategy to prevent overflow jobs queue
+ * Fixed Missing column functions for Date columns in Report builder
+ * Optimized performance of the Magento sync for one day period
+ * Fixed unexpected save related entities during magento sync
+
 CHANGELOG for 1.10.3
 ===================
 This changelog references the relevant changes (new features, changes and bugs) done in 1.10.3 versions.
