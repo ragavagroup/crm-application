@@ -258,7 +258,7 @@
     "akeneo/batch-bundle": "0.4.2",
 
     "medikly/datagrid-charts-bundle": "dev-master",
-    "medikly/grafana-dashboard-bundle": "dev-bugfix/change-namespaces"
+    "medikly/grafana-dashboard-bundle": "dev-master"
   },
   "config": {
     "component-dir": "web/bundles/components"
