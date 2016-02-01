@@ -193,7 +193,7 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/ImportExportExtension.git"
     },
-    "grafana/dashboard-bundle": {
+    "medikly/grafana-dashboard-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
     }
@@ -253,7 +253,7 @@
 
     "akeneo/batch-bundle": "0.4.2",
 
-    "grafana/dashboard-bundle": "dev-master"
+    "medikly/grafana-dashboard-bundle": "dev-bugfix/change-namespaces"
   },
   "config": {
     "component-dir": "web/bundles/components"
