@@ -193,6 +193,10 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/ImportExportExtension.git"
     },
+    "medikly/datagrid-charts-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/DataGridChartsBundle.git"
+    },
     "medikly/grafana-dashboard-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
@@ -253,6 +257,7 @@
 
     "akeneo/batch-bundle": "0.4.2",
 
+    "medikly/datagrid-charts-bundle": "dev-master",
     "medikly/grafana-dashboard-bundle": "dev-bugfix/change-namespaces"
   },
   "config": {
