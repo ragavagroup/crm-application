@@ -15,8 +15,7 @@
     },
     "enterprise": {
       "type": "vcs",
-      "url": "https://github.com/ragavagroup/crm-enterprise.git",
-      "branch": "master"
+      "url": "https://github.com/ragavagroup/crm-enterprise.git"
     },
     "CustomDashboardMenu": {
       "type": "vcs",
@@ -206,7 +205,7 @@
   "require": {
     "oro/platform": "1.9.0-RC2",
     "oro/crm": "1.9.0-RC2",
-    "oro/crm-enterprise": "dev-master",
+    "oro/crm-enterprise": "1.11",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
