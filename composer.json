@@ -15,7 +15,8 @@
     },
     "enterprise": {
       "type": "vcs",
-      "url": "https://github.com/ragavagroup/crm-enterprise.git"
+      "url": "https://github.com/ragavagroup/crm-enterprise.git",
+      "branch": "master"
     },
     "CustomDashboardMenu": {
       "type": "vcs",
@@ -203,9 +204,9 @@
     }
   },
   "require": {
-    "oro/crm": "1.7.6 as 1.7",
-    "oro/platform": "1.7.6 as 1.7",
-    "oro/crm-enterprise": "1.9.6 as 1.9",
+    "oro/platform": "1.9.0-RC2",
+    "oro/crm": "1.9.0-RC2",
+    "oro/crm-enterprise": "dev-master",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
@@ -238,7 +239,7 @@
     "medikly/account-extension": "dev-feature/account-as-main-entity",
     "medikly/hospital": "dev-master",
     "medikly/s3integration-bundle": "dev-master",
-    
+
     "medikly/dcjs-data-visualization": "dev-master",
     "medikly/segment-extension-bundle": "dev-master",
     "medikly/dataset-bundle": "dev-master",
@@ -250,7 +251,7 @@
     "medikly/contact-extension-bundle": "dev-master",
     "medikly/research": "dev-master",
     "medikly/importexport-extension-bundle": "dev-master",
-    
+
     "atwix/oro-mandrill": "dev-master",
 
     "aws/aws-sdk-php": "2.8.12",
@@ -259,6 +260,9 @@
 
     "medikly/datagrid-charts-bundle": "dev-master",
     "medikly/grafana-dashboard-bundle": "dev-master"
+  },
+  "require-dev": {
+    "sensio/generator-bundle": "2.5.3"
   },
   "config": {
     "component-dir": "web/bundles/components"

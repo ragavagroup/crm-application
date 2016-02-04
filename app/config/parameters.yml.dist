@@ -54,13 +54,13 @@ parameters:
     medikly_resource_file_storage_path: %kernel.root_dir%/../web/uploads/raw_files
     medikly_resource_data_dictionaries_path: '%kernel.root_dir%/../web/uploads/data_dictionaries'
     tracker_site_id: 1
-    
-    # Yourls credentials for link tracker 
+
+    # Yourls credentials for link tracker
     medikly_tracking_yourls_username: 'medikly'
     medikly_tracking_yourls_password: 'uQ92fW^TYMD'
     medikly_tracking_yourls_url: 'http://mdik.ly/'
 
-    # Yourls credentials for link tracker 
+    # Yourls credentials for link tracker
     medikly_tracking_yourls_username: ~
     medikly_tracking_yourls_password: ~
     medikly_tracking_yourls_url: ~
@@ -76,5 +76,5 @@ parameters:
     oro_importexport.handler.import.http.class: Medikly\Bundle\ResourceBundle\ImportExport\Handler\HttpImportHandler
 
     medikly_csv_validator_server_url: ~
-    
+
     medikly_googlemaps_api_key: ~
