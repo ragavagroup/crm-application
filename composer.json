@@ -205,7 +205,7 @@
   "require": {
     "oro/platform": "1.9.0-RC2",
     "oro/crm": "1.9.0-RC2",
-    "oro/crm-enterprise": "1.11",
+    "oro/crm-enterprise": "1.11.x-dev",
     "oro/crm-mail-chimp": "~1.0@dev",
     "oro/crm-zendesk": "~1.0@dev",
 
