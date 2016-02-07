@@ -206,8 +206,6 @@
     "oro/platform": "1.9.0-RC2",
     "oro/crm": "1.9.0-RC2",
     "oro/crm-enterprise": "1.11.x-dev",
-    "oro/crm-mail-chimp": "~1.0@dev",
-    "oro/crm-zendesk": "~1.0@dev",
 
     "medikly/customdashboardmenu-bundle": "dev-feature/new-provider-db-adjustments",
     "medikly/event-bundle": "dev-master",
