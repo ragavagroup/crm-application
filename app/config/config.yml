@@ -87,7 +87,7 @@ doctrine:
                 charset:      UTF8
     orm:
         auto_generate_proxy_classes: "%kernel.debug%"
-        auto_mapping:         true
+        auto_mapping: true
         class_metadata_factory_name: Oro\Bundle\EntityExtendBundle\Mapping\ExtendClassMetadataFactory
         resolve_target_entities:
             Symfony\Component\Security\Core\User\UserInterface: Oro\Bundle\UserBundle\Entity\User
@@ -95,6 +95,7 @@ doctrine:
             OroDistributionBundle:
                 mapping:   false
                 is_bundle: true
+            OroEntityConfigBundle: ~
         metadata_cache_driver:
             type: service
             id: doctrine.metadata.cache

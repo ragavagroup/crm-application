@@ -78,3 +78,9 @@ parameters:
     medikly_csv_validator_server_url: ~
 
     medikly_googlemaps_api_key: ~
+
+    assets_version:    ~
+    assets_version_strategy: time_hash # A strategy should be used to generate the global assets version, can be:
+                                       # null        - the assets version stays unchanged
+                                       # time_hash   - a hash of the current time
+                                       # incremental - the next assets version is the previous
