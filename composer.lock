@@ -3952,12 +3952,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "5c815bef5b194055aa1fd43c3d59a9ac87f2c96e"
+                "reference": "5a5da8d20f0656db9bb20a59d097672f311cdac8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/5c815bef5b194055aa1fd43c3d59a9ac87f2c96e",
-                "reference": "5c815bef5b194055aa1fd43c3d59a9ac87f2c96e",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/5a5da8d20f0656db9bb20a59d097672f311cdac8",
+                "reference": "5a5da8d20f0656db9bb20a59d097672f311cdac8",
                 "shasum": ""
             },
             "require": {
@@ -3992,7 +3992,7 @@
                 "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.0",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
-            "time": "2016-02-15 14:26:49"
+            "time": "2016-02-15 15:13:30"
         },
         {
             "name": "oro/doctrine-extensions",
