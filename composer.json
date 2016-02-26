@@ -256,7 +256,9 @@
     "akeneo/batch-bundle": "0.4.2",
 
     "medikly/datagrid-charts-bundle": "dev-master",
-    "medikly/grafana-dashboard-bundle": "dev-master"
+    "medikly/grafana-dashboard-bundle": "dev-master",
+    "oro/crm-zendesk": "1.*",
+    "oro/crm-mail-chimp": "1.*"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
