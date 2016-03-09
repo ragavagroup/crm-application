@@ -27,7 +27,7 @@
         }
     },
     "require": {
-        "oro/crm-enterprise" : "1.11.0"
+        "oro/crm-enterprise" : "1.11.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3"
