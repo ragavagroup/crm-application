@@ -8,12 +8,16 @@
             "": "src/"
         }
     },
-    "repositories": [
-        {
+    "repositories": {
+        "composer": {
             "type": "composer",
-            "url": "https://packagist.orocrm.com"
+            "url": "http://packagist.orocrm.com"
+        },
+        "enterprise": {
+            "type": "vcs",
+            "url": "https://github.com/ragavagroup/crm-enterprise.git"
         }
-    ],
+    },
     "require": {
         "oro/crm": "1.9.*",
         "oro/crm-enterprise": "1.11.x-dev"

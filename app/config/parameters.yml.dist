@@ -23,64 +23,8 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
     installed:         ~
 
-    # Elasticsearch
-    search_engine_name:       orm
-    search_engine_host:       127.0.0.1
-    search_engine_port:       null
-    search_engine_username:   null
-    search_engine_password:   null
-    search_engine_auth_type:  null
-
-    # Enterprise
-    enterprise_licence:       null
-
-    # Piwik
-    piwik_client_url:         localhost
-    piwik_client_admin_token: ~
-
-    # S3 Integration
-    amazon_s3.key:                  ~
-    amazon_s3.secret:               ~
-    amazon_s3.credentials_home_dir: '/home/ubuntu'
-    amazon_s3.instance: 'dev'
-
-    # RAW Data Postgres
-
-    raw_data_postgres_database_host: 127.0.0.1
-    raw_data_postgres_database_port: 5432
-    raw_data_postgres_database_name: medikly-raw-data
-    raw_data_postgres_database_user: postgres-raw-data
-    raw_data_postgres_database_password: ~
-    medikly_resource_file_storage_path: %kernel.root_dir%/../web/uploads/raw_files
-    medikly_resource_data_dictionaries_path: '%kernel.root_dir%/../web/uploads/data_dictionaries'
-    tracker_site_id: 1
-
-    # Yourls credentials for link tracker
-    medikly_tracking_yourls_username: 'medikly'
-    medikly_tracking_yourls_password: 'uQ92fW^TYMD'
-    medikly_tracking_yourls_url: 'http://mdik.ly/'
-
-    # Yourls credentials for link tracker
-    medikly_tracking_yourls_username: ~
-    medikly_tracking_yourls_password: ~
-    medikly_tracking_yourls_url: ~
-
-    # Custom overrides
-
-    oro_filter.string_filter.class:         Medikly\Bundle\InheritanceBundle\Filter\StringFilter
-
-    orocrm_campaign.campaign.form.type.class:      Medikly\Bundle\TrackingBundle\Form\Type\CampaignType
-    oro_form.type.multiple_entity.class:           Medikly\Bundle\TrackingBundle\Form\Type\MultipleEntityType
-    oro_tracking.form.type.tracking_website.class: Medikly\Bundle\TrackingBundle\Form\Type\TrackingWebsiteType
-
-    oro_importexport.handler.import.http.class: Medikly\Bundle\ResourceBundle\ImportExport\Handler\HttpImportHandler
-
-    medikly_csv_validator_server_url: ~
-
-    medikly_googlemaps_api_key: ~
-
     assets_version:    ~
     assets_version_strategy: time_hash # A strategy should be used to generate the global assets version, can be:
                                        # null        - the assets version stays unchanged
                                        # time_hash   - a hash of the current time
-                                       # incremental - the next assets version is the previous
+                                       # incremental - the next assets version is the previous version is incremented by one (e.g. 'ver1' -> 'ver2' or '1' -> '2')

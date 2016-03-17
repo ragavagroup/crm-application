@@ -241,4 +241,4 @@ oro_help:
             uri: Platform/OroDashboardBundle
 
 oro_theme:
-    active_theme: flat
+    active_theme: oro
