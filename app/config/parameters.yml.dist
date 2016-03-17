@@ -23,8 +23,21 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
     installed:         ~
 
+    # Elasticsearch
+    search_engine_name:       orm
+    search_engine_host:       127.0.0.1
+    search_engine_port:       null
+    search_engine_username:   null
+    search_engine_password:   null
+    search_engine_auth_type:  null
+
+    # Enterprise
+    enterprise_licence:       null
+
+    tracker_site_id: 1
+
     assets_version:    ~
     assets_version_strategy: time_hash # A strategy should be used to generate the global assets version, can be:
                                        # null        - the assets version stays unchanged
                                        # time_hash   - a hash of the current time
-                                       # incremental - the next assets version is the previous version is incremented by one (e.g. 'ver1' -> 'ver2' or '1' -> '2')
+                                       # incremental - the next assets version is the previous
