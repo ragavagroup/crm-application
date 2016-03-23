@@ -16,11 +16,16 @@
         "enterprise": {
             "type": "vcs",
             "url": "https://github.com/ragavagroup/crm-enterprise.git"
-        }
+        },
+        "medikly-oro-flat-theme": {
+            "type": "vcs",
+            "url": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle.git"
+       }
     },
     "require": {
         "oro/crm": "1.9.*",
-        "oro/crm-enterprise": "1.11.x-dev"
+        "oro/crm-enterprise": "1.11.x-dev",
+        "medikly/oro-flat-theme": "dev-feature/newDB-style-changes"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3"
