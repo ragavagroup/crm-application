@@ -20,6 +20,10 @@
         "medikly-theme-2016": {
             "type": "vcs",
             "url": "https://github.com/ragavagroup/Theme2016.git"
+       },
+        "medikly/css-live-editor-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/ragavagroup/CssLiveEditorBundle.git"
        }
     },
     "require": {
