@@ -21,6 +21,10 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Theme2016.git"
     },
+    "medikly/css-live-editor-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/CssLiveEditorBundle.git"
+    },
     "medikly-entity-extend": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/MediklyEntityExtend.git"
@@ -29,8 +33,7 @@
   "require": {
     "oro/crm": "1.9.*",
     "oro/crm-enterprise": "1.11.x-dev",
-    "medikly/theme-2016": "dev-master",
-    "medikly/entity-extend-bundle": "dev-master"
+    "medikly/theme-2016": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
