@@ -33,7 +33,8 @@
   "require": {
     "oro/crm": "1.9.*",
     "oro/crm-enterprise": "1.11.x-dev",
-    "medikly/theme-2016": "dev-master"
+    "medikly/theme-2016": "dev-master",
+    "medikly/entity-extend-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
