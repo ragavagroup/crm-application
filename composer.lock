@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "222f30e0f89f270ea88f23d941919960",
-    "content-hash": "fed2bdf996ffc6ac963d9d6d93292a97",
+    "hash": "84f9113e6532cdcaa37fe4bf85b67534",
+    "content-hash": "a447c2231e77656c0e7671519670d79e",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -572,7 +572,7 @@
                     "Composer": "src/"
                 }
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
+            "notification-url": "http://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
@@ -667,33 +667,33 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.5.4",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136"
+                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/47cdc76ceb95cc591d9c79a36dc3794975b5d136",
-                "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/f8af318d14bdb0eff0336795b428b547bd39ccb6",
+                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "~5.5|~7.0"
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=3.7",
+                "phpunit/phpunit": "~4.8|~5.0",
                 "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -733,7 +733,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-19 05:03:47"
+            "time": "2015-12-31 16:37:02"
         },
         {
             "name": "doctrine/collections",
@@ -1480,17 +1480,74 @@
             "time": "2015-08-31 12:59:39"
         },
         {
+            "name": "elasticsearch/elasticsearch",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elastic/elasticsearch-php.git",
+                "reference": "3a677634a46d01882f57dc634eb9ac0e10adfb77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/3a677634a46d01882f57dc634eb9ac0e10adfb77",
+                "reference": "3a677634a46d01882f57dc634eb9ac0e10adfb77",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzle/http": "~3.7",
+                "monolog/monolog": "~1.5",
+                "php": ">=5.3.9",
+                "pimple/pimple": "~2.1",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1",
+                "cpliakas/git-wrapper": "~1.0",
+                "mikey179/vfsstream": "~1.2",
+                "mockery/mockery": "dev-master@dev",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master",
+                "symfony/yaml": "2.4.3 as 2.4.2",
+                "twig/twig": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Elasticsearch": "src/",
+                    "Elasticsearch\\Tests": "tests/",
+                    "Elasticsearch\\Benchmarks": "benchmarks/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2"
+            ],
+            "authors": [
+                {
+                    "name": "Zachary Tong"
+                }
+            ],
+            "description": "PHP Client for Elasticsearch",
+            "keywords": [
+                "client",
+                "elasticsearch",
+                "search"
+            ],
+            "time": "2014-08-06 16:04:48"
+        },
+        {
             "name": "escapestudios/wsse-authentication-bundle",
             "version": "1.0.2",
             "target-dir": "Escape/WSSEAuthenticationBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/escapestudios/EscapeWSSEAuthenticationBundle.git",
+                "url": "https://github.com/djoos/EscapeWSSEAuthenticationBundle.git",
                 "reference": "c2d56effd53cae5ebd685f6d50a81c024bc089af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/escapestudios/EscapeWSSEAuthenticationBundle/zipball/c2d56effd53cae5ebd685f6d50a81c024bc089af",
+                "url": "https://api.github.com/repos/djoos/EscapeWSSEAuthenticationBundle/zipball/c2d56effd53cae5ebd685f6d50a81c024bc089af",
                 "reference": "c2d56effd53cae5ebd685f6d50a81c024bc089af",
                 "shasum": ""
             },
@@ -1525,7 +1582,7 @@
                 },
                 {
                     "name": "Community contributors",
-                    "homepage": "https://github.com/frieser/FrieserWSSEAuthenticationBundle/graphs/contributors"
+                    "homepage": "https://github.com/escapestudios/EscapeWSSEAuthenticationBundle/graphs/contributors"
                 }
             ],
             "description": "Symfony2 bundle to implement WSSE authentication",
@@ -3058,7 +3115,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3114,7 +3171,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3397,6 +3454,192 @@
             "time": "2014-01-24 18:59:15"
         },
         {
+            "name": "medikly/css-live-editor-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/CssLiveEditorBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/CssLiveEditorBundle.git",
+                "reference": "7d7fddd5b25bc9358f161f865b1e05a36a60d637"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/CssLiveEditorBundle/zipball/7d7fddd5b25bc9358f161f865b1e05a36a60d637",
+                "reference": "7d7fddd5b25bc9358f161f865b1e05a36a60d637",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\CssLiveEditorBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Add CSS on the fly",
+            "keywords": [
+                "CSS",
+                "Editor",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/CssLiveEditorBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/CssLiveEditorBundle/issues"
+            },
+            "time": "2016-03-24 22:07:44"
+        },
+        {
+            "name": "medikly/datagrid-charts-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DataGridChartsBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/DataGridChartsBundle.git",
+                "reference": "d629769da217c56cf416b7cd5ba51aca794faca0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/DataGridChartsBundle/zipball/d629769da217c56cf416b7cd5ba51aca794faca0",
+                "reference": "d629769da217c56cf416b7cd5ba51aca794faca0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DataGridChartsBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Groween",
+                    "homepage": "http://groween.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/DataGridChartsBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/DataGridChartsBundle/issues"
+            },
+            "time": "2016-04-06 14:04:29"
+        },
+        {
+            "name": "medikly/reports-form-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ReportsFormBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/ReportsFormBundle.git",
+                "reference": "c4c8e45857769ae28074bb0ff3d626d1067c698e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/ReportsFormBundle/zipball/c4c8e45857769ae28074bb0ff3d626d1067c698e",
+                "reference": "c4c8e45857769ae28074bb0ff3d626d1067c698e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ReportsFormBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "This bundle make a new interface to Report Forms.",
+            "keywords": [
+                "Medikly",
+                "Reports"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/ReportsFormBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/ReportsFormBundle/issues"
+            },
+            "time": "2016-04-13 19:31:59"
+        },
+        {
+            "name": "medikly/system-navigation",
+            "version": "dev-feature/standalone-bundle",
+            "target-dir": "Medikly/Bundle/SystemNavigationBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/SystemNavigationBundle.git",
+                "reference": "f188776fd89876ba83bd02ea7d34f1e9ef56e18a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
+                "reference": "f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SystemNavigationBundle": ""
+                }
+            },
+            "description": "Changes system configuration submenu to separate menu",
+            "keywords": [
+                "medikly"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/feature/standalone-bundle",
+                "issues": "https://github.com/ragavagroup/SystemNavigationBundle/issues"
+            },
+            "time": "2016-04-04 13:03:00"
+        },
+        {
+            "name": "medikly/theme-2016",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/Theme2016Bundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Theme2016.git",
+                "reference": "70387588b2978a1fc3c7b5c952e85e386a14ec42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/70387588b2978a1fc3c7b5c952e85e386a14ec42",
+                "reference": "70387588b2978a1fc3c7b5c952e85e386a14ec42",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\Theme2016Bundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Medikly"
+                }
+            ],
+            "description": "New Theme Bundle for Medikly",
+            "support": {
+                "source": "https://github.com/ragavagroup/Theme2016/tree/master",
+                "issues": "https://github.com/ragavagroup/Theme2016/issues"
+            },
+            "time": "2016-04-16 22:34:39"
+        },
+        {
             "name": "michelf/php-markdown",
             "version": "1.6.0",
             "source": {
@@ -3449,16 +3692,16 @@
         },
         {
             "name": "moment/moment",
-            "version": "2.12.0",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "b135bf1a6d58ff94287f0a21455bfa6a1ddc7226"
+                "reference": "d6651c21c6131fbb5db891b60971357739015688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/b135bf1a6d58ff94287f0a21455bfa6a1ddc7226",
-                "reference": "b135bf1a6d58ff94287f0a21455bfa6a1ddc7226",
+                "url": "https://api.github.com/repos/moment/moment/zipball/d6651c21c6131fbb5db891b60971357739015688",
+                "reference": "d6651c21c6131fbb5db891b60971357739015688",
                 "shasum": ""
             },
             "require": {
@@ -3499,7 +3742,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-03-07 09:14:46"
+            "time": "2016-04-18 07:29:18"
         },
         {
             "name": "monolog/monolog",
@@ -3848,16 +4091,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/crm.git",
-                "reference": "66be26358aa848302c55e1bbdde9e236a4b55bf6"
+                "reference": "4821371094bc8207220fee36e49f975f39f06ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/66be26358aa848302c55e1bbdde9e236a4b55bf6",
-                "reference": "66be26358aa848302c55e1bbdde9e236a4b55bf6",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/4821371094bc8207220fee36e49f975f39f06ad3",
+                "reference": "4821371094bc8207220fee36e49f975f39f06ad3",
                 "shasum": ""
             },
             "require": {
@@ -3875,7 +4118,7 @@
                     "OroCRM\\Bundle": "src/"
                 }
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
+            "notification-url": "http://packagist.orocrm.com/downloads/",
             "license": [
                 "OSL-3.0"
             ],
@@ -3887,20 +4130,67 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
-            "time": "2016-03-05 11:04:07"
+            "time": "2016-03-31 13:13:23"
         },
         {
-            "name": "oro/doctrine-extensions",
-            "version": "1.0.11",
+            "name": "oro/crm-enterprise",
+            "version": "dev-upgrade/oro-crm-1.9.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/orocrm/doctrine-extensions.git",
-                "reference": "068102e896c8739355b99b794d59d321dff655d7"
+                "url": "git@github.com:ragavagroup/crm-enterprise.git",
+                "reference": "8a05da154499de50df990a024088ecbc18d4ef11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/068102e896c8739355b99b794d59d321dff655d7",
-                "reference": "068102e896c8739355b99b794d59d321dff655d7",
+                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/8a05da154499de50df990a024088ecbc18d4ef11",
+                "reference": "8a05da154499de50df990a024088ecbc18d4ef11",
+                "shasum": ""
+            },
+            "require": {
+                "elasticsearch/elasticsearch": "1.2.2",
+                "oro/crm": "1.9.2",
+                "php": ">=5.4.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OroCRMPro\\Bundle": "src/",
+                    "OroPro\\Bundle": "src/"
+                }
+            },
+            "license": [
+                "Commercial"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "OroCRM Enterprise",
+            "homepage": "https://github.com/orocrm/crm-enterprise.git",
+            "support": {
+                "source": "https://github.com/ragavagroup/crm-enterprise/tree/upgrade/oro-crm-1.9.2"
+            },
+            "time": "2016-04-18 20:52:26"
+        },
+        {
+            "name": "oro/doctrine-extensions",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orocrm/doctrine-extensions.git",
+                "reference": "2aab7d5f530d9bc115b6bdb4bf48fe3156453089"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/2aab7d5f530d9bc115b6bdb4bf48fe3156453089",
+                "reference": "2aab7d5f530d9bc115b6bdb4bf48fe3156453089",
                 "shasum": ""
             },
             "require": {
@@ -3941,7 +4231,7 @@
                 "postgresql",
                 "type"
             ],
-            "time": "2016-01-05 20:17:20"
+            "time": "2016-03-29 10:30:36"
         },
         {
             "name": "oro/jsplumb",
@@ -4047,16 +4337,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/platform.git",
-                "reference": "dcb2a75dd5d2ddb1b25009dfff0f77fd4ad826cb"
+                "reference": "a9c0a22e3bbfd6676f8ae4588bab0ea4e56b93d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform/zipball/dcb2a75dd5d2ddb1b25009dfff0f77fd4ad826cb",
-                "reference": "dcb2a75dd5d2ddb1b25009dfff0f77fd4ad826cb",
+                "url": "https://api.github.com/repos/orocrm/platform/zipball/a9c0a22e3bbfd6676f8ae4588bab0ea4e56b93d4",
+                "reference": "a9c0a22e3bbfd6676f8ae4588bab0ea4e56b93d4",
                 "shasum": ""
             },
             "require": {
@@ -4137,7 +4427,7 @@
                     "Oro\\Bundle": "src/"
                 }
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
+            "notification-url": "http://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4149,7 +4439,7 @@
             ],
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
-            "time": "2016-03-04 17:55:51"
+            "time": "2016-03-31 09:55:53"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4252,17 +4542,63 @@
             "time": "2015-07-25 16:39:46"
         },
         {
-            "name": "piwik/device-detector",
-            "version": "3.6.0",
+            "name": "pimple/pimple",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/piwik/device-detector.git",
-                "reference": "8c2fcfce34d8bd25d8db9c48e67fabb65c5497ae"
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "ea22fb2880faf7b7b0e17c9809c6fe25b071fd76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/8c2fcfce34d8bd25d8db9c48e67fabb65c5497ae",
-                "reference": "8c2fcfce34d8bd25d8db9c48e67fabb65c5497ae",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/ea22fb2880faf7b7b0e17c9809c6fe25b071fd76",
+                "reference": "ea22fb2880faf7b7b0e17c9809c6fe25b071fd76",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2014-07-24 07:10:08"
+        },
+        {
+            "name": "piwik/device-detector",
+            "version": "3.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/piwik/device-detector.git",
+                "reference": "4f4c2b0ce412fb1b8f679a7c82190783ba697d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/4f4c2b0ce412fb1b8f679a7c82190783ba697d4c",
+                "reference": "4f4c2b0ce412fb1b8f679a7c82190783ba697d4c",
                 "shasum": ""
             },
             "require": {
@@ -4300,7 +4636,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2016-03-02 22:20:49"
+            "time": "2016-03-31 20:28:09"
         },
         {
             "name": "psr/log",
@@ -5395,21 +5731,23 @@
         },
         {
             "name": "vakata/jstree",
-            "version": "3.2.1",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vakata/jstree.git",
-                "reference": "8ea6ce78bba5fefe4c3233844cbcb22b12826b31"
+                "reference": "c0cd19cd3e0823ca817dd7991549c2fd57db0fad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vakata/jstree/zipball/8ea6ce78bba5fefe4c3233844cbcb22b12826b31",
-                "reference": "8ea6ce78bba5fefe4c3233844cbcb22b12826b31",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/c0cd19cd3e0823ca817dd7991549c2fd57db0fad",
+                "reference": "c0cd19cd3e0823ca817dd7991549c2fd57db0fad",
                 "shasum": ""
             },
             "require": {
-                "components/jquery": ">=1.9.1",
-                "robloach/component-installer": "*"
+                "components/jquery": ">=1.9.1"
+            },
+            "suggest": {
+                "robloach/component-installer": "Allows installation of Components via Composer"
             },
             "type": "component",
             "extra": {
@@ -5446,7 +5784,7 @@
             ],
             "description": "jsTree is jquery plugin, that provides interactive trees.",
             "homepage": "http://jstree.com",
-            "time": "2015-08-24 11:32:18"
+            "time": "2016-03-19 23:19:56"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -5539,38 +5877,37 @@
         },
         {
             "name": "zendframework/zend-code",
-            "version": "2.1.5",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-code.git",
-                "reference": "0e76eec4f47858da3fef96a7f828e2340327310b"
+                "reference": "c4e8f976a772cfb14b47dabd69b5245a423082b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/0e76eec4f47858da3fef96a7f828e2340327310b",
-                "reference": "0e76eec4f47858da3fef96a7f828e2340327310b",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/c4e8f976a772cfb14b47dabd69b5245a423082b4",
+                "reference": "c4e8f976a772cfb14b47dabd69b5245a423082b4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "zendframework/zend-eventmanager": "self.version"
+                "php": ">=5.5",
+                "zendframework/zend-eventmanager": "^2.6|^3.0"
             },
             "require-dev": {
-                "doctrine/common": ">=2.1",
+                "doctrine/annotations": "~1.0",
                 "fabpot/php-cs-fixer": "1.7.*",
                 "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "dev-master",
-                "zendframework/zend-stdlib": "self.version"
+                "zendframework/zend-stdlib": "~2.7"
             },
             "suggest": {
-                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
+                "doctrine/annotations": "Doctrine\\Common\\Annotations >=1.0 for annotation features",
                 "zendframework/zend-stdlib": "Zend\\Stdlib component"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev",
-                    "dev-develop": "2.2-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -5588,7 +5925,7 @@
                 "code",
                 "zf2"
             ],
-            "time": "2013-04-17 15:15:58"
+            "time": "2016-01-05 05:58:37"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -5643,32 +5980,37 @@
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "2.1.5",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "01b3d7daec6a237e48f5db22d7e4efd65407deac"
+                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/01b3d7daec6a237e48f5db22d7e4efd65407deac",
-                "reference": "01b3d7daec6a237e48f5db22d7e4efd65407deac",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/5c80bdee0e952be112dcec0968bad770082c3a6e",
+                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "zendframework/zend-stdlib": "self.version"
+                "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "1.7.*",
+                "athletic/athletic": "^0.1",
+                "container-interop/container-interop": "^1.1.0",
                 "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "dev-master"
+                "squizlabs/php_codesniffer": "^2.0",
+                "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
+            },
+            "suggest": {
+                "container-interop/container-interop": "^1.1.0, to use the lazy listeners feature",
+                "zendframework/zend-stdlib": "^2.7.3 || ^3.0, to use the FilterChain feature"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev",
-                    "dev-develop": "2.2-dev"
+                    "dev-master": "3.0-dev",
+                    "dev-develop": "3.1-dev"
                 }
             },
             "autoload": {
@@ -5680,12 +6022,15 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-event-manager",
+            "description": "Trigger and listen to events within a PHP application",
+            "homepage": "https://github.com/zendframework/zend-eventmanager",
             "keywords": [
+                "event",
                 "eventmanager",
+                "events",
                 "zf2"
             ],
-            "time": "2013-04-17 13:32:54"
+            "time": "2016-02-18 20:53:00"
         },
         {
             "name": "zendframework/zend-i18n",
@@ -6128,10 +6473,66 @@
             "time": "2013-04-17 13:32:54"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "sensio/generator-bundle",
+            "version": "v2.5.3",
+            "target-dir": "Sensio/Bundle/GeneratorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
+                "reference": "e50108c2133ee5c9c484555faed50c17a61221d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/e50108c2133ee5c9c484555faed50c17a61221d3",
+                "reference": "e50108c2133ee5c9c484555faed50c17a61221d3",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.5",
+                "symfony/framework-bundle": "~2.2"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "symfony/doctrine-bridge": "~2.2",
+                "twig/twig": "~1.11"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\GeneratorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle generates code for you",
+            "time": "2015-03-17 06:36:52"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "oro/crm-enterprise": 20,
+        "medikly/theme-2016": 20,
+        "medikly/css-live-editor-bundle": 20,
+        "medikly/system-navigation": 20,
+        "medikly/reports-form-bundle": 20,
+        "medikly/datagrid-charts-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

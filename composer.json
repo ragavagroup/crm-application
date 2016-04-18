@@ -28,13 +28,32 @@
     "medikly-entity-extend": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/MediklyEntityExtend.git"
+    },
+    "medikly/reports-form-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ReportsFormBundle.git"
+    },
+    "medikly/system-navigation": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
+    },
+    "medikly/datagrid-charts-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/DataGridChartsBundle.git"
+    },
+    "medikly/channel-import-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/ChannelsImportBundle.git"
     }
   },
   "require": {
-    "oro/crm": "1.9.*",
-    "oro/crm-enterprise": "1.11.x-dev",
+    "oro/crm": "1.9.2",
+    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.2",
     "medikly/theme-2016": "dev-master",
-    "medikly/entity-extend-bundle": "dev-master"
+    "medikly/css-live-editor-bundle": "dev-master",
+    "medikly/system-navigation": "dev-feature/standalone-bundle",
+    "medikly/reports-form-bundle": "dev-master",
+    "medikly/datagrid-charts-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
