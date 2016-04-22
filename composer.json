@@ -53,7 +53,8 @@
     "medikly/css-live-editor-bundle": "dev-master",
     "medikly/system-navigation": "dev-feature/standalone-bundle",
     "medikly/reports-form-bundle": "dev-master",
-    "medikly/datagrid-charts-bundle": "dev-master"
+    "medikly/datagrid-charts-bundle": "dev-master",
+    "oro/redis-config": "^1.2"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

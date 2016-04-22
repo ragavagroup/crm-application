@@ -31,6 +31,10 @@ parameters:
     search_engine_password:   null
     search_engine_auth_type:  null
 
+    # REDIS
+    redis_dsn_cache: "redis://127.0.0.1:6379/newdb-dev-cache"
+    redis_dsn_session: "redis://127.0.0.1:6379/newdb-dev-session"
+
     # Enterprise
     enterprise_licence:       null
 
