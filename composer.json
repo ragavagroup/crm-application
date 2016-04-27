@@ -8,7 +8,7 @@
       "": "src/"
     }
   },
-  "repositories": {
+ "repositories": {
     "composer": {
       "type": "composer",
       "url": "http://packagist.orocrm.com"
@@ -44,6 +44,18 @@
     "medikly/channel-import-bundle" : {
       "type" : "vcs",
       "url" : "git@github.com:ragavagroup/ChannelsImportBundle.git"
+    },
+    "medikly/entity-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MediklyEntityBundle.git"
+    },
+    "medikly/customer-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MediklyCustomerBundle.git"
+    },
+   "medikly/account-profile-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MediklyAccountProfile.git"
     }
   },
   "require": {
@@ -52,8 +64,9 @@
     "medikly/theme-2016": "dev-master",
     "medikly/css-live-editor-bundle": "dev-master",
     "medikly/system-navigation": "dev-feature/standalone-bundle",
-    "medikly/reports-form-bundle": "dev-master",
-    "medikly/datagrid-charts-bundle": "dev-master"
+    "medikly/customer-bundle":"dev-master",
+    "medikly/entity-bundle":"dev-master",
+    "medikly/account-profile-bundle":"dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
