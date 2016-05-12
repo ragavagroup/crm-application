@@ -56,6 +56,11 @@
    "medikly/account-profile-bundle" : {
       "type" : "vcs",
       "url" : "git@github.com:ragavagroup/MediklyAccountProfile.git"
+    },
+	
+   "medikly/dynamic-import-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MediklyDynamicImportBundle.git"
     }
   },
   "require": {
@@ -67,7 +72,8 @@
     "medikly/customer-bundle":"dev-master",
     "medikly/entity-bundle":"dev-master",
     "medikly/account-profile-bundle":"dev-master",
-    "medikly/datagrid-charts-bundle": "dev-feature/sidebar-panel"
+    "medikly/datagrid-charts-bundle": "dev-feature/sidebar-panel",
+	"medikly/dynamic_import" :"dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

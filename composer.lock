@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c04ae1d342ef7b33b2c19d8b79ed18f6",
-    "content-hash": "bc8ecb46b536a45f52100cafd0a55d0c",
+    "hash": "699a72186a6648c2b5f36d8e517c666e",
+    "content-hash": "4fe51fc40682fb6b5927bbb8e4e45a46",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3613,6 +3613,42 @@
             "time": "2016-05-06 21:44:35"
         },
         {
+            "name": "medikly/dynamic_import",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DynamicImportBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklyDynamicImportBundle.git",
+                "reference": "220908278d2d49adbad9e36cc003a5f90059c942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyDynamicImportBundle/zipball/220908278d2d49adbad9e36cc003a5f90059c942",
+                "reference": "220908278d2d49adbad9e36cc003a5f90059c942",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DynamicImportBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Medikly"
+                }
+            ],
+            "description": "Medikly Dynamic Import Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklyDynamicImportBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/MediklyDynamicImportBundle/issues"
+            },
+            "time": "2016-05-11 13:24:05"
+        },
+        {
             "name": "medikly/entity-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/EntityBundle",
@@ -6557,7 +6593,8 @@
         "medikly/customer-bundle": 20,
         "medikly/entity-bundle": 20,
         "medikly/account-profile-bundle": 20,
-        "medikly/datagrid-charts-bundle": 20
+        "medikly/datagrid-charts-bundle": 20,
+        "medikly/dynamic_import": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
