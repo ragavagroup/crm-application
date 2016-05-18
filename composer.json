@@ -57,7 +57,7 @@
       "type" : "vcs",
       "url" : "git@github.com:ragavagroup/MediklyAccountProfile.git"
     },
-	
+
    "medikly/dynamic-import-bundle" : {
       "type" : "vcs",
       "url" : "git@github.com:ragavagroup/MediklyDynamicImportBundle.git"
