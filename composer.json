@@ -65,11 +65,19 @@
    "medikly/contact-profile-bundle" : {
      "type" : "vcs",
      "url" : "git@github.com:ragavagroup/MediklyContactProfile.git"
-   }
+   },
+    "medikly-inheritance": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/Inheritance.git"
+    },
+   "medikly/segment-extension-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MediklySegmentExtensionBundle.git"
+    }
   },
   "require": {
-    "oro/crm": "1.9.3",
-    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.3",
+    "oro/crm": "1.9.2",
+    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.2",
     "medikly/theme-2016": "dev-master",
     "medikly/css-live-editor-bundle": "dev-master",
     "medikly/system-navigation": "dev-feature/standalone-bundle",
@@ -77,8 +85,9 @@
     "medikly/entity-bundle":"dev-master",
     "medikly/account-profile-bundle":"dev-master",
     "medikly/contact-profile-bundle":"dev-development",
-    "medikly/datagrid-charts-bundle": "dev-feature/sidebar-panel",
-    "medikly/dynamic_import" :"dev-master"
+    "medikly/dynamic_import" :"dev-master",
+    "medikly/inheritance": "^1.1",
+    "medikly/segment-extension-bundle":"dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
