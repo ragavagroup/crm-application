@@ -76,8 +76,8 @@
     }
   },
   "require": {
-    "oro/crm": "1.9.2",
-    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.2",
+    "oro/crm": "1.9.3",
+    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.3",
     "medikly/theme-2016": "dev-master",
     "medikly/css-live-editor-bundle": "dev-master",
     "medikly/system-navigation": "dev-feature/standalone-bundle",
