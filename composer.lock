@@ -1892,6 +1892,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
@@ -2951,7 +2952,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3007,7 +3008,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3785,16 +3786,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.7.9",
+            "version": "1.7.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "84fa370fb32831aec6620f89fa83f4ad10cdcd1b"
+                "reference": "2b91eef0aae5e92992671d70abce69123dc309e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/84fa370fb32831aec6620f89fa83f4ad10cdcd1b",
-                "reference": "84fa370fb32831aec6620f89fa83f4ad10cdcd1b",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/2b91eef0aae5e92992671d70abce69123dc309e8",
+                "reference": "2b91eef0aae5e92992671d70abce69123dc309e8",
                 "shasum": ""
             },
             "require": {
@@ -3824,14 +3825,14 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.7.9",
+                "source": "https://github.com/orocrm/crm-er/tree/1.7.10",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-04-26 19:09:42"
+            "time": "2016-07-02 12:37:24"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.9.9",
+            "version": "1.9.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
@@ -3987,16 +3988,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.7.9",
+            "version": "1.7.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "6a861c90a2a0c4abd780b0a48ddedef09148c04b"
+                "reference": "3ff72a0903ede281f9b88f99e3fae44a97716d65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/6a861c90a2a0c4abd780b0a48ddedef09148c04b",
-                "reference": "6a861c90a2a0c4abd780b0a48ddedef09148c04b",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/3ff72a0903ede281f9b88f99e3fae44a97716d65",
+                "reference": "3ff72a0903ede281f9b88f99e3fae44a97716d65",
                 "shasum": ""
             },
             "require": {
@@ -4048,7 +4049,7 @@
                 "php": ">=5.4.9",
                 "piwik/device-detector": "~3.0",
                 "rhumsaa/uuid": "2.7.*",
-                "sensio/distribution-bundle": "2.3.4",
+                "sensio/distribution-bundle": "4.0.*",
                 "sensio/framework-extra-bundle": "2.3.4",
                 "sensio/generator-bundle": "2.3.5",
                 "stof/doctrine-extensions-bundle": "1.1.0",
@@ -4087,10 +4088,10 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.7.9",
+                "source": "https://github.com/orocrm/platform-er/tree/1.7.10",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-04-22 16:31:31"
+            "time": "2016-06-24 14:20:22"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4240,16 +4241,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.6.1",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "4f4c2b0ce412fb1b8f679a7c82190783ba697d4c"
+                "reference": "3cb9e117ff2ccc43178965c3582c8817340a02bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/4f4c2b0ce412fb1b8f679a7c82190783ba697d4c",
-                "reference": "4f4c2b0ce412fb1b8f679a7c82190783ba697d4c",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/3cb9e117ff2ccc43178965c3582c8817340a02bd",
+                "reference": "3cb9e117ff2ccc43178965c3582c8817340a02bd",
                 "shasum": ""
             },
             "require": {
@@ -4287,7 +4288,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2016-03-31 20:28:09"
+            "time": "2016-06-01 21:26:36"
         },
         {
             "name": "psr/log",
@@ -4620,26 +4621,40 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v2.3.4",
+            "version": "v4.0.7",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "66df91b4bd637a83299d8072aed3658bfd3b3021"
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/66df91b4bd637a83299d8072aed3658bfd3b3021",
-                "reference": "66df91b4bd637a83299d8072aed3658bfd3b3021",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d738952285a1a7d969f9338f735108c9f65bb7f2",
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2",
                 "shasum": ""
             },
             "require": {
-                "symfony/framework-bundle": "~2.2"
+                "php": ">=5.3.9",
+                "sensiolabs/security-checker": "~3.0",
+                "symfony/class-loader": "~2.2",
+                "symfony/framework-bundle": "~2.3",
+                "symfony/process": "~2.2"
+            },
+            "require-dev": {
+                "symfony/form": "~2.2",
+                "symfony/validator": "~2.2",
+                "symfony/yaml": "~2.2"
+            },
+            "suggest": {
+                "symfony/form": "If you want to use the configurator",
+                "symfony/validator": "If you want to use the configurator",
+                "symfony/yaml": "If you want to use  the configurator"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "4.0.x-dev"
                 }
             },
             "autoload": {
@@ -4654,17 +4669,15 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
-            "description": "The base bundle for the Symfony Distributions",
+            "description": "Base bundle for Symfony Distributions",
             "keywords": [
                 "configuration",
                 "distribution"
             ],
-            "time": "2013-08-22 05:04:53"
+            "time": "2016-06-23 16:10:25"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -4766,6 +4779,50 @@
             "time": "2014-04-28 14:01:06"
         },
         {
+            "name": "sensiolabs/security-checker",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/security-checker.git",
+                "reference": "21696b0daa731064c23cfb694c60a2584a7b6e93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/21696b0daa731064c23cfb694c60a2584a7b6e93",
+                "reference": "21696b0daa731064c23cfb694c60a2584a7b6e93",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.0|~3.0"
+            },
+            "bin": [
+                "security-checker"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "SensioLabs\\Security": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien.potencier@gmail.com"
+                }
+            ],
+            "description": "A security checker for your composer.lock",
+            "time": "2015-11-07 08:07:40"
+        },
+        {
             "name": "stof/doctrine-extensions-bundle",
             "version": "v1.1.0",
             "target-dir": "Stof/DoctrineExtensionsBundle",
@@ -4829,16 +4886,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.1",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421"
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0697e6aa65c83edf97bb0f23d8763f94e3f11421",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d8db871a54619458a805229a057ea2af33c753e8",
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8",
                 "shasum": ""
             },
             "require": {
@@ -4878,7 +4935,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2015-06-06 14:19:39"
+            "time": "2016-05-01 08:45:47"
         },
         {
             "name": "sylius/flow-bundle",
@@ -5052,6 +5109,7 @@
                 "icu",
                 "intl"
             ],
+            "abandoned": "symfony/intl",
             "time": "2014-07-25 09:58:17"
         },
         {
