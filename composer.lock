@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "699a72186a6648c2b5f36d8e517c666e",
-    "content-hash": "4fe51fc40682fb6b5927bbb8e4e45a46",
+    "hash": "7a18014cd03b5d1a4e825adf96f195b2",
+    "content-hash": "ba80f4e9e77c38654730286c86a2a256",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -2059,6 +2059,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
@@ -3499,6 +3500,50 @@
             "time": "2016-04-28 09:38:56"
         },
         {
+            "name": "medikly/contact-profile-bundle",
+            "version": "dev-development",
+            "target-dir": "Medikly/Bundle/ContactProfileBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklyContactProfile.git",
+                "reference": "f18406c904b3b325df969ae50532ea95dea6a246"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyContactProfile/zipball/f18406c904b3b325df969ae50532ea95dea6a246",
+                "reference": "f18406c904b3b325df969ae50532ea95dea6a246",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ContactProfileBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Entity extend bundle",
+            "keywords": [
+                "Account",
+                "Medikly",
+                "Profille"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklyContactProfile/tree/development",
+                "issues": "https://github.com/ragavagroup/MediklyContactProfile/issues"
+            },
+            "time": "2016-05-31 06:51:20"
+        },
+        {
             "name": "medikly/css-live-editor-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/CssLiveEditorBundle",
@@ -3544,12 +3589,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyCustomerBundle.git",
-                "reference": "272616314fef8f0db564d88e42b12a95b5826605"
+                "reference": "811fc679adf518e852afdb80f4b9e45c06b348d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomerBundle/zipball/272616314fef8f0db564d88e42b12a95b5826605",
-                "reference": "272616314fef8f0db564d88e42b12a95b5826605",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomerBundle/zipball/811fc679adf518e852afdb80f4b9e45c06b348d3",
+                "reference": "811fc679adf518e852afdb80f4b9e45c06b348d3",
                 "shasum": ""
             },
             "type": "library",
@@ -3571,82 +3616,7 @@
                 "source": "https://github.com/ragavagroup/MediklyCustomerBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyCustomerBundle/issues"
             },
-            "time": "2016-05-02 13:02:21"
-        },
-        {
-            "name": "medikly/datagrid-charts-bundle",
-            "version": "dev-feature/sidebar-panel",
-            "target-dir": "Medikly/Bundle/DataGridChartsBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/DataGridChartsBundle.git",
-                "reference": "83dbf1dfe52b89831c729dee5fd8399d60fffcde"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/DataGridChartsBundle/zipball/83dbf1dfe52b89831c729dee5fd8399d60fffcde",
-                "reference": "83dbf1dfe52b89831c729dee5fd8399d60fffcde",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\DataGridChartsBundle": "."
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Groween",
-                    "homepage": "http://groween.com"
-                }
-            ],
-            "support": {
-                "source": "https://github.com/ragavagroup/DataGridChartsBundle/tree/feature/sidebar-panel",
-                "issues": "https://github.com/ragavagroup/DataGridChartsBundle/issues"
-            },
-            "time": "2016-05-06 21:44:35"
-        },
-        {
-            "name": "medikly/dynamic_import",
-            "version": "dev-master",
-            "target-dir": "Medikly/Bundle/DynamicImportBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:ragavagroup/MediklyDynamicImportBundle.git",
-                "reference": "220908278d2d49adbad9e36cc003a5f90059c942"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyDynamicImportBundle/zipball/220908278d2d49adbad9e36cc003a5f90059c942",
-                "reference": "220908278d2d49adbad9e36cc003a5f90059c942",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\DynamicImportBundle": "."
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Medikly"
-                }
-            ],
-            "description": "Medikly Dynamic Import Bundle",
-            "support": {
-                "source": "https://github.com/ragavagroup/MediklyDynamicImportBundle/tree/master",
-                "issues": "https://github.com/ragavagroup/MediklyDynamicImportBundle/issues"
-            },
-            "time": "2016-05-11 13:24:05"
+            "time": "2016-05-27 07:42:51"
         },
         {
             "name": "medikly/entity-bundle",
@@ -3655,12 +3625,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyEntityBundle.git",
-                "reference": "386c1aeff561b1b2b7f66e6b35dbf1930d2843e4"
+                "reference": "c89105ceed300a433741d8b8fbb12aaa990cf813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/386c1aeff561b1b2b7f66e6b35dbf1930d2843e4",
-                "reference": "386c1aeff561b1b2b7f66e6b35dbf1930d2843e4",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/c89105ceed300a433741d8b8fbb12aaa990cf813",
+                "reference": "c89105ceed300a433741d8b8fbb12aaa990cf813",
                 "shasum": ""
             },
             "type": "library",
@@ -3682,7 +3652,131 @@
                 "source": "https://github.com/ragavagroup/MediklyEntityBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MediklyEntityBundle/issues"
             },
-            "time": "2016-04-25 14:27:35"
+            "time": "2016-06-23 18:05:32"
+        },
+        {
+            "name": "medikly/inheritance",
+            "version": "1.1.1",
+            "target-dir": "Medikly/Bundle/InheritanceBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/Inheritance.git",
+                "reference": "fdf4212c28768cb14a661bfcb5cfeb1cd9126895"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/Inheritance/zipball/fdf4212c28768cb14a661bfcb5cfeb1cd9126895",
+                "reference": "fdf4212c28768cb14a661bfcb5cfeb1cd9126895",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "master"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\InheritanceBundle": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Atwix",
+                    "homepage": "http://www.atwix.com/"
+                }
+            ],
+            "description": "MediklyOS Tweaks Bundle",
+            "support": {
+                "source": "https://github.com/ragavagroup/Inheritance/tree/master",
+                "issues": "https://github.com/ragavagroup/Inheritance/issues"
+            },
+            "time": "2015-06-17 11:30:34"
+        },
+        {
+            "name": "medikly/reports-form-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ReportsFormBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/ReportsFormBundle.git",
+                "reference": "c4c8e45857769ae28074bb0ff3d626d1067c698e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/ReportsFormBundle/zipball/c4c8e45857769ae28074bb0ff3d626d1067c698e",
+                "reference": "c4c8e45857769ae28074bb0ff3d626d1067c698e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ReportsFormBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "This bundle make a new interface to Report Forms.",
+            "keywords": [
+                "Medikly",
+                "Reports"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/ReportsFormBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/ReportsFormBundle/issues"
+            },
+            "time": "2016-04-13 19:31:59"
+        },
+        {
+            "name": "medikly/segment-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/SegmentExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklySegmentExtensionBundle.git",
+                "reference": "dcebf80e772e60f97160601099a59bd95949e501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklySegmentExtensionBundle/zipball/dcebf80e772e60f97160601099a59bd95949e501",
+                "reference": "dcebf80e772e60f97160601099a59bd95949e501",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-SegmentExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SegmentExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Segment Extension",
+            "keywords": [
+                "Extention",
+                "Medikly",
+                "Segment"
+            ],
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklySegmentExtensionBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/MediklySegmentExtensionBundle/issues"
+            },
+            "time": "2016-07-01 14:47:36"
         },
         {
             "name": "medikly/system-navigation",
@@ -3725,12 +3819,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Theme2016.git",
-                "reference": "2777d46be736e6d0e4a4464cc97c261d82dd4d48"
+                "reference": "97c35bb7ba39296a63d86e6f353d12dbf04f0667"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/2777d46be736e6d0e4a4464cc97c261d82dd4d48",
-                "reference": "2777d46be736e6d0e4a4464cc97c261d82dd4d48",
+                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/97c35bb7ba39296a63d86e6f353d12dbf04f0667",
+                "reference": "97c35bb7ba39296a63d86e6f353d12dbf04f0667",
                 "shasum": ""
             },
             "type": "library",
@@ -3752,7 +3846,7 @@
                 "source": "https://github.com/ragavagroup/Theme2016/tree/master",
                 "issues": "https://github.com/ragavagroup/Theme2016/issues"
             },
-            "time": "2016-04-28 12:55:44"
+            "time": "2016-07-05 13:42:37"
         },
         {
             "name": "michelf/php-markdown",
@@ -4206,16 +4300,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.3",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/crm.git",
-                "reference": "30c3e5af53800830887d4445bcc3ca17a45508ab"
+                "reference": "4821371094bc8207220fee36e49f975f39f06ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm/zipball/30c3e5af53800830887d4445bcc3ca17a45508ab",
-                "reference": "30c3e5af53800830887d4445bcc3ca17a45508ab",
+                "url": "https://api.github.com/repos/orocrm/crm/zipball/4821371094bc8207220fee36e49f975f39f06ad3",
+                "reference": "4821371094bc8207220fee36e49f975f39f06ad3",
                 "shasum": ""
             },
             "require": {
@@ -4245,28 +4339,33 @@
             ],
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
-            "time": "2016-05-04 11:18:00"
+            "time": "2016-03-31 13:13:23"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "dev-upgrade/oro-crm-1.9.3",
+            "version": "dev-upgrade/oro-crm-1.9.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/crm-enterprise.git",
-                "reference": "388c996a9ed558736e9181dbecf12f2a2994398b"
+                "reference": "8a05da154499de50df990a024088ecbc18d4ef11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/388c996a9ed558736e9181dbecf12f2a2994398b",
-                "reference": "388c996a9ed558736e9181dbecf12f2a2994398b",
+                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/8a05da154499de50df990a024088ecbc18d4ef11",
+                "reference": "8a05da154499de50df990a024088ecbc18d4ef11",
                 "shasum": ""
             },
             "require": {
                 "elasticsearch/elasticsearch": "1.2.2",
-                "oro/crm": "1.9.3",
+                "oro/crm": "1.9.2",
                 "php": ">=5.4.9"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "OroCRMPro\\Bundle": "src/",
@@ -4285,9 +4384,9 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/ragavagroup/crm-enterprise/tree/upgrade/oro-crm-1.9.3"
+                "source": "https://github.com/ragavagroup/crm-enterprise/tree/upgrade/oro-crm-1.9.2"
             },
-            "time": "2016-05-11 17:35:51"
+            "time": "2016-04-18 20:52:26"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -6593,8 +6692,9 @@
         "medikly/customer-bundle": 20,
         "medikly/entity-bundle": 20,
         "medikly/account-profile-bundle": 20,
-        "medikly/datagrid-charts-bundle": 20,
-        "medikly/dynamic_import": 20
+        "medikly/contact-profile-bundle": 20,
+        "medikly/segment-extension-bundle": 20,
+        "medikly/reports-form-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

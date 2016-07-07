@@ -76,18 +76,18 @@
     }
   },
   "require": {
-    "oro/crm": "1.9.3",
-    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.3",
+    "oro/crm": "1.9.2",
+    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.2",
     "medikly/theme-2016": "dev-master",
     "medikly/css-live-editor-bundle": "dev-master",
-    "medikly/system-navigation": "dev-feature/standalone-bundle",
+    "medikly/system-navigation": "dev-feature/standalone-bundle#f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
     "medikly/customer-bundle":"dev-master",
     "medikly/entity-bundle":"dev-master",
     "medikly/account-profile-bundle":"dev-master",
     "medikly/contact-profile-bundle":"dev-development",
-    "medikly/dynamic_import" :"dev-master",
     "medikly/inheritance": "^1.1",
-    "medikly/segment-extension-bundle":"dev-master"
+    "medikly/segment-extension-bundle":"dev-master",
+	"medikly/reports-form-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
