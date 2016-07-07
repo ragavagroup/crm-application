@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a18014cd03b5d1a4e825adf96f195b2",
-    "content-hash": "ba80f4e9e77c38654730286c86a2a256",
+    "hash": "b8645576e989167d95444d264cff1674",
+    "content-hash": "0b3dd2c045ead280bac9b9050e41dcfa",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -1582,7 +1582,7 @@
                 },
                 {
                     "name": "Community contributors",
-                    "homepage": "https://github.com/escapestudios/EscapeWSSEAuthenticationBundle/graphs/contributors"
+                    "homepage": "https://github.com/frieser/FrieserWSSEAuthenticationBundle/graphs/contributors"
                 }
             ],
             "description": "Symfony2 bundle to implement WSSE authentication",
@@ -2059,7 +2059,6 @@
                 "rest",
                 "web service"
             ],
-            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
@@ -3117,7 +3116,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3173,7 +3172,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3510,7 +3509,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyContactProfile/zipball/f18406c904b3b325df969ae50532ea95dea6a246",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyContactProfile/zipball/3351de00edef5354c3e13fe57011475814d89472",
                 "reference": "f18406c904b3b325df969ae50532ea95dea6a246",
                 "shasum": ""
             },
@@ -3593,7 +3592,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomerBundle/zipball/811fc679adf518e852afdb80f4b9e45c06b348d3",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomerBundle/zipball/1f190800be1ccfdddedf17eef02d6af31a4e2429",
                 "reference": "811fc679adf518e852afdb80f4b9e45c06b348d3",
                 "shasum": ""
             },
@@ -3629,7 +3628,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/c89105ceed300a433741d8b8fbb12aaa990cf813",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/f9acec3580c501e580ab8a35e5e058afb79c5e94",
                 "reference": "c89105ceed300a433741d8b8fbb12aaa990cf813",
                 "shasum": ""
             },
@@ -3695,6 +3694,42 @@
                 "issues": "https://github.com/ragavagroup/Inheritance/issues"
             },
             "time": "2015-06-17 11:30:34"
+        },
+        {
+            "name": "medikly/metabase-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/MetabaseBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MetabaseBundle.git",
+                "reference": "898ed33bef3557e6e3356a030a588e239aca8b2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MetabaseBundle/zipball/898ed33bef3557e6e3356a030a588e239aca8b2d",
+                "reference": "898ed33bef3557e6e3356a030a588e239aca8b2d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\MetabaseBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Medikly"
+                }
+            ],
+            "description": "Orocrm and metabase integration",
+            "support": {
+                "source": "https://github.com/ragavagroup/MetabaseBundle/tree/master",
+                "issues": "https://github.com/ragavagroup/MetabaseBundle/issues"
+            },
+            "time": "2016-07-07 17:24:25"
         },
         {
             "name": "medikly/reports-form-bundle",
@@ -3789,7 +3824,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/4a8271e4c623b237d31d0f5fc00eabaef4ac7c2d",
                 "reference": "f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
                 "shasum": ""
             },
@@ -3823,7 +3858,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/97c35bb7ba39296a63d86e6f353d12dbf04f0667",
+                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/0ef032e918f111eb54357f5fc31407a4665d14f1",
                 "reference": "97c35bb7ba39296a63d86e6f353d12dbf04f0667",
                 "shasum": ""
             },
@@ -6694,7 +6729,8 @@
         "medikly/account-profile-bundle": 20,
         "medikly/contact-profile-bundle": 20,
         "medikly/segment-extension-bundle": 20,
-        "medikly/reports-form-bundle": 20
+        "medikly/reports-form-bundle": 20,
+        "medikly/metabase-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
