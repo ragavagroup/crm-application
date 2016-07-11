@@ -179,6 +179,69 @@
             "time": "2013-10-30 08:57:42"
         },
         {
+            "name": "aws/aws-sdk-php",
+            "version": "2.8.30",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aws/aws-sdk-php.git",
+                "reference": "2d7183cd22381237bce25f11d741a77bdeb2d0b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2d7183cd22381237bce25f11d741a77bdeb2d0b8",
+                "reference": "2d7183cd22381237bce25f11d741a77bdeb2d0b8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/guzzle": "~3.7",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "doctrine/cache": "~1.0",
+                "ext-openssl": "*",
+                "monolog/monolog": "~1.4",
+                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit-mock-objects": "2.3.1",
+                "symfony/yaml": "~2.1"
+            },
+            "suggest": {
+                "doctrine/cache": "Adds support for caching of credentials and responses",
+                "ext-apc": "Allows service description opcode caching, request and response caching, and credentials caching",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "monolog/monolog": "Adds support for logging HTTP requests and responses",
+                "symfony/yaml": "Eases the ability to write manifests for creating jobs in AWS Import/Export"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Aws": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "cloud",
+                "dynamodb",
+                "ec2",
+                "glacier",
+                "s3",
+                "sdk"
+            ],
+            "time": "2016-05-03 17:42:24"
+        },
+        {
             "name": "behat/transliterator",
             "version": "v1.1.0",
             "source": {
@@ -2059,6 +2122,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
@@ -3509,7 +3573,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyContactProfile/zipball/3351de00edef5354c3e13fe57011475814d89472",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyContactProfile/zipball/f18406c904b3b325df969ae50532ea95dea6a246",
                 "reference": "f18406c904b3b325df969ae50532ea95dea6a246",
                 "shasum": ""
             },
@@ -3592,7 +3656,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomerBundle/zipball/1f190800be1ccfdddedf17eef02d6af31a4e2429",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyCustomerBundle/zipball/811fc679adf518e852afdb80f4b9e45c06b348d3",
                 "reference": "811fc679adf518e852afdb80f4b9e45c06b348d3",
                 "shasum": ""
             },
@@ -3628,7 +3692,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/f9acec3580c501e580ab8a35e5e058afb79c5e94",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/c89105ceed300a433741d8b8fbb12aaa990cf813",
                 "reference": "c89105ceed300a433741d8b8fbb12aaa990cf813",
                 "shasum": ""
             },
@@ -3702,13 +3766,16 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MetabaseBundle.git",
-                "reference": "898ed33bef3557e6e3356a030a588e239aca8b2d"
+                "reference": "0925a523bc0890049e73ce195cddd1d8047d5906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MetabaseBundle/zipball/898ed33bef3557e6e3356a030a588e239aca8b2d",
-                "reference": "898ed33bef3557e6e3356a030a588e239aca8b2d",
+                "url": "https://api.github.com/repos/ragavagroup/MetabaseBundle/zipball/0925a523bc0890049e73ce195cddd1d8047d5906",
+                "reference": "0925a523bc0890049e73ce195cddd1d8047d5906",
                 "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "~2"
             },
             "type": "library",
             "autoload": {
@@ -3729,7 +3796,7 @@
                 "source": "https://github.com/ragavagroup/MetabaseBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/MetabaseBundle/issues"
             },
-            "time": "2016-07-07 17:24:25"
+            "time": "2016-07-08 13:49:32"
         },
         {
             "name": "medikly/reports-form-bundle",
@@ -3824,7 +3891,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/4a8271e4c623b237d31d0f5fc00eabaef4ac7c2d",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
                 "reference": "f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
                 "shasum": ""
             },
@@ -3858,7 +3925,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/0ef032e918f111eb54357f5fc31407a4665d14f1",
+                "url": "https://api.github.com/repos/ragavagroup/Theme2016/zipball/97c35bb7ba39296a63d86e6f353d12dbf04f0667",
                 "reference": "97c35bb7ba39296a63d86e6f353d12dbf04f0667",
                 "shasum": ""
             },
