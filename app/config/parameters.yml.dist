@@ -31,6 +31,11 @@ parameters:
     search_engine_password:   null
     search_engine_auth_type:  null
 
+    # Amazon
+    aws_access_key: 'ACCESS_KEY'
+    aws_secret_key: 'ACCESS_SECRET'
+    aws_region: 'us-east-1'
+
     # Enterprise
     enterprise_licence:       null
 
