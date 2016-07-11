@@ -2059,6 +2059,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
@@ -3507,16 +3508,16 @@
         },
         {
             "name": "moment/moment",
-            "version": "2.13.0",
+            "version": "2.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "d6651c21c6131fbb5db891b60971357739015688"
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/d6651c21c6131fbb5db891b60971357739015688",
-                "reference": "d6651c21c6131fbb5db891b60971357739015688",
+                "url": "https://api.github.com/repos/moment/moment/zipball/227746b29044a4c2160ae7c597c7f24aacac2635",
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635",
                 "shasum": ""
             },
             "require": {
@@ -3557,7 +3558,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-04-18 07:29:18"
+            "time": "2016-07-04 06:39:29"
         },
         {
             "name": "monolog/monolog",
@@ -3906,16 +3907,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "e9bfa69e884af1fdfd2703f3582361e435922bbf"
+                "reference": "60243bb21c7889abef7457cb326371d36b098059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/e9bfa69e884af1fdfd2703f3582361e435922bbf",
-                "reference": "e9bfa69e884af1fdfd2703f3582361e435922bbf",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/60243bb21c7889abef7457cb326371d36b098059",
+                "reference": "60243bb21c7889abef7457cb326371d36b098059",
                 "shasum": ""
             },
             "require": {
@@ -3945,23 +3946,23 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.9.4",
+                "source": "https://github.com/orocrm/crm-er/tree/1.9",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-06-30 15:07:38"
+            "time": "2016-07-11 08:36:39"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.11.4",
+            "version": "1.11.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "0c900aa4ee659f4f80e0462c5d3a473a569192d5"
+                "reference": "3438f1aac1bff9e36c4e6aeaf59ac29676b271bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/0c900aa4ee659f4f80e0462c5d3a473a569192d5",
-                "reference": "0c900aa4ee659f4f80e0462c5d3a473a569192d5",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/3438f1aac1bff9e36c4e6aeaf59ac29676b271bc",
+                "reference": "3438f1aac1bff9e36c4e6aeaf59ac29676b271bc",
                 "shasum": ""
             },
             "require": {
@@ -3993,10 +3994,10 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.4",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.5",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
-            "time": "2016-06-30 15:08:49"
+            "time": "2016-07-11 08:37:51"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4156,16 +4157,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "48eab16c326f5c8b1df27354edaae1314465ed5d"
+                "reference": "b3b8a288bba4d80b587196aea4b549d9d9fcfeaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/48eab16c326f5c8b1df27354edaae1314465ed5d",
-                "reference": "48eab16c326f5c8b1df27354edaae1314465ed5d",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/b3b8a288bba4d80b587196aea4b549d9d9fcfeaa",
+                "reference": "b3b8a288bba4d80b587196aea4b549d9d9fcfeaa",
                 "shasum": ""
             },
             "require": {
@@ -4257,10 +4258,10 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.9.4",
+                "source": "https://github.com/orocrm/platform-er/tree/1.9",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-06-29 18:58:01"
+            "time": "2016-07-08 17:20:09"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4938,23 +4939,23 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.2",
+            "version": "v5.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "d8db871a54619458a805229a057ea2af33c753e8"
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d8db871a54619458a805229a057ea2af33c753e8",
-                "reference": "d8db871a54619458a805229a057ea2af33c753e8",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1,<0.9.4"
+                "mockery/mockery": "~0.9.1"
             },
             "type": "library",
             "extra": {
@@ -4987,7 +4988,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-05-01 08:45:47"
+            "time": "2016-07-08 11:51:25"
         },
         {
             "name": "sylius/flow-bundle",
