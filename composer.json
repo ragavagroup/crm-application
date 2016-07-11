@@ -84,7 +84,7 @@
     "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.2",
     "medikly/theme-2016": "dev-master",
     "medikly/css-live-editor-bundle": "dev-master",
-    "medikly/system-navigation": "dev-feature/standalone-bundle#f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
+    "medikly/system-navigation": "dev-feature/metabase-links",
     "medikly/customer-bundle":"dev-master",
     "medikly/entity-bundle":"dev-master",
     "medikly/account-profile-bundle":"dev-master",

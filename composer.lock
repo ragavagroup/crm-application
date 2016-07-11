@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8645576e989167d95444d264cff1674",
-    "content-hash": "0b3dd2c045ead280bac9b9050e41dcfa",
+    "hash": "7aceb86aaee6a68ed915e1b8381826e9",
+    "content-hash": "80d917179a2006f544f8ed9b79c32496",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3882,17 +3882,17 @@
         },
         {
             "name": "medikly/system-navigation",
-            "version": "dev-feature/standalone-bundle",
+            "version": "dev-feature/metabase-links",
             "target-dir": "Medikly/Bundle/SystemNavigationBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SystemNavigationBundle.git",
-                "reference": "f188776fd89876ba83bd02ea7d34f1e9ef56e18a"
+                "reference": "34bdd2ccb6f120d276f9baa79b8390a3b5bad27c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
-                "reference": "f188776fd89876ba83bd02ea7d34f1e9ef56e18a",
+                "url": "https://api.github.com/repos/ragavagroup/SystemNavigationBundle/zipball/34bdd2ccb6f120d276f9baa79b8390a3b5bad27c",
+                "reference": "34bdd2ccb6f120d276f9baa79b8390a3b5bad27c",
                 "shasum": ""
             },
             "require": {
@@ -3909,10 +3909,10 @@
                 "medikly"
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/feature/standalone-bundle",
+                "source": "https://github.com/ragavagroup/SystemNavigationBundle/tree/feature/metabase-links",
                 "issues": "https://github.com/ragavagroup/SystemNavigationBundle/issues"
             },
-            "time": "2016-04-04 13:03:00"
+            "time": "2016-07-11 18:10:33"
         },
         {
             "name": "medikly/theme-2016",
