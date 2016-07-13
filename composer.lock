@@ -3907,7 +3907,7 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.5",
+            "version": "1.9.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
@@ -4157,16 +4157,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.5",
+            "version": "1.9.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "b3b8a288bba4d80b587196aea4b549d9d9fcfeaa"
+                "reference": "71faea5b76dfccab4ddf3d17947c728d7f4c8ca5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/b3b8a288bba4d80b587196aea4b549d9d9fcfeaa",
-                "reference": "b3b8a288bba4d80b587196aea4b549d9d9fcfeaa",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/71faea5b76dfccab4ddf3d17947c728d7f4c8ca5",
+                "reference": "71faea5b76dfccab4ddf3d17947c728d7f4c8ca5",
                 "shasum": ""
             },
             "require": {
@@ -4261,7 +4261,7 @@
                 "source": "https://github.com/orocrm/platform-er/tree/1.9",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-07-08 17:20:09"
+            "time": "2016-07-12 16:59:40"
         },
         {
             "name": "phpcollection/phpcollection",
