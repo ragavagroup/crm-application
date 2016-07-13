@@ -3953,16 +3953,16 @@
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.11.5",
+            "version": "1.11.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "3438f1aac1bff9e36c4e6aeaf59ac29676b271bc"
+                "reference": "2db7e3325475737594781e18270f2f3b2b24db7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/3438f1aac1bff9e36c4e6aeaf59ac29676b271bc",
-                "reference": "3438f1aac1bff9e36c4e6aeaf59ac29676b271bc",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/2db7e3325475737594781e18270f2f3b2b24db7f",
+                "reference": "2db7e3325475737594781e18270f2f3b2b24db7f",
                 "shasum": ""
             },
             "require": {
@@ -3994,10 +3994,10 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.5",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.6",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
-            "time": "2016-07-11 08:37:51"
+            "time": "2016-07-13 08:57:49"
         },
         {
             "name": "oro/doctrine-extensions",
