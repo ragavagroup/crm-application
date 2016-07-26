@@ -1,13 +1,16 @@
-# OroCRM Application
+Oro Platform Empty Application
+==============================
 
-Welcome to OroCRM the Open Source Customer Relationship Management (CRM) application.
+An example of an empty application using the Oro Platform.
+
+This repository contains application configuration settings and depends on Oro Platform. It can be used as a starting point to build applications using the oro Platform.
 
 ## Requirements
 
-OroCRM is a Symfony 2 based application with the following requirements:
+Oro Platform is a Symfony 2 based application with the following requirements:
 
-* PHP 5.4.9 or above with command line interface
-* PHP Extensions:
+* PHP 5.5.9 or above with command line interface
+* PHP Extensions
     * GD
     * Mcrypt
     * JSON
@@ -21,21 +24,22 @@ OroCRM is a Symfony 2 based application with the following requirements:
 
 ## Installation instructions
 
-OroCRM uses [Composer][1] to manage package dependencies, this is the a recommended way to install OroCRM.
+### Using Composer
 
-- If you don't have Composer yet, download it and follow the instructions on http://getcomposer.org/
-or just run the following command:
+As both Symfony 2 and Oro Platform use [Composer][2] to manage their dependencies, this is the recommended way to install the Oro Platform.
 
-```bash
-curl -s https://getcomposer.org/installer | php
-```
-
-- Clone https://github.com/orocrm/crm-application.git OroCRM project with:
+If you don't have Composer yet, download it and follow the instructions on
+http://getcomposer.org/ or just run the following command:
 
 ```bash
-git clone https://github.com/orocrm/crm-application.git
+    curl -s https://getcomposer.org/installer | php
 ```
 
+- Clone https://github.com/orocrm/platform-application.git Platform Application project with
+
+```bash
+    git clone https://github.com/orocrm/platform-application.git
+```
 
 - Make sure that you have [NodeJS][4] installed
 
@@ -46,14 +50,13 @@ git clone https://github.com/orocrm/crm-application.git
 php composer.phar install --prefer-dist --no-dev
 ```
 
-- Create the database with the name specified on previous step (default name is "oro_crm").
+- Create the database with the name specified on previous step (default name is "bap_standard").
 
 - Install application and admin user with Installation Wizard by opening install.php in the browser or from CLI:
 
 ```bash  
 php app/console oro:install --env prod
 ```
-**Note:** If the installation process times out, add the `--timeout=0` argument to the command.
 
 - Enable WebSockets messaging
 
@@ -61,7 +64,7 @@ php app/console oro:install --env prod
 php app/console clank:server --env prod
 ```
 
-- Configure crontab or scheduled tasks execution to run command below every minute:
+- Configure crontab or scheduled tasks execution to run the command below every minute:
 
 ```bash
 php app/console oro:cron --env prod
@@ -71,11 +74,11 @@ php app/console oro:cron --env prod
 
 ## Installation notes
 
-Installed PHP Accelerators must be compatible with Symfony and Doctrine (support DOCBLOCKs).
+Installed PHP Accelerators must be compatible with Symfony and Doctrine (support DOCBLOCKs)
 
 Note that the port used in Websocket must be open in firewall for outgoing/incoming connections
 
-Using MySQL 5.6 on HDD is potentially risky because of performance issues.
+Using MySQL 5.6 on HDD is potentially risky because of performance issues
 
 Recommended configuration for this case:
 
@@ -96,18 +99,13 @@ Log into database and run sql query:
 CREATE EXTENSION "uuid-ossp";
 ```
 
-## Loading Demo Data using command line
-
-To load sample data you need to run console command
-
-```bash
-php app/console oro:migration:data:load --fixtures-type=demo --env=prod
-```
-
 ## Web Server Configuration
 
-OroCRM application is based on the Symfony standard application so web server configuration recommendations are the [same][5].
+The Oro Platform application is based on the Symfony standard application so web server configuration recommendations are the [same][5].
 
+## Package Manager Configuration
+
+Github OAuth token should be configured in package manager settings
 [1]:  http://symfony.com/doc/2.3/book/installation.html
 [2]:  http://getcomposer.org/
 [3]:  http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html

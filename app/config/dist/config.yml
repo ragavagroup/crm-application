@@ -79,8 +79,6 @@ oro_help:
     defaults:
         server: http://help.orocrm.com/
         prefix: Third_Party
-        #if link is present, other parts are not taken into consideration
-        link: http://kb.medikly.com/
     vendors:
         Oro:
             prefix: ~
