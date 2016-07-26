@@ -19,8 +19,7 @@
         }
     },
     "require": {
-        "oro/platform": "self.version",
-        "oro/platform-serialised-fields" : "self.version",
+        "oro/platform": "dev-master",
         "medikly/provider-bundle":"dev-feature/new-entity"
     },
     "require-dev": {
