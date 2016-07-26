@@ -1,125 +1,66 @@
 {
-  "name": "medikly/application",
-  "description": "Medikly main application",
-  "homepage": "https://github.com/ragavagroup/application.git",
-  "license": "OSL-3.0",
-  "autoload": {
-    "psr-0": {
-      "": "src/"
+    "name": "medikly/application",
+    "description": "Medikly main application",
+    "homepage": "https://github.com/ragavagroup/application.git",
+    "license": "OSL-3.0",
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "repositories": {
+        "composer": {
+            "type": "composer",
+            "url": "http://packagist.orocrm.com"
+        },
+        "medikly/provider-bundle":{
+            "type" : "vcs",
+            "url" : "git@github.com:ragavagroup/Provider.git"
+        }
+    },
+    "require": {
+        "oro/platform": "self.version",
+        "oro/platform-serialised-fields" : "self.version",
+        "medikly/provider-bundle":"dev-feature/new-entity"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "2.5.3",
+        "squizlabs/php_codesniffer": "2.3.3",
+        "behat/behat": "3.1.0",
+        "behat/mink-extension": "^2.0",
+        "behat/mink-selenium2-driver": "1.*",
+        "bossa/phpspec2-expect": "~1.0",
+        "behat/symfony2-extension": "2.1.1"
+    },
+    "config": {
+        "secure-http":false,
+        "component-dir": "web/bundles/components"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
+            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        }
     }
-  },
-  "repositories": {
-    "composer": {
-      "type": "composer",
-      "url": "http://packagist.orocrm.com"
-    },
-    "enterprise": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/crm-enterprise.git"
-    },
-    "medikly-theme-2016": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/Theme2016.git"
-    },
-    "medikly/css-live-editor-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/CssLiveEditorBundle.git"
-    },
-    "medikly-entity-extend": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/MediklyEntityExtend.git"
-    },
-    "medikly/reports-form-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/ReportsFormBundle.git"
-    },
-    "medikly/system-navigation": {
-      "type": "vcs",
-      "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
-    },
-    "medikly/datagrid-charts-bundle": {
-      "type": "vcs",
-      "url": "git@github.com:ragavagroup/DataGridChartsBundle.git"
-    },
-    "medikly/channel-import-bundle" : {
-      "type" : "vcs",
-      "url" : "git@github.com:ragavagroup/ChannelsImportBundle.git"
-    },
-    "medikly/entity-bundle" : {
-      "type" : "vcs",
-      "url" : "git@github.com:ragavagroup/MediklyEntityBundle.git"
-    },
-    "medikly/customer-bundle" : {
-      "type" : "vcs",
-      "url" : "git@github.com:ragavagroup/MediklyCustomerBundle.git"
-    },
-   "medikly/account-profile-bundle" : {
-      "type" : "vcs",
-      "url" : "git@github.com:ragavagroup/MediklyAccountProfile.git"
-    },
-
-   "medikly/dynamic-import-bundle" : {
-      "type" : "vcs",
-      "url" : "git@github.com:ragavagroup/MediklyDynamicImportBundle.git"
-    },
-   "medikly/contact-profile-bundle" : {
-     "type" : "vcs",
-     "url" : "git@github.com:ragavagroup/MediklyContactProfile.git"
-   },
-    "medikly-inheritance": {
-      "type": "vcs",
-      "url": "git@github.com:ragavagroup/Inheritance.git"
-    },
-   "medikly/segment-extension-bundle" : {
-      "type" : "vcs",
-      "url" : "git@github.com:ragavagroup/MediklySegmentExtensionBundle.git"
-    }
-  },
-  "require": {
-    "oro/crm": "1.9.3",
-    "oro/crm-enterprise": "dev-upgrade/oro-crm-1.9.3",
-    "medikly/theme-2016": "dev-master",
-    "medikly/css-live-editor-bundle": "dev-master",
-    "medikly/system-navigation": "dev-feature/standalone-bundle",
-    "medikly/customer-bundle":"dev-master",
-    "medikly/entity-bundle":"dev-master",
-    "medikly/account-profile-bundle":"dev-master",
-    "medikly/contact-profile-bundle":"dev-development",
-    "medikly/dynamic_import" :"dev-master",
-    "medikly/inheritance": "^1.1",
-    "medikly/segment-extension-bundle":"dev-master"
-  },
-  "require-dev": {
-    "sensio/generator-bundle": "2.5.3"
-  },
-  "config": {
-    "component-dir": "web/bundles/components"
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
-    ],
-    "post-update-cmd": [
-      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
-      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
-    ]
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "symfony-app-dir": "app",
-    "symfony-web-dir": "web",
-    "incenteev-parameters": {
-      "file": "app/config/parameters.yml"
-    }
-  }
 }
