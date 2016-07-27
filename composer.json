@@ -8,20 +8,35 @@
             "": "src/"
         }
     },
-    "repositories": {
-        "composer": {
-            "type": "composer",
-            "url": "http://packagist.orocrm.com"
-        },
-        "medikly/provider-bundle":{
-            "type" : "vcs",
-            "url" : "git@github.com:ragavagroup/Provider.git"
-        }
+  "repositories": {
+    "composer": {
+      "type": "composer",
+      "url": "http://packagist.orocrm.com"
     },
-    "require": {
-        "oro/platform": "dev-master",
-        "medikly/provider-bundle":"dev-feature/new-entity"
+    "medikly/provider-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/Provider.git"
     },
+    "medikly-theme-2016": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Theme2016.git"
+    },
+    "medikly/system-navigation": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
+    },
+    "medikly/metabase-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MetabaseBundle.git"
+    }
+  },
+  "require": {
+    "oro/platform": "dev-master",
+    "medikly/provider-bundle": "dev-feature/new-entity",
+    "medikly/theme-2016": "dev-master",
+    "medikly/system-navigation": "dev-feature/metabase-links",
+    "medikly/metabase-bundle": "dev-master"
+  },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3",
         "squizlabs/php_codesniffer": "2.3.3",

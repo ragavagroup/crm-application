@@ -21,6 +21,11 @@ parameters:
     websocket_backend_host:  "*"        # Websocket host the application server will connect to
     websocket_backend_port:  8080       # Websocket port the application server will connect to
 
+    # Amazon
+    aws_access_key: "ACCESS_KEY"
+    aws_secret_key: "ACCESS_SECRET"
+    aws_region: "us-east-1"
+
     session_handler:        session.handler.native_file
 
     locale:                 en
