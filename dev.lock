@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e29ff1a3d54ef249f88fb6418d52356a",
-    "content-hash": "cad3f35b71f193792ced2372d8207782",
+    "hash": "048519ec3affb8108df3b429c91dbc71",
+    "content-hash": "215393509a48b1cc398b4cf10bce83d0",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -2059,20 +2059,21 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
             "name": "hwi/oauth-bundle",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "ae741802c8e99d8fa52de927fd483d0299911293"
+                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/ae741802c8e99d8fa52de927fd483d0299911293",
-                "reference": "ae741802c8e99d8fa52de927fd483d0299911293",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/2554f2b2947d1614d9e8b04800967b175b0afd8a",
+                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a",
                 "shasum": ""
             },
             "require": {
@@ -2199,7 +2200,7 @@
                 "yandex",
                 "youtube"
             ],
-            "time": "2016-03-08 08:00:04"
+            "time": "2016-07-27 14:43:30"
         },
         {
             "name": "imagine/imagine",
@@ -3116,7 +3117,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3507,16 +3508,16 @@
         },
         {
             "name": "moment/moment",
-            "version": "2.13.0",
+            "version": "2.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "d6651c21c6131fbb5db891b60971357739015688"
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/d6651c21c6131fbb5db891b60971357739015688",
-                "reference": "d6651c21c6131fbb5db891b60971357739015688",
+                "url": "https://api.github.com/repos/moment/moment/zipball/227746b29044a4c2160ae7c597c7f24aacac2635",
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635",
                 "shasum": ""
             },
             "require": {
@@ -3557,7 +3558,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-04-18 07:29:18"
+            "time": "2016-07-04 06:39:29"
         },
         {
             "name": "monolog/monolog",
@@ -3910,11 +3911,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "cbb5d285329360e0b9481fe57eeaf9812e63b285",
+                "reference": "633b4433edca34583a1f0e2b4dd757d63f97d988",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "self.version",
+                "oro/platform": "1.9.x-dev",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -3947,12 +3948,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "81055ef7362ee58bf15c7b6b169153841681ab75",
+                "reference": "6585b235e0caf2d463ebbaf42e3fec0cd2077d10",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "self.version",
-                "oro/crm-mail-chimp": "self.version",
+                "oro/crm": "1.x-dev",
+                "oro/crm-mail-chimp": "1.x-dev",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -3984,11 +3985,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "2802718f359225f5a69054c41b2d864e6da52d23",
+                "reference": "0932a308e368935a20471d81414835318118d95f",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "self.version",
+                "oro/crm": "1.x-dev",
                 "php": ">=5.4.9",
                 "romanpitak/dotmailer-api-v2-client": "1.0.11"
             },
@@ -4021,12 +4022,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm-enterprise",
-                "reference": "01458202caa7d82d066f45e4e50637781ef7ab34",
+                "reference": "a5b0835aab30e6868d5ad4a825735bba29e27869",
                 "shasum": null
             },
             "require": {
                 "elasticsearch/elasticsearch": "1.2.2",
-                "oro/crm": "self.version",
+                "oro/crm": "1.9.x-dev",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -4060,12 +4061,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "c52d09ec5ce2e4e4a48b84211697754567ab942f",
+                "reference": "453ae941e0bf82a5cc5d9bbc084001b287d00c62",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "self.version",
-                "oro/platform": "self.version",
+                "oro/crm": "1.x-dev",
+                "oro/platform": "1.x-dev",
                 "php": ">=5.4.9"
             },
             "type": "symfony-bundle",
@@ -4103,12 +4104,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "d0a8351d4658ed4dcacad38f9e843338af37a171",
+                "reference": "ffd24588cdc72a79db641730084c6f260a366822",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "self.version",
-                "oro/platform": "self.version",
+                "oro/crm": "1.x-dev",
+                "oro/platform": "1.x-dev",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -4141,11 +4142,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "cbba0a6f471e19496892cd963d7c25ab51811453",
+                "reference": "7b0aaaa96ea97d9aaddd6203add3edbe4a899f7a",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "self.version",
+                "oro/crm": "1.x-dev",
                 "php": ">=5.4.9",
                 "zfr/zfr-mailchimp": "~2.0"
             },
@@ -4214,11 +4215,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/ldap",
-                "reference": "500e2546e131d28ae57dbc638f4e0199a2a20bce",
+                "reference": "0530d841357f1706fc3ccb85d42bca4a66eb2002",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "self.version",
+                "oro/platform": ">=1.7",
                 "php": ">=5.4.9",
                 "zendframework/zend-ldap": ">=2.0"
             },
@@ -4252,12 +4253,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "c6351fcf4e89c66a245159334c6e0111c15424a0",
+                "reference": "d9a012020372fd222df28e43c0c6f4759d087471",
                 "shasum": null
             },
             "require": {
-                "oro/crm": "self.version",
-                "oro/platform": "self.version",
+                "oro/crm": "1.x-dev",
+                "oro/platform": "1.x-dev",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -4549,11 +4550,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "f0297bbd40f52c733e03ed93921343aee7b8dbde",
+                "reference": "8f8d066f39c50068001e58e96ea07da08fb19a71",
                 "shasum": null
             },
             "require": {
-                "oro/platform": "self.version",
+                "oro/platform": ">=1.5",
                 "php": ">=5.4.9"
             },
             "type": "library",
@@ -5140,17 +5141,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.6",
+            "version": "v4.0.7",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40"
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/181a47c527a04d2d03986a0b3e9c1b86eaacab40",
-                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d738952285a1a7d969f9338f735108c9f65bb7f2",
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2",
                 "shasum": ""
             },
             "require": {
@@ -5196,7 +5197,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-04-25 20:49:44"
+            "time": "2016-06-23 16:10:25"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -5355,23 +5356,23 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.2",
+            "version": "v5.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "d8db871a54619458a805229a057ea2af33c753e8"
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d8db871a54619458a805229a057ea2af33c753e8",
-                "reference": "d8db871a54619458a805229a057ea2af33c753e8",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1,<0.9.4"
+                "mockery/mockery": "~0.9.1"
             },
             "type": "library",
             "extra": {
@@ -5404,7 +5405,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-05-01 08:45:47"
+            "time": "2016-07-08 11:51:25"
         },
         {
             "name": "sylius/flow-bundle",
@@ -6807,9 +6808,84 @@
             "time": "2015-03-17 06:36:52"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/platform"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm"
+        },
+        {
+            "alias": "1.11.x-dev",
+            "alias_normalized": "1.11.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-enterprise"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/platform-serialised-fields"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-hangouts-call-bundle"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-abandoned-cart"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-magento-embedded-contact-us"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-mail-chimp"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-dotmailer"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-zendesk"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-pro-ldap-bundle"
+        },
+        {
+            "alias": "1.9.x-dev",
+            "alias_normalized": "1.9.9999999.9999999-dev",
+            "version": "9999999-dev",
+            "package": "oro/crm-pro-demo-data-bundle"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "oro/platform": 20,
+        "oro/crm": 20,
         "oro/crm-enterprise": 20,
         "oro/platform-serialised-fields": 20,
         "oro/crm-hangouts-call-bundle": 20,
