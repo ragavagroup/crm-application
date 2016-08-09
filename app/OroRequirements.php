@@ -2,11 +2,19 @@
 
 require_once __DIR__ . '/SymfonyRequirements.php';
 
+use Elasticsearch\ClientBuilder;
+
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Process\ProcessBuilder;
 use Symfony\Component\Intl\Intl;
+use Symfony\Component\PropertyAccess\PropertyAccessor;
+use Symfony\Component\Yaml\Yaml;
 
 use Oro\Bundle\InstallerBundle\Process\PhpExecutableFinder;
 use Oro\Bundle\RequireJSBundle\DependencyInjection\Configuration as RequireJSConfiguration;
+
+use OroPro\Bundle\ElasticSearchBundle\Client\ClientFactory;
+use OroPro\Bundle\ElasticSearchBundle\DependencyInjection\Compiler\ElasticSearchProviderPass;
 
 /**
  * This class specifies all requirements and optional recommendations that are necessary to run the Oro Application.
@@ -17,6 +25,7 @@ class OroRequirements extends SymfonyRequirements
     const REQUIRED_GD_VERSION   = '2.0';
     const REQUIRED_CURL_VERSION = '7.0';
     const REQUIRED_ICU_VERSION  = '3.8';
+    const REQUIRED_ES_VERSION   = '2.0';
 
     const EXCLUDE_REQUIREMENTS_MASK = '/5\.3\.(3|4|8|16)|5\.4\.(0|8|11)/';
 
@@ -28,6 +37,9 @@ class OroRequirements extends SymfonyRequirements
         $gdVersion   = defined('GD_VERSION') ? GD_VERSION : null;
         $curlVersion = function_exists('curl_version') ? curl_version() : null;
         $icuVersion  = Intl::getIcuVersion();
+
+        $appFolder = getcwd();
+        $isEE = strpos($appFolder, '-enterprise') !== false;
 
         $this->addOroRequirement(
             version_compare($phpVersion, self::REQUIRED_PHP_VERSION, '>='),
@@ -76,6 +88,16 @@ class OroRequirements extends SymfonyRequirements
             'SOAP extension should be installed (API calls)',
             'Install and enable the <strong>SOAP</strong> extension.'
         );
+
+        if (true === $isEE) {
+            $elasticRunning = $this->checkElasticRunning();
+            $this->addOroRequirement(
+                $elasticRunning,
+                'ElasticSearch ' . self::REQUIRED_ES_VERSION . '+ server has to be running',
+                'Configured <strong>ElasticSearch</strong> server version ' .
+                self::REQUIRED_ES_VERSION . '+ should be available'
+            );
+        }
 
         // Windows specific checks
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
@@ -371,6 +393,44 @@ class OroRequirements extends SymfonyRequirements
         $process->run();
 
         return $process->getOutput();
+    }
+
+    /**
+     * @return bool
+     */
+    protected function checkElasticRunning()
+    {
+        $baseDir = realpath(__DIR__ . '/..');
+
+        $config = Yaml::parse($baseDir . '/app/config/parameters.yml');
+        $config = $config['parameters'];
+
+        $container = new ContainerBuilder();
+
+        $container->setParameter('oro_search.engine_parameters', $config);
+        $container->setParameter('search_engine_name', $config['search_engine_name']);
+        $container->setParameter('search_engine_host', $config['search_engine_host']);
+        $container->setParameter('search_engine_port', $config['search_engine_port']);
+        $container->setParameter('search_engine_username', $config['search_engine_username']);
+        $container->setParameter('search_engine_password', $config['search_engine_password']);
+
+        $pass = new ElasticSearchProviderPass();
+        $pass->process($container);
+
+        $configuration = $container->getParameterBag()->all();
+
+        $clientBuilder = new ClientBuilder();
+        $propertyAccessor = new PropertyAccessor();
+
+        $factory = new ClientFactory($clientBuilder, $propertyAccessor);
+
+        try {
+            $client = $factory->create($configuration['oro_search.engine_parameters']['client']);
+            $info   = $client->info();
+            return version_compare($info['version']['number'], self::REQUIRED_ES_VERSION) >= 0;
+        } catch (\Exception $e) {
+            return false;
+        }
     }
 }
 
