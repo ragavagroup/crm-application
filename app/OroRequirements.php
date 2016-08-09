@@ -38,9 +38,6 @@ class OroRequirements extends SymfonyRequirements
         $curlVersion = function_exists('curl_version') ? curl_version() : null;
         $icuVersion  = Intl::getIcuVersion();
 
-        $appFolder = getcwd();
-        $isEE = strpos($appFolder, '-enterprise') !== false;
-
         $this->addOroRequirement(
             version_compare($phpVersion, self::REQUIRED_PHP_VERSION, '>='),
             sprintf('PHP version must be at least %s (%s installed)', self::REQUIRED_PHP_VERSION, $phpVersion),
@@ -89,15 +86,13 @@ class OroRequirements extends SymfonyRequirements
             'Install and enable the <strong>SOAP</strong> extension.'
         );
 
-        if (true === $isEE) {
-            $elasticRunning = $this->checkElasticRunning();
-            $this->addOroRequirement(
-                $elasticRunning,
-                'ElasticSearch ' . self::REQUIRED_ES_VERSION . '+ server has to be running',
-                'Configured <strong>ElasticSearch</strong> server version ' .
-                self::REQUIRED_ES_VERSION . '+ should be available'
-            );
-        }
+        $elasticRunning = $this->checkElasticRunning();
+        $this->addOroRequirement(
+            $elasticRunning,
+            'ElasticSearch ' . self::REQUIRED_ES_VERSION . '+ server has to be running',
+            'Configured <strong>ElasticSearch</strong> server version ' .
+            self::REQUIRED_ES_VERSION . '+ should be available'
+        );
 
         // Windows specific checks
         if (defined('PHP_WINDOWS_VERSION_BUILD')) {
