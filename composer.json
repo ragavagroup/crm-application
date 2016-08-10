@@ -248,6 +248,7 @@
     "sensio/generator-bundle": "2.5.3"
   },
   "config": {
+    "secure-http": false,
     "component-dir": "web/bundles/components"
   },
   "scripts": {
