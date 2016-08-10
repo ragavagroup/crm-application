@@ -193,10 +193,6 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Inheritance.git"
     },
-    "medikly/grafana-dashboard-bundle": {
-      "type": "vcs",
-      "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
-    },
     "medikly/grafana-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/Grafana.git"
