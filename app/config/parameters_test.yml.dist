@@ -25,7 +25,7 @@ parameters:
     search_engine_name:       orm
     search_engine_host:       127.0.0.1
     search_engine_port:       ~
-    search_engine_index_name: oro_search
+    search_engine_index_name: oro_search_test
     search_engine_username:   ~
     search_engine_password:   ~
     search_engine_ssl_verification: ~
