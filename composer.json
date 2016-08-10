@@ -188,7 +188,28 @@
     "medikly/grafana-dashboard-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
+    },
+    "Inheritance": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/Inheritance.git"
+    },
+    "medikly/grafana-dashboard-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
+    },
+    "medikly/grafana-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/Grafana.git"
+    },
+    "medikly/css-live-editor-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/CssLiveEditorBundle.git"
+    },
+    "medikly/reports-form-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ReportsFormBundle.git"
     }
+
   },
   "require": {
     "oro/platform": "1.9.0-RC2",
@@ -233,6 +254,7 @@
     "medikly/contact-extension-bundle": "dev-master",
     "medikly/research": "dev-master",
     "medikly/importexport-extension-bundle": "dev-master",
+    "medikly/inheritance": "dev-master",
 
     "atwix/oro-mandrill": "dev-master",
 
