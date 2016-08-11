@@ -2064,16 +2064,16 @@
         },
         {
             "name": "hwi/oauth-bundle",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "ae741802c8e99d8fa52de927fd483d0299911293"
+                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/ae741802c8e99d8fa52de927fd483d0299911293",
-                "reference": "ae741802c8e99d8fa52de927fd483d0299911293",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/2554f2b2947d1614d9e8b04800967b175b0afd8a",
+                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a",
                 "shasum": ""
             },
             "require": {
@@ -2200,7 +2200,7 @@
                 "yandex",
                 "youtube"
             ],
-            "time": "2016-03-08 08:00:04"
+            "time": "2016-07-27 14:43:30"
         },
         {
             "name": "imagine/imagine",
@@ -3907,16 +3907,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.7",
+            "version": "1.9.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "4cc7ed7930f5d99eafe498fe6afcba228e6ff455"
+                "reference": "73ac8826a2c415fac754e29a5f8339b3ebce0009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/4cc7ed7930f5d99eafe498fe6afcba228e6ff455",
-                "reference": "4cc7ed7930f5d99eafe498fe6afcba228e6ff455",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/73ac8826a2c415fac754e29a5f8339b3ebce0009",
+                "reference": "73ac8826a2c415fac754e29a5f8339b3ebce0009",
                 "shasum": ""
             },
             "require": {
@@ -3946,23 +3946,23 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.9.7",
+                "source": "https://github.com/orocrm/crm-er/tree/1.9.8",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-07-23 18:19:13"
+            "time": "2016-08-11 11:47:36"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.11.7",
+            "version": "1.11.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "5676de93b31617145c3b8288fa7d0767b197a198"
+                "reference": "d868dc95aa79c01bc94ba4307a14752bee5c4499"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/5676de93b31617145c3b8288fa7d0767b197a198",
-                "reference": "5676de93b31617145c3b8288fa7d0767b197a198",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/d868dc95aa79c01bc94ba4307a14752bee5c4499",
+                "reference": "d868dc95aa79c01bc94ba4307a14752bee5c4499",
                 "shasum": ""
             },
             "require": {
@@ -3994,10 +3994,10 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.7",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.8",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
-            "time": "2016-07-23 22:59:40"
+            "time": "2016-08-11 11:48:21"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4157,16 +4157,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.7",
+            "version": "1.9.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "8dea5f56f90ca8d6fc6f5a2c951143ef3839f5f2"
+                "reference": "bb406c005e9902503c0c8f8a9185844fc23fe2ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/8dea5f56f90ca8d6fc6f5a2c951143ef3839f5f2",
-                "reference": "8dea5f56f90ca8d6fc6f5a2c951143ef3839f5f2",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/bb406c005e9902503c0c8f8a9185844fc23fe2ef",
+                "reference": "bb406c005e9902503c0c8f8a9185844fc23fe2ef",
                 "shasum": ""
             },
             "require": {
@@ -4258,10 +4258,10 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.9.7",
+                "source": "https://github.com/orocrm/platform-er/tree/1.9.8",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-07-22 12:26:14"
+            "time": "2016-08-10 15:22:59"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4411,16 +4411,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "3cb9e117ff2ccc43178965c3582c8817340a02bd"
+                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/3cb9e117ff2ccc43178965c3582c8817340a02bd",
-                "reference": "3cb9e117ff2ccc43178965c3582c8817340a02bd",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/04fddf60bbeb111bad18a9c50dd73f0a314967f2",
+                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2",
                 "shasum": ""
             },
             "require": {
@@ -4458,7 +4458,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2016-06-01 21:26:36"
+            "time": "2016-08-03 07:11:10"
         },
         {
             "name": "psr/log",
