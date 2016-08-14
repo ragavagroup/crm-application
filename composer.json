@@ -9,9 +9,25 @@
         }
     },
     "repositories": {
-        "git": {
+        "TranslationForm": {
             "type": "git",
             "url": "https://github.com/orocrm/TranslationFormBundle.git"
+        },
+       "platform-enterprise": {
+            "type": "vcs",
+            "url": "https://github.com/orocrm/platform-enterprise.git"
+        },
+       "enterprise": {
+            "type": "vcs",
+            "url": "https://github.com/orocrm/crm-enterprise.git"
+        },
+        "crm": {
+            "type": "vcs",
+            "url": "https://github.com/orocrm/crm-er.git"
+        },
+        "platform": {
+            "type": "vcs",
+            "url": "https://github.com/orocrm/platform-er.git"
         },
         "composer": {
             "type": "composer",
@@ -19,18 +35,7 @@
         }
     },
     "require": {
-        "oro/crm-enterprise": "1.12.x-dev",
-        "oro/platform-serialised-fields": "1.10.x-dev",
-        "oro/crm-hangouts-call-bundle": "1.10.x-dev",
-        "oro/crm-abandoned-cart": "1.10.x-dev",
-        "oro/crm-magento-embedded-contact-us": "1.10.x-dev",
-        "oro/crm-mail-chimp": "1.10.x-dev",
-        "oro/crm-dotmailer": "1.10.x-dev",
-        "oro/crm-zendesk": "1.10.x-dev",
-        "oro/crm-pro-ldap-bundle": "1.10.x-dev",
-        "oro/crm-pro-demo-data-bundle": "1.10.x-dev",
-        "oro/crm-task-bundle": "1.10.x-dev",
-        "oro/crm-call-bundle": "1.10.x-dev"
+        "oro/crm-enterprise": "1.12.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "2.5.3",
