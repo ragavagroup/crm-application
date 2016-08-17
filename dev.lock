@@ -4324,7 +4324,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "3f82971ba951c450a61755a08a3b6f25e18006c6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4364,7 +4364,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-abandoned-cart",
-                "reference": "09b4426a809674bd451aaaa4d278a871c5387e30",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4401,7 +4401,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/call",
-                "reference": "b74f66cdfa4b8e7764116c80cfa275b7d3688443",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4441,7 +4441,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "0eb7087b5a418635010273b7fcc01800ae87d513",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4478,7 +4478,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm-enterprise",
-                "reference": "bd151200a4e9f65a0cd9b991e35f82378fcda55b",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4516,7 +4516,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "3dafbbf7024464ff1a1eaa7ca0dce1a89d935f13",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4559,7 +4559,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/magento-contact-us",
-                "reference": "429e28539f1faf9e40a79ad6d77fa08d5c4bc7d4",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4596,7 +4596,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/mailchimp",
-                "reference": "5ea3bf7eb3536e50c882477dc7f1b19a076d03c3",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4634,7 +4634,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/demo-data",
-                "reference": "d47ee4cacf10881868b58d5e2e32b356558862a1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4669,7 +4669,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/ldap",
-                "reference": "cb279fcaa858fbc4e7ca9edd64f8c4553610efb7",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4707,7 +4707,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
-                "reference": "52b565d8a08ba738f81a8b9c36df2dd09c207727",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4747,7 +4747,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/zendesk",
-                "reference": "0b80e9972f322fafb07f6ad5d8cbc90a29b44de4",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -4944,7 +4944,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": "9b30b9912cefe68b43162ebbd9abcc986eeeeaad",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -5050,7 +5050,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/platform-enterprise",
-                "reference": "bc2a1b23b7ed5a08dea5b510a7ef01b6d17a4bfe",
+                "reference": "01530c8eba29dc0a62f203ce4914ce2b71881f2c",
                 "shasum": null
             },
             "require": {
@@ -5068,7 +5068,8 @@
             "autoload": {
                 "psr-0": {
                     "OroPro\\Bundle": "src/",
-                    "Oro\\Component": "src/"
+                    "Oro\\Component": "src/",
+                    "Oro\\Bundle": "src/"
                 }
             },
             "license": [
@@ -5090,7 +5091,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/serialized-fields",
-                "reference": "3dd4f7f6cc09f65c73cb83a63cb35c64df7f725d",
+                "reference": null,
                 "shasum": null
             },
             "require": {
