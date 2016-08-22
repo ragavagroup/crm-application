@@ -200,6 +200,26 @@
     "medikly/grafana-dashboard-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
+    },
+    "medikly/grafana-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/Grafana.git"
+    },
+    "medikly/css-live-editor-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/CssLiveEditorBundle.git"
+    },
+    "medikly/reports-form-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/ReportsFormBundle.git"
+    },
+    "medikly/dynamic-import-bundle" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/MediklyDynamicImportBundle.git"
+    },
+    "medikly/config-entity-extend" : {
+      "type" : "vcs",
+      "url" : "git@github.com:ragavagroup/ConfigEntityExtendBundle.git"
     }
   },
   "require": {
@@ -207,7 +227,6 @@
     "oro/crm": "1.9.0-RC2",
     "oro/crm-enterprise": "1.11.x-dev",
 
-    "medikly/customdashboardmenu-bundle": "dev-master",
     "medikly/event-bundle": "dev-master",
     "medikly/provider-bundle": "dev-master",
     "medikly/ui-bundle": "dev-master",
@@ -228,7 +247,6 @@
     "medikly/intercomapi": "dev-master",
     "medikly/clef": "dev-master",
     "medikly/successpages": "dev-master",
-    "medikly/system-navigation": "dev-master",
     "medikly/search": "1.0",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/tracking": "dev-master",
@@ -238,7 +256,7 @@
     "medikly/s3integration-bundle": "dev-master",
 
     "medikly/dcjs-data-visualization": "dev-master",
-    "medikly/segment-extension-bundle": "dev-master",
+    "medikly/segment-extension-bundle": "dev-feature/additional-issues",
     "medikly/dataset-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
     "medikly/campaign-extension" : "dev-master",
@@ -248,22 +266,27 @@
     "medikly/contact-extension-bundle": "dev-master",
     "medikly/research": "dev-master",
     "medikly/importexport-extension-bundle": "dev-master",
+    "medikly/customdashboardmenu-bundle": "dev-master",
+    "medikly/system-navigation": "dev-feature/standalone-bundle-dev-demo",
+    "medikly/config-entity-extend" :"dev-master",
+    "medikly/dynamic_import" :"dev-master",
 
     "atwix/oro-mandrill": "dev-master",
 
     "aws/aws-sdk-php": "2.8.12",
 
     "akeneo/batch-bundle": "0.4.2",
-
-    "medikly/datagrid-charts-bundle": "dev-master",
-    "medikly/grafana-dashboard-bundle": "dev-master",
     "oro/crm-zendesk": "1.*",
-    "oro/crm-mail-chimp": "1.*"
+    "medikly/grafana": "dev-master",
+    "medikly/css-live-editor-bundle": "dev-master",
+    "medikly/reports-form-bundle": "dev-feature/medikly-adaptation",
+    "oro/redis-config": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
   },
   "config": {
+    "secure-http": false,
     "component-dir": "web/bundles/components"
   },
   "scripts": {
