@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4628407ae3d176802feb0b246682e4af",
-    "content-hash": "188a8c0d66c127d3a905a70a866de71f",
+    "hash": "7a53019b2dd6a18f4672956c26cea66d",
+    "content-hash": "68c1c6bb56084bbb4220136b61df7768",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -2285,36 +2285,37 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2013-10-02 20:47:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.1.1",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "c6851d6e48f63b69357cbfa55bca116448140e0c"
+                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c6851d6e48f63b69357cbfa55bca116448140e0c",
-                "reference": "c6851d6e48f63b69357cbfa55bca116448140e0c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3f808fba627f2c5b69e2501217bf31af349c1427",
+                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/promises": "~1.0",
-                "guzzlehttp/psr7": "~1.1",
-                "php": ">=5.5.0"
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.3.1",
+                "php": ">=5.5"
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "~4.0",
-                "psr/log": "~1.0"
+                "phpunit/phpunit": "^4.0",
+                "psr/log": "^1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.1-dev"
+                    "dev-master": "6.2-dev"
                 }
             },
             "autoload": {
@@ -2347,20 +2348,20 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-11-23 00:47:50"
+            "time": "2016-07-15 17:22:37"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8"
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/bb9024c526b22f3fe6ae55a561fd70653d470aa8",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
                 "shasum": ""
             },
             "require": {
@@ -2398,20 +2399,20 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-03-08 01:15:46"
+            "time": "2016-05-18 16:56:05"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.2.3",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "2e89629ff057ebb49492ba08e6995d3a6a80021b"
+                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/2e89629ff057ebb49492ba08e6995d3a6a80021b",
-                "reference": "2e89629ff057ebb49492ba08e6995d3a6a80021b",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
                 "shasum": ""
             },
             "require": {
@@ -2427,7 +2428,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -2456,20 +2457,20 @@
                 "stream",
                 "uri"
             ],
-            "time": "2016-02-18 21:54:00"
+            "time": "2016-06-24 23:00:38"
         },
         {
             "name": "hwi/oauth-bundle",
-            "version": "0.4.0",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "86b5a876224b8a26707813aa94d3637886aa2041"
+                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/86b5a876224b8a26707813aa94d3637886aa2041",
-                "reference": "86b5a876224b8a26707813aa94d3637886aa2041",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/2554f2b2947d1614d9e8b04800967b175b0afd8a",
+                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a",
                 "shasum": ""
             },
             "require": {
@@ -2487,7 +2488,7 @@
             "require-dev": {
                 "doctrine/orm": "~2.3",
                 "friendsofsymfony/user-bundle": "~1.3|~2.0",
-                "phpunit/phpunit": "~4.8",
+                "phpunit/phpunit": "~4.8|~5.0",
                 "symfony/phpunit-bridge": "~2.7",
                 "symfony/property-access": "~2.3",
                 "symfony/twig-bundle": "~2.3",
@@ -2596,7 +2597,7 @@
                 "yandex",
                 "youtube"
             ],
-            "time": "2015-12-04 12:33:38"
+            "time": "2016-07-27 14:43:30"
         },
         {
             "name": "igorw/get-in",
@@ -2749,25 +2750,26 @@
         },
         {
             "name": "influxdb/influxdb-php",
-            "version": "1.2.2",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/influxdata/influxdb-php.git",
-                "reference": "a2d63014c32a6b5401c2ccf32b581a7ac3ae74ee"
+                "reference": "7083df8fc77df771dc804b072cf1c3bfc41d8648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/influxdata/influxdb-php/zipball/a2d63014c32a6b5401c2ccf32b581a7ac3ae74ee",
-                "reference": "a2d63014c32a6b5401c2ccf32b581a7ac3ae74ee",
+                "url": "https://api.github.com/repos/influxdata/influxdb-php/zipball/7083df8fc77df771dc804b072cf1c3bfc41d8648",
+                "reference": "7083df8fc77df771dc804b072cf1c3bfc41d8648",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "6.*",
-                "php": ">=5.5",
+                "php": "^5.5 | ^7.0",
                 "symfony/event-dispatcher": "2.*|3.*"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "0.*",
+                "phpunit/phpunit": "^4.0",
                 "symfony/config": "~2.8",
                 "symfony/console": "~2.8",
                 "symfony/filesystem": "~2.8",
@@ -2786,6 +2788,10 @@
             ],
             "authors": [
                 {
+                    "name": "Gianluca Arbezzano",
+                    "email": "gianarb92@gmail.com"
+                },
+                {
                     "name": "Daniel Martinez",
                     "email": "danimartcas@hotmail.com"
                 },
@@ -2803,7 +2809,7 @@
                 "influxdb library",
                 "time series"
             ],
-            "time": "2016-01-05 21:25:57"
+            "time": "2016-05-26 14:13:27"
         },
         {
             "name": "jdare/clank-bundle",
@@ -2950,20 +2956,23 @@
         },
         {
             "name": "jms/cg",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/cg-library.git",
-                "reference": "0af1113c7409b8636c5244bbae10b2e0ff792e9c"
+                "reference": "2152ea2c48f746a676debb841644ae64cae27835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/cg-library/zipball/0af1113c7409b8636c5244bbae10b2e0ff792e9c",
-                "reference": "0af1113c7409b8636c5244bbae10b2e0ff792e9c",
+                "url": "https://api.github.com/repos/schmittjoh/cg-library/zipball/2152ea2c48f746a676debb841644ae64cae27835",
+                "reference": "2152ea2c48f746a676debb841644ae64cae27835",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.5"
             },
             "type": "library",
             "extra": {
@@ -2990,25 +2999,26 @@
             "keywords": [
                 "code generation"
             ],
-            "time": "2015-09-13 08:54:43"
+            "time": "2016-04-07 10:21:44"
         },
         {
             "name": "jms/di-extra-bundle",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSDiExtraBundle.git",
-                "reference": "85a989bedcf22495c03bf94339ddc5e856bd9b46"
+                "reference": "27c3fc7150550ccc0731290b2c1ceb57449f909d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSDiExtraBundle/zipball/85a989bedcf22495c03bf94339ddc5e856bd9b46",
-                "reference": "85a989bedcf22495c03bf94339ddc5e856bd9b46",
+                "url": "https://api.github.com/repos/schmittjoh/JMSDiExtraBundle/zipball/27c3fc7150550ccc0731290b2c1ceb57449f909d",
+                "reference": "27c3fc7150550ccc0731290b2c1ceb57449f909d",
                 "shasum": ""
             },
             "require": {
                 "jms/aop-bundle": "~1.1",
                 "jms/metadata": "~1.0",
+                "php": "~5.3|~7.0",
                 "symfony/dependency-injection": "~2.3|~3.0",
                 "symfony/finder": "~2.3|~3.0",
                 "symfony/framework-bundle": "~2.3|~3.0",
@@ -3019,7 +3029,7 @@
             "require-dev": {
                 "doctrine/doctrine-bundle": "~1.5",
                 "doctrine/orm": "~2.3",
-                "jms/security-extra-bundle": "~1.0@dev",
+                "jms/security-extra-bundle": "~1.0",
                 "phpcollection/phpcollection": ">=0.2,<0.3-dev",
                 "sensio/framework-extra-bundle": "~2.0|~3.0",
                 "symfony/browser-kit": "~2.3|~3.0",
@@ -3058,7 +3068,7 @@
                 "annotations",
                 "dependency injection"
             ],
-            "time": "2016-02-21 22:14:09"
+            "time": "2016-04-18 22:27:09"
         },
         {
             "name": "jms/job-queue-bundle",
@@ -3615,7 +3625,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3995,17 +4005,17 @@
         },
         {
             "name": "medikly/account-extension",
-            "version": "dev-master",
+            "version": "dev-feature/ogilvy-demo",
             "target-dir": "Medikly/Bundle/AccountExtensionBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/AccountExtension.git",
-                "reference": "c8738bd85e1617e653e9aebd6de3b7a030067fdb"
+                "reference": "a5c759170bfec9b6f43621295b1b7675a8926bf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/AccountExtension/zipball/c8738bd85e1617e653e9aebd6de3b7a030067fdb",
-                "reference": "c8738bd85e1617e653e9aebd6de3b7a030067fdb",
+                "url": "https://api.github.com/repos/ragavagroup/AccountExtension/zipball/a5c759170bfec9b6f43621295b1b7675a8926bf1",
+                "reference": "a5c759170bfec9b6f43621295b1b7675a8926bf1",
                 "shasum": ""
             },
             "type": "library",
@@ -4024,10 +4034,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/ragavagroup/AccountExtension/tree/master",
+                "source": "https://github.com/ragavagroup/AccountExtension/tree/feature/ogilvy-demo",
                 "issues": "https://github.com/ragavagroup/AccountExtension/issues"
             },
-            "time": "2016-04-05 12:36:59"
+            "time": "2016-08-22 17:07:29"
         },
         {
             "name": "medikly/campaign-extension",
@@ -4231,12 +4241,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/CssLiveEditorBundle.git",
-                "reference": "7d7fddd5b25bc9358f161f865b1e05a36a60d637"
+                "reference": "434b4131d392eeae2aacef2dd3ec1c440a3ee3e2"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ragavagroup/CssLiveEditorBundle/zipball/434b4131d392eeae2aacef2dd3ec1c440a3ee3e2",
-                "reference": "7d7fddd5b25bc9358f161f865b1e05a36a60d637",
+                "reference": "434b4131d392eeae2aacef2dd3ec1c440a3ee3e2",
                 "shasum": ""
             },
             "require": {
@@ -4261,7 +4271,7 @@
                 "source": "https://github.com/ragavagroup/CssLiveEditorBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/CssLiveEditorBundle/issues"
             },
-            "time": "2016-03-24 22:07:44"
+            "time": "2016-05-05 15:44:33"
         },
         {
             "name": "medikly/customdashboardmenu-bundle",
@@ -4716,12 +4726,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Grafana.git",
-                "reference": "9fd45bb0cea030817085b0ceab97dc32312b5813"
+                "reference": "a259f3c80bda5a55af4a541d23fb9a069478e18b"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ragavagroup/Grafana/zipball/a259f3c80bda5a55af4a541d23fb9a069478e18b",
-                "reference": "9fd45bb0cea030817085b0ceab97dc32312b5813",
+                "reference": "a259f3c80bda5a55af4a541d23fb9a069478e18b",
                 "shasum": ""
             },
             "require": {
@@ -4739,7 +4749,7 @@
                 "source": "https://github.com/ragavagroup/Grafana/tree/master",
                 "issues": "https://github.com/ragavagroup/Grafana/issues"
             },
-            "time": "2016-02-17 12:44:03"
+            "time": "2016-05-24 12:15:15"
         },
         {
             "name": "medikly/hospital",
@@ -4936,17 +4946,17 @@
         },
         {
             "name": "medikly/oro-flat-theme",
-            "version": "dev-master",
+            "version": "dev-feature/ogilvy-demo",
             "target-dir": "Medikly/Bundle/OroFlatThemeBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/MediklyOroFlatThemeBundle.git",
-                "reference": "8b55c725c8fe423b7a427042d103360e36375aae"
+                "reference": "c4fb5664f374f5991e69eb2f2ef711634ad8dc51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/8b55c725c8fe423b7a427042d103360e36375aae",
-                "reference": "8b55c725c8fe423b7a427042d103360e36375aae",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyOroFlatThemeBundle/zipball/c4fb5664f374f5991e69eb2f2ef711634ad8dc51",
+                "reference": "c4fb5664f374f5991e69eb2f2ef711634ad8dc51",
                 "shasum": ""
             },
             "type": "library",
@@ -4966,10 +4976,10 @@
             ],
             "description": "Oro Flat Theme Bundle for Medikly",
             "support": {
-                "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/master",
+                "source": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/tree/feature/ogilvy-demo",
                 "issues": "https://github.com/ragavagroup/MediklyOroFlatThemeBundle/issues"
             },
-            "time": "2016-08-18 08:04:37"
+            "time": "2016-08-22 15:59:16"
         },
         {
             "name": "medikly/physician-bundle",
@@ -5021,12 +5031,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/PhysicianValueIndex.git",
-                "reference": "bfde079790903fd6286ea0b6a28a89de50378810"
+                "reference": "89a556350b3e737ff12779453c074fe40da57959"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ragavagroup/PhysicianValueIndex/zipball/89a556350b3e737ff12779453c074fe40da57959",
-                "reference": "bfde079790903fd6286ea0b6a28a89de50378810",
+                "reference": "89a556350b3e737ff12779453c074fe40da57959",
                 "shasum": ""
             },
             "require": {
@@ -5051,7 +5061,7 @@
                 "source": "https://github.com/ragavagroup/PhysicianValueIndex/tree/master",
                 "issues": "https://github.com/ragavagroup/PhysicianValueIndex/issues"
             },
-            "time": "2016-03-03 12:22:46"
+            "time": "2016-03-07 13:44:46"
         },
         {
             "name": "medikly/provider-bundle",
@@ -5415,12 +5425,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/SocialMentionBundle.git",
-                "reference": "bb7711212cf8a6195d95ac5b6144def9ab7ec85c"
+                "reference": "6763f1abba3fc9e15b493b8a6f6ab3e92e9dfdaa"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ragavagroup/SocialMentionBundle/zipball/6763f1abba3fc9e15b493b8a6f6ab3e92e9dfdaa",
-                "reference": "bb7711212cf8a6195d95ac5b6144def9ab7ec85c",
+                "reference": "6763f1abba3fc9e15b493b8a6f6ab3e92e9dfdaa",
                 "shasum": ""
             },
             "require": {
@@ -5444,7 +5454,7 @@
                 "source": "https://github.com/ragavagroup/SocialMentionBundle/tree/master",
                 "issues": "https://github.com/ragavagroup/SocialMentionBundle/issues"
             },
-            "time": "2015-08-05 11:53:52"
+            "time": "2016-03-22 20:14:45"
         },
         {
             "name": "medikly/successpages",
@@ -5572,12 +5582,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ragavagroup/Tracking.git",
-                "reference": "4ba5106e7fc510cb114df684ab1b5c9189d67d48"
+                "reference": "6c702be98254ee56939623162a8e1d10e3c0562e"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ragavagroup/Tracking/zipball/6c702be98254ee56939623162a8e1d10e3c0562e",
-                "reference": "4ba5106e7fc510cb114df684ab1b5c9189d67d48",
+                "reference": "6c702be98254ee56939623162a8e1d10e3c0562e",
                 "shasum": ""
             },
             "require": {
@@ -5602,7 +5612,7 @@
                 "source": "https://github.com/ragavagroup/Tracking/tree/master",
                 "issues": "https://github.com/ragavagroup/Tracking/issues"
             },
-            "time": "2016-02-23 13:29:23"
+            "time": "2016-03-31 08:43:05"
         },
         {
             "name": "medikly/tracking-extension",
@@ -5773,16 +5783,16 @@
         },
         {
             "name": "moment/moment",
-            "version": "2.11.2",
+            "version": "2.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "dd9cff0104c0dc3f114f54107397c59920e764cc"
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/dd9cff0104c0dc3f114f54107397c59920e764cc",
-                "reference": "dd9cff0104c0dc3f114f54107397c59920e764cc",
+                "url": "https://api.github.com/repos/moment/moment/zipball/227746b29044a4c2160ae7c597c7f24aacac2635",
+                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635",
                 "shasum": ""
             },
             "require": {
@@ -5823,7 +5833,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-02-03 22:43:05"
+            "time": "2016-07-04 06:39:29"
         },
         {
             "name": "monolog/monolog",
@@ -6305,17 +6315,17 @@
         },
         {
             "name": "oro/crm-zendesk",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "target-dir": "src/OroCRM/Bundle/ZendeskBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/OroCRMZendeskBundle.git",
-                "reference": "31818b34865068286f90b2155cbca4b51b7ccf94"
+                "reference": "4019b48bb7c59dc4e21beb28b7333433c43a6bdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/31818b34865068286f90b2155cbca4b51b7ccf94",
-                "reference": "31818b34865068286f90b2155cbca4b51b7ccf94",
+                "url": "https://api.github.com/repos/orocrm/OroCRMZendeskBundle/zipball/4019b48bb7c59dc4e21beb28b7333433c43a6bdc",
+                "reference": "4019b48bb7c59dc4e21beb28b7333433c43a6bdc",
                 "shasum": ""
             },
             "require": {
@@ -6350,20 +6360,20 @@
                 "Zendesk",
                 "integration"
             ],
-            "time": "2016-02-15 15:05:57"
+            "time": "2016-08-17 08:54:15"
         },
         {
             "name": "oro/doctrine-extensions",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/doctrine-extensions.git",
-                "reference": "068102e896c8739355b99b794d59d321dff655d7"
+                "reference": "2aab7d5f530d9bc115b6bdb4bf48fe3156453089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/068102e896c8739355b99b794d59d321dff655d7",
-                "reference": "068102e896c8739355b99b794d59d321dff655d7",
+                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/2aab7d5f530d9bc115b6bdb4bf48fe3156453089",
+                "reference": "2aab7d5f530d9bc115b6bdb4bf48fe3156453089",
                 "shasum": ""
             },
             "require": {
@@ -6404,7 +6414,7 @@
                 "postgresql",
                 "type"
             ],
-            "time": "2016-01-05 20:17:20"
+            "time": "2016-03-29 10:30:36"
         },
         {
             "name": "oro/jsplumb",
@@ -6858,16 +6868,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.5.2",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "e46f0574e545b77c919f529a6941a23a58d4c515"
+                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/e46f0574e545b77c919f529a6941a23a58d4c515",
-                "reference": "e46f0574e545b77c919f529a6941a23a58d4c515",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/04fddf60bbeb111bad18a9c50dd73f0a314967f2",
+                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2",
                 "shasum": ""
             },
             "require": {
@@ -6905,7 +6915,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2016-02-11 23:21:53"
+            "time": "2016-08-03 07:11:10"
         },
         {
             "name": "predis/predis",
@@ -6959,16 +6969,16 @@
         },
         {
             "name": "psr/http-message",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
-                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
             "require": {
@@ -6996,6 +7006,7 @@
                 }
             ],
             "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
             "keywords": [
                 "http",
                 "http-message",
@@ -7004,7 +7015,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/log",
@@ -7545,23 +7556,23 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.1",
+            "version": "v5.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421"
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0697e6aa65c83edf97bb0f23d8763f94e3f11421",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1,<0.9.4"
+                "mockery/mockery": "~0.9.1"
             },
             "type": "library",
             "extra": {
@@ -7594,7 +7605,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2015-06-06 14:19:39"
+            "time": "2016-07-08 11:51:25"
         },
         {
             "name": "sylius/flow-bundle",
@@ -7768,6 +7779,7 @@
                 "icu",
                 "intl"
             ],
+            "abandoned": "symfony/intl",
             "time": "2014-07-25 09:58:17"
         },
         {
@@ -8159,21 +8171,23 @@
         },
         {
             "name": "vakata/jstree",
-            "version": "3.2.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vakata/jstree.git",
-                "reference": "8ea6ce78bba5fefe4c3233844cbcb22b12826b31"
+                "reference": "bb0473ae8cfc205585b6404ef86f650df2f6996e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vakata/jstree/zipball/8ea6ce78bba5fefe4c3233844cbcb22b12826b31",
-                "reference": "8ea6ce78bba5fefe4c3233844cbcb22b12826b31",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/bb0473ae8cfc205585b6404ef86f650df2f6996e",
+                "reference": "bb0473ae8cfc205585b6404ef86f650df2f6996e",
                 "shasum": ""
             },
             "require": {
-                "components/jquery": ">=1.9.1",
-                "robloach/component-installer": "*"
+                "components/jquery": ">=1.9.1"
+            },
+            "suggest": {
+                "robloach/component-installer": "Allows installation of Components via Composer"
             },
             "type": "component",
             "extra": {
@@ -8210,7 +8224,7 @@
             ],
             "description": "jsTree is jquery plugin, that provides interactive trees.",
             "homepage": "http://jstree.com",
-            "time": "2015-08-24 11:32:18"
+            "time": "2016-08-15 10:53:06"
         },
         {
             "name": "willdurand/geocoder",
@@ -8363,27 +8377,27 @@
         },
         {
             "name": "zendframework/zend-code",
-            "version": "2.6.2",
+            "version": "2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-code.git",
-                "reference": "c4e8f976a772cfb14b47dabd69b5245a423082b4"
+                "reference": "95033f061b083e16cdee60530ec260d7d628b887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/c4e8f976a772cfb14b47dabd69b5245a423082b4",
-                "reference": "c4e8f976a772cfb14b47dabd69b5245a423082b4",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/95033f061b083e16cdee60530ec260d7d628b887",
+                "reference": "95033f061b083e16cdee60530ec260d7d628b887",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5",
-                "zendframework/zend-eventmanager": "^2.6|^3.0"
+                "php": "^5.5 || 7.0.0 - 7.0.4 || ^7.0.6",
+                "zendframework/zend-eventmanager": "^2.6 || ^3.0"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
                 "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0",
-                "zendframework/zend-stdlib": "~2.7"
+                "phpunit/phpunit": "^4.8.21",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "suggest": {
                 "doctrine/annotations": "Doctrine\\Common\\Annotations >=1.0 for annotation features",
@@ -8411,7 +8425,7 @@
                 "code",
                 "zf2"
             ],
-            "time": "2016-01-05 05:58:37"
+            "time": "2016-04-20 17:26:42"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -8466,20 +8480,20 @@
         },
         {
             "name": "zendframework/zend-diactoros",
-            "version": "1.3.3",
+            "version": "1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-diactoros.git",
-                "reference": "4d54fde709664562eb63356f0250d527824d05de"
+                "reference": "b1d59735b672865dbeb930805029c24f226e3e77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/4d54fde709664562eb63356f0250d527824d05de",
-                "reference": "4d54fde709664562eb63356f0250d527824d05de",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/b1d59735b672865dbeb930805029c24f226e3e77",
+                "reference": "b1d59735b672865dbeb930805029c24f226e3e77",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4",
+                "php": "^5.4 || ^7.0",
                 "psr/http-message": "~1.0"
             },
             "provide": {
@@ -8512,7 +8526,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2016-01-04 21:37:32"
+            "time": "2016-03-17 18:02:05"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -9009,7 +9023,56 @@
             "time": "2013-04-17 13:32:54"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "sensio/generator-bundle",
+            "version": "v2.5.3",
+            "target-dir": "Sensio/Bundle/GeneratorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
+                "reference": "e50108c2133ee5c9c484555faed50c17a61221d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/e50108c2133ee5c9c484555faed50c17a61221d3",
+                "reference": "e50108c2133ee5c9c484555faed50c17a61221d3",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.5",
+                "symfony/framework-bundle": "~2.2"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "symfony/doctrine-bridge": "~2.2",
+                "twig/twig": "~1.11"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sensio\\Bundle\\GeneratorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle generates code for you",
+            "time": "2015-03-17 06:36:52"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {

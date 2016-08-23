@@ -235,7 +235,7 @@
     "medikly/inheritance": "dev-master",
 
     "medikly/fullcontact-integration": "dev-master",
-    "medikly/oro-flat-theme": "dev-master",
+    "medikly/oro-flat-theme": "dev-feature/ogilvy-demo",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
     "medikly/resource-bundle": "dev-master",
@@ -251,7 +251,7 @@
     "medikly/raw-data-bundle":"dev-master",
     "medikly/tracking": "dev-master",
     "medikly/socialmention":"dev-master",
-    "medikly/account-extension": "dev-master",
+    "medikly/account-extension": "dev-feature/ogilvy-demo",
     "medikly/hospital": "dev-master",
     "medikly/s3integration-bundle": "dev-master",
 
