@@ -3176,7 +3176,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3910,16 +3910,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.9",
+            "version": "1.9.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "b155e3ee42395bd0d8db25537a1a582a1654b966"
+                "reference": "2e40f87b715deb9bfaec4078c717df03149a7300"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/b155e3ee42395bd0d8db25537a1a582a1654b966",
-                "reference": "b155e3ee42395bd0d8db25537a1a582a1654b966",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/2e40f87b715deb9bfaec4078c717df03149a7300",
+                "reference": "2e40f87b715deb9bfaec4078c717df03149a7300",
                 "shasum": ""
             },
             "require": {
@@ -3949,14 +3949,14 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.9.9",
+                "source": "https://github.com/orocrm/crm-er/tree/1.9.10",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-08-22 09:47:56"
+            "time": "2016-09-01 08:39:40"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.11.9",
+            "version": "1.11.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
@@ -3997,7 +3997,7 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.9",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.10",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
             "time": "2016-08-22 09:50:41"
@@ -4160,16 +4160,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.9",
+            "version": "1.9.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "13ac9df18509a378911dd9a42e85bad323423c6e"
+                "reference": "010fe62ed3a532f1dc1273588faa79cbf78cb439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/13ac9df18509a378911dd9a42e85bad323423c6e",
-                "reference": "13ac9df18509a378911dd9a42e85bad323423c6e",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/010fe62ed3a532f1dc1273588faa79cbf78cb439",
+                "reference": "010fe62ed3a532f1dc1273588faa79cbf78cb439",
                 "shasum": ""
             },
             "require": {
@@ -4261,10 +4261,10 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.9.9",
+                "source": "https://github.com/orocrm/platform-er/tree/1.9.10",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-08-19 20:00:56"
+            "time": "2016-08-31 15:41:58"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -5636,7 +5636,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com"
                 }
             ],
