@@ -3910,16 +3910,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.10",
+            "version": "1.9.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "2e40f87b715deb9bfaec4078c717df03149a7300"
+                "reference": "a78825aedbc393249fd55b06fb1d678fbe983759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/2e40f87b715deb9bfaec4078c717df03149a7300",
-                "reference": "2e40f87b715deb9bfaec4078c717df03149a7300",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/a78825aedbc393249fd55b06fb1d678fbe983759",
+                "reference": "a78825aedbc393249fd55b06fb1d678fbe983759",
                 "shasum": ""
             },
             "require": {
@@ -3949,23 +3949,23 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.9.10",
+                "source": "https://github.com/orocrm/crm-er/tree/1.9.11",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-09-01 08:39:40"
+            "time": "2016-09-07 10:23:35"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.11.10",
+            "version": "1.11.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "2d5a625aea798d68752e9f814a178e3071004a7a"
+                "reference": "764cb1dbd096c1c5e4ee82f2dae9a68a587637c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/2d5a625aea798d68752e9f814a178e3071004a7a",
-                "reference": "2d5a625aea798d68752e9f814a178e3071004a7a",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/764cb1dbd096c1c5e4ee82f2dae9a68a587637c2",
+                "reference": "764cb1dbd096c1c5e4ee82f2dae9a68a587637c2",
                 "shasum": ""
             },
             "require": {
@@ -3997,10 +3997,10 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.10",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.11.11",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
-            "time": "2016-08-22 09:50:41"
+            "time": "2016-09-07 10:29:19"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4160,16 +4160,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.10",
+            "version": "1.9.11",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "010fe62ed3a532f1dc1273588faa79cbf78cb439"
+                "reference": "f77f944781a72b81750d383824b3638310aeb0fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/010fe62ed3a532f1dc1273588faa79cbf78cb439",
-                "reference": "010fe62ed3a532f1dc1273588faa79cbf78cb439",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/f77f944781a72b81750d383824b3638310aeb0fa",
+                "reference": "f77f944781a72b81750d383824b3638310aeb0fa",
                 "shasum": ""
             },
             "require": {
@@ -4261,10 +4261,10 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.9.10",
+                "source": "https://github.com/orocrm/platform-er/tree/1.9.11",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-08-31 15:41:58"
+            "time": "2016-09-06 14:08:43"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -4414,16 +4414,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2"
+                "reference": "0487a6752211b8e458e9744908c6925d88e5c575"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/04fddf60bbeb111bad18a9c50dd73f0a314967f2",
-                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/0487a6752211b8e458e9744908c6925d88e5c575",
+                "reference": "0487a6752211b8e458e9744908c6925d88e5c575",
                 "shasum": ""
             },
             "require": {
@@ -4461,7 +4461,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2016-08-03 07:11:10"
+            "time": "2016-09-04 16:45:07"
         },
         {
             "name": "psr/log",
@@ -4727,17 +4727,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.7",
+            "version": "v4.0.8",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2"
+                "reference": "5ab8eac0af97f2c0abed337500a4a59286969e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d738952285a1a7d969f9338f735108c9f65bb7f2",
-                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/5ab8eac0af97f2c0abed337500a4a59286969e66",
+                "reference": "5ab8eac0af97f2c0abed337500a4a59286969e66",
                 "shasum": ""
             },
             "require": {
@@ -4783,7 +4783,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-06-23 16:10:25"
+            "time": "2016-09-06 00:58:51"
         },
         {
             "name": "sensio/framework-extra-bundle",
