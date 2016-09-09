@@ -23,8 +23,8 @@
         "oro/crm-mail-chimp": "1.10.x-dev",
         "oro/crm-dotmailer": "1.10.x-dev",
         "oro/crm-zendesk": "1.10.x-dev",
-        "oro/crm-pro-ldap-bundle": "1.10.x-dev",
-        "oro/crm-pro-demo-data-bundle": "1.10.x-dev",
+        "oro/crm-pro-ldap-bundle": "1.12.x-dev",
+        "oro/crm-pro-demo-data-bundle": "1.12.x-dev",
         "oro/crm-task-bundle": "1.10.x-dev",
         "oro/crm-call-bundle": "1.10.x-dev"
     },
