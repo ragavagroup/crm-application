@@ -2064,38 +2064,40 @@
         },
         {
             "name": "hwi/oauth-bundle",
-            "version": "0.4.2",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a"
+                "reference": "0c7abffa1cf47a8e33733837b94495b629a424c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/2554f2b2947d1614d9e8b04800967b175b0afd8a",
-                "reference": "2554f2b2947d1614d9e8b04800967b175b0afd8a",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/0c7abffa1cf47a8e33733837b94495b629a424c1",
+                "reference": "0c7abffa1cf47a8e33733837b94495b629a424c1",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/buzz": "~0.13",
                 "php": ">=5.3.3",
-                "symfony/form": "~2.3",
-                "symfony/framework-bundle": "~2.3",
-                "symfony/options-resolver": "~2.3",
-                "symfony/security-bundle": "~2.3",
-                "symfony/yaml": "~2.3"
+                "symfony/form": "~2.3|~3.0",
+                "symfony/framework-bundle": "~2.3|~3.0",
+                "symfony/options-resolver": "~2.3|~3.0",
+                "symfony/security-bundle": "~2.3|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
             },
             "conflict": {
                 "twig/twig": "<1.12"
             },
             "require-dev": {
                 "doctrine/orm": "~2.3",
+                "fabpot/php-cs-fixer": "~1.11",
                 "friendsofsymfony/user-bundle": "~1.3|~2.0",
                 "phpunit/phpunit": "~4.8|~5.0",
-                "symfony/phpunit-bridge": "~2.7",
-                "symfony/property-access": "~2.3",
-                "symfony/twig-bundle": "~2.3",
-                "symfony/validator": "~2.3"
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/property-access": "~2.3|~3.0",
+                "symfony/stopwatch": "~2.5|~3.0",
+                "symfony/twig-bundle": "~2.3|~3.0",
+                "symfony/validator": "~2.3|~3.0"
             },
             "suggest": {
                 "doctrine/doctrine-bundle": "to use Doctrine user provider",
@@ -2106,7 +2108,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
@@ -2144,12 +2146,14 @@
                 "Deezer",
                 "EVE Online",
                 "amazon",
+                "asana",
                 "auth0",
                 "azure",
                 "bitbucket",
                 "bitly",
                 "box",
                 "bufferapp",
+                "clever",
                 "dailymotion",
                 "deviantart",
                 "discogs",
@@ -2165,6 +2169,7 @@
                 "google",
                 "hubic",
                 "instagram",
+                "jawbone",
                 "jira",
                 "linkedin",
                 "mail.ru",
@@ -2195,12 +2200,13 @@
                 "wechat",
                 "windows live",
                 "wordpress",
+                "wunderlist",
                 "xing",
                 "yahoo",
                 "yandex",
                 "youtube"
             ],
-            "time": "2016-07-27 14:43:30"
+            "time": "2016-09-11 13:50:44"
         },
         {
             "name": "imagine/imagine",
@@ -2498,16 +2504,16 @@
         },
         {
             "name": "jms/di-extra-bundle",
-            "version": "1.7.1",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSDiExtraBundle.git",
-                "reference": "27c3fc7150550ccc0731290b2c1ceb57449f909d"
+                "reference": "7c8e23ffd65eb05f7b76869aa8ef1949e90789c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSDiExtraBundle/zipball/27c3fc7150550ccc0731290b2c1ceb57449f909d",
-                "reference": "27c3fc7150550ccc0731290b2c1ceb57449f909d",
+                "url": "https://api.github.com/repos/schmittjoh/JMSDiExtraBundle/zipball/7c8e23ffd65eb05f7b76869aa8ef1949e90789c7",
+                "reference": "7c8e23ffd65eb05f7b76869aa8ef1949e90789c7",
                 "shasum": ""
             },
             "require": {
@@ -2529,6 +2535,7 @@
                 "sensio/framework-extra-bundle": "~2.0|~3.0",
                 "symfony/browser-kit": "~2.3|~3.0",
                 "symfony/class-loader": "~2.3|~3.0",
+                "symfony/expression-language": "~2.6|~3.0",
                 "symfony/form": "~2.3|~3.0",
                 "symfony/phpunit-bridge": "~2.7",
                 "symfony/security-bundle": "~2.3",
@@ -2563,7 +2570,7 @@
                 "annotations",
                 "dependency injection"
             ],
-            "time": "2016-04-18 22:27:09"
+            "time": "2016-09-09 12:35:58"
         },
         {
             "name": "jms/job-queue-bundle",
@@ -3511,16 +3518,16 @@
         },
         {
             "name": "moment/moment",
-            "version": "2.14.1",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635"
+                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/227746b29044a4c2160ae7c597c7f24aacac2635",
-                "reference": "227746b29044a4c2160ae7c597c7f24aacac2635",
+                "url": "https://api.github.com/repos/moment/moment/zipball/c587bf0063c18214238ca83f3f9c6170daf25bed",
+                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed",
                 "shasum": ""
             },
             "require": {
@@ -3561,7 +3568,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-07-04 06:39:29"
+            "time": "2016-09-12 08:47:46"
         },
         {
             "name": "monolog/monolog",
@@ -4737,16 +4744,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2"
+                "reference": "0487a6752211b8e458e9744908c6925d88e5c575"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/04fddf60bbeb111bad18a9c50dd73f0a314967f2",
-                "reference": "04fddf60bbeb111bad18a9c50dd73f0a314967f2",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/0487a6752211b8e458e9744908c6925d88e5c575",
+                "reference": "0487a6752211b8e458e9744908c6925d88e5c575",
                 "shasum": ""
             },
             "require": {
@@ -4784,7 +4791,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2016-08-03 07:11:10"
+            "time": "2016-09-04 16:45:07"
         },
         {
             "name": "psr/log",
@@ -5144,17 +5151,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.7",
+            "version": "v4.0.9",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2"
+                "reference": "cad8516c9c0f14d739add965fb93ff82ead467ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d738952285a1a7d969f9338f735108c9f65bb7f2",
-                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/cad8516c9c0f14d739add965fb93ff82ead467ec",
+                "reference": "cad8516c9c0f14d739add965fb93ff82ead467ec",
                 "shasum": ""
             },
             "require": {
@@ -5200,7 +5207,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-06-23 16:10:25"
+            "time": "2016-09-10 19:25:23"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -6763,73 +6770,6 @@
     ],
     "packages-dev": [
         {
-            "name": "rhumsaa/uuid",
-            "version": "2.7.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ramsey/rhumsaa-uuid.git",
-                "reference": "eb1d371067aa8c2b83d6691837ee4896a6f76a44"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/rhumsaa-uuid/zipball/eb1d371067aa8c2b83d6691837ee4896a6f76a44",
-                "reference": "eb1d371067aa8c2b83d6691837ee4896a6f76a44",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "doctrine/dbal": ">=2.3",
-                "moontoast/math": "~1.1",
-                "phpunit/phpunit": "~4.1",
-                "satooshi/php-coveralls": "~0.6",
-                "symfony/console": "~2.3"
-            },
-            "suggest": {
-                "doctrine/dbal": "Allow the use of a UUID as doctrine field type.",
-                "moontoast/math": "Support for converting UUID to 128-bit integer (in string form).",
-                "symfony/console": "Support for use of the bin/uuid command line tool."
-            },
-            "bin": [
-                "bin/uuid"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Rhumsaa\\Uuid\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marijn Huizendveld",
-                    "email": "marijn.huizendveld@gmail.com"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "homepage": "http://benramsey.com"
-                }
-            ],
-            "description": "A PHP 5.3+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
-            "homepage": "https://github.com/ramsey/uuid",
-            "keywords": [
-                "guid",
-                "identifier",
-                "uuid"
-            ],
-            "abandoned": "ramsey/uuid",
-            "time": "2014-10-30 03:36:49"
-        },
-        {
             "name": "sensio/generator-bundle",
             "version": "v2.5.3",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
@@ -6876,56 +6816,6 @@
             ],
             "description": "This bundle generates code for you",
             "time": "2015-03-17 06:36:52"
-        },
-        {
-            "name": "symfony/icu",
-            "version": "v1.2.2",
-            "target-dir": "Symfony/Component/Icu",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/icu.git",
-                "reference": "d4d85d6055b87f394d941b45ddd3a9173e1e3d2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/icu/zipball/d4d85d6055b87f394d941b45ddd3a9173e1e3d2a",
-                "reference": "d4d85d6055b87f394d941b45ddd3a9173e1e3d2a",
-                "shasum": ""
-            },
-            "require": {
-                "ext-intl": "*",
-                "lib-icu": ">=4.4",
-                "php": ">=5.3.3",
-                "symfony/intl": "~2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\Icu\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@gmail.com"
-                }
-            ],
-            "description": "Contains an excerpt of the ICU data and classes to load it.",
-            "homepage": "http://symfony.com",
-            "keywords": [
-                "icu",
-                "intl"
-            ],
-            "abandoned": "symfony/intl",
-            "time": "2014-07-25 09:58:17"
         }
     ],
     "aliases": [
