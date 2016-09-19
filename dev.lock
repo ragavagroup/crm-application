@@ -4440,7 +4440,7 @@
         {
             "name": "oro/crm-dotmailer",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/DotmailerBundle",
+            "target-dir": "src/Oro/Bundle/DotmailerBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
@@ -4460,7 +4460,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\DotmailerBundle": "src/"
+                    "Oro\\Bundle\\DotmailerBundle": "src/"
                 }
             },
             "license": [
