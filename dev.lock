@@ -4716,7 +4716,7 @@
         {
             "name": "oro/crm-task-bundle",
             "version": "dev-master",
-            "target-dir": "src/OroCRM/Bundle/TaskBundle",
+            "target-dir": "src/Oro/Bundle/TaskBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/task",
@@ -4735,7 +4735,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle\\TaskBundle": "src/"
+                    "Oro\\Bundle\\TaskBundle": "src/"
                 }
             },
             "license": [
