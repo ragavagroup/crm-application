@@ -8,6 +8,11 @@ default: &default
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             application_suites:
                 - OroUserBundle
+                - OroCRMBundle
+                - OroNavigationBundle
+                - OroContactBundle
+                - OroAccountBundle
+                - OroCRMTaskBundle
 
 selenium2:
     <<: *default
