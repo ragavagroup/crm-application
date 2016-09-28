@@ -22,7 +22,7 @@ class AppKernel extends OroKernel
 
         if ('test' === $this->getEnvironment()) {
             $bundles[] = new Oro\Bundle\TestFrameworkBundle\OroTestFrameworkBundle();
-            $bundles[] = new Oro\Bundle\TestFrameworkBundle\OroProTestFrameworkBundle();
+            $bundles[] = new Oro\Bundle\TestFrameworkProBundle\OroTestFrameworkProBundle();
         }
 
         return array_merge(parent::registerBundles(), $bundles);
