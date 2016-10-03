@@ -4378,7 +4378,6 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRM\\Bundle": "src/",
                     "Oro": "src/"
                 }
             },
@@ -4531,7 +4530,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRMPro\\Bundle": "src/"
+                    "Oro\\Bundle": "src/"
                 }
             },
             "license": [
@@ -4667,7 +4666,7 @@
         {
             "name": "oro/crm-pro-demo-data-bundle",
             "version": "dev-master",
-            "target-dir": "OroCRMPro/Bundle/DemoDataBundle",
+            "target-dir": "Oro/Bundle/DemoDataCRMProBundle",
             "dist": {
                 "type": "path",
                 "url": "../../package/demo-data",
@@ -4686,7 +4685,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "OroCRMPro\\Bundle\\DemoDataBundle": ""
+                    "Oro\\Bundle\\DemoDataCRMProBundle": ""
                 }
             },
             "license": [
