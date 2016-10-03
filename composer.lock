@@ -3183,7 +3183,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3518,16 +3518,16 @@
         },
         {
             "name": "moment/moment",
-            "version": "2.15.0",
+            "version": "2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed"
+                "reference": "986dba9497b7c173760d1d7bc85606c574ed2c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/c587bf0063c18214238ca83f3f9c6170daf25bed",
-                "reference": "c587bf0063c18214238ca83f3f9c6170daf25bed",
+                "url": "https://api.github.com/repos/moment/moment/zipball/986dba9497b7c173760d1d7bc85606c574ed2c44",
+                "reference": "986dba9497b7c173760d1d7bc85606c574ed2c44",
                 "shasum": ""
             },
             "require": {
@@ -3568,7 +3568,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-09-12 08:47:46"
+            "time": "2016-09-21 03:33:57"
         },
         {
             "name": "monolog/monolog",
@@ -3927,16 +3927,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.9.12",
+            "version": "1.9.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "0ee8a8dcb3645523cfcac368c6b3ed79194362f7"
+                "reference": "2c560b1c076d88446e339d8a9086961d5728eb9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/0ee8a8dcb3645523cfcac368c6b3ed79194362f7",
-                "reference": "0ee8a8dcb3645523cfcac368c6b3ed79194362f7",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/2c560b1c076d88446e339d8a9086961d5728eb9d",
+                "reference": "2c560b1c076d88446e339d8a9086961d5728eb9d",
                 "shasum": ""
             },
             "require": {
@@ -3966,14 +3966,14 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.9.12",
+                "source": "https://github.com/orocrm/crm-er/tree/1.9.13",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-09-20 11:40:36"
+            "time": "2016-10-03 14:51:47"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.11.12",
+            "version": "1.11.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
@@ -4177,16 +4177,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.9.12",
+            "version": "1.9.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "64f2f3d3665fb6f94ec0b9d20e0bcf37ac401c46"
+                "reference": "81d186e86df74d1dc8844ac2f1b0bf583e19b22f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/64f2f3d3665fb6f94ec0b9d20e0bcf37ac401c46",
-                "reference": "64f2f3d3665fb6f94ec0b9d20e0bcf37ac401c46",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/81d186e86df74d1dc8844ac2f1b0bf583e19b22f",
+                "reference": "81d186e86df74d1dc8844ac2f1b0bf583e19b22f",
                 "shasum": ""
             },
             "require": {
@@ -4278,10 +4278,10 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.9.12",
+                "source": "https://github.com/orocrm/platform-er/tree/1.9.13",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-09-20 09:40:58"
+            "time": "2016-09-30 10:52:27"
         },
         {
             "name": "phpcollection/phpcollection",
