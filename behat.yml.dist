@@ -15,6 +15,7 @@ default: &default
                 - OroCRMAccountBundle
                 - OroCRMTaskBundle
                 - OroDashboardBundle
+                - OroCRMProOrganizationConfigBundle
                 - OroSearchBundle
 
 selenium2:
