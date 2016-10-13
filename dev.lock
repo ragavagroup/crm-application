@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e236a9b7619996acd3cb8b2bac31edd0",
-    "content-hash": "e39f4a2949af8f31c888110bd7ccc2cd",
+    "hash": "5131afeb6b06dd90b38f56eec52ba4d7",
+    "content-hash": "7ae78613c3485a4d33ac4c027a8812a1",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4354,6 +4354,40 @@
                 "service proxies"
             ],
             "time": "2014-09-28 14:18:11"
+        },
+        {
+            "name": "oro/calendar-bundle",
+            "version": "dev-master",
+            "target-dir": "Oro/Bundle/CalendarBundle",
+            "dist": {
+                "type": "path",
+                "url": "../../package/calendar",
+                "reference": "735f973be6d9de30659fa8e305df057b593783a8",
+                "shasum": null
+            },
+            "require": {
+                "oro/platform": "1.x-dev",
+                "php": ">=5.5.9"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Oro\\Bundle\\CalendarBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "BAP Calendar Bundle",
+            "keywords": [
+                "BAP",
+                "Calendar"
+            ]
         },
         {
             "name": "oro/crm",
@@ -9917,7 +9951,8 @@
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/crm-pro-ldap-bundle": 20,
-        "oro/crm-pro-demo-data-bundle": 20
+        "oro/crm-pro-demo-data-bundle": 20,
+        "oro/calendar-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
