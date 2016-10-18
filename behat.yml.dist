@@ -11,14 +11,14 @@ default: &default
                 - OroUserBundle
                 - OroCRMBundle
                 - OroNavigationBundle
-                - OroCRMContactBundle
-                - OroCRMAccountBundle
-                - OroCRMTaskBundle
+                - OroContactBundle
+                - OroAccountBundle
+                - OroTaskBundle
                 - OroDashboardBundle
-                - OroCRMProOrganizationConfigBundle
+                - OroOrganizationConfigCRMProBundle
                 - OroSearchBundle
                 - OroHelpBundle
-                - OroCRMSalesBundle
+                - OroSalesBundle
 
 selenium2:
     <<: *default
