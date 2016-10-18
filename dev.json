@@ -72,8 +72,8 @@
       "file": "app/config/parameters.yml"
     },
     "asset-installer-paths": {
-      "npm-asset-library": "web/bundles/components",
-      "bower-asset-library": "web/bundles/components"
+      "npm-asset-library": "web/bundles/npmassets",
+      "bower-asset-library": "web/bundles/bowerassets"
     }
   }
 }
