@@ -5,18 +5,20 @@ default: &default
     extensions:
         Behat\MinkExtension:
             base_url: 'http://dev-crm-enterprise.local/'
+        Behat\Symfony2Extension: ~
         Oro\Bundle\TestFrameworkBundle\Behat\ServiceContainer\OroTestFrameworkExtension:
             application_suites:
                 - OroUserBundle
                 - OroCRMBundle
                 - OroNavigationBundle
-                - OroCRMContactBundle
-                - OroCRMAccountBundle
-                - OroCRMTaskBundle
-                - OroCRMProOrganizationConfigBundle
+                - OroContactBundle
+                - OroAccountBundle
+                - OroTaskBundle
+                - OroDashboardBundle
+                - OroOrganizationConfigCRMProBundle
+                - OroSearchBundle
+                - OroHelpBundle
+                - OroSalesBundle
 
 selenium2:
     <<: *default
-    extensions:
-        Behat\MinkExtension:
-            base_url: 'http://dev-crm-enterprise.local/'
