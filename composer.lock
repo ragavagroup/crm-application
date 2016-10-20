@@ -4243,16 +4243,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.10.6",
+            "version": "1.10.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "7123c4880b70cf165334f3a972e7e866610671ab"
+                "reference": "0965c7db864ef7f0239581f87756822379640f19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/7123c4880b70cf165334f3a972e7e866610671ab",
-                "reference": "7123c4880b70cf165334f3a972e7e866610671ab",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/0965c7db864ef7f0239581f87756822379640f19",
+                "reference": "0965c7db864ef7f0239581f87756822379640f19",
                 "shasum": ""
             },
             "require": {
@@ -4285,10 +4285,10 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.10.6",
+                "source": "https://github.com/orocrm/crm-er/tree/1.10.7",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-10-08 21:04:31"
+            "time": "2016-10-20 09:23:32"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -4339,7 +4339,7 @@
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.12.6",
+            "version": "1.12.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
@@ -4590,16 +4590,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.10.6",
+            "version": "1.10.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "9b1b521e2ac58a08f9643b0c64d3847164daf07f"
+                "reference": "10239edc30024b71adf67b9e7e7a38c64217f61e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/9b1b521e2ac58a08f9643b0c64d3847164daf07f",
-                "reference": "9b1b521e2ac58a08f9643b0c64d3847164daf07f",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/10239edc30024b71adf67b9e7e7a38c64217f61e",
+                "reference": "10239edc30024b71adf67b9e7e7a38c64217f61e",
                 "shasum": ""
             },
             "require": {
@@ -4699,23 +4699,23 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.10.6",
+                "source": "https://github.com/orocrm/platform-er/tree/1.10.7",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-10-08 21:03:50"
+            "time": "2016-10-20 09:23:01"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "1.12.6",
+            "version": "1.12.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-enterprise.git",
-                "reference": "c9665ee07b43e79c0f58792907b6d2018418da8f"
+                "reference": "f35b443c20a0c48f3e3f7ebd55d5a114013e493d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/c9665ee07b43e79c0f58792907b6d2018418da8f",
-                "reference": "c9665ee07b43e79c0f58792907b6d2018418da8f",
+                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/f35b443c20a0c48f3e3f7ebd55d5a114013e493d",
+                "reference": "f35b443c20a0c48f3e3f7ebd55d5a114013e493d",
                 "shasum": ""
             },
             "require": {
@@ -4746,23 +4746,23 @@
             "description": "OroPlatform Enterprise",
             "homepage": "https://github.com/orocrm/platform-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-enterprise/tree/1.12.6",
+                "source": "https://github.com/orocrm/platform-enterprise/tree/1.12.7",
                 "issues": "https://github.com/orocrm/platform-enterprise/issues"
             },
-            "time": "2016-10-08 21:04:00"
+            "time": "2016-10-20 09:23:10"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
                 "shasum": ""
             },
             "require": {
@@ -4797,7 +4797,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-04-03 06:00:07"
+            "time": "2016-10-17 15:23:22"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -5055,16 +5055,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
-                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
             "require": {
@@ -5098,7 +5098,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-09-19 16:02:08"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "react/event-loop",
