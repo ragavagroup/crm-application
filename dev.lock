@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b7aac1efe879abe28ebb885b99033a4",
-    "content-hash": "606cd7768460574cc9a9aca19d7e9638",
+    "hash": "9c57565d36573614b58d5c9d778361bf",
+    "content-hash": "ddef181246edc7e65685d1490173937a",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -5738,10 +5738,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/crm",
-                "reference": "2442eef17e5d28ee522b3f6ecfdc436c5df9615f",
+                "reference": "320412723e7546d82e07e86b691be1cbbc4724b7",
                 "shasum": null
             },
             "require": {
+                "oro/calendar-bundle": "1.x-dev",
                 "oro/crm-call-bundle": "1.x-dev",
                 "oro/crm-task-bundle": "1.x-dev",
                 "oro/platform": "1.x-dev",
@@ -5929,10 +5930,11 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/google-hangout",
-                "reference": "8f0cd8b04322c5eef3cd2f31e2d450508c922f79",
+                "reference": "315dc8ffae6328c8a440f88fa4ff69c0462516c6",
                 "shasum": null
             },
             "require": {
+                "oro/calendar-bundle": "1.x-dev",
                 "oro/crm-call-bundle": "1.x-dev",
                 "oro/platform": "1.x-dev",
                 "php": ">=5.5.9"
@@ -6250,12 +6252,48 @@
             "time": "2016-03-29 10:30:36"
         },
         {
+            "name": "oro/marketing",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/marketing",
+                "reference": "82f6f070b010a252bb6b247a07faf20b94bbf32e",
+                "shasum": null
+            },
+            "require": {
+                "oro/platform": "1.x-dev",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Oro": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "BAP marketing-related bundles",
+            "homepage": "https://github.com/orocrm/marketing.git"
+        },
+        {
             "name": "oro/platform",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../../package/platform",
-                "reference": null,
+                "reference": "50d089f1bc6e9f379638957108b33fd0f8ec5d57",
                 "shasum": null
             },
             "require": {
@@ -11238,7 +11276,7 @@
         "oro/crm-zendesk": 20,
         "oro/crm-pro-ldap-bundle": 20,
         "oro/crm-pro-demo-data-bundle": 20,
-        "oro/calendar-bundle": 20
+        "oro/marketing": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
