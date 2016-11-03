@@ -29,6 +29,7 @@
         </testsuite>
         <testsuite name="Functional_Tests">
             <directory suffix="Test.php">../vendor/oro/*/src/*/Bundle/*Bundle/Tests/Functional</directory>
+            <directory suffix="Test.php">../vendor/oro/*-bundle/Oro/Bundle/*Bundle/Tests/Functional</directory>
         </testsuite>
         <testsuite name="OroCRM_Unit_Tests">
             <directory suffix="Test.php">../vendor/oro/crm*/*/src/OroCRM/Bundle/*Bundle/Tests/Unit</directory>
