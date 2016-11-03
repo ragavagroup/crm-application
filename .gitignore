@@ -23,3 +23,6 @@ build/
 /app/raw_files
 /app/SymfonyRequirements.php
 /web/images/*
+
+#Development only
+.aws
