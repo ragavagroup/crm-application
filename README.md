@@ -24,11 +24,17 @@ OroCRM is a Symfony 2 based application with the following requirements:
 
 OroCRM uses [Composer][1] to manage package dependencies, this is the a recommended way to install OroCRM.
 
-- If you don't have Composer yet, download it and follow the instructions on http://getcomposer.org/
-or just run the following command:
+- If you do not have the Composer yet, download it and follow the instructions on http://getcomposer.org/ website
+or simply run the following command:
 
 ```bash
 curl -s https://getcomposer.org/installer | php
+```
+
+OroCRM uses [fxpio/composer-asset-plugin][9] to manage dependency on third-party asset libraries. The plugin has to be installed globally (per user):
+ 
+```bash
+    composer global require "fxp/composer-asset-plugin:~1.2"
 ```
 
 - Clone https://github.com/orocrm/crm-application.git OroCRM project with:
@@ -40,16 +46,16 @@ git clone https://github.com/orocrm/crm-application.git
 
 - Make sure that you have [NodeJS][3] installed
 
-- Install OroCRM dependencies with composer. If installation process seems too slow you can use "--prefer-dist" option.
-  Go to crm-application folder and run composer installation:
+- Install OroCRM dependencies with Composer. If the installation process is too slow, you can use "--prefer-dist" option.
+  Go to crm-application folder and run Composer installation:
 
 ```bash
 php composer.phar install --prefer-dist --no-dev
 ```
 
-- Create the database with the name specified on previous step (default name is "oro_crm").
+- Create a database with the name specified in the previous step (default name is "oro_crm").
 
-- Install application and admin user with Installation Wizard by opening install.php in the browser or from CLI:
+- Install the application and the admin user with Installation Wizard by opening install.php in the browser or from CLI:
 
 ```bash  
 php app/console oro:install --env prod
@@ -68,21 +74,21 @@ php app/console clank:server --env prod
 php app/console oro:cron --env prod
 ```
  
-**Note:** ``app/console`` is a path from project root folder. Please make sure you are using full path for crontab configuration or if you running console command from other location.
+**Note:** ``app/console`` is a path from project root folder. Please make sure you are using full path for crontab configuration if you are running console command from a different location.
 
 ## Installation notes
 
 Installed PHP Accelerators must be compatible with Symfony and Doctrine (support DOCBLOCKs).
 
-Note that the port used in Websocket must be open in firewall for outgoing/incoming connections
+Note that the port used in Websocket must be open in firewall for outgoing/incoming connections.
 
-Using MySQL 5.6 on HDD is potentially risky because of performance issues.
+Using MySQL 5.6 on HDD is potentially risky as it can result in performance issues.
 
 Recommended configuration for this case:
 
     innodb_file_per_table = 0
 
-And ensure that timeout has default value
+And ensure that timeout has the default value
 
     wait_timeout = 28800
 
@@ -121,7 +127,7 @@ More details about this issue can be read [here][8]
 ## PostgreSQL installation notes
 
 You need to load `uuid-ossp` extension for proper doctrine's `guid` type handling.
-Log into database and run sql query:
+Log into the database and run sql query:
 
 ```
 CREATE EXTENSION "uuid-ossp";
@@ -138,7 +144,7 @@ php app/console oro:migration:data:load --fixtures-type=demo --env=prod
 ## PostgreSQL installation notes
 
 You need to load `uuid-ossp` extension for proper doctrine's `guid` type handling.
-Log into database and run sql query:
+Log into the database and run sql query:
 
 ```
 CREATE EXTENSION "uuid-ossp";
@@ -146,7 +152,7 @@ CREATE EXTENSION "uuid-ossp";
 
 ## Web Server Configuration
 
-OroCRM application is based on the Symfony standard application so web server configuration recommendations are the [same][4].
+OroCRM application is based on the Symfony standard application, so the web server configuration recommendations are the [same][4].
 
 [1]:  http://getcomposer.org/
 [2]:  http://dev.mysql.com/doc/refman/5.6/en/optimizing-innodb-diskio.html
@@ -156,3 +162,4 @@ OroCRM application is based on the Symfony standard application so web server co
 [6]:  http://symfony.com/doc/current/doctrine.html#configuring-the-database
 [7]:  http://dev.mysql.com/doc/refman/5.6/en/innodb-parameters.html#sysvar_innodb_large_prefix
 [8]:  https://mathiasbynens.be/notes/mysql-utf8mb4#utf8-to-utf8mb4
+[9]:  https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
