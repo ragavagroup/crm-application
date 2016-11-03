@@ -193,6 +193,10 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/Inheritance.git"
     },
+    "medikly/grafana-dashboard-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/GrafanaDashboardBundle.git"
+    },
     "medikly/grafana-bundle": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/Grafana.git"
@@ -201,10 +205,10 @@
       "type": "vcs",
       "url": "git@github.com:ragavagroup/CssLiveEditorBundle.git"
     },
-    "medikly/reports-form-bundle": {
+    "medikly-system-navigation": {
       "type": "vcs",
-      "url": "https://github.com/ragavagroup/ReportsFormBundle.git"
-    }
+      "url": "https://github.com/ragavagroup/SystemNavigationBundle.git"
+      }
 
   },
   "require": {
@@ -240,7 +244,7 @@
     "medikly/s3integration-bundle": "dev-master",
 
     "medikly/dcjs-data-visualization": "dev-master",
-    "medikly/segment-extension-bundle": "dev-master",
+    "medikly/segment-extension-bundle": "dev-feature/dev-dcjs-and-show-in-segments-fixes",
     "medikly/dataset-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
     "medikly/campaign-extension" : "dev-master",
@@ -251,6 +255,7 @@
     "medikly/research": "dev-master",
     "medikly/importexport-extension-bundle": "dev-master",
     "medikly/inheritance": "dev-master",
+    "medikly/system-navigation": "dev-feature/standalone-bundle-dev-demo",
 
     "atwix/oro-mandrill": "dev-master",
 
@@ -259,8 +264,7 @@
     "akeneo/batch-bundle": "0.4.2",
     "oro/crm-zendesk": "1.*",
     "medikly/grafana": "dev-master",
-    "medikly/css-live-editor-bundle": "dev-master",
-    "medikly/reports-form-bundle": "dev-feature/medikly-adaptation"
+    "medikly/css-live-editor-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
