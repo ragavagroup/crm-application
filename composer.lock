@@ -531,16 +531,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.0.4",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "ec21a59414b99501e723b63fd664aa8ead9c5680"
+                "reference": "a795611394b3c05164fd0eb291b492b39339cba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/ec21a59414b99501e723b63fd664aa8ead9c5680",
-                "reference": "ec21a59414b99501e723b63fd664aa8ead9c5680",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/a795611394b3c05164fd0eb291b492b39339cba4",
+                "reference": "a795611394b3c05164fd0eb291b492b39339cba4",
                 "shasum": ""
             },
             "require": {
@@ -585,20 +585,20 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2016-09-04 19:00:06"
+            "time": "2016-11-02 18:11:27"
         },
         {
             "name": "composer/composer",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "16422c4b1ac4286f7caecf5211136dc073191672"
+                "reference": "5465af955800fa884a36f66ff65280584988efd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/16422c4b1ac4286f7caecf5211136dc073191672",
-                "reference": "16422c4b1ac4286f7caecf5211136dc073191672",
+                "url": "https://api.github.com/repos/composer/composer/zipball/5465af955800fa884a36f66ff65280584988efd0",
+                "reference": "5465af955800fa884a36f66ff65280584988efd0",
                 "shasum": ""
             },
             "require": {
@@ -662,7 +662,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2016-09-12 09:27:20"
+            "time": "2016-11-03 16:43:15"
         },
         {
             "name": "composer/semver",
@@ -857,16 +857,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6"
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/f8af318d14bdb0eff0336795b428b547bd39ccb6",
-                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/b6f544a20f4807e81f7044d31e679ccbb1866dc3",
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3",
                 "shasum": ""
             },
             "require": {
@@ -923,7 +923,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-31 16:37:02"
+            "time": "2016-10-29 11:16:17"
         },
         {
             "name": "doctrine/collections",
@@ -2257,16 +2257,16 @@
         },
         {
             "name": "hwi/oauth-bundle",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hwi/HWIOAuthBundle.git",
-                "reference": "0c7abffa1cf47a8e33733837b94495b629a424c1"
+                "reference": "429ae3fe1641a54ea0934bb06dac355affc41f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/0c7abffa1cf47a8e33733837b94495b629a424c1",
-                "reference": "0c7abffa1cf47a8e33733837b94495b629a424c1",
+                "url": "https://api.github.com/repos/hwi/HWIOAuthBundle/zipball/429ae3fe1641a54ea0934bb06dac355affc41f8d",
+                "reference": "429ae3fe1641a54ea0934bb06dac355affc41f8d",
                 "shasum": ""
             },
             "require": {
@@ -2307,7 +2307,10 @@
             "autoload": {
                 "psr-4": {
                     "HWI\\Bundle\\OAuthBundle\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2399,7 +2402,7 @@
                 "yandex",
                 "youtube"
             ],
-            "time": "2016-09-11 13:50:44"
+            "time": "2016-10-03 14:27:17"
         },
         {
             "name": "imagine/imagine",
@@ -3362,7 +3365,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3418,7 +3421,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -3775,16 +3778,16 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "156e56ee036505ec637d761ee62dc425d807183c"
+                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/156e56ee036505ec637d761ee62dc425d807183c",
-                "reference": "156e56ee036505ec637d761ee62dc425d807183c",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/1f51cc520948f66cd2af8cbc45a5ee175e774220",
+                "reference": "1f51cc520948f66cd2af8cbc45a5ee175e774220",
                 "shasum": ""
             },
             "require": {
@@ -3822,20 +3825,20 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2015-12-24 01:37:31"
+            "time": "2016-10-29 18:58:20"
         },
         {
             "name": "moment/moment",
-            "version": "2.15.1",
+            "version": "2.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "986dba9497b7c173760d1d7bc85606c574ed2c44"
+                "reference": "dc1e659b34365c98896e73e2e858f9efa4b3d5dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/986dba9497b7c173760d1d7bc85606c574ed2c44",
-                "reference": "986dba9497b7c173760d1d7bc85606c574ed2c44",
+                "url": "https://api.github.com/repos/moment/moment/zipball/dc1e659b34365c98896e73e2e858f9efa4b3d5dc",
+                "reference": "dc1e659b34365c98896e73e2e858f9efa4b3d5dc",
                 "shasum": ""
             },
             "require": {
@@ -3876,7 +3879,7 @@
                 "time",
                 "validate"
             ],
-            "time": "2016-09-21 03:33:57"
+            "time": "2016-10-24 06:42:14"
         },
         {
             "name": "monolog/monolog",
@@ -4002,16 +4005,16 @@
         },
         {
             "name": "mustangostang/spyc",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mustangostang/spyc.git",
-                "reference": "dfd9aadc1f5224065d55b42b712c7e99a50a3f4d"
+                "reference": "022532641d61d383fd3ae666982bd46e61e5915e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
-                "reference": "dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
+                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/022532641d61d383fd3ae666982bd46e61e5915e",
+                "reference": "022532641d61d383fd3ae666982bd46e61e5915e",
                 "shasum": ""
             },
             "require": {
@@ -4048,7 +4051,7 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2016-05-14 08:33:02"
+            "time": "2016-10-21 00:03:34"
         },
         {
             "name": "nelmio/api-doc-bundle",
@@ -4246,16 +4249,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.10.8",
+            "version": "1.10.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "0068be8f19729ee17fe42f63e4fa02fcda5ab700"
+                "reference": "f699510401fde72714d94ea6107d11197b316d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/0068be8f19729ee17fe42f63e4fa02fcda5ab700",
-                "reference": "0068be8f19729ee17fe42f63e4fa02fcda5ab700",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/f699510401fde72714d94ea6107d11197b316d8c",
+                "reference": "f699510401fde72714d94ea6107d11197b316d8c",
                 "shasum": ""
             },
             "require": {
@@ -4288,10 +4291,10 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.10.8",
+                "source": "https://github.com/orocrm/crm-er/tree/1.10.9",
                 "issues": "https://github.com/orocrm/crm-er/issues"
             },
-            "time": "2016-10-21 18:03:27"
+            "time": "2016-11-02 12:39:53"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -4342,16 +4345,16 @@
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.12.8",
+            "version": "1.12.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "52fcf064a8544cabdf18c9ea4419000166e11cd5"
+                "reference": "046950d2e6ad4b5696b6d3cbd60d09289efe4ee0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/52fcf064a8544cabdf18c9ea4419000166e11cd5",
-                "reference": "52fcf064a8544cabdf18c9ea4419000166e11cd5",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/046950d2e6ad4b5696b6d3cbd60d09289efe4ee0",
+                "reference": "046950d2e6ad4b5696b6d3cbd60d09289efe4ee0",
                 "shasum": ""
             },
             "require": {
@@ -4383,10 +4386,10 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/1.12.2",
+                "source": "https://github.com/orocrm/crm-enterprise/tree/1.12.9",
                 "issues": "https://github.com/orocrm/crm-enterprise/issues"
             },
-            "time": "2016-09-07 11:25:59"
+            "time": "2016-11-02 12:42:57"
         },
         {
             "name": "oro/crm-task-bundle",
@@ -4593,16 +4596,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.10.8",
+            "version": "1.10.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "3762f5acc3744192f64336a8785500b72c24511f"
+                "reference": "b876d3c4140da73f72e9b0185f43fc77dcaa786e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/3762f5acc3744192f64336a8785500b72c24511f",
-                "reference": "3762f5acc3744192f64336a8785500b72c24511f",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/b876d3c4140da73f72e9b0185f43fc77dcaa786e",
+                "reference": "b876d3c4140da73f72e9b0185f43fc77dcaa786e",
                 "shasum": ""
             },
             "require": {
@@ -4702,14 +4705,14 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.10.8",
+                "source": "https://github.com/orocrm/platform-er/tree/1.10.9",
                 "issues": "https://github.com/orocrm/platform-er/issues"
             },
-            "time": "2016-10-21 18:02:49"
+            "time": "2016-11-02 12:39:24"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "1.12.8",
+            "version": "1.12.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-enterprise.git",
@@ -5421,17 +5424,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.11",
+            "version": "v4.0.12",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "65c42bd37fca8d64321be5a340058bcbde0f2700"
+                "reference": "f2bbaa81fe980f64ccf32bb63038bf130855f5f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/65c42bd37fca8d64321be5a340058bcbde0f2700",
-                "reference": "65c42bd37fca8d64321be5a340058bcbde0f2700",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f2bbaa81fe980f64ccf32bb63038bf130855f5f1",
+                "reference": "f2bbaa81fe980f64ccf32bb63038bf130855f5f1",
                 "shasum": ""
             },
             "require": {
@@ -5477,7 +5480,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-10-08 18:48:07"
+            "time": "2016-10-30 23:17:28"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -6737,16 +6740,16 @@
         },
         {
             "name": "vakata/jstree",
-            "version": "3.3.2",
+            "version": "3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vakata/jstree.git",
-                "reference": "bb0473ae8cfc205585b6404ef86f650df2f6996e"
+                "reference": "9770c6711f0a155ec494f635aaf0add9b3cfb45c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vakata/jstree/zipball/bb0473ae8cfc205585b6404ef86f650df2f6996e",
-                "reference": "bb0473ae8cfc205585b6404ef86f650df2f6996e",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/9770c6711f0a155ec494f635aaf0add9b3cfb45c",
+                "reference": "9770c6711f0a155ec494f635aaf0add9b3cfb45c",
                 "shasum": ""
             },
             "require": {
@@ -6790,7 +6793,7 @@
             ],
             "description": "jsTree is jquery plugin, that provides interactive trees.",
             "homepage": "http://jstree.com",
-            "time": "2016-08-15 10:53:06"
+            "time": "2016-10-31 09:49:21"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
@@ -7562,16 +7565,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.4.4",
+            "version": "v4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "cf8cc94647101e02a33d690245896d83d880aea1"
+                "reference": "5c14cff4f955b17d20d088dec1bde61c0539ec74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/cf8cc94647101e02a33d690245896d83d880aea1",
-                "reference": "cf8cc94647101e02a33d690245896d83d880aea1",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/5c14cff4f955b17d20d088dec1bde61c0539ec74",
+                "reference": "5c14cff4f955b17d20d088dec1bde61c0539ec74",
                 "shasum": ""
             },
             "require": {
@@ -7617,7 +7620,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2016-09-18 12:16:14"
+            "time": "2016-10-30 11:50:56"
         },
         {
             "name": "behat/mink",
