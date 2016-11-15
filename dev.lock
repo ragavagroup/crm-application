@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c224a93ff75bfc99dc49c87bf1a75199",
-    "content-hash": "9817e63a3d53119d7ce507df31b5b021",
+    "hash": "255e7ec8edb5d39ca85dbb21121556cc",
+    "content-hash": "305ceb0a977ceab84fbfd4568557a7d0",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -5759,7 +5759,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "16532e13c5c95f390b4fed8735ad22ea3205f2fd",
+                "reference": "14dc8d69665d22aeaaa260774f2f6b067ca8c85f",
                 "shasum": null
             },
             "require": {
@@ -6982,13 +6982,13 @@
             "version": "v1.0.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/romanpitak/dotMailer-API-v2-PHP-client.git",
-                "reference": "b0917df8d49e05c46980558268ad280efa66bfc0"
+                "url": "https://github.com/laboro/dotMailer-API-v2-PHP-client.git",
+                "reference": "d31cae6f4ddf8627fad94a3c8621a30a7d279d5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/romanpitak/dotMailer-API-v2-PHP-client/zipball/b0917df8d49e05c46980558268ad280efa66bfc0",
-                "reference": "b0917df8d49e05c46980558268ad280efa66bfc0",
+                "url": "https://api.github.com/repos/laboro/dotMailer-API-v2-PHP-client/zipball/d31cae6f4ddf8627fad94a3c8621a30a7d279d5d",
+                "reference": "d31cae6f4ddf8627fad94a3c8621a30a7d279d5d",
                 "shasum": ""
             },
             "require": {
@@ -7002,7 +7002,6 @@
                     "DotMailer\\Api\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7017,14 +7016,17 @@
             "description": "Client library for the dotMailer v2 (REST) API.",
             "homepage": "https://github.com/romanpitak/dotMailer-API-v2-PHP-client",
             "keywords": [
-                "api",
+                "API",
+                "REST",
                 "client",
-                "dotmailer",
-                "rest",
+                "dotMailer",
                 "v2",
                 "version 2"
             ],
-            "time": "2015-06-11 23:22:29"
+            "support": {
+                "source": "https://github.com/laboro/dotMailer-API-v2-PHP-client/tree/v1.0.11"
+            },
+            "time": "2016-11-11 10:21:32"
         },
         {
             "name": "romanpitak/php-rest-client",
