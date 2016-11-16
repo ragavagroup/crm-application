@@ -8,16 +8,20 @@
       "": "src/"
     }
   },
-  "repositories": {
-    "package": {
+  "repositories": [
+    {
+       "type": "vcs",
+       "url": "https://github.com/laboro/dotMailer-API-v2-PHP-client"
+    },
+    {
       "type": "path",
       "url": "../../package/*"
     },
-    "composer": {
+    {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
     }
-  },
+  ],
   "require": {
     "oro/platform": "dev-master as 1.10.x-dev",
     "oro/platform-enterprise": "dev-master as 1.12.x-dev",
