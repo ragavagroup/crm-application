@@ -8,16 +8,20 @@
       "": "src/"
     }
   },
-  "repositories": {
-    "package": {
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/laboro/dotMailer-API-v2-PHP-client"
+    },
+    {
       "type": "path",
       "url": "../../package/*"
     },
-    "composer": {
+    {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
     }
-  },
+  ],
   "require": {
     "oro/crm-enterprise": "1.x-dev",
     "oro/platform-serialised-fields": "1.x-dev",
@@ -47,6 +51,7 @@
   },
   "scripts": {
     "post-install-cmd": [
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::checkComposerPlugin",
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
@@ -55,6 +60,7 @@
       "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
     ],
     "post-update-cmd": [
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::checkComposerPlugin",
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
