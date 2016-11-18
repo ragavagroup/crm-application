@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "255e7ec8edb5d39ca85dbb21121556cc",
-    "content-hash": "305ceb0a977ceab84fbfd4568557a7d0",
+    "hash": "e3e1090cdbc648c34e2135a313827c01",
+    "content-hash": "8afd3b6685d818a1d43f81e145df5dd6",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -7002,6 +7002,7 @@
                     "DotMailer\\Api\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.orocrm.com/downloads/",
             "license": [
                 "MIT"
             ],
@@ -7017,15 +7018,12 @@
             "homepage": "https://github.com/romanpitak/dotMailer-API-v2-PHP-client",
             "keywords": [
                 "API",
-                "REST",
                 "client",
                 "dotMailer",
+                "rest",
                 "v2",
                 "version 2"
             ],
-            "support": {
-                "source": "https://github.com/laboro/dotMailer-API-v2-PHP-client/tree/v1.0.11"
-            },
             "time": "2016-11-11 10:21:32"
         },
         {
@@ -10593,16 +10591,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22"
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/937efb279bd37a375bcadf584dec0726f84dbf22",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/ce2bda23a56456f19e35d98241446b581f648c14",
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14",
                 "shasum": ""
             },
             "require": {
@@ -10653,7 +10651,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2015-07-26 15:48:44"
+            "time": "2016-11-17 14:39:37"
         },
         {
             "name": "sebastian/diff",
