@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3e1090cdbc648c34e2135a313827c01",
-    "content-hash": "8afd3b6685d818a1d43f81e145df5dd6",
+    "hash": "f783c56993c9cd4d347edc7c12a22d1c",
+    "content-hash": "b1d240a0b10d86e66a24cde8e42bed24",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -1201,16 +1201,16 @@
         },
         {
             "name": "bower-asset/moment",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/moment/moment.git",
-                "reference": "73f3c91174406b24fe66f19600958a6f43f2acd8"
+                "reference": "4710a7935cb347d8b2cf50f5befccfea8180619d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/73f3c91174406b24fe66f19600958a6f43f2acd8",
-                "reference": "73f3c91174406b24fe66f19600958a6f43f2acd8",
+                "url": "https://api.github.com/repos/moment/moment/zipball/4710a7935cb347d8b2cf50f5befccfea8180619d",
+                "reference": "4710a7935cb347d8b2cf50f5befccfea8180619d",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -5759,7 +5759,7 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/dotmailer",
-                "reference": "e7852eac565a1679561ba8e1d3db8d7c0f9d1128",
+                "reference": "16532e13c5c95f390b4fed8735ad22ea3205f2fd",
                 "shasum": null
             },
             "require": {
@@ -6155,6 +6155,80 @@
                 "type"
             ],
             "time": "2016-11-11 15:11:11"
+        },
+        {
+            "name": "oro/marketing",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../../package/marketing",
+                "reference": "82f6f070b010a252bb6b247a07faf20b94bbf32e",
+                "shasum": null
+            },
+            "require": {
+                "oro/platform": "1.x-dev",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Oro": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "BAP marketing-related bundles",
+            "homepage": "https://github.com/orocrm/marketing.git"
+        },
+        {
+            "name": "oro/marketing-crm-bridge",
+            "version": "dev-master",
+            "target-dir": "Oro/Bridge/MarketingCRM",
+            "dist": {
+                "type": "path",
+                "url": "../../package/marketing-crm-bridge",
+                "reference": "f08eb593ed1c83aca7c4f712da2bddfd57b5df07",
+                "shasum": null
+            },
+            "require": {
+                "oro/crm": "1.x-dev",
+                "oro/marketing": "1.x-dev",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Oro\\Bridge\\MarketingCRM": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oro, Inc",
+                    "homepage": "http://www.orocrm.com"
+                }
+            ],
+            "description": "CRM marketing-related bridge",
+            "homepage": "https://github.com/orocrm/marketing-crm-bridge.git"
         },
         {
             "name": "oro/platform",
@@ -11147,7 +11221,8 @@
         "oro/crm-dotmailer": 20,
         "oro/crm-zendesk": 20,
         "oro/crm-pro-ldap-bundle": 20,
-        "oro/crm-pro-demo-data-bundle": 20
+        "oro/crm-pro-demo-data-bundle": 20,
+        "oro/marketing-crm-bridge": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
