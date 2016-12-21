@@ -25,6 +25,7 @@ build/
 /app/config/parameters_test.yml
 behat.yml
 *~
+bin
 
 /app/SymfonyRequirements.php
 /app/check.php
