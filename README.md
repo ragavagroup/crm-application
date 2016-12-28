@@ -98,3 +98,4 @@ php app/console oro:migration:data:load --fixtures-type=demo --env=prod
 [5]:    https://getcomposer.org/download/
 [6]:    https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
 [7]:    https://nodejs.org/en/download/package-manager/
+[8]:    http://supervisord.org/
