@@ -44,7 +44,7 @@ in production.
 php app/console oro:install --env prod
 ```
 
-- Configure the Web Socket server process and the Message Queue consumer process in [Supervisor][7]:
+- Configure the Web Socket server process and the Message Queue consumer process in [Supervisor][8]:
 
 ```ini
 
