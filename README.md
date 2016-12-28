@@ -6,7 +6,7 @@ and extandable CRM solution and can be used as a skeleton for custom CRM applica
 
 ## System Requirements
 
-Before starting installation process, please prepare infrastructure environment based on [system requirements][3]. 
+Before starting installation process, please prepare the infrastructure environment based on [system requirements][3]. 
 
 ## Installation
 
@@ -18,7 +18,7 @@ Before starting installation process, please prepare infrastructure environment 
 
 where x.y.z is latest [release tag](https://github.com/orocrm/crm-enterprise-application/releases)
 
-- Install [Composer][4] globally following official Composer [installation documentation][5]
+- Install [Composer][4] globally following the official Composer [installation documentation][5]
 and install [fxpio/composer-asset-plugin][6] plugin for it:
 
 ```bash
@@ -27,16 +27,16 @@ and install [fxpio/composer-asset-plugin][6] plugin for it:
 
 - Install [Node.js][7].
 
-- Install application dependencies running following command from application folder:
+- Install application dependencies running the following command from the application folder:
 
 ```bash
     composer install --prefer-dist --no-dev
 ```
 
-**Note:** It is strongly recommended to use ElasticSearch as search engine and RabbitMQ as a message queue broker
+**Note:** It is strongly recommended to use ElasticSearch as a search engine and RabbitMQ as a message queue broker
 in production.
 
-- Create the database with the name specified in the previous step (default name is "oro_crm").
+- Create the database with the name specified in the previous step (the default name is "oro_crm").
 
 - Install the application and the admin user with the Installation Wizard by opening install.php in the browser or from CLI:
 
@@ -44,7 +44,7 @@ in production.
 php app/console oro:install --env prod
 ```
 
-- Configure Web Socket server process and Message Queue consumer process in [Supervisor][7]:
+- Configure the Web Socket server process and the Message Queue consumer process in [Supervisor][7]:
 
 ```ini
 
@@ -67,7 +67,7 @@ user=www-data
 redirect_stderr=true
 ```
 
-**Note:** port used by Web Socket must be open in firewall for outgoing/incoming connections.
+**Note:** the port used by Web Socket must be open in the firewall for outgoing/incoming connections.
 
 - Configure crontab:
 
