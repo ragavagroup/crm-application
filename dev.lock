@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d1ff344887ef9dd97485dcfe7a719547",
-    "content-hash": "182c1290a2627229ede4bc6178829a85",
+    "hash": "398cdc762e9bb19f49b54eb780a4b9eb",
+    "content-hash": "153342fcfbd98c993bd89001c713e6e2",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -373,12 +373,12 @@
             "version": "0.3.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cloudflare/backgrid.git",
+                "url": "https://github.com/wyuenho/backgrid.git",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudflare/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
+                "url": "https://api.github.com/repos/wyuenho/backgrid/zipball/9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "reference": "9a45dbc4a2af4a555e8274b7cc1a966a7586cfea",
                 "shasum": ""
             },
@@ -415,12 +415,12 @@
             "version": "v0.3.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cloudflare/backgrid-paginator.git",
+                "url": "https://github.com/wyuenho/backgrid-paginator.git",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudflare/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
+                "url": "https://api.github.com/repos/wyuenho/backgrid-paginator/zipball/77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "reference": "77ec7004d0dd0e72d81a11a797bd19e69aa8dfb7",
                 "shasum": ""
             },
@@ -5901,12 +5901,12 @@
             "dist": {
                 "type": "path",
                 "url": "../../package/marketing",
-                "reference": "82f6f070b010a252bb6b247a07faf20b94bbf32e",
+                "reference": "3d9ea12e684c73f4e51d8d912a7cb49b20485505",
                 "shasum": null
             },
             "require": {
                 "oro/platform": "1.x-dev",
-                "php": ">=5.5.9"
+                "php": ">=5.6"
             },
             "type": "library",
             "extra": {
@@ -5920,7 +5920,7 @@
                 }
             },
             "license": [
-                "MIT"
+                "OSL-3.0"
             ],
             "authors": [
                 {
@@ -5928,8 +5928,14 @@
                     "homepage": "http://www.orocrm.com"
                 }
             ],
-            "description": "BAP marketing-related bundles",
-            "homepage": "https://github.com/orocrm/marketing.git"
+            "description": "Oro Marketing Bundles",
+            "homepage": "https://github.com/orocrm/OroCRMMarketingBundle.git",
+            "keywords": [
+                "Campaign",
+                "Marketing",
+                "Oro",
+                "Tracking"
+            ]
         },
         {
             "name": "oro/platform",
@@ -6777,7 +6783,7 @@
                     "DotMailer\\Api\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.orocrm.com/downloads/",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6792,14 +6798,14 @@
             "description": "Client library for the dotMailer v2 (REST) API.",
             "homepage": "https://github.com/romanpitak/dotMailer-API-v2-PHP-client",
             "keywords": [
-                "API",
+                "api",
                 "client",
-                "dotMailer",
+                "dotmailer",
                 "rest",
                 "v2",
                 "version 2"
             ],
-            "time": "2016-11-11 10:21:32"
+            "time": "2015-06-11 23:22:29"
         },
         {
             "name": "romanpitak/php-rest-client",
@@ -10473,6 +10479,70 @@
                 "xunit"
             ],
             "time": "2016-12-08 20:27:08"
+        },
+        {
+            "name": "phpunit/phpunit-selenium",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/giorgiosironi/phpunit-selenium.git",
+                "reference": "d3aa8984c31efcff7c8829b9bd9ad7ab4c94709c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/giorgiosironi/phpunit-selenium/zipball/d3aa8984c31efcff7c8829b9bd9ad7ab4c94709c",
+                "reference": "d3aa8984c31efcff7c8829b9bd9ad7ab4c94709c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "php": ">=5.6",
+                "phpunit/phpunit": "~5.0",
+                "sebastian/comparator": "~1.0"
+            },
+            "require-dev": {
+                "phing/phing": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Giorgio Sironi",
+                    "email": "info@giorgiosironi.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Ivan Kurnosov",
+                    "email": "zerkms@zerkms.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "original developer"
+                }
+            ],
+            "description": "Selenium Server integration for PHPUnit",
+            "homepage": "http://www.phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "selenium",
+                "testing",
+                "xunit"
+            ],
+            "time": "2016-04-22 10:41:33"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
