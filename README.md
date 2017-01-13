@@ -91,6 +91,10 @@ To load sample data you need to run console command
 php app/console oro:migration:data:load --fixtures-type=demo --env=prod
 ```
 
+##Using Redis for application caching
+
+To use Redis for application caching, follow the corresponding [configuration instructions][9]
+
 [1]:    https://github.com/orocrm/platform-enterprise
 [2]:    https://github.com/orocrm/crm-enterprise
 [3]:    https://www.orocrm.com/documentation/index/current/system-requirements
@@ -99,3 +103,4 @@ php app/console oro:migration:data:load --fixtures-type=demo --env=prod
 [6]:    https://github.com/fxpio/composer-asset-plugin/blob/master/Resources/doc/index.md
 [7]:    https://nodejs.org/en/download/package-manager/
 [8]:    http://supervisord.org/
+[9]:    https://github.com/orocrm/redis-config#configuration
