@@ -4,9 +4,8 @@
   "homepage": "https://github.com/orocrm/crm-enterprise-application.git",
   "license": "Commercial",
   "autoload": {
-    "psr-0": {
-      "": "src/"
-    }
+    "psr-4": {"": "src/"},
+    "exclude-from-classmap": ["**/Tests/"]
   },
   "repositories": [
     {
