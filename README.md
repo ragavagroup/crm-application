@@ -91,6 +91,23 @@ To load sample data you need to run console command
 php app/console oro:migration:data:load --fixtures-type=demo --env=prod
 ```
 
+### Opcache
+
+Recommended configuration
+
+```
+;512Mb for php5
+opcache.memory_consumption=512
+
+;256Mb for php7
+opcache.memory_consumption=256
+opcache.max_accelerated_files=32531
+opcache.interned_strings_buffer=32
+```
+
+See [Symfony Performance](http://symfony.com/doc/current/performance.html)
+
+
 ##Using Redis for application caching
 
 To use Redis for application caching, follow the corresponding [configuration instructions][9]
