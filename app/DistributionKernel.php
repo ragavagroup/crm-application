@@ -20,6 +20,7 @@ class DistributionKernel extends Kernel
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Oro\Bundle\HelpBundle\OroHelpBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
             new Lexik\Bundle\MaintenanceBundle\LexikMaintenanceBundle(),
             new Oro\Bundle\PlatformBundle\OroPlatformBundle(),
             new Oro\Bundle\LoggerBundle\OroLoggerBundle(),
