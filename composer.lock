@@ -4249,16 +4249,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.10.15",
+            "version": "1.10.16",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "3aa13185b7026f2814aae0ecbb1a23567c5a3eed"
+                "reference": "c54c5f3eea15917e4c71ec20492a7c8711f342c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/3aa13185b7026f2814aae0ecbb1a23567c5a3eed",
-                "reference": "3aa13185b7026f2814aae0ecbb1a23567c5a3eed",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/c54c5f3eea15917e4c71ec20492a7c8711f342c7",
+                "reference": "c54c5f3eea15917e4c71ec20492a7c8711f342c7",
                 "shasum": ""
             },
             "require": {
@@ -4291,24 +4291,23 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.10.15",
-                "issues": "https://github.com/orocrm/crm-er/issues"
+                "source": "https://github.com/orocrm/crm-er/tree/1.10.16"
             },
-            "time": "2017-02-01T10:00:50+00:00"
+            "time": "2017-02-07T20:09:22+00:00"
         },
         {
             "name": "oro/crm-call-bundle",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "target-dir": "src/OroCRM/Bundle/CallBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMCallBundle.git",
-                "reference": "5efba8a60b5606e93eb489b98d77e862721fcb6e"
+                "reference": "f53655b0d0379f050604f10b652ce1bd526009ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMCallBundle/zipball/5efba8a60b5606e93eb489b98d77e862721fcb6e",
-                "reference": "5efba8a60b5606e93eb489b98d77e862721fcb6e",
+                "url": "https://api.github.com/repos/orocrm/OroCRMCallBundle/zipball/f53655b0d0379f050604f10b652ce1bd526009ae",
+                "reference": "f53655b0d0379f050604f10b652ce1bd526009ae",
                 "shasum": ""
             },
             "require": {
@@ -4341,11 +4340,11 @@
                 "Call",
                 "OroCRM"
             ],
-            "time": "2017-01-20T16:46:34+00:00"
+            "time": "2017-02-07T20:13:06+00:00"
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "1.12.15",
+            "version": "1.12.16",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
@@ -4393,17 +4392,17 @@
         },
         {
             "name": "oro/crm-task-bundle",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "target-dir": "src/OroCRM/Bundle/TaskBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMTaskBundle.git",
-                "reference": "7367c6938bdeee69c0561c2dae93e1fe4b9e7fcf"
+                "reference": "1038b12a9fae111ca9eef61c503926b7c7556919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/7367c6938bdeee69c0561c2dae93e1fe4b9e7fcf",
-                "reference": "7367c6938bdeee69c0561c2dae93e1fe4b9e7fcf",
+                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/1038b12a9fae111ca9eef61c503926b7c7556919",
+                "reference": "1038b12a9fae111ca9eef61c503926b7c7556919",
                 "shasum": ""
             },
             "require": {
@@ -4436,7 +4435,7 @@
                 "OroCRM",
                 "Task"
             ],
-            "time": "2017-01-20T16:46:41+00:00"
+            "time": "2017-02-07T20:13:14+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4596,16 +4595,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.10.15",
+            "version": "1.10.16",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "f80e002b8ffcc831c065339976f89b98458679a8"
+                "reference": "bf90bbc2ed6595294e7135bffc4138dd430a3af1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/f80e002b8ffcc831c065339976f89b98458679a8",
-                "reference": "f80e002b8ffcc831c065339976f89b98458679a8",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/bf90bbc2ed6595294e7135bffc4138dd430a3af1",
+                "reference": "bf90bbc2ed6595294e7135bffc4138dd430a3af1",
                 "shasum": ""
             },
             "require": {
@@ -4705,14 +4704,13 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.10.15",
-                "issues": "https://github.com/orocrm/platform-er/issues"
+                "source": "https://github.com/orocrm/platform-er/tree/1.10.16"
             },
-            "time": "2017-02-01T10:00:16+00:00"
+            "time": "2017-02-07T20:08:47+00:00"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "1.12.15",
+            "version": "1.12.16",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-enterprise.git",
