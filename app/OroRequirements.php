@@ -202,7 +202,7 @@ class OroRequirements extends SymfonyRequirements
             );
         }
 
-        if (!is_dir($baseDir . '/web/css') || !is_dir($baseDir . '/web/js')) {
+        if (is_dir($baseDir . '/web')) {
             $this->addOroRequirement(
                 is_writable($baseDir . '/web'),
                 'web directory must be writable',
