@@ -5756,12 +5756,12 @@
             "target-dir": "src/Oro/Bundle/LDAPBundle",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMProLDAPBundle.git",
+                "url": "git@github.com:ragavagroup/OroCRMProLDAPBundle.git",
                 "reference": "0727be7239a89491bb07941e6d4733f1d84b2af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMProLDAPBundle/zipball/0727be7239a89491bb07941e6d4733f1d84b2af8",
+                "url": "https://api.github.com/repos/ragavagroup/OroCRMProLDAPBundle/zipball/0727be7239a89491bb07941e6d4733f1d84b2af8",
                 "reference": "0727be7239a89491bb07941e6d4733f1d84b2af8",
                 "shasum": ""
             },
@@ -5791,9 +5791,9 @@
                 }
             ],
             "description": "OroCRM Pro LDAP Bundle",
-            "homepage": "https://github.com/orocrm/OroCRMProLDAPBundle.git",
+            "homepage": "https://github.com/ragavagroup/OroCRMProLDAPBundle.git",
             "support": {
-                "source": "https://github.com/orocrm/OroCRMProLDAPBundle/tree/2.0.1"
+                "source": "https://github.com/ragavagroup/OroCRMProLDAPBundle/tree/2.0.1"
             },
             "time": "2017-02-06T20:11:52+00:00"
         },
