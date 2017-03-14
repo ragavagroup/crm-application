@@ -29,6 +29,10 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/platform-er.git"
     },
+    "crm-pro-ldap-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/OroCRMProLDAPBundle.git"
+    },
     "composer": {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
