@@ -9,10 +9,6 @@
         }
   },
   "repositories": {
-    "ldap-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/orocrm/OroCRMProLDAPBundle.git"
-    },
     "platform-enterprise": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/platform-enterprise.git"
@@ -29,10 +25,15 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/platform-er.git"
     },
-    "crm-pro-ldap-bundle": {
+    "ldap-bundle": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/OroCRMProLDAPBundle.git"
     },
+    "medikly-s3": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/S3IntegrationBundle.git"
+    },
+
     "composer": {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
@@ -47,7 +48,10 @@
     "oro/crm-mail-chimp": "2.0.*",
     "oro/crm-dotmailer": "2.0.*",
     "oro/crm-zendesk": "2.0.*",
-    "oro/crm-pro-ldap-bundle": "2.0.*"
+    "oro/crm-pro-ldap-bundle": "2.0.*",
+
+    "medikly/s3integration-bundle": "dev-master",
+    "aws/aws-sdk-php": "2.8.12"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.2",
