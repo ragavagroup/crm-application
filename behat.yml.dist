@@ -22,18 +22,6 @@ default: &default
                     - '@oro_importexport.processor.registry'
                 - OroAddressBundle::AddressContext
                 - OroSalesBundle::SalesContext
-            application_suites:
-                - OroUserBundle
-                - OroCRMBundle
-                - OroNavigationBundle
-                - OroContactBundle
-                - OroAccountBundle
-                - OroTaskBundle
-                - OroDashboardBundle
-                - OroOrganizationConfigCRMProBundle
-                - OroSearchBundle
-                - OroHelpBundle
-                - OroSalesBundle
 
 selenium2:
     <<: *default
