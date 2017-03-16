@@ -52,3 +52,15 @@ parameters:
     enterprise_licence: ~
     message_queue_transport: 'dbal'
     message_queue_transport_config: ~
+
+    # UI Framework Bundle
+    medikly_csv_validator_server_url: null
+    medikly_googlemaps_api_key: null
+    oro_filter.string_filter.class: Medikly\Bundle\UIFrameworkBundle\Filter\StringFilter
+
+    # S3 integration bundle
+    amazon_s3.key: null
+    amazon_s3.secret: null
+    amazon_s3.credentials_home_dir: /home/ubuntu
+    amazon_s3.bucket_name: medikly-storage
+    amazon_s3.instance: dev
