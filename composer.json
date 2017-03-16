@@ -29,11 +29,14 @@
       "type": "vcs",
       "url": "https://github.com/ragavagroup/OroCRMProLDAPBundle.git"
     },
+    "ui-framework-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/UIFrameworkBundle.git"
+    },
     "medikly-s3": {
       "type": "vcs",
       "url": "git@github.com:ragavagroup/S3IntegrationBundle.git"
     },
-
     "composer": {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
@@ -51,7 +54,9 @@
     "oro/crm-pro-ldap-bundle": "2.0.*",
 
     "medikly/s3integration-bundle": "dev-master",
-    "aws/aws-sdk-php": "2.8.12"
+    "aws/aws-sdk-php": "2.8.12",
+
+    "medikly/ui-framework-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.2",
