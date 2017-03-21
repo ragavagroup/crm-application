@@ -22,6 +22,7 @@ where x.y.z is latest [release tag](https://github.com/orocrm/crm-enterprise-app
 and install [fxpio/composer-asset-plugin][6] plugin for it:
 
 ```bash
+    composer self-update
     composer global require "fxp/composer-asset-plugin:dev-master"
 ```
 **Note:** This is a temporary solution.  After plugin version 1.3.0 is released, the requirement will be changed to version 1.3 
