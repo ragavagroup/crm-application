@@ -179,25 +179,29 @@
         },
         {
             "name": "behat/transliterator",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Transliterator.git",
-                "reference": "868e05be3a9f25ba6424c2dd4849567f50715003"
+                "reference": "826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/868e05be3a9f25ba6424c2dd4849567f50715003",
-                "reference": "868e05be3a9f25ba6424c2dd4849567f50715003",
+                "url": "https://api.github.com/repos/Behat/Transliterator/zipball/826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c",
+                "reference": "826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "require-dev": {
+                "chuyskywalker/rolling-curl": "^3.1",
+                "php-yaoi/php-yaoi": "^1.0"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -215,7 +219,7 @@
                 "slug",
                 "transliterator"
             ],
-            "time": "2015-09-28T16:26:35+00:00"
+            "time": "2017-04-04T11:38:05+00:00"
         },
         {
             "name": "besimple/soap",
@@ -728,16 +732,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "96c6a07b05b716e89a44529d060bc7f5c263cb13"
+                "reference": "2603a0d7ddc00a015deb576fa5297ca43dee6b1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/96c6a07b05b716e89a44529d060bc7f5c263cb13",
-                "reference": "96c6a07b05b716e89a44529d060bc7f5c263cb13",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/2603a0d7ddc00a015deb576fa5297ca43dee6b1c",
+                "reference": "2603a0d7ddc00a015deb576fa5297ca43dee6b1c",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +789,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2016-09-28T07:17:45+00:00"
+            "time": "2017-04-03T19:08:52+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -4250,16 +4254,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "1.10.18",
+            "version": "1.10.19",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "249ce11231ed63422eeb3a47a67414136022b8e6"
+                "reference": "f4e3b763c0bd3fb1c9b77c5a2ce343fc00657e6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/249ce11231ed63422eeb3a47a67414136022b8e6",
-                "reference": "249ce11231ed63422eeb3a47a67414136022b8e6",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/f4e3b763c0bd3fb1c9b77c5a2ce343fc00657e6f",
+                "reference": "f4e3b763c0bd3fb1c9b77c5a2ce343fc00657e6f",
                 "shasum": ""
             },
             "require": {
@@ -4292,9 +4296,9 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/1.10.18"
+                "source": "https://github.com/orocrm/crm-er/tree/1.10.19"
             },
-            "time": "2017-03-20T12:26:22+00:00"
+            "time": "2017-04-04T09:51:42+00:00"
         },
         {
             "name": "oro/crm-call-bundle",
@@ -4392,17 +4396,17 @@
         },
         {
             "name": "oro/crm-task-bundle",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "target-dir": "src/OroCRM/Bundle/TaskBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMTaskBundle.git",
-                "reference": "44b335402133d692f24b6633bcf1b736ed8ee0a4"
+                "reference": "838479be5b6b606dafab183b74f5562e860badcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/44b335402133d692f24b6633bcf1b736ed8ee0a4",
-                "reference": "44b335402133d692f24b6633bcf1b736ed8ee0a4",
+                "url": "https://api.github.com/repos/orocrm/OroCRMTaskBundle/zipball/838479be5b6b606dafab183b74f5562e860badcf",
+                "reference": "838479be5b6b606dafab183b74f5562e860badcf",
                 "shasum": ""
             },
             "require": {
@@ -4435,7 +4439,7 @@
                 "OroCRM",
                 "Task"
             ],
-            "time": "2017-03-20T12:28:27+00:00"
+            "time": "2017-04-04T09:54:22+00:00"
         },
         {
             "name": "oro/doctrine-extensions",
@@ -4596,16 +4600,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "1.10.18",
+            "version": "1.10.19",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "45100e3af5da162955255087087f277f7bdcad08"
+                "reference": "221120ccee45914c05b5783bd02bd953a1654b57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/45100e3af5da162955255087087f277f7bdcad08",
-                "reference": "45100e3af5da162955255087087f277f7bdcad08",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/221120ccee45914c05b5783bd02bd953a1654b57",
+                "reference": "221120ccee45914c05b5783bd02bd953a1654b57",
                 "shasum": ""
             },
             "require": {
@@ -4705,22 +4709,22 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/1.10.18"
+                "source": "https://github.com/orocrm/platform-er/tree/1.10.19"
             },
-            "time": "2017-03-20T12:25:53+00:00"
+            "time": "2017-04-04T09:51:00+00:00"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "1.12.17",
+            "version": "1.12.18",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-enterprise.git",
-                "reference": "60f1a2bc45f63deef312d7febcb3ad34ae374afb"
+                "reference": "f3da311772d0ff182266192013d92065af8a9b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/60f1a2bc45f63deef312d7febcb3ad34ae374afb",
-                "reference": "60f1a2bc45f63deef312d7febcb3ad34ae374afb",
+                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/f3da311772d0ff182266192013d92065af8a9b12",
+                "reference": "f3da311772d0ff182266192013d92065af8a9b12",
                 "shasum": ""
             },
             "require": {
@@ -4751,9 +4755,9 @@
             "description": "OroPlatform Enterprise",
             "homepage": "https://github.com/orocrm/platform-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-enterprise/tree/1.12.17"
+                "source": "https://github.com/orocrm/platform-enterprise/tree/1.12.18"
             },
-            "time": "2017-03-20T12:26:00+00:00"
+            "time": "2017-04-04T09:51:09+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -5008,16 +5012,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.7.6",
+            "version": "3.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/piwik/device-detector.git",
-                "reference": "f5b6ffc44e4092b1964d32f21142dc721f5a0899"
+                "reference": "f0e5d6bc159241fdfc2e02f7abd4ab5d519d2c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/piwik/device-detector/zipball/f5b6ffc44e4092b1964d32f21142dc721f5a0899",
-                "reference": "f5b6ffc44e4092b1964d32f21142dc721f5a0899",
+                "url": "https://api.github.com/repos/piwik/device-detector/zipball/f0e5d6bc159241fdfc2e02f7abd4ab5d519d2c30",
+                "reference": "f0e5d6bc159241fdfc2e02f7abd4ab5d519d2c30",
                 "shasum": ""
             },
             "require": {
@@ -5055,7 +5059,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2017-02-27T17:14:38+00:00"
+            "time": "2017-04-02T17:25:50+00:00"
         },
         {
             "name": "psr/log",
@@ -5534,16 +5538,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v3.0.5",
+            "version": "v3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "462f4d089e641deef4759ac1117387c9bfd62764"
+                "reference": "59a6a299e2f5612dc8692d40e84373703a5df1b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/462f4d089e641deef4759ac1117387c9bfd62764",
-                "reference": "462f4d089e641deef4759ac1117387c9bfd62764",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/59a6a299e2f5612dc8692d40e84373703a5df1b5",
+                "reference": "59a6a299e2f5612dc8692d40e84373703a5df1b5",
                 "shasum": ""
             },
             "require": {
@@ -5574,7 +5578,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-03-09T17:41:10+00:00"
+            "time": "2017-03-29T09:29:53+00:00"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
@@ -8443,16 +8447,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.7",
+            "version": "4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "09e2277d14ea467e5a984010f501343ef29ffc69"
+                "reference": "ef7b2f56815df854e66ceaee8ebe9393ae36a40d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/09e2277d14ea467e5a984010f501343ef29ffc69",
-                "reference": "09e2277d14ea467e5a984010f501343ef29ffc69",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ef7b2f56815df854e66ceaee8ebe9393ae36a40d",
+                "reference": "ef7b2f56815df854e66ceaee8ebe9393ae36a40d",
                 "shasum": ""
             },
             "require": {
@@ -8502,7 +8506,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-01T09:12:17+00:00"
+            "time": "2017-04-02T07:44:40+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
