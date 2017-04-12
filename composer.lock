@@ -5339,17 +5339,17 @@
         },
         {
             "name": "oro/calendar-bundle",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "target-dir": "Oro/Bundle/CalendarBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCalendarBundle.git",
-                "reference": "bf0d44e69678a5b9fea84f98820d2305f475e622"
+                "reference": "82be0db5d05eb871a18c7bcfd6677c865584c288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCalendarBundle/zipball/bf0d44e69678a5b9fea84f98820d2305f475e622",
-                "reference": "bf0d44e69678a5b9fea84f98820d2305f475e622",
+                "url": "https://api.github.com/repos/orocrm/OroCalendarBundle/zipball/82be0db5d05eb871a18c7bcfd6677c865584c288",
+                "reference": "82be0db5d05eb871a18c7bcfd6677c865584c288",
                 "shasum": ""
             },
             "require": {
@@ -5384,20 +5384,20 @@
                 "Calendar",
                 "Oro"
             ],
-            "time": "2017-04-05T14:09:01+00:00"
+            "time": "2017-04-12T12:38:19+00:00"
         },
         {
             "name": "oro/crm",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "50bd1704d516b07292d7e25b57d739e41e8aebaa"
+                "reference": "813ce13e9ffea8c339b8c3ca6e9fec42526e1b82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/50bd1704d516b07292d7e25b57d739e41e8aebaa",
-                "reference": "50bd1704d516b07292d7e25b57d739e41e8aebaa",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/813ce13e9ffea8c339b8c3ca6e9fec42526e1b82",
+                "reference": "813ce13e9ffea8c339b8c3ca6e9fec42526e1b82",
                 "shasum": ""
             },
             "require": {
@@ -5431,9 +5431,9 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/2.0.5"
+                "source": "https://github.com/orocrm/crm-er/tree/2.0.6"
             },
-            "time": "2017-04-05T14:08:45+00:00"
+            "time": "2017-04-12T12:38:02+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5671,17 +5671,17 @@
         },
         {
             "name": "oro/crm-magento-embedded-contact-us",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "target-dir": "src/Oro/Bundle/MagentoContactUsBundle",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMMagentoContactUsBundle.git",
-                "reference": "e853b9ce355c1af2f39d2747aeb4a2cb1f20ddee"
+                "reference": "39e54db79d69bb9fd8e2db50b2b98341bd6ddbdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMagentoContactUsBundle/zipball/e853b9ce355c1af2f39d2747aeb4a2cb1f20ddee",
-                "reference": "e853b9ce355c1af2f39d2747aeb4a2cb1f20ddee",
+                "url": "https://api.github.com/repos/orocrm/OroCRMMagentoContactUsBundle/zipball/39e54db79d69bb9fd8e2db50b2b98341bd6ddbdc",
+                "reference": "39e54db79d69bb9fd8e2db50b2b98341bd6ddbdc",
                 "shasum": ""
             },
             "require": {
@@ -5711,7 +5711,7 @@
             ],
             "description": "OroCRM Magento Embedded Contact Us package",
             "homepage": "https://github.com/orocrm/OroCRMMagentoContactUsBundle.git",
-            "time": "2017-04-05T14:09:09+00:00"
+            "time": "2017-04-12T12:38:26+00:00"
         },
         {
             "name": "oro/crm-mail-chimp",
@@ -6009,16 +6009,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "71beb060a901bb568d7721e91902c7e4ee43646e"
+                "reference": "618cfdb23e0aaf6143a1e32058542a1ab5d2f0bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/71beb060a901bb568d7721e91902c7e4ee43646e",
-                "reference": "71beb060a901bb568d7721e91902c7e4ee43646e",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/618cfdb23e0aaf6143a1e32058542a1ab5d2f0bd",
+                "reference": "618cfdb23e0aaf6143a1e32058542a1ab5d2f0bd",
                 "shasum": ""
             },
             "require": {
@@ -6161,22 +6161,22 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/2.0.5"
+                "source": "https://github.com/orocrm/platform-er/tree/2.0.6"
             },
-            "time": "2017-04-04T17:41:52+00:00"
+            "time": "2017-04-11T15:43:19+00:00"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-enterprise.git",
-                "reference": "95a3af08a5dc8fee9ed686d4e3502686741b41f7"
+                "reference": "8f11f04c563261711201fd94126614bbc219e74f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/95a3af08a5dc8fee9ed686d4e3502686741b41f7",
-                "reference": "95a3af08a5dc8fee9ed686d4e3502686741b41f7",
+                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/8f11f04c563261711201fd94126614bbc219e74f",
+                "reference": "8f11f04c563261711201fd94126614bbc219e74f",
                 "shasum": ""
             },
             "require": {
@@ -6209,9 +6209,9 @@
             "description": "OroPlatform Enterprise",
             "homepage": "https://github.com/orocrm/platform-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-enterprise/tree/2.0.5"
+                "source": "https://github.com/orocrm/platform-enterprise/tree/2.0.6"
             },
-            "time": "2017-04-05T14:10:54+00:00"
+            "time": "2017-04-12T12:39:58+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -8574,16 +8574,16 @@
         },
         {
             "name": "vakata/jstree",
-            "version": "3.3.3",
+            "version": "3.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vakata/jstree.git",
-                "reference": "9770c6711f0a155ec494f635aaf0add9b3cfb45c"
+                "reference": "a6a0d0dfb784d5ef0b3415d847ac7b6bfbab1f16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vakata/jstree/zipball/9770c6711f0a155ec494f635aaf0add9b3cfb45c",
-                "reference": "9770c6711f0a155ec494f635aaf0add9b3cfb45c",
+                "url": "https://api.github.com/repos/vakata/jstree/zipball/a6a0d0dfb784d5ef0b3415d847ac7b6bfbab1f16",
+                "reference": "a6a0d0dfb784d5ef0b3415d847ac7b6bfbab1f16",
                 "shasum": ""
             },
             "require": {
@@ -8627,7 +8627,7 @@
             ],
             "description": "jsTree is jquery plugin, that provides interactive trees.",
             "homepage": "http://jstree.com",
-            "time": "2016-10-31T09:49:21+00:00"
+            "time": "2017-04-06T14:23:09+00:00"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
