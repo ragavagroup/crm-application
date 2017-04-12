@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c3e74abeaac9ba0a83e0465fd2a4ba5",
+    "content-hash": "84a80578afeaa5554d14dd164c0da378",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -4759,6 +4759,42 @@
                 "xls"
             ],
             "time": "2016-06-20T17:11:22+00:00"
+        },
+        {
+            "name": "medikly/entity-bundle",
+            "version": "dev-2.0/entity-config-add-additional-tab",
+            "target-dir": "Medikly/Bundle/EntityBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklyEntityBundle.git",
+                "reference": "05e025c162ddf0c2b8df1775a899a2b20b971c27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/05e025c162ddf0c2b8df1775a899a2b20b971c27",
+                "reference": "05e025c162ddf0c2b8df1775a899a2b20b971c27",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\EntityBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Medikly"
+                }
+            ],
+            "description": "Medikly entities",
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklyEntityBundle/tree/2.0/entity-config-add-additional-tab",
+                "issues": "https://github.com/ragavagroup/MediklyEntityBundle/issues"
+            },
+            "time": "2017-04-12T13:59:11+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -11618,7 +11654,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "medikly/entity-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

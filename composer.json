@@ -9,10 +9,6 @@
         }
   },
   "repositories": {
-    "ldap-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/orocrm/OroCRMProLDAPBundle.git"
-    },
     "platform-enterprise": {
       "type": "vcs",
       "url": "https://github.com/ragavagroup/platform-enterprise.git"
@@ -36,6 +32,10 @@
     "composer": {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
+    },
+    "medikly/entity-bundle" : {
+      "type" : "vcs",
+      "url" : "https://github.com/ragavagroup/MediklyEntityBundle.git"
     }
   },
   "require": {
@@ -47,7 +47,8 @@
     "oro/crm-mail-chimp": "2.0.*",
     "oro/crm-dotmailer": "2.0.*",
     "oro/crm-zendesk": "2.0.*",
-    "oro/crm-pro-ldap-bundle": "2.0.*"
+    "oro/crm-pro-ldap-bundle": "2.0.*",
+    "medikly/entity-bundle":"dev-2.0/entity-config-add-additional-tab"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.2",
