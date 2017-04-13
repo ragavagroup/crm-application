@@ -5392,12 +5392,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "813ce13e9ffea8c339b8c3ca6e9fec42526e1b82"
+                "reference": "f4cf7d5f47640a26e80b41f797f8cc755eee33d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/813ce13e9ffea8c339b8c3ca6e9fec42526e1b82",
-                "reference": "813ce13e9ffea8c339b8c3ca6e9fec42526e1b82",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/f4cf7d5f47640a26e80b41f797f8cc755eee33d5",
+                "reference": "f4cf7d5f47640a26e80b41f797f8cc755eee33d5",
                 "shasum": ""
             },
             "require": {
@@ -5433,7 +5433,7 @@
             "support": {
                 "source": "https://github.com/orocrm/crm-er/tree/2.0.6"
             },
-            "time": "2017-04-12T12:38:02+00:00"
+            "time": "2017-04-13T14:39:21+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -6013,12 +6013,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "618cfdb23e0aaf6143a1e32058542a1ab5d2f0bd"
+                "reference": "9a23f7326572508cff5d1b72048af00c8545f196"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/618cfdb23e0aaf6143a1e32058542a1ab5d2f0bd",
-                "reference": "618cfdb23e0aaf6143a1e32058542a1ab5d2f0bd",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/9a23f7326572508cff5d1b72048af00c8545f196",
+                "reference": "9a23f7326572508cff5d1b72048af00c8545f196",
                 "shasum": ""
             },
             "require": {
@@ -6163,7 +6163,7 @@
             "support": {
                 "source": "https://github.com/orocrm/platform-er/tree/2.0.6"
             },
-            "time": "2017-04-11T15:43:19+00:00"
+            "time": "2017-04-13T10:26:36+00:00"
         },
         {
             "name": "oro/platform-enterprise",
@@ -9929,16 +9929,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe"
+                "reference": "8e6e04167378abf1ddb4d3522d8755c5fd90d102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a5a9fc8025a08d8919be87d6884d5a92520cefe",
-                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/8e6e04167378abf1ddb4d3522d8755c5fd90d102",
+                "reference": "8e6e04167378abf1ddb4d3522d8755c5fd90d102",
                 "shasum": ""
             },
             "require": {
@@ -9967,7 +9967,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2017-01-26T22:05:40+00:00"
+            "time": "2017-04-12T18:52:22+00:00"
         },
         {
             "name": "nelmio/alice",
