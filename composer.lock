@@ -5388,16 +5388,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "f4cf7d5f47640a26e80b41f797f8cc755eee33d5"
+                "reference": "b5c95e7cc9221a09747d758ee559a6ab22d6f1b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/f4cf7d5f47640a26e80b41f797f8cc755eee33d5",
-                "reference": "f4cf7d5f47640a26e80b41f797f8cc755eee33d5",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/b5c95e7cc9221a09747d758ee559a6ab22d6f1b5",
+                "reference": "b5c95e7cc9221a09747d758ee559a6ab22d6f1b5",
                 "shasum": ""
             },
             "require": {
@@ -5431,9 +5431,9 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/2.0.6"
+                "source": "https://github.com/orocrm/crm-er/tree/2.0.7"
             },
-            "time": "2017-04-13T14:39:21+00:00"
+            "time": "2017-04-19T13:38:16+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -6009,16 +6009,16 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "9a23f7326572508cff5d1b72048af00c8545f196"
+                "reference": "e34865ca8a4ae92847d1f999a0f7be5bcc703888"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/9a23f7326572508cff5d1b72048af00c8545f196",
-                "reference": "9a23f7326572508cff5d1b72048af00c8545f196",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/e34865ca8a4ae92847d1f999a0f7be5bcc703888",
+                "reference": "e34865ca8a4ae92847d1f999a0f7be5bcc703888",
                 "shasum": ""
             },
             "require": {
@@ -6161,9 +6161,9 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/2.0.6"
+                "source": "https://github.com/orocrm/platform-er/tree/2.0.7"
             },
-            "time": "2017-04-13T10:26:36+00:00"
+            "time": "2017-04-14T16:07:56+00:00"
         },
         {
             "name": "oro/platform-enterprise",
@@ -11539,16 +11539,16 @@
         },
         {
             "name": "theseer/fdomdocument",
-            "version": "1.6.1",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/fDOMDocument.git",
-                "reference": "d9ad139d6c2e8edf5e313ffbe37ff13344cf0684"
+                "reference": "cf219ede922fb47956726f35e2127277ebd302ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theseer/fDOMDocument/zipball/d9ad139d6c2e8edf5e313ffbe37ff13344cf0684",
-                "reference": "d9ad139d6c2e8edf5e313ffbe37ff13344cf0684",
+                "url": "https://api.github.com/repos/theseer/fDOMDocument/zipball/cf219ede922fb47956726f35e2127277ebd302ca",
+                "reference": "cf219ede922fb47956726f35e2127277ebd302ca",
                 "shasum": ""
             },
             "require": {
@@ -11575,7 +11575,7 @@
             ],
             "description": "The classes contained within this repository extend the standard DOM to use exceptions at all occasions of errors instead of PHP warnings or notices. They also add various custom methods and shortcuts for convenience and to simplify the usage of DOM.",
             "homepage": "https://github.com/theseer/fDOMDocument",
-            "time": "2015-05-27T22:58:02+00:00"
+            "time": "2017-04-17T09:08:13+00:00"
         },
         {
             "name": "webmozart/assert",
