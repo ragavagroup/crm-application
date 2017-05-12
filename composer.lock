@@ -4386,7 +4386,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "Knplabs",
+                    "name": "KnpLabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -5411,16 +5411,16 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-er.git",
-                "reference": "1637dfa9030c3f0ef9fdc548f69b52af4b9e58b3"
+                "reference": "550cf4830ccd1eefa0375437be5e537ed89cecef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/1637dfa9030c3f0ef9fdc548f69b52af4b9e58b3",
-                "reference": "1637dfa9030c3f0ef9fdc548f69b52af4b9e58b3",
+                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/550cf4830ccd1eefa0375437be5e537ed89cecef",
+                "reference": "550cf4830ccd1eefa0375437be5e537ed89cecef",
                 "shasum": ""
             },
             "require": {
@@ -5457,9 +5457,9 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/2.1.1"
+                "source": "https://github.com/orocrm/crm-er/tree/2.1.2"
             },
-            "time": "2017-04-26T15:31:16+00:00"
+            "time": "2017-05-11T09:48:54+00:00"
         },
         {
             "name": "oro/crm-abandoned-cart",
@@ -5608,16 +5608,16 @@
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/crm-enterprise.git",
-                "reference": "dcb17758d1c6503a80332da7eca112430e683758"
+                "reference": "7fadb44bbff4e8bbd01602791ef82280366a96b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/dcb17758d1c6503a80332da7eca112430e683758",
-                "reference": "dcb17758d1c6503a80332da7eca112430e683758",
+                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/7fadb44bbff4e8bbd01602791ef82280366a96b9",
+                "reference": "7fadb44bbff4e8bbd01602791ef82280366a96b9",
                 "shasum": ""
             },
             "require": {
@@ -5651,9 +5651,9 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/2.1.1"
+                "source": "https://github.com/orocrm/crm-enterprise/tree/2.1.2"
             },
-            "time": "2017-03-31T11:08:50+00:00"
+            "time": "2017-05-05T10:54:52+00:00"
         },
         {
             "name": "oro/crm-hangouts-call-bundle",
@@ -6009,16 +6009,16 @@
         },
         {
             "name": "oro/marketing",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/OroCRMMarketingBundle.git",
-                "reference": "7f4626f0f986d39d3a20c7171e15af4f09c63c35"
+                "reference": "96497551a70331b533708bf14650c62c21948a09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMMarketingBundle/zipball/7f4626f0f986d39d3a20c7171e15af4f09c63c35",
-                "reference": "7f4626f0f986d39d3a20c7171e15af4f09c63c35",
+                "url": "https://api.github.com/repos/orocrm/OroCRMMarketingBundle/zipball/96497551a70331b533708bf14650c62c21948a09",
+                "reference": "96497551a70331b533708bf14650c62c21948a09",
                 "shasum": ""
             },
             "require": {
@@ -6054,20 +6054,20 @@
                 "Oro",
                 "Tracking"
             ],
-            "time": "2017-03-29T20:12:04+00:00"
+            "time": "2017-05-03T08:20:38+00:00"
         },
         {
             "name": "oro/platform",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-er.git",
-                "reference": "9bb8b75875847ba9b66c4a71c964b22a69eb8cf0"
+                "reference": "31ecdc19640bb388b8819754baefae32996cfc09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/9bb8b75875847ba9b66c4a71c964b22a69eb8cf0",
-                "reference": "9bb8b75875847ba9b66c4a71c964b22a69eb8cf0",
+                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/31ecdc19640bb388b8819754baefae32996cfc09",
+                "reference": "31ecdc19640bb388b8819754baefae32996cfc09",
                 "shasum": ""
             },
             "require": {
@@ -6214,22 +6214,22 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/2.1.1"
+                "source": "https://github.com/orocrm/platform-er/tree/2.1.2"
             },
-            "time": "2017-04-26T11:54:26+00:00"
+            "time": "2017-05-11T18:04:30+00:00"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:orocrm/platform-enterprise.git",
-                "reference": "3859efe52ea15a916d2752d8843d5aee3600090c"
+                "reference": "54c4ae3a37a970c7aee11677f7f619764fee79a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/3859efe52ea15a916d2752d8843d5aee3600090c",
-                "reference": "3859efe52ea15a916d2752d8843d5aee3600090c",
+                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/54c4ae3a37a970c7aee11677f7f619764fee79a9",
+                "reference": "54c4ae3a37a970c7aee11677f7f619764fee79a9",
                 "shasum": ""
             },
             "require": {
@@ -6261,9 +6261,9 @@
             "description": "OroPlatform Enterprise",
             "homepage": "https://github.com/orocrm/platform-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-enterprise/tree/2.1.1"
+                "source": "https://github.com/orocrm/platform-enterprise/tree/2.1.2"
             },
-            "time": "2017-04-06T15:31:06+00:00"
+            "time": "2017-05-04T16:19:16+00:00"
         },
         {
             "name": "oro/platform-serialised-fields",
@@ -7518,16 +7518,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.7",
+            "version": "v5.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4"
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
-                "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
+                "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
                 "shasum": ""
             },
             "require": {
@@ -7568,7 +7568,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-04-20T17:32:18+00:00"
+            "time": "2017-05-01T15:54:03+00:00"
         },
         {
             "name": "sylius/flow-bundle",
