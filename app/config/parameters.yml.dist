@@ -1,9 +1,9 @@
 parameters:
-    database_driver:    pdo_mysql
+    database_driver:    pdo_pgsql
     database_host:      127.0.0.1
-    database_port:      ~
+    database_port:      5432
     database_name:      oro_crm
-    database_user:      root
+    database_user:      postgres
     database_password:  ~
 
     mailer_transport:   smtp
