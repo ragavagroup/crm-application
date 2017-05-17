@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "04686ea44eb47385f16a6f665c9dc10c",
+    "content-hash": "4fd83d836e89c1a593fbe8a1556ef288",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -66,7 +66,7 @@
                 "translatable",
                 "translation"
             ],
-            "time": "2016-08-05 18:11:57"
+            "time": "2016-08-05T18:11:57+00:00"
         },
         {
             "name": "akeneo/batch-bundle",
@@ -643,8 +643,7 @@
                 "reference": "df0ddedcab1a8fdb3a7abafc5fe97819931e7bd5",
                 "shasum": ""
             },
-            "type": "bower-asset-library",
-            "time": "2014-07-21 18:45:41"
+            "type": "bower-asset-library"
         },
         {
             "name": "bower-asset/font-awesome",
@@ -969,8 +968,7 @@
                 "reference": "e25ba46913160617935f837836016ea7ed2be08c",
                 "shasum": ""
             },
-            "type": "bower-asset-library",
-            "time": "2017-02-08 18:28:50"
+            "type": "bower-asset-library"
         },
         {
             "name": "bower-asset/jsplumb",
@@ -1627,16 +1625,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd"
+                "reference": "489e09ee6c3ba431fbeeef9147afdaeb6f91b647"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd",
-                "reference": "7ee2a5e1cf32e9c8439445fe8dce2c046c2abebd",
+                "url": "https://api.github.com/repos/composer/composer/zipball/489e09ee6c3ba431fbeeef9147afdaeb6f91b647",
+                "reference": "489e09ee6c3ba431fbeeef9147afdaeb6f91b647",
                 "shasum": ""
             },
             "require": {
@@ -1700,7 +1698,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-03-10T08:29:45+00:00"
+            "time": "2017-05-17T06:17:53+00:00"
         },
         {
             "name": "composer/semver",
@@ -4066,16 +4064,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "e3c9bccdc38bbd09bcac0131c00f3be58368b416"
+                "reference": "429be236f296ca249d61c65649cdf2652f4a5e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/e3c9bccdc38bbd09bcac0131c00f3be58368b416",
-                "reference": "e3c9bccdc38bbd09bcac0131c00f3be58368b416",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/429be236f296ca249d61c65649cdf2652f4a5e80",
+                "reference": "429be236f296ca249d61c65649cdf2652f4a5e80",
                 "shasum": ""
             },
             "require": {
@@ -4084,7 +4082,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^2.1",
                 "json-schema/json-schema-test-suite": "1.2.0",
-                "phpdocumentor/phpdocumentor": "~2",
+                "phpdocumentor/phpdocumentor": "^2.7",
                 "phpunit/phpunit": "^4.8.22"
             },
             "bin": [
@@ -4129,7 +4127,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-03-22T22:43:35+00:00"
+            "time": "2017-05-16T21:06:09+00:00"
         },
         {
             "name": "knplabs/gaufrette",
@@ -4792,6 +4790,42 @@
             "time": "2016-06-20T17:11:22+00:00"
         },
         {
+            "name": "medikly/entity-bundle",
+            "version": "dev-2.0/entity-config-add-additional-tab",
+            "target-dir": "Medikly/Bundle/EntityBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ragavagroup/MediklyEntityBundle.git",
+                "reference": "05e025c162ddf0c2b8df1775a899a2b20b971c27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ragavagroup/MediklyEntityBundle/zipball/05e025c162ddf0c2b8df1775a899a2b20b971c27",
+                "reference": "05e025c162ddf0c2b8df1775a899a2b20b971c27",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\EntityBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Medikly"
+                }
+            ],
+            "description": "Medikly entities",
+            "support": {
+                "source": "https://github.com/ragavagroup/MediklyEntityBundle/tree/2.0/entity-config-add-additional-tab",
+                "issues": "https://github.com/ragavagroup/MediklyEntityBundle/issues"
+            },
+            "time": "2017-04-12T13:59:11+00:00"
+        },
+        {
             "name": "michelf/php-markdown",
             "version": "1.7.0",
             "source": {
@@ -5411,15 +5445,15 @@
         },
         {
             "name": "oro/crm",
-            "version": "2.1.2",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/crm-er.git",
+                "url": "git@github.com:ragavagroup/crm-er.git",
                 "reference": "550cf4830ccd1eefa0375437be5e537ed89cecef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-er/zipball/550cf4830ccd1eefa0375437be5e537ed89cecef",
+                "url": "https://api.github.com/repos/ragavagroup/crm-er/zipball/550cf4830ccd1eefa0375437be5e537ed89cecef",
                 "reference": "550cf4830ccd1eefa0375437be5e537ed89cecef",
                 "shasum": ""
             },
@@ -5457,7 +5491,8 @@
             "description": "OroCRM",
             "homepage": "https://github.com/orocrm/crm.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-er/tree/2.1.2"
+                "source": "https://github.com/ragavagroup/crm-er/tree/2.1",
+                "issues": "https://github.com/ragavagroup/crm-er/issues"
             },
             "time": "2017-05-11T09:48:54+00:00"
         },
@@ -5608,15 +5643,15 @@
         },
         {
             "name": "oro/crm-enterprise",
-            "version": "2.1.2",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/crm-enterprise.git",
+                "url": "git@github.com:ragavagroup/crm-enterprise.git",
                 "reference": "7fadb44bbff4e8bbd01602791ef82280366a96b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/crm-enterprise/zipball/7fadb44bbff4e8bbd01602791ef82280366a96b9",
+                "url": "https://api.github.com/repos/ragavagroup/crm-enterprise/zipball/7fadb44bbff4e8bbd01602791ef82280366a96b9",
                 "reference": "7fadb44bbff4e8bbd01602791ef82280366a96b9",
                 "shasum": ""
             },
@@ -5651,7 +5686,7 @@
             "description": "OroCRM Enterprise",
             "homepage": "https://github.com/orocrm/crm-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/crm-enterprise/tree/2.1.2"
+                "source": "https://github.com/ragavagroup/crm-enterprise/tree/2.1"
             },
             "time": "2017-05-05T10:54:52+00:00"
         },
@@ -5804,15 +5839,15 @@
         },
         {
             "name": "oro/crm-pro-ldap-bundle",
-            "version": "2.1.0",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/OroCRMProLDAPBundle.git",
+                "url": "git@github.com:ragavagroup/OroCRMProLDAPBundle.git",
                 "reference": "1939ad7454ef03f8f48c45d9b7b853fad2d2c53e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/OroCRMProLDAPBundle/zipball/1939ad7454ef03f8f48c45d9b7b853fad2d2c53e",
+                "url": "https://api.github.com/repos/ragavagroup/OroCRMProLDAPBundle/zipball/1939ad7454ef03f8f48c45d9b7b853fad2d2c53e",
                 "reference": "1939ad7454ef03f8f48c45d9b7b853fad2d2c53e",
                 "shasum": ""
             },
@@ -5847,7 +5882,8 @@
             "description": "OroCRM Pro LDAP Bundle",
             "homepage": "https://github.com/orocrm/OroCRMProLDAPBundle.git",
             "support": {
-                "source": "https://github.com/orocrm/OroCRMProLDAPBundle/tree/2.1.0"
+                "source": "https://github.com/ragavagroup/OroCRMProLDAPBundle/tree/2.1",
+                "issues": "https://github.com/ragavagroup/OroCRMProLDAPBundle/issues"
             },
             "time": "2017-03-22T07:45:17+00:00"
         },
@@ -6058,15 +6094,15 @@
         },
         {
             "name": "oro/platform",
-            "version": "2.1.2",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/platform-er.git",
+                "url": "git@github.com:ragavagroup/platform-er.git",
                 "reference": "31ecdc19640bb388b8819754baefae32996cfc09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-er/zipball/31ecdc19640bb388b8819754baefae32996cfc09",
+                "url": "https://api.github.com/repos/ragavagroup/platform-er/zipball/31ecdc19640bb388b8819754baefae32996cfc09",
                 "reference": "31ecdc19640bb388b8819754baefae32996cfc09",
                 "shasum": ""
             },
@@ -6214,21 +6250,22 @@
             "description": "Business Application Platform (BAP)",
             "homepage": "https://github.com/orocrm/platform.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-er/tree/2.1.2"
+                "source": "https://github.com/ragavagroup/platform-er/tree/2.1",
+                "issues": "https://github.com/ragavagroup/platform-er/issues"
             },
             "time": "2017-05-11T18:04:30+00:00"
         },
         {
             "name": "oro/platform-enterprise",
-            "version": "2.1.2",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@github.com:orocrm/platform-enterprise.git",
+                "url": "git@github.com:ragavagroup/platform-enterprise.git",
                 "reference": "54c4ae3a37a970c7aee11677f7f619764fee79a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/platform-enterprise/zipball/54c4ae3a37a970c7aee11677f7f619764fee79a9",
+                "url": "https://api.github.com/repos/ragavagroup/platform-enterprise/zipball/54c4ae3a37a970c7aee11677f7f619764fee79a9",
                 "reference": "54c4ae3a37a970c7aee11677f7f619764fee79a9",
                 "shasum": ""
             },
@@ -6261,7 +6298,7 @@
             "description": "OroPlatform Enterprise",
             "homepage": "https://github.com/orocrm/platform-enterprise.git",
             "support": {
-                "source": "https://github.com/orocrm/platform-enterprise/tree/2.1.2"
+                "source": "https://github.com/ragavagroup/platform-enterprise/tree/2.1"
             },
             "time": "2017-05-04T16:19:16+00:00"
         },
@@ -11685,7 +11722,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "medikly/entity-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
