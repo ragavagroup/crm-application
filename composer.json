@@ -1,36 +1,40 @@
 {
-  "name": "oro/crm-enterprise-application",
-  "description": "The OroCRM Enterprise Application",
-  "homepage": "https://github.com/orocrm/crm-enterprise-application.git",
+  "name": "medikly/application",
+  "description": "Medikly main application",
+  "homepage": "https://github.com/mediklycore/core.git",
   "license": "Commercial",
   "autoload": {
     "psr-4": {"": "src/"},
     "exclude-from-classmap": ["**/Tests/"]
   },
   "repositories": {
-    "ldap-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/orocrm/OroCRMProLDAPBundle.git"
-    },
     "platform-enterprise": {
       "type": "vcs",
-      "url": "https://github.com/orocrm/platform-enterprise.git"
+      "url": "https://github.com/ragavagroup/platform-enterprise.git"
     },
     "enterprise": {
       "type": "vcs",
-      "url": "https://github.com/orocrm/crm-enterprise.git"
+      "url": "https://github.com/ragavagroup/crm-enterprise.git"
     },
     "crm": {
       "type": "vcs",
-      "url": "https://github.com/orocrm/crm-er.git"
+      "url": "https://github.com/ragavagroup/crm-er.git"
     },
     "platform": {
       "type": "vcs",
-      "url": "https://github.com/orocrm/platform-er.git"
+      "url": "https://github.com/ragavagroup/platform-er.git"
+    },
+    "crm-pro-ldap-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/ragavagroup/OroCRMProLDAPBundle.git"
     },
     "composer": {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
+    },
+    "medikly/entity-bundle" : {
+      "type" : "vcs",
+      "url" : "https://github.com/ragavagroup/MediklyEntityBundle.git"
     }
   },
   "require": {
@@ -42,7 +46,8 @@
     "oro/crm-mail-chimp": "2.1.*",
     "oro/crm-dotmailer": "2.1.*",
     "oro/crm-zendesk": "2.1.*",
-    "oro/crm-pro-ldap-bundle": "2.1.*"
+    "oro/crm-pro-ldap-bundle": "2.1.*",
+    "medikly/entity-bundle":"dev-2.0/entity-config-add-additional-tab"
   },
   "require-dev": {
     "sensio/generator-bundle": "3.1.2",
